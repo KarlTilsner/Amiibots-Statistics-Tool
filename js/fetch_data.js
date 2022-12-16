@@ -101,53 +101,27 @@ document.querySelector('#ruleset').placeholder = ("Current Ruleset is: " + windo
                 rating_change.push(index.winner_info.rating_change);
                 rating_mu.push(index.winner_info.rating_mu);
                 rating_sigma.push(index.winner_info.rating_sigma);
+                rating.push(index.winner_info.rating);
+                amiibo_name.push(index.winner_info.name);
+                amiibo_defeated_id.push(index.loser_info.character_id);
                 return(index.winner_info.rating_change);
             } 
             else if (index.loser_info.id === amiibo_id) {
                 rating_change.push(index.loser_info.rating_change);
                 rating_mu.push(index.loser_info.rating_mu);
                 rating_sigma.push(index.loser_info.rating_sigma);
+                rating.push(index.loser_info.rating);
+                amiibo_name.push(index.loser_info.name);
+                amiibo_lost_to_id.push(index.winner_info.character_id);
                 return(index.loser_info.rating_change);
             }    
             else return (0);     
         })
+        
         // console.log(rating_mu);
         // console.log(rating_sigma);
-
-        //Push rating into array
-        const Rating = datapoints.data.map(
-            function(index) {
-                if (index.winner_info.id === amiibo_id) {
-                    rating.push(index.winner_info.rating);
-                    return(index.winner_info.rating_change);
-                } 
-                else if (index.loser_info.id === amiibo_id) {
-                    rating.push(index.loser_info.rating);
-                    return(index.loser_info.rating_change);
-                }    
-                else return (0);     
-            })
-            // console.log(rating);
-
+        // console.log(rating);
         console.log("Rating change pushed into array!");
-          
-    //Get the amiibo's name
-    //Get amiibo character ids lost to
-    const nameGetter = datapoints.data.map(
-        function(index) {
-            if (index.winner_info.id === amiibo_id) {
-                amiibo_name.push(index.winner_info.name);
-                amiibo_defeated_id.push(index.loser_info.character_id);
-                return(index.winner_info.name);
-            } 
-            else if (index.loser_info.id === amiibo_id) {
-                amiibo_name.push(index.loser_info.name);
-                amiibo_lost_to_id.push(index.winner_info.character_id);
-                return(index.loser_info.name);
-            }    
-            else return (0);     
-        })
-
         console.log("Amiibo name retrieved!");
         // console.log(amiibo_defeated_id);
         // console.log(amiibo_lost_to_id);
