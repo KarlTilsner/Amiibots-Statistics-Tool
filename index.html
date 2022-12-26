@@ -18,66 +18,162 @@
     </head>
 
 
+
+
+
     <body>
+
+
         <div class="header">
-            <h1 class="header_text">Amiibots Statistics Tool</h1> <p class="header_text" id="version">v1.0.1</p>
-            <div>
-                <p> This version of the program has been limited to search 5000 matches for a specific trainer. <br>
-                    This has been done so that Untitled and I know the amiibots system can handle many large searches at once. <br>
-                    Please note that search times can take up to 20 seconds, please be patient :D
-                </p>
-            </div>
+            <h1 class="title">Amiibots Statistics Tool</h1> 
+            <p class="version">v1.0.2</p>
+
+            <p> This version of the program has been limited to search 5000 matches for a specific trainer. <br>
+                This has been done so that Untitled and I know the amiibots system can handle many large searches at once. <br>
+                Please note that search times can take up to 20 seconds, please be patient :D
+            </p>
         </div>
 
-        <div class="topbar">
-            <div class="sumbmission_field">
-                <form>
-                    <input type="text" id="twitch_name" name="twitch_name" placeholder="Enter Your Twitch Username Here">
-                    <input type="text" id="amiibo_name" name="amiibo_name" placeholder="Enter Your Amiibo's Name Here">
-                    <input type="text" id="ruleset" name="ruleset" placeholder="Enter The Ruleset Here">
 
-                    <div class="flex">
-                        <input type="button" value="Save Search Parameters" id="search_parameters" class="search_button" id="button" onclick="searchParameters()" required></form>
-                        <input type="button" value="Generate Graph" id="search_parameters" class="generate_graph" id="button" onclick="window.location.reload()" required></form>
+
+        <div class="block flex_container">
+            <div class="sub_container search_bar">
+                <form>
+                    <input type="text"  id="twitch_name"     name="twitch_name"      placeholder="Enter Your Amiibots ID Here">
+                    <input type="text"  id="amiibo_name"     name="amiibo_name"      placeholder="Enter Your Amiibo's ID Here">
+                    <input type="text"  id="ruleset"         name="ruleset"          placeholder="Enter The Ruleset Here">
+
+                    <div class="search_buttons">
+                        <input type="button"    value="Save Search Parameters"  class="search_button"   id="button" onclick="searchParameters()" required></form>
+                        <input type="button"    value="Generate Graph"          class="generate_graph"  id="button" onclick="window.location.reload()" required></form>
                     </div>
                 </form>
             </div>
+        
+            <div class="sub_container quick_statistics">
+                <p class="stats" id="amiibo_rating">Current Rating: Calculating...</p>
+                <p class="stats" id="amiibo_rating_max">Highest Rating: Calculating...</p>
+                <p class="stats" id="amiibo_rating_mu">Current Rating mu: Calculating...</p>
+                <p class="stats" id="amiibo_rating_sigma">Current Rating Sigma: Calculating...</p>
+            </div>
 
-            <div class="statistics">
-                <p class="stats_text" id="amiibo_rating">Current Rating: Calculating...</p>
-                <p class="stats_text" id="amiibo_rating_max">Highest Rating: Calculating...</p>
-                <p class="stats_text" id="amiibo_rating_mu">Current Rating mu: Calculating...</p>
-                <p class="stats_text" id="amiibo_rating_sigma">Current Rating Sigma: Calculating...</p>
+            <div class="sub_container quick_statistics">
+                <p class="stats" id="amiibo_rank_overall">Rank (Overall): Calculating...</p>
+                <p class="stats" id="amiibo_rank_character">Rank (Character): Calculating...</p>
+                <p class="stats" id="amiibo_next_rank_overall">Next Rank (Overall): Calculating...</p>
+                <p class="stats" id="amiibo_next_rank_character">Next Rank (Character): Calculating...</p>
             </div>
         </div>
 
-        <div class="rating_history">
-            <canvas id="rating_history"></canvas>
+        
+
+        <!-- <div class="block">
+            <div class="flex_container">
+                <div class="sub_container flex_box">
+                    <p>Number of amiibo:</p>
+                    <p>Calculating...</p>
+                </div>
+
+                <div class="sub_container flex_box">
+                    <p>Number of vanilla amiibo:</p>
+                    <p>Calculating...</p>
+                </div>
+
+                <div class="sub_container flex_box">
+                    <p>Number of b5b amiibo:</p>
+                    <p>Calculating...</p>
+                </div>
+
+                <div class="sub_container flex_box">
+                    <p>Number of AG amiibo:</p>
+                    <p>Calculating...</p>
+                </div>
+            </div>
+        </div> -->
+
+
+
+        <div class="block">
+            <div class="container rating_history">
+                <canvas id="rating_history_chart_canvas"></canvas>
+            </div>
         </div>
 
-        <div class="amiibo_lost_to" id="amiibo_lost_to">
-            <canvas id="amiibo_lost_to_graph"></canvas>
+
+
+        <div class="block">
+            <div class="container amiibo_lost_to" id="amiibo_lost_to">
+                <canvas id="amiibo_lost_to_chart_canvas"></canvas>
+            </div>
         </div>
+
+
+
+
+
     <script>
 
 //                                                              FEATURES TO WORK ON
 //--------------------------------------------------------------------------------------------------------------------------------------------------------- 
-//                                                              TUTORIAL TO FIND IDs
+//                                                              LEARN AND IMPROVE CSS
+//                                                              SIDEBAR THAT CONTAINS USEFUL THINGS
+//                                                              CHART COLOUR THEME PAGE
+//                                                              CHANGE LOG
+//                                                              
+//                                                              SEARCH FOR TWITCH USERNAME
+//                                                              LIST NUMBER OF AMIIBO A USER HAS
+//                                                              SORT MATCHUPS INTO TIERLIST
+//                                                              
+//                                                              
+//                                                              RATING UNTIL NEXT RANK
+//                                                              
+//                                                              
 //                                                              AUTO SEARCH NUMBER OF MATCHES TRAINER HAS PLAYED
 //                                                              CLEAN UP CODE
+//                                                              MOBILE SUPPORT
 
 
+
+/*
+Change Log:
+v1.0.2
+- Overhauled CSS code
+    - Cleaned up CSS
+    - Elements scale much better
+    - Added future support for themes
+- Added leaderboard information
+    - Displays current rank overall and based on character
+    - Displays rating until next rank overall and based on character
+
+v1.0.1
+- Added disclaimer message
+- Cleaned up JS code
+- Fixed charts not displaying ruleset
+- Increased width of charts
+- Changed font sizes
+
+v1.0.0
+- Added rating history chart
+- Added character matchup chart
+- Added search fields
+- Added some hidden statistics
+- Added current rating and max rating
+- Searches are saved in LocalStorage
+- ID's and ruleset are shown in search fields
+- Character matchup chart scales with number of characters displayed
+- Character matchup chart displays win %
+*/
 
 
 
 //                                                              GRAPH RATING HISTORY
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
             //Draw chart onto a canvas
-            async function RatingHistoryGraph() {
+            async function RatingHistoryChart() {
             await dataGenerator();
 
-            const RH = document.getElementById('rating_history');  
-                new Chart(RH, {
+            const rating_history_chart = document.getElementById('rating_history_chart_canvas');  
+                new Chart(rating_history_chart, {
                     type: 'line',
                     
                     data: {
@@ -124,17 +220,17 @@
 
 //                                                              GRAPH AMIIBO LOST TO
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
-            async function chartArea1() {
-            await RatingHistoryGraph();
+            async function characterMatchupChart() {
+            await RatingHistoryChart();
             
             const graph_height = ((character_name_count.length * 20) + 100);
 
-            console.log(graph_height);
+            // console.log(graph_height);
             
             document.getElementById('amiibo_lost_to').setAttribute("style", `height:${graph_height}px`);
 
-            const ALT = document.getElementById('amiibo_lost_to_graph');  
-                new Chart(ALT, {
+            const character_matchup_chart = document.getElementById('amiibo_lost_to_chart_canvas');  
+                new Chart(character_matchup_chart, {
                     type: 'bar',
                     
                     data: {
@@ -180,7 +276,7 @@
                     }
                 });
             }
-            chartArea1 ();
+            characterMatchupChart();
 
 //                                                              END OF SCRIPT
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
