@@ -14,9 +14,9 @@ let my_character_name = 'null';
 // Leaderboard
 const leaderboard_character_id = [];
 const leaderboard_amiibo_id = [];
-const leaderbaord_same_character_id = [];
+const leaderboard_same_character_id = [];
 const leaderboard_rating_overall = [];
-const leaderbaord_rating_character = [];
+const leaderboard_rating_character = [];
 let rank_overall = 0;
 let rank_character = 0;
 let next_rank_overall = 0;
@@ -110,10 +110,8 @@ document.querySelector('#ruleset').placeholder = ("Current Ruleset is: " + windo
 
     // Filter data and push it into an array
     console.log(`This trainer has ${datapoints.data.length} out of ${number_of_matches} matches searched`);
-    // console.log(get_all_characters_json);
 
     // Push rating changes into array
-    console.log('Pusing data into arrays');
     const ratingChange = datapoints.data.map(
         function(index) {
             if (index.winner_info.id === amiibo_id) {
@@ -139,15 +137,6 @@ document.querySelector('#ruleset').placeholder = ("Current Ruleset is: " + windo
             else return (0);     
         })
 
-        console.log('Data successfully pushed into arrays');
-
-        // console.log(rating_mu);
-        // console.log(rating_sigma);
-        // console.log(rating);
-        // console.log("Rating change pushed into array!");
-        // console.log("Amiibo name retrieved!");
-        // console.log(amiibo_defeated_id);
-        // console.log(amiibo_lost_to_id);
         console.log(`${amiibo_name[0]} has played ${rating.length} out of ${number_of_matches} matches searched`);
 
     // Generate data for X and Y axis for characters that won
@@ -160,13 +149,6 @@ document.querySelector('#ruleset').placeholder = ("Current Ruleset is: " + windo
                 my_character_name = index.name;
             }
         });
-
-        // console.log(my_character_name);
-        // console.log(get_all_characters_json);
-        // console.log(character_name);
-        // console.log(character_id);
-
-    console.log('Calculating amiibo defeated and lost to');
     
     // Amiibo defeated and lost to data
     for (let c_id = 0; c_id < character_id.length; c_id++) {
@@ -175,17 +157,14 @@ document.querySelector('#ruleset').placeholder = ("Current Ruleset is: " + windo
         for (let a_lt = 0; a_lt < amiibo_lost_to_id.length; a_lt++) {
             if (character_id[c_id] == amiibo_lost_to_id[a_lt]) {
                 id_counter++;
-                // console.log(id_counter);
             }
         }
         for (let d_id = 0; d_id < amiibo_defeated_id.length; d_id++) {
             if (character_id[c_id] == amiibo_defeated_id[d_id]) {
                 defeated_id_counter++;
-                // console.log(defeated_id_counter);
             }
         }
 
-        // character_name_count.push(character_name[c_id]);
         if (id_counter > 0) {
             character_id_count.push(id_counter);
         }
@@ -204,8 +183,6 @@ document.querySelector('#ruleset').placeholder = ("Current Ruleset is: " + windo
         }
     }
 
-    console.log('Calculated amiibo defeated and lost to');
-
     console.log('Querying leaderboard data');
 
     // Get leaderboard data
@@ -223,8 +200,6 @@ document.querySelector('#ruleset').placeholder = ("Current Ruleset is: " + windo
             leaderboard_character_id.push(index.playable_character_id);
             leaderboard_rating_overall.push(index.rating);
     });
-
-    console.log('Pushed data into arrays');
     
     for (let i = 0; i < leaderboard_amiibo_id.length; i++) {
         // Get leaderbaord rank overall
@@ -232,41 +207,26 @@ document.querySelector('#ruleset').placeholder = ("Current Ruleset is: " + windo
             rank_overall = i + 1;
 
             if (rank_overall != 1) {
-                next_rank_overall = (leaderboard_rating_overall[i] - leaderboard_rating_overall[i + 1]).toFixed(5);
+                next_rank_overall = (leaderboard_rating_overall[i - 1] - leaderboard_rating_overall[i]).toFixed(5);
             }
         }
 
         // Get all same character leaderboard data
         if (leaderboard_character_id[i] === my_character_id) {
-            leaderbaord_same_character_id.push(leaderboard_amiibo_id[i]);
-            leaderbaord_rating_character.push(leaderboard_rating_overall[i])
+            leaderboard_same_character_id.push(leaderboard_amiibo_id[i]);
+            leaderboard_rating_character.push(leaderboard_rating_overall[i])
         }
     }
 
-    console.log('Calculated overall rank');
-    // console.log(rank_overall)
-
-    for (let i = 0; i < leaderbaord_same_character_id.length; i++) {
-        if (leaderbaord_same_character_id[i] === amiibo_id) {
+    for (let i = 0; i < leaderboard_same_character_id.length; i++) {
+        if (leaderboard_same_character_id[i] === amiibo_id) {
             rank_character = i + 1;
 
             if (rank_character != 1) {
-                next_rank_character = (leaderbaord_rating_character[i] - leaderbaord_rating_character[i + 1]).toFixed(5);
+                next_rank_character = (leaderboard_rating_character[i - 1] - leaderboard_rating_character[i]).toFixed(5);
             }
         }
     }
-
-    console.log('Calculated character specific rank');
-    // console.log(rank_character);
-
-    //Console Logs
-        // console.log(character_id_count);
-        // console.log(datapoints);
-        // console.log(amiibo_ranks_data_query);
-        // console.log(ratingChange);
-        // console.log(rating);
-        // console.log(amiibo_lost_to);
-        // console.log(leaderboard_data);
 
     return(ratingChange);
 }
@@ -291,7 +251,7 @@ await fetchData();
     document.getElementById('amiibo_rating_sigma').innerText = (`Current Rating Sigma: ${(rating_sigma[rating_sigma.length - rating_sigma.length + 1]).toFixed(5)}`);
 
     document.getElementById('amiibo_rank_overall').innerText = (`Rank (Overall): ${rank_overall} / ${leaderboard_amiibo_id.length}`);
-    document.getElementById('amiibo_rank_character').innerText = (`Rank (${my_character_name}): ${rank_character} / ${leaderbaord_same_character_id.length}`);
+    document.getElementById('amiibo_rank_character').innerText = (`Rank (${my_character_name}): ${rank_character} / ${leaderboard_same_character_id.length}`);
     document.getElementById('amiibo_next_rank_overall').innerText = (`Next Rank (Overall): ${next_rank_overall}`);
     document.getElementById('amiibo_next_rank_character').innerText = (`Next Rank (${my_character_name}): ${next_rank_character}`);
 
@@ -300,7 +260,6 @@ await fetchData();
         character_win_rate.push(
             `${character_name_count[i]} (${(((character_defeated_id_count[i])/(character_id_count[i] + character_defeated_id_count[i]))*100).toFixed(2)}%)`);
     }
-    // console.log(character_win_rate);
 
     console.log('Data Fetched!');
 }
