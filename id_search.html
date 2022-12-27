@@ -9,6 +9,7 @@
 
         <link rel="stylesheet" href="css/styles.css">
         <script src="js/fetch_data.js"></script>
+        <script src="js/id_search.js"></script>
     </head>
 
 
@@ -18,12 +19,51 @@
     <body>
         <div class="header">
             <h1 class="title">Amiibots Statistics Tool</h1> 
-            <p class="version">v1.0.2</p>
+            <p class="version">v1.0.3</p>
 
             <p> This version of the program has been limited to search 5000 matches for a specific trainer. <br>
                 This has been done so that Untitled and I know the amiibots system can handle many large searches at once. <br>
                 Please note that search times can take up to 20 seconds, please be patient :D
             </p>
+        </div>
+
+
+
+        <div class="block">
+            <div class="flex_container">
+                <div class="sub_container search_bar">
+                    <form>
+                        <input type="text"  id="search_amiibo_name_and_id"          name="trainer"    placeholder="Enter your Twitch username here">
+                        <input type="text"  id="ruleset_select_amiibo_id_search"    name="ruleset"    placeholder="Enter The Ruleset Here">
+
+                        <div class="search_buttons">
+                            <input type="button" value="Search for Amiibo IDs"              class="id_search_button" id="button" onclick="amiiboIDSearch()" required></form>
+                            <input type="button" value="Back to Amiibots Statistics Tool"   class="AST"              id="button" onclick="window.location.href = 'index.html'" required></form>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="sub_container quick_statistics amiibots_id">
+                    <h3 class="stats">Progress:</h3>
+                    <p class="stats" id="amiibo_id_found">Type your Twitch username to begin</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="block">
+            <div class="flex_container">
+                <div class="sub_container">
+                    <h3 class="stats">List of User Amiibo:</h3>
+                    <div id="amiibo_list"></div>
+                </div>
+
+                <div class="sub_container quick_statistics">
+                    <h3 class="stats">Amiibots Trainer ID:</h3>
+                    <div class="stats" id="amiibots_id_found"></div>
+                </div>
+            </div>
         </div>
 
 

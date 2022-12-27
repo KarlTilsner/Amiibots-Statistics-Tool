@@ -67,18 +67,37 @@ div.header {
     gap: 10px;
 }
 
+.flex_list_container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.list_item {
+    width: 400px;
+    height: 80px;
+}
+
 .sub_container {
+    width: 100%;
     border: 2px solid;
     border-color: var(--theme-border-colour);
     background-color: var(--theme-background-colour);
 }
 
 .search_bar {
-    width: 75%;
+    width: 100%;
 }
 
 .quick_statistics {
-    width: 30%;
+    width: 40%;
+}
+
+.amiibots_id {
+    width: 40%;
 }
 
 .rating_history {
@@ -112,6 +131,9 @@ input:hover {
     width: 100%;
 }
 
+li {
+    font-size: 12px;
+}
 
 
 ::-webkit-scrollbar {

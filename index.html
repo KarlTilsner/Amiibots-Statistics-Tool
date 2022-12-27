@@ -24,7 +24,7 @@
     <body>
         <div class="header">
             <h1 class="title">Amiibots Statistics Tool</h1> 
-            <p class="version">v1.0.2</p>
+            <p class="version">v1.0.3</p>
 
             <p> This version of the program has been limited to search 5000 matches for a specific trainer. <br>
                 This has been done so that Untitled and I know the amiibots system can handle many large searches at once. <br>
@@ -44,7 +44,7 @@
                     <div class="search_buttons">
                         <input type="button"    value="Save Search Parameters"  class="search_button"   id="button" onclick="searchParameters()" required></form>
                         <input type="button"    value="Generate Graph"          class="generate_graph"  id="button" onclick="window.location.reload()" required></form>
-                        <!-- <input type="button"    value="ID Search Tool"          class="id_search"       id="button" onclick="window.location.href = 'id_search.html'" required></form> -->
+                        <input type="button"    value="ID Search Tool"          class="id_search"       id="button" onclick="window.location.href = 'id_search.html'" required></form>
                     </div>
                 </form>
             </div>
@@ -118,8 +118,8 @@
 //                                                              SIDEBAR THAT CONTAINS USEFUL THINGS
 //                                                              CHART COLOUR THEME PAGE
 //                                                              
+//                                                              CLICK LISTED AMIIBO AND START GRAPHING THE STATS
 //                                                              
-//                                                              SEARCH FOR TWITCH USERNAME
 //                                                              LIST NUMBER OF AMIIBO A USER HAS
 //                                                              SORT MATCHUPS INTO TIERLIST
 //                                                              
@@ -135,6 +135,12 @@
 
 /*
 Change Log:
+v1.0.3
+- Added Amiibots ID search
+    - Type in a Twitch username or Amiibots display name to search for the hidden Amiibots ID
+    - Type in a Twitch username or Amiibots display name to search for all amiibo IDs a trainer has
+- Highest rating value is now highlighted on the rating history
+
 v1.0.2
 - Overhauled CSS code
     - Cleaned up CSS
@@ -169,7 +175,7 @@ v1.0.0
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
             //Draw chart onto a canvas
             async function RatingHistoryChart() {
-            await dataGenerator();
+            await fetchData();
 
             const rating_history_chart = document.getElementById('rating_history_chart_canvas');  
                 new Chart(rating_history_chart, {
@@ -180,12 +186,23 @@ v1.0.0
                         datasets: [{
                             label: `Rating History of: ${amiibo_name[0]} (${window.localStorage.getItem("Ruleset")})`,
                             data: yAxis,
-                            backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                            borderColor: 'rgba(255, 99, 132, 1)',
+                            backgroundColor: primary_background_colour,
+                            borderColor: primary_border_colour,
                             fill: true,
                             borderWidth: 1,
                             pointRadius: 1,
                             pointHoverRadius: 1
+                            },
+                            {
+                            label: `Highest Rating`,
+                            data: yAxisBar,
+                            backgroundColor: secondary_background_colour, 
+                            borderColor: secondary_border_colour, 
+                            fill: true,
+                            borderWidth: 1,
+                            pointRadius: 1,
+                            pointHoverRadius: 1,
+                            type: 'bar',
                         }]
                     },
                     
@@ -237,16 +254,16 @@ v1.0.0
                         datasets: [{
                             label: `Characters ${amiibo_name[0]} Has Lost To (${window.localStorage.getItem("Ruleset")})`,
                             data: character_id_count,
-                            backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                            borderColor: 'rgba(255, 99, 132, 1)',
+                            backgroundColor: primary_background_colour,
+                            borderColor: primary_border_colour,
                             fill: true,
                             borderWidth: 1
                         },
                         {
                             label: `Characters ${amiibo_name[0]} Has Defeated (${window.localStorage.getItem("Ruleset")})`,
                             data: character_defeated_id_count,
-                            backgroundColor: 'rgba(170, 200, 100, 0.2)',
-                            borderColor: 'rgba(170, 200, 100, 1)',
+                            backgroundColor: secondary_background_colour,
+                            borderColor: secondary_border_colour,
                             fill: true,
                             borderWidth: 1
                         }]
