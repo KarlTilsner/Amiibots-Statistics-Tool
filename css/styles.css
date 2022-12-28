@@ -81,6 +81,11 @@ div.header {
     height: 80px;
 }
 
+.list_item:hover {
+    background-color: var(--theme-highlight-colour);
+    cursor: pointer;
+}
+
 .sub_container {
     width: 100%;
     border: 2px solid;
@@ -155,7 +160,7 @@ li {
 
 
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     :root {
         --content-width: 95vw;
     }
@@ -168,4 +173,4 @@ li {
         width: 40%;
         font-size: 20px;
     }
-}
+} */
