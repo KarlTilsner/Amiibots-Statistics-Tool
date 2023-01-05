@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <meta name="Amiibots Statistics Tool" content="width = device-width", initial-scale = "1.0">
+        <title>Amiibots Statistics Tool</title>
+
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/index.js"></script>
+    </head>
+
+
+
+
+    
+    <body onload="queryLength('amiibo', 'generateTierList')">
+
+        <nav class="navbar">
+            <ul class="navbar_nav">
+
+                <li class="nav_item" onclick="window.location.href = 'index.html'">
+                    <a href="#" class="nav_link">
+                        <img class="nav_img" src="images/icon_amiibo_stats.png">
+                        <h2 class="link_text">Graphing Tool</h2>
+                    </a>
+                </li>
+
+                <li class="nav_item" onclick="window.location.href = 'id_search.html'">
+                    <a href="#" class="nav_link">
+                        <img class="nav_img" src="images/icon_id_search.png">
+                        <h2 class="link_text">ID Search Tool</h2>
+                    </a>
+                </li>
+
+                <li class="nav_item" onclick="window.location.href = 'tierlist.html'">
+                    <a href="#" class="nav_link">
+                        <img class="nav_img" src="images/icon_live_tierlist.png">
+                        <h2 class="link_text">Live Tierlist</h2>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+
+
+
+
+        <main>
+            <div class="header">
+                <h1 class="title">Amiibots Statistics Tool</h1> 
+                <p class="version">v1.1.0</p>
+
+                <p>This tierlist collects the average rating from the top 25 active and standby amiibo for each character.</p>
+            </div>
+
+            <div class="block flex_container">
+                <div class="sub_container search_bar">
+                    <form>
+                        <input type="text"      id="tier_list_ruleset"          name="ruleset"          placeholder="Select a ruleset (vanilla, b5b, ag)">
+
+                        <div class="search_buttons">
+                            <input type="button"    value="Load Tierlist"  class="search_button"   id="button"     onclick="setRuleset('tierlist')"    required></form>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="sub_container quick_statistics">
+                    <p class="stats" id="global_average_rating">Global Average Rating: (xx.xx)</p>
+                </div>
+            </div>
+
+
+
+            <div class="block">
+                <div class="container">
+                    <H2 id="tierlistTitle" style="text-align: center;">Amiibots Realtime Tierlist</H2>
+
+                    <div class="flex_container">
+                        <div class="tier_list_row_header" style="background-color: rgba(255, 255, 255, 1);">
+                            <h2 class="tier_list_row_header_text">U</h2>
+                        </div>
+                        <div class="flex_container" id="U_TIER"></div>
+                    </div>
+
+
+                    <div class="flex_container">
+                        <div class="tier_list_row_header" style="background-color: rgba(255, 127, 127, 1);">
+                            <h2 class="tier_list_row_header_text">S</h2>
+                        </div>
+                        <div class="flex_container" id="S_TIER"></div>
+                    </div>
+
+
+                    <div class="flex_container">
+                        <div class="tier_list_row_header" style="background-color: rgba(255, 191, 127, 1);">
+                            <h2 class="tier_list_row_header_text">A+</h2>
+                        </div>
+                        <div class="flex_container" id="A+_TIER"></div>
+                    </div>
+
+
+                    <div class="flex_container">
+                        <div class="tier_list_row_header" style="background-color: rgba(255, 223, 127, 1);">
+                            <h2 class="tier_list_row_header_text">A</h2>
+                        </div>
+                        <div class="flex_container" id="A_TIER"></div>
+                    </div>
+
+
+                    <div class="flex_container">
+                        <div class="tier_list_row_header" style="background-color: rgba(255, 255, 127, 1);">
+                            <h2 class="tier_list_row_header_text">B+</h2>
+                        </div>
+                        <div class="flex_container" id="B+_TIER"></div>
+                    </div>
+
+
+                    <div class="flex_container">
+                        <div class="tier_list_row_header" style="background-color: rgba(191, 255, 127, 1);">
+                            <h2 class="tier_list_row_header_text">B</h2>
+                        </div>
+                        <div class="flex_container" id="B_TIER"></div>
+                    </div>
+
+
+                    <div class="flex_container">
+                        <div class="tier_list_row_header" style="background-color: rgba(127, 255, 127, 1);">
+                            <h2 class="tier_list_row_header_text">C+</h2>
+                        </div>
+                        <div class="flex_container" id="C+_TIER"></div>
+                    </div>
+
+
+                    <div class="flex_container">
+                        <div class="tier_list_row_header" style="background-color: rgba(127, 255, 255, 1);">
+                            <h2 class="tier_list_row_header_text">C</h2>
+                        </div>
+                        <div class="flex_container" id="C_TIER"></div>
+                    </div>
+
+
+                    <div class="flex_container">
+                        <div class="tier_list_row_header" style="background-color: rgba(127, 191, 255, 1);">
+                            <h2 class="tier_list_row_header_text">D+</h2>
+                        </div>
+                        <div class="flex_container" id="D+_TIER"></div>  
+                    </div>
+            
+                </div>
+            </div>
+        </main>
+
+
+
+
+        
+    </body>

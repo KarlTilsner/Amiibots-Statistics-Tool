@@ -8,8 +8,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
         <link rel="stylesheet" href="css/styles.css">
-        <script src="js/fetch_data.js"></script>
-        <script src="js/id_search.js"></script>
+        <script src="js/index.js"></script>
     </head>
 
 
@@ -17,54 +16,90 @@
 
 
     <body>
-        <div class="header">
-            <h1 class="title">Amiibots Statistics Tool</h1> 
-            <p class="version">v1.0.4</p>
 
-            <p> This version of the program has been limited to search 5000 matches for a specific trainer. <br>
-                This has been done so that Untitled and I know the amiibots system can handle many large searches at once. <br>
-                Please note that search times can take up to 20 seconds, please be patient :D
-            </p>
-        </div>
+        <nav class="navbar">
+            <ul class="navbar_nav">
+
+                <li class="nav_item" onclick="window.location.href = 'index.html'">
+                    <a href="#" class="nav_link">
+                        <img class="nav_img" src="images/icon_amiibo_stats.png">
+                        <h2 class="link_text">Graphing Tool</h2>
+                    </a>
+                </li>
+
+                <li class="nav_item" onclick="window.location.href = 'id_search.html'">
+                    <a href="#" class="nav_link">
+                        <img class="nav_img" src="images/icon_id_search.png">
+                        <h2 class="link_text">ID Search Tool</h2>
+                    </a>
+                </li>
+
+                <li class="nav_item" onclick="window.location.href = 'tierlist.html'">
+                    <a href="#" class="nav_link">
+                        <img class="nav_img" src="images/icon_live_tierlist.png">
+                        <h2 class="link_text">Live Tierlist</h2>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
 
 
 
-        <div class="block">
-            <div class="flex_container">
-                <div class="sub_container search_bar">
-                    <form>
-                        <input type="text"  id="search_amiibo_name_and_id"          name="trainer"    placeholder="Enter your Twitch username here">
-                        <input type="text"  id="ruleset_select_amiibo_id_search"    name="ruleset"    placeholder="Enter The Ruleset Here">
 
-                        <div class="search_buttons">
-                            <input type="button" value="Search for Amiibo IDs"              class="id_search_button" id="button" onclick="amiiboIDSearch()" required></form>
-                            <input type="button" value="Back to Amiibots Statistics Tool"   class="AST"              id="button" onclick="window.location.href = 'index.html'" required></form>
-                        </div>
-                    </form>
-                </div>
 
-                <div class="sub_container quick_statistics amiibots_id">
-                    <h3 class="stats">Progress:</h3>
-                    <p class="stats" id="amiibo_id_found">Type your Twitch username to begin</p>
+        <main>
+            <div class="header">
+                <h1 class="title">Amiibots Statistics Tool</h1> 
+                <p class="version">v1.1.0</p>
+
+                <p> This search tool will search 2500 games for the specified ruleset (~7 days of games). <br>
+                    This was done for performance reasons. Please contact <b>notkarl_#6743</b> on discord if you are having trouble finding IDs<br>
+                    Please note that search times can take up to 20 seconds, please be patient :D
+                </p>
+            </div>
+
+
+
+            <div class="block">
+                <div class="flex_container">
+                    <div class="sub_container search_bar">
+                        <form>
+                            <input type="text"  id="search_amiibo_name_and_id"          name="trainer"    placeholder="Enter your Twitch username here">
+                            <input type="text"  id="ruleset_select_amiibo_id_search"    name="ruleset"    placeholder="Enter The Ruleset Here">
+
+                            <div class="search_buttons">
+                                <input type="button" value="Search for Amiibo IDs"              class="id_search_button" id="button" onclick="amiibotsIDSearch()" required></form>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="sub_container quick_statistics amiibots_id">
+                        <h3 class="stats">Progress:</h3>
+                        <p class="stats" id="amiibo_id_found">Type your Twitch username to begin</p>
+                    </div>
                 </div>
             </div>
-        </div>
 
 
 
-        <div class="block">
-            <div class="flex_container">
-                <div class="sub_container">
-                    <h3 class="stats">List of User Amiibo:</h3>
-                    <div id="amiibo_list"></div>
-                </div>
+            <div class="block">
+                <div class="flex_container">
+                    <div class="sub_container">
+                        <h3 class="stats">List of User Amiibo:</h3>
+                        <h4 class="stats" id="amiibo_count"></h4>
+                        <div id="amiibo_list"></div>
+                    </div>
 
-                <div class="sub_container quick_statistics">
-                    <h3 class="stats">Amiibots Trainer ID:</h3>
-                    <div class="stats" id="amiibots_id_found"></div>
+                    <div class="sub_container quick_statistics">
+                        <h3 class="stats">Amiibots Trainer ID:</h3>
+                        <div class="stats" id="amiibots_id_found"></div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </main>
+
+
 
 
 
