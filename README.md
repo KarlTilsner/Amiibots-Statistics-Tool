@@ -1,5 +1,4 @@
 Change Log:
-v1.1.2
 
 v1.1.1
 - Ruleset is now selected using buttons rather than typing the ruleset into a searchbar
