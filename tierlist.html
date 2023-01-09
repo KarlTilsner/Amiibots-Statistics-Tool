@@ -15,7 +15,7 @@
 
 
     
-    <body onload="queryLength('amiibo', 'generateTierList')">
+    <body onload="queryLength('amiibo', 'generateTierList'); tierlistRulesetHighlight('start');">
 
         <nav class="navbar">
             <ul class="navbar_nav">
@@ -50,7 +50,7 @@
         <main>
             <div class="header">
                 <h1 class="title">Amiibots Statistics Tool</h1> 
-                <p class="version">v1.1.0</p>
+                <p class="version">v1.1.1</p>
 
                 <p>This tierlist collects the average rating from the top 25 active and standby amiibo for each character.</p>
             </div>
@@ -58,11 +58,17 @@
             <div class="block flex_container">
                 <div class="sub_container search_bar">
                     <form>
-                        <input type="text"      id="tier_list_ruleset"          name="ruleset"          placeholder="Select a ruleset (vanilla, b5b, ag)">
+                        <!-- <input type="text"      id="tier_list_ruleset"          name="ruleset"          placeholder="Select a ruleset (vanilla, b5b, ag)"> -->
 
                         <div class="search_buttons">
-                            <input type="button"    value="Load Tierlist"  class="search_button"   id="button"     onclick="setRuleset('tierlist')"    required></form>
+                            <input type="button"  id="ruleset_vanilla"  name="ruleset"   value="Vanilla"        onclick="tierlistRulesetHighlight('null', 'vanilla')">
+                            <input type="button"  id="ruleset_b5b"      name="ruleset"   value="Big 5 Ban"      onclick="tierlistRulesetHighlight('null', 'b5b')">
+                            <input type="button"  id="ruleset_ag"       name="ruleset"   value="Anything Goes"  onclick="tierlistRulesetHighlight('null', 'ag')">
                         </div>
+
+                        <!-- <div class="search_buttons">
+                            <input type="button"    value="Load Tierlist"  class="search_button"   id="button"     onclick="window.location.reload();"    required></form>
+                        </div> -->
                     </form>
                 </div>
 

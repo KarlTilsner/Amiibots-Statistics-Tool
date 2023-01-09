@@ -88,26 +88,54 @@ let tier_list = [   'U TIER', 'Incineroar',
 //--------------------------------------------------------------------------------------------------------------------------------------------------------- 
 async function queryLength(apiURL, data_outlet) {
 
-    let queryURL = `https://www.amiibots.com/api/${apiURL}?per_page=1`;
-    let match_count;
+let queryURL = `https://www.amiibots.com/api/${apiURL}?per_page=1`;
+let match_count = 0;
+let queryURL_leaderboard = 'https://www.amiibots.com/api/amiibo?per_page=1'
+let leaderbaord_count = 0;
 
-    // Creating URL link
-    if (apiURL === 'singles_matches' && data_outlet === 'fetchData') {queryURL += created_at_start + user_id + ruleset_id;} 
-    else if (apiURL === 'amiibo' && data_outlet === 'amiiboListingTool') {queryURL = queryURL;}
-    else if (apiURL === 'amiibo' && data_outlet === 'generateTierList') {queryURL += ruleset_id + matchmaking_status;}
-       
-    // Find how many matches the rest of the program needs to search
-    fetch(queryURL)
+    if (apiURL != 'singles_matches' && data_outlet != 'fetchData') {
+        // Creating URL link
+        if (apiURL === 'amiibo' && data_outlet === 'amiiboListingTool') {
+            ruleset_id = `&ruleset_id=${window.localStorage.getItem(window.localStorage.getItem('ID_Tool_Ruleset'))}`;
+            queryURL += ruleset_id;
+        }
+
+        if (apiURL === 'amiibo' && data_outlet === 'generateTierList') {
+            ruleset_id = `&ruleset_id=${window.localStorage.getItem(window.localStorage.getItem('Tierlist Ruleset'))}`;
+            queryURL += ruleset_id + matchmaking_status;
+        }
+        
+        // Find how many matches the rest of the program needs to search
+        fetch(queryURL)
+            .then(function(queryURL_response) {return queryURL_response.json();})
+            .then(function(data) {
+                match_count = data.total;
+                console.log(`Found ${match_count} "${apiURL}" matches!`);
+                if (data_outlet === 'amiibotsIDSearch') {amiibotsIDSearch(match_count);}
+                if (data_outlet === 'amiiboListingTool') {amiiboListingTool(match_count);}
+                if (data_outlet === 'generateTierList') {generateTierList(match_count);}
+            });
+    }
+
+    // fetchData specific
+    if (apiURL === 'singles_matches' && data_outlet === 'fetchData') {
+        queryURL += created_at_start + user_id + ruleset_id;
+
+        fetch(queryURL_leaderboard)
         .then(function(queryURL_response) {return queryURL_response.json();})
         .then(function(data) {
-            console.log(data);
+            leaderbaord_count = data.total;
+            console.log(`Found ${leaderbaord_count} leaderboard matches!`); 
+        });
+
+        fetch(queryURL)
+        .then(function(queryURL_response) {return queryURL_response.json();})
+        .then(function(data) {
             match_count = data.total;
             console.log(`Found ${match_count} "${apiURL}" matches!`);
-            if (data_outlet === 'fetchData') {fetchData(match_count);}
-            if (data_outlet === 'amiibotsIDSearch') {amiibotsIDSearch(match_count);}
-            if (data_outlet === 'amiiboListingTool') {amiiboListingTool(match_count);}
-            if (data_outlet === 'generateTierList') {generateTierList(match_count);}
+            if (data_outlet === 'fetchData') {fetchData(match_count, leaderbaord_count);}
         });
+    } 
 }
 
 
@@ -116,7 +144,13 @@ async function queryLength(apiURL, data_outlet) {
 
 //                                                              FUNCTION WAY TOO BIG FOR ITS OWN GOOD
 //--------------------------------------------------------------------------------------------------------------------------------------------------------- 
-async function fetchData(match_count) {
+async function fetchData(match_count, leaderbaord_count) {
+
+console.log(leaderbaord_count);
+if (leaderbaord_count == 0) {
+    window.location.reload();
+}
+
 // Query URL
 const matches = match_count;
 match_count = `&per_page=${match_count}`;
@@ -127,7 +161,15 @@ const url_get_all_characters = 'https://www.amiibots.com/api/utility/get_all_cha
 // Change placeholder text to show what is being searched
 document.querySelector('#twitch_name').placeholder = ("Current Trainer ID is: " + window.localStorage.getItem("Twitch Name"));
 document.querySelector('#amiibo_name').placeholder = ("Current Amiibo ID is: " + window.localStorage.getItem("Amiibo Name"));
-document.querySelector('#ruleset').placeholder = ("Current Ruleset is: " + window.localStorage.getItem("Ruleset"));
+// document.querySelector('#ruleset').placeholder = ("Current Ruleset is: " + window.localStorage.getItem("Ruleset"));
+
+// Highlight buttons
+let highlightRulesetButton = window.localStorage.getItem('Ruleset');
+document.getElementById(`ruleset_${highlightRulesetButton}`).setAttribute("style", `background-color: rgba(220, 220, 220, 0.3)`);
+
+window.localStorage.setItem('SortType', 'sort_by_tierlist');
+let sort_type = window.localStorage.getItem('SortType');
+document.getElementById(`${sort_type}`).setAttribute("style", `background-color: rgba(220, 220, 220, 0.3)`);
 
     // Fetch data from Amiibots API
     console.log('Querying the API');
@@ -167,6 +209,10 @@ document.querySelector('#ruleset').placeholder = ("Current Ruleset is: " + windo
             }    
             else return (0);     
         });
+
+        // Display amiibo name on graphs
+        document.getElementById('rating_history_chart_title').innerHTML = (`Rating History of: ${amiibo_name}`);
+        document.getElementById('matchup_chart_title').innerHTML = (`Character Matchups of: ${amiibo_name}`);
 
         console.log(`${amiibo_name} has played ${rating.length} out of ${matches} matches searched`);
 
@@ -302,26 +348,38 @@ document.querySelector('#ruleset').placeholder = ("Current Ruleset is: " + windo
             character_win_rate.push(`${character_name_count[i]} (${(((character_defeated_id_count[i])/(character_lost_to_id_count[i] + character_defeated_id_count[i]))*100).toFixed(2)}%)`);
     }
 
+//                                                              GENERATE RATING HISTORY ARRAYS
+//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
+for (let i = rating.length - 1; i >= 0; i--) {
+    rating_reversed.push(rating[i]);
+}
 
+for (let i = 0; i < rating_reversed.length; i++) {
+    xAxis.push(i);   
+}
 
+console.log(`Rating: ${rating_reversed[rating_reversed.length - 1]}`);
 
+//                                                              HIGHLIGHT HIGHEST RATING VALUE
+//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
+let max_rating_value = Math.max.apply(null, rating_reversed).toFixed(5);
 
+for (let i = 0; i < yAxis.length; i++) {
+    if (yAxis[i].toFixed(5) == max_rating_value) {
+    yAxisBar.push(yAxis[i]);
+    } else {
+        yAxisBar.push(0)
+    }
+}
 
-
-
-
-
-
-
-
-
-
+drawCharts();
     
 //                                                              GETTING LEADERBOARD DATA
 //--------------------------------------------------------------------------------------------------------------------------------------------------------- 
 // Get leaderboard data
 console.log('Querying leaderboard data');
 const playable_character_id = `&playable_character_id=${my_character_id}`; //1874d724-bd91-43ab-91ae-a8b4a740b951
+match_count = `&per_page=${leaderbaord_count}`;
 const rank_url_query = 'https://www.amiibots.com/api/amiibo?' + match_count + ruleset_id + matchmaking_status;
 
 const amiibo_ranks_data_query = await fetch(rank_url_query);
@@ -363,23 +421,7 @@ for (let i = 0; i < leaderboard_same_character_id.length; i++) {
     }
 } 
 
-//                                                              GENERATE RATING HISTORY ARRAYS
-//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
-for (let i = rating.length - 1; i >= 0; i--) {
-    rating_reversed.push(rating[i]);
-}
-
-for (let i = 0; i < rating_reversed.length; i++) {
-    xAxis.push(i);   
-}
-
-console.log(`Rating: ${rating_reversed[rating_reversed.length - 1]}`);
-
-//                                                              EDIT HTML INNER TEXT
-//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
-document.getElementById('rating_history_chart_title').innerHTML = (`Rating History of: ${amiibo_name}`);
-document.getElementById('matchup_chart_title').innerHTML = (`Character Matchups of: ${amiibo_name}`);
-
+// Update quick statistcs
 document.getElementById('amiibo_rating').innerText = (`Rating: ${(rating_reversed[rating_reversed.length - 1]).toFixed(5)}`);
 document.getElementById('amiibo_rating_max').innerText = (`Highest Rating: ${(Math.max.apply(null, rating_reversed).toFixed(5))}`);
 document.getElementById('amiibo_rating_mu').innerText = (`Rating mu: ${(rating_mu[rating_mu.length - rating_mu.length + 1].toFixed(5))}`);
@@ -390,41 +432,42 @@ document.getElementById('amiibo_rank_character').innerText = (`Rank (${my_charac
 document.getElementById('amiibo_next_rank_overall').innerText = (`Next Rank (Overall): ${next_rank_overall}`);
 document.getElementById('amiibo_next_rank_character').innerText = (`Next Rank (${my_character_name}): ${next_rank_character}`);
 
-window.localStorage.setItem('SortType', 'sort_by_tierlist');
-let sort_type = window.localStorage.getItem('SortType');
-document.getElementById(`${sort_type}`).setAttribute("style", `background-color: rgba(220, 220, 220 , 0.3)`);
-
 console.log('Data Fetched!');
-
-//                                                              HIGHLIGHT HIGHEST RATING VALUE
-//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
-let max_rating_value = Math.max.apply(null, rating_reversed).toFixed(5);
-
-for (let i = 0; i < yAxis.length; i++) {
-    if (yAxis[i].toFixed(5) == max_rating_value) {
-    yAxisBar.push(yAxis[i]);
-    } else {
-        yAxisBar.push(0)
-    }
-}
-
-drawCharts();
-
 } // END OF fetchData();
 
 
 
 
 
-//                                                              MATCHUP CHART SORTING
+//                                                              HIGHLIGHT SORT BUTTON
 //--------------------------------------------------------------------------------------------------------------------------------------------------------- 
 function highlightSortButton(button_id) {
-
     let sort_type = window.localStorage.getItem('SortType');
     document.getElementById(`${sort_type}`).removeAttribute("style", `background-color: rgba(220, 220, 220 , 0.3)`);
 
     document.getElementById(`${button_id}`).setAttribute("style", `background-color: rgba(220, 220, 220 , 0.3)`);
     window.localStorage.setItem('SortType', `${button_id}`);
+}
+
+
+
+
+
+//                                                              HIGHLIGHT RULESET BUTTON
+//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
+function highlightRulesetButton(button_id) {
+    try {    
+        let highlightRulesetButton = window.localStorage.getItem('Ruleset');
+        document.getElementById(`ruleset_${highlightRulesetButton}`).removeAttribute("style", `background-color: rgba(220, 220, 220, 0.3)`);
+
+        document.getElementById(`ruleset_${button_id}`).setAttribute("style", `background-color: rgba(220, 220, 220 , 0.3)`);
+        window.localStorage.setItem('Ruleset', `${button_id}`);
+        console.log('Ruleset is: ' + button_id);
+    } catch (err) {
+        document.getElementById(`ruleset_${button_id}`).setAttribute("style", `background-color: rgba(220, 220, 220 , 0.3)`);
+        window.localStorage.setItem('Ruleset', `${button_id}`);
+        console.log('Ruleset is: ' + button_id);
+    }
 }
 
 
@@ -597,37 +640,126 @@ function sortMatchupChartData(sortType) {
 
 
 
+//                                                              HIGHLIGHT ID TOOL RULESET BUTTONS
+//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
+function idSearchHighlight(start, button_id) {
+    if (start == 'start') {
+        try {
+        // Highlight ruleset buttons
+        let highlightRulesetButton = window.localStorage.getItem('ID_Tool_Ruleset');
+        document.getElementById(`ruleset_${highlightRulesetButton}`).setAttribute("style", `background-color: rgba(220, 220, 220, 0.3)`);
+        } catch (err) {
+            window.localStorage.setItem('ID_Tool_Ruleset', 'vanilla');
+            let highlightRulesetButton = window.localStorage.getItem('ID_Tool_Ruleset');
+            document.getElementById(`ruleset_${highlightRulesetButton}`).setAttribute("style", `background-color: rgba(220, 220, 220, 0.3)`);
+            console.log("Ruleset was empty");
+        }
+    }
+
+    if (start != 'start') {
+        try {    
+            let highlightRulesetButton = window.localStorage.getItem('ID_Tool_Ruleset');
+            document.getElementById(`ruleset_${highlightRulesetButton}`).removeAttribute("style", `background-color: rgba(220, 220, 220, 0.3)`);
+    
+            document.getElementById(`ruleset_${button_id}`).setAttribute("style", `background-color: rgba(220, 220, 220 , 0.3)`);
+            window.localStorage.setItem('ID_Tool_Ruleset', `${button_id}`);
+            console.log('Ruleset is: ' + button_id);
+        } catch (err) {
+            document.getElementById(`ruleset_${button_id}`).setAttribute("style", `background-color: rgba(220, 220, 220 , 0.3)`);
+            window.localStorage.setItem('ID_Tool_Ruleset', `${button_id}`);
+            console.log('Ruleset is: ' + button_id);
+        }
+    }
+}
+
+
+
+
+
+//                                                              HIGHLIGHT TIERLIST RULESET BUTTONS
+//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
+function tierlistRulesetHighlight(start, button_id) {
+    if (start == 'start') {
+        try {
+        // Highlight ruleset buttons
+        let highlightRulesetButton = window.localStorage.getItem('Tierlist Ruleset');
+        document.getElementById(`ruleset_${highlightRulesetButton}`).setAttribute("style", `background-color: rgba(220, 220, 220, 0.3)`);
+        } catch (err) {
+            window.localStorage.setItem('Tierlist Ruleset', 'vanilla');
+            let highlightRulesetButton = window.localStorage.getItem('Tierlist Ruleset');
+            document.getElementById(`ruleset_${highlightRulesetButton}`).setAttribute("style", `background-color: rgba(220, 220, 220, 0.3)`);
+            console.log("Ruleset was empty");
+        }
+    }
+
+    if (start != 'start') {
+        try {    
+            let highlightRulesetButton = window.localStorage.getItem('Tierlist Ruleset');
+            document.getElementById(`ruleset_${highlightRulesetButton}`).removeAttribute("style", `background-color: rgba(220, 220, 220, 0.3)`);
+    
+            document.getElementById(`ruleset_${button_id}`).setAttribute("style", `background-color: rgba(220, 220, 220 , 0.3)`);
+            window.localStorage.setItem('Tierlist Ruleset', `${button_id}`);
+            console.log('Ruleset is: ' + button_id);
+        } catch (err) {
+            document.getElementById(`ruleset_${button_id}`).setAttribute("style", `background-color: rgba(220, 220, 220 , 0.3)`);
+            window.localStorage.setItem('Tierlist Ruleset', `${button_id}`);
+            console.log('Ruleset is: ' + button_id);
+        }
+
+        window.location.reload();
+    }
+}
+
+
+
+
+
 //                                                              AMIIBOTS ID SEARCH TOOL
 //--------------------------------------------------------------------------------------------------------------------------------------------------------- 
 async function amiibotsIDSearch() {
-    const twitchName = document.querySelector('#search_amiibo_name_and_id').value;
+    let twitchName = document.querySelector('#search_amiibo_name_and_id').value;
+    let stored_trainer_name = window.localStorage.getItem('trainer_name');
 
-    document.getElementById('amiibo_id_found').innerText = (`Searching 2500 matches for trainer_id...`);
 
-    const ruleset_input = document.getElementById('ruleset_select_amiibo_id_search').value;
-    const ruleset_select = window.localStorage.getItem(ruleset_input);
-    const ruleset_id = `&ruleset_id=${ruleset_select}`;
-    match_count = `&per_page=${2500}`;
+    if (stored_trainer_name != twitchName) {
+        window.localStorage.setItem('trainer_name', 'no_trainer_name');
 
-    console.log('Searching 2500 matches for trainer_id');
-    
-    const id_url_query = 'https://www.amiibots.com/api/singles_matches?' + match_count + ruleset_id;
-    const id_data_query = await fetch(id_url_query);
-    const id_data_response = await id_data_query.json();
+        // Prepare for search
+        const ruleset_input = window.localStorage.getItem('ID_Tool_Ruleset');
+        const ruleset_select = window.localStorage.getItem(ruleset_input);
+        const ruleset_id = `&ruleset_id=${ruleset_select}`;
+        match_count = `&per_page=${2500}`;
 
-    console.log('Recieved response');
+        // Search for trainer_id
+        console.log('Searching 2500 matches for trainer_id');
+        document.getElementById('amiibo_id_found').innerText = (`Searching 2500 matches for trainer_id...`);
+        const id_url_query = 'https://www.amiibots.com/api/singles_matches?' + match_count + ruleset_id;
+        const id_data_query = await fetch(id_url_query);
+        const id_data_response = await id_data_query.json();
+        console.log('Recieved response');
 
-    const id_data = id_data_response.data.map(
-        function(index) {
-            if (index.fp1.trainer_name === twitchName) {
-                amiibots_id = index.fp1.trainer_id;
-            } else if (index.fp2.trainer_name === twitchName) {
-                amiibots_id = index.fp2.trainer_id;
-            }
-    });
+        // Push trainer_id into variable
+        const id_data = id_data_response.data.map(
+            function(index) {
+                if (index.fp1.trainer_name === twitchName) {
+                    window.localStorage.setItem('trainer_name', index.fp1.trainer_name);
+                    window.localStorage.setItem('trainer_id', index.fp1.trainer_id);
+                    amiibots_id = window.localStorage.getItem('trainer_id');
+                } else if (index.fp2.trainer_name === twitchName) {
+                    window.localStorage.setItem('trainer_name', index.fp2.trainer_name);
+                    window.localStorage.setItem('trainer_id', index.fp2.trainer_id);
+                    amiibots_id = window.localStorage.getItem('trainer_id');
+                }
+        });
+    }
 
-    document.getElementById('amiibots_id_found').innerText = (amiibots_id);
+    // Update HTML
+    document.getElementById('amiibots_id_found').innerText = window.localStorage.getItem('trainer_id');
 
+    // Update amiibots_id
+    amiibots_id = window.localStorage.getItem('trainer_id');
+
+    // Call the listing tool
     queryLength('amiibo', 'amiiboListingTool');
 }
 
@@ -639,13 +771,27 @@ async function amiibotsIDSearch() {
 //--------------------------------------------------------------------------------------------------------------------------------------------------------- 
 async function amiiboListingTool(match_count) {
     const submitted_amiibots_name = document.querySelector('#search_amiibo_name_and_id').value;
-    ruleset_id = document.getElementById('ruleset_select_amiibo_id_search').value;
+    ruleset_id = window.localStorage.getItem('ID_Tool_Ruleset');
     const ruleset_input = `&ruleset_id=${window.localStorage.getItem(ruleset_id)}`;
 
     document.getElementById('amiibo_id_found').innerText = (`Searching for amiibo...`);
-
     console.log('Searching for amiibo');
-    
+
+    // Get all character names and ids
+    const url_get_all_characters = 'https://www.amiibots.com/api/utility/get_all_characters';
+    const get_all_characters = await fetch(url_get_all_characters);
+    const get_all_characters_json = await get_all_characters.json();
+    const pushCharacterData = get_all_characters_json.data.map(
+        function(index) {
+            character_name.push(index.name);
+            character_id.push(index.id);
+
+            if (index.id === my_character_id) {
+                my_character_name = index.name;
+            }
+        });
+
+    // List all amiibo onto page
     match_count = `&per_page=${match_count}`;
     const rank_url_query = 'https://www.amiibots.com/api/amiibo?' + match_count + ruleset_input;
     const match_history_query = await fetch(rank_url_query);
@@ -656,25 +802,35 @@ async function amiiboListingTool(match_count) {
     let list = '<div class="flex_list_container">';
     let amiibo_count = 0;
     let status = 'no status';
+    let characterIcon = 'no icon';
     const match_history = match_history_response.data.map(
         function(index) {
             if (index.user.twitch_user_name === submitted_amiibots_name) {
                 amiibo_count++;
-
                 status = 'reset';
+                characterIcon = 'reset';
 
                 if (index.match_selection_status == 'ACTIVE') {status = 'ACTIVE';}
                 if (index.match_selection_status == 'STANDBY') {status = 'STANDBY';}
                 if (index.match_selection_status == 'INACTIVE') {status = 'INACTIVE';}
 
+                // Match current character with icon
+                for (let i = 0; i < character_id.length; i++) {
+                    if (character_id[i] == index.playable_character_id) {
+                        characterIcon = (`${character_name[i]}.png`)
+                    }
+                }
+                
+                // Put image onto the listed item when amiibots is fixed
                 list += (
                 `<div class="list_item ${status}" onclick="setAmiiboForSearch('${amiibots_id}', '${index.id}', '${ruleset_id}');">
+                    <img src="images/${characterIcon}" class="list_image">
                     <p class="stats">
-                        <i>Amiibo Name:</i>  <b class="${status}">${index.name}</b> </br>
+                        <i>Amiibo Name:</i>     <b>${index.name}</b> </br>
                         <i>Amiibo ID:</i>       ${index.id} </br>
                         <i>Rating:</i>          ${index.rating} </br>
                         <i>Total Matches:</i>   ${index.total_matches} </br>
-                        <i>Status:</i>          ${index.match_selection_status}</br>
+                        <i>Status:</i>          <b class="${status}">${index.match_selection_status}</b> </br>
                         </br>
                     </p>
                 </div>`
@@ -684,6 +840,7 @@ async function amiiboListingTool(match_count) {
     list += "</div>";
     content.innerHTML = list;
 
+    // Update status
     document.getElementById('amiibo_id_found').innerText = (`Search complete!`);
     document.getElementById('amiibo_count').innerText = (`Amiibo found (${ruleset_id}): ${amiibo_count}`);
 }
@@ -702,13 +859,13 @@ function searchParameters() {
     const amiibo_name = document.querySelector('#amiibo_name').value;
     console.log('Amiibo Name is: ' + amiibo_name);
 
-    const ruleset = document.querySelector('#ruleset').value;
-    console.log('Ruleset is: ' + ruleset);
+    // const ruleset = document.querySelector('#ruleset').value;
+    // console.log('Ruleset is: ' + ruleset);
 
     //Put it into local storage
     window.localStorage.setItem("Twitch Name", twitch_name);
     window.localStorage.setItem("Amiibo Name", amiibo_name);
-    window.localStorage.setItem("Ruleset", ruleset);
+    // window.localStorage.setItem("Ruleset", ruleset);
 };
 
 
@@ -748,20 +905,6 @@ function drawCharts(sorted) {
 
 
 
-//                                                              FUNCTION TO SET LOCAL STORAGE ITEMS
-//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
-function setRuleset(whereToGetResult) {
-    if (whereToGetResult == 'tierlist') {
-        window.localStorage.setItem("Tierlist Ruleset", document.getElementById('tier_list_ruleset').value);
-        console.log(`Ruleset set to ${document.getElementById('tier_list_ruleset').value}`)
-    }
-    window.location.reload();
-}
-
-
-
-
-
 //                                                              ALL TIERLIST FUNCTIONALITY
 //--------------------------------------------------------------------------------------------------------------------------------------------------------- 
 async function generateTierList(match_count) {
@@ -770,7 +913,7 @@ async function generateTierList(match_count) {
     let tier_list_ruleset_select = window.localStorage.getItem(tier_list_ruleset_input);
     let tier_list_ruleset_id = `&ruleset_id=${tier_list_ruleset_select}`;
 
-    document.querySelector('#tier_list_ruleset').placeholder = (`Current ruleset is: ${tier_list_ruleset_input}`);
+    // document.querySelector('#tier_list_ruleset').placeholder = (`Current ruleset is: ${tier_list_ruleset_input}`);
     document.getElementById('tierlistTitle').innerHTML = `Amiibots Realtime Tierlist (${tier_list_ruleset_input})`;
 
 
@@ -863,7 +1006,7 @@ async function generateTierList(match_count) {
     let range = max_average_rating - min_average_rating;
 
     // U TIER
-    let U_bound = (range * 0.85) + min_average_rating;
+    let U_bound = (range * 0.90) + min_average_rating;
     console.log("U TIER: " + U_bound);
 
     // S TIER
@@ -895,7 +1038,7 @@ async function generateTierList(match_count) {
     console.log("C TIER: " + c_bound);
 
     // D+ TIER
-    let D_bound = (range * 0.02) + min_average_rating;
+    let D_bound = (range * 0.03) + min_average_rating;
     console.log("D+ TIER: " + D_bound);
 
 

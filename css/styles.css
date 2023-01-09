@@ -17,18 +17,7 @@ main {
     padding: 1rem;
 }
 
-.navbar {
-    width: 5rem;
-    height: 100vh;
-    position: fixed;
-    z-index: 2;
 
-    background-color: var(--theme-background-colour);
-    border: 2px solid;
-    border-color: var(--theme-border-colour);
-
-    transition: var(--transition-speed);
-}
 
 .navbar_nav {
     list-style: none;
@@ -64,17 +53,11 @@ main {
     text-overflow: clip;
 }
 
-.navbar:hover {
-    width: 20rem;
-}
-
 .nav_item:hover {
     background-color: var(--theme-highlight-colour);
 } 
 
-.navbar:hover .link_text {
-    display: flex;
-}
+
 
 
 
@@ -156,9 +139,18 @@ div.header {
 }
 
 .list_item {
-    width: 400px;
-    height: 120px;
+    width: 24rem;
+    height: 6rem;
+    font-size: 11px;
     transition: var(--transition-speed);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_image {
+    width: 6rem;
+    height: 6rem;
 }
 
 .list_item:hover {
@@ -251,7 +243,7 @@ b.INACTIVE {
 }
 
 .quick_statistics {
-    width: 40%;
+    width: 100%;
 }
 
 .amiibots_id {
@@ -321,13 +313,69 @@ img {
 
 
 
-/* @media only screen and (max-width: 600px) {
+@media only screen and (min-width: 1200px) {
+    .navbar {
+        width: 5rem;
+        height: 100vh;
+        position: fixed;
+        z-index: 2;
+    
+        background-color: var(--theme-background-colour);
+        border: 2px solid;
+        border-color: var(--theme-border-colour);
+    
+        transition: var(--transition-speed);
+    }
+
+    .navbar:hover {
+        width: 20rem;
+    }
+    
+    .navbar:hover .link_text {
+        display: flex;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
     :root {
         --content-width: 95vw;
     }
+
+    .navbar {
+        position: fixed;
+        z-index: 5;
+        bottom: 0;
+        width: 100vw;
+        height: 7rem;
+
+        background-color: var(--theme-background-colour);
+        border: 2px solid;
+        border-color: var(--theme-border-colour);
     
-    .quick_statistics {
-        width: 40%;
-        font-size: 20px;
+        transition: var(--transition-speed);
     }
-} */
+
+    .nav_img {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .navbar_nav {
+        flex-direction: row;
+    }
+
+    .nav_link {
+        justify-content: center;
+    }
+
+    main {
+        margin: 0;
+    }
+    
+    body {
+        padding-bottom: 8rem;
+    }
+
+}
+

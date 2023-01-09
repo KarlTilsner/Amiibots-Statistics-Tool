@@ -57,7 +57,7 @@
         <main>
             <div class="header">
                 <h1 class="title">Amiibots Statistics Tool</h1> 
-                <p class="version">v1.1.0</p>
+                <p class="version">v1.1.1</p>
 
                 <p> Amiibots Statistics Tool now searches all of your games automatically, this means no missing data!<br>
                     Please note that search times can take a long time if you have many matches, please be patient :D
@@ -71,27 +71,41 @@
                     <form>
                         <input type="text"  id="twitch_name"     name="twitch_name"      placeholder="Enter Your Amiibots ID Here">
                         <input type="text"  id="amiibo_name"     name="amiibo_name"      placeholder="Enter Your Amiibo's ID Here">
-                        <input type="text"  id="ruleset"         name="ruleset"          placeholder="Enter The Ruleset Here">
+                        
+                        <div class="search_buttons">
+                            <input type="button"  id="ruleset_vanilla"  name="ruleset"   value="Vanilla"        onclick="highlightRulesetButton('vanilla')">
+                            <input type="button"  id="ruleset_b5b"      name="ruleset"   value="Big 5 Ban"      onclick="highlightRulesetButton('b5b')">
+                            <input type="button"  id="ruleset_ag"       name="ruleset"   value="Anything Goes"  onclick="highlightRulesetButton('ag')">
+                        </div>
+
+
+                        <!-- <input type="text"  id="ruleset"         name="ruleset"          placeholder="Enter The Ruleset Here"> -->
 
                         <div class="search_buttons">
-                            <input type="button"    value="Save Search Parameters"  class="search_button"   id="button" onclick="searchParameters()" required></form>
-                            <input type="button"    value="Generate Graph"          class="generate_graph"  id="button" onclick="window.location.reload()" required></form>
+                            <!-- <input type="button"    value="Save Search Parameters"  class="search_button"   id="button" onclick="searchParameters()" required></form> -->
+                            <input type="button"    value="Generate Graph"          class="generate_graph"  id="button" onclick="searchParameters(); window.location.reload()" required></form>
                         </div>
                     </form>
                 </div>
-            
-                <div class="sub_container quick_statistics">
-                    <p class="stats" id="amiibo_rating">Rating: Calculating...</p>
-                    <p class="stats" id="amiibo_rating_max">Highest Rating: Calculating...</p>
-                    <p class="stats" id="amiibo_rating_mu">Rating mu: Calculating...</p>
-                    <p class="stats" id="amiibo_rating_sigma">Rating Sigma: Calculating...</p>
-                </div>
+            </div>
 
-                <div class="sub_container quick_statistics">
-                    <p class="stats" id="amiibo_rank_overall">Rank (Overall): Calculating...</p>
-                    <p class="stats" id="amiibo_rank_character">Rank (Character): Calculating...</p>
-                    <p class="stats" id="amiibo_next_rank_overall">Next Rank (Overall): Calculating...</p>
-                    <p class="stats" id="amiibo_next_rank_character">Next Rank (Character): Calculating...</p>
+
+
+            <div class="block">
+                <div class="flex_container">
+                    <div class="sub_container quick_statistics">
+                        <p class="stats" id="amiibo_rating">Rating: Calculating...</p>
+                        <p class="stats" id="amiibo_rating_max">Highest Rating: Calculating...</p>
+                        <p class="stats" id="amiibo_rating_mu">Rating mu: Calculating...</p>
+                        <p class="stats" id="amiibo_rating_sigma">Rating Sigma: Calculating...</p>
+                    </div>
+
+                    <div class="sub_container quick_statistics">
+                        <p class="stats" id="amiibo_rank_overall">Rank (Overall): Calculating...</p>
+                        <p class="stats" id="amiibo_rank_character">Rank (Character): Calculating...</p>
+                        <p class="stats" id="amiibo_next_rank_overall">Next Rank (Overall): Calculating...</p>
+                        <p class="stats" id="amiibo_next_rank_character">Next Rank (Character): Calculating...</p>
+                    </div>
                 </div>
             </div>
 
@@ -144,15 +158,15 @@
 //--------------------------------------------------------------------------------------------------------------------------------------------------------- 
 //                                                              
 //                                                              
-//                                                              display character icon in id search tool
 //                                                              
 //                                                              
+//                                                              MOBILE FRIENDLY
 //                                                              
 //                                                              SHOW PREVIOUS X GAMES ON RATING HISTORY
 //                                                              
 //                                                              DISPLAY AMIIBO AS INACTIVE IF LEADERBOARD RANK IS 0
 //                                                              
-//                                                              
+//                                                              GET RID OF NAN% ON TIER BREAKS
 //                                                              
 //                                                              
 //                                                              IMPROVE CSS
@@ -163,6 +177,15 @@
 
 /*
 Change Log:
+v1.1.1
+- Ruleset is now selected using buttons rather than typing the ruleset into a searchbar
+- Fixed a bug displaying an amiibo's rank incorrectly
+- Graphs are now rendered before searching leaderboard data to improve perceived loading times
+- Rearanged some divs and elements to become more mobile friendly
+- ID search tool now displays the corresponding character icon for each amiibo
+- ID search tool will only search for a trainer ID if one hasnt been found already (speeds up search times)
+- Improved ID Tool search performance
+
 v1.1.0
 - Width of highest rating bar on rating history chart scales with matches and is less intrusive at smaller game counts
 - Automatically searches all of a users games in the graphing tool
