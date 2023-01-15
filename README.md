@@ -1,5 +1,9 @@
 Change Log:
 
+v1.1.2
+- Minor changes to CSS
+- Fixed matchup chart bug with introduction to kazuya and sephiroth
+
 v1.1.1
 - Ruleset is now selected using buttons rather than typing the ruleset into a searchbar
 - Fixed a bug displaying an amiibo's rank incorrectly

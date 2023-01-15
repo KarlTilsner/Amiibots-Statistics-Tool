@@ -68,7 +68,7 @@ let secondary_background_colour =   'rgba(170, 200, 100, 0.2)';     // green
 let secondary_border_colour =       'rgba(170, 200, 100, 1)';       // green
 
 // Tier List
-const tiers = ['U TIER', 'S TIER', 'A+ TIER', 'A TIER', 'B+ TIER', 'B TIER', 'C+ TIER', 'C TIER', 'D+ TIER'];
+const tiers = ['U TIER', 'S TIER', 'A+ TIER', 'A TIER', 'B+ TIER', 'B TIER', 'C+ TIER', 'C TIER', 'D+ TIER', 'NO TIER'];
 let tier_list = [   'U TIER', 'Incineroar', 
                     'S TIER', 'Min Min', 'King K. Rool', 'Terry', 'Bowser', 'Byleth', 
                     'A+ TIER', 'Mii Gunner', 'King Dedede', 'Ridley', 'Ness', 'Link', 
@@ -77,7 +77,8 @@ let tier_list = [   'U TIER', 'Incineroar',
                     'B TIER', 'Luigi', 'Robin', 'Mega Man', 'Corrin', 'Isabelle', 'Meta Knight', 'Wolf', 'Lucina', 'Joker', 'Pac-Man', 'Palutena', 'Falco', 'Wario', 'Samus', 'Dark Samus', 'Bowser Jr.', 
                     'C+ TIER', 'Villager', 'Mewtwo', 'Ice Climbers', 'Marth', 'Duck Hunt', 'Lucario', 'Mario', 'Pikachu', 'Wii Fit Trainer', 'Greninja', 'Sonic', 'Simon', 'Richter', 'Rosalina & Luma', 
                     'C TIER', 'Peach', 'Daisy', 'Diddy Kong', 'Toon Link', 'R.O.B.', 'Young Link', 'Inkling', 'Pichu', 'Mr. Game & Watch', 'Ken', 
-                    'D+ TIER', 'Jigglypuff', 'Sheik', 'Fox', 'Zero Suit Samus', 'Bayonetta'
+                    'D+ TIER', 'Jigglypuff', 'Sheik', 'Fox', 'Zero Suit Samus', 'Bayonetta',
+                    'NO TIER', 'Sephiroth', 'Kazuya'
                 ];
 
 
@@ -159,8 +160,8 @@ const url_matches = 'https://www.amiibots.com/api/singles_matches?' + match_coun
 const url_get_all_characters = 'https://www.amiibots.com/api/utility/get_all_characters';
 
 // Change placeholder text to show what is being searched
-document.querySelector('#twitch_name').placeholder = ("Current Trainer ID is: " + window.localStorage.getItem("Twitch Name"));
-document.querySelector('#amiibo_name').placeholder = ("Current Amiibo ID is: " + window.localStorage.getItem("Amiibo Name"));
+document.querySelector('#twitch_name').placeholder = ("   Current Trainer ID is: " + window.localStorage.getItem("Twitch Name"));
+document.querySelector('#amiibo_name').placeholder = ("   Current Amiibo ID is: " + window.localStorage.getItem("Amiibo Name"));
 // document.querySelector('#ruleset').placeholder = ("Current Ruleset is: " + window.localStorage.getItem("Ruleset"));
 
 // Highlight buttons
@@ -232,7 +233,7 @@ document.getElementById(`${sort_type}`).setAttribute("style", `background-color:
         });
 
     // Sort into tier lists
-    tier_list[34] = character_name[57]; // THIS IS THE FILTHIEST PIECE OF CODE I HAVE EVER WRITTEN IN DATA ENGINEERING I WANT A FIX TO THIS TRASH ASAP
+    tier_list[34] = character_name[58]; // THIS IS THE FILTHIEST PIECE OF CODE I HAVE EVER WRITTEN IN DATA ENGINEERING I WANT A FIX TO THIS TRASH ASAP
     for (let i = 0; i < tier_list.length; i++) {
         for (x = 0; x < tiers.length; x++) {
             if (tiers[x] == tier_list[i]) {
@@ -245,10 +246,6 @@ document.getElementById(`${sort_type}`).setAttribute("style", `background-color:
             } 
         }
     }
-
-    // console.log(tier_list);
-    // console.log(tier_list_charid);
-
 
     // Amiibo matchup chart axis data
     for (i = 0; i < tier_list_charid.length; i++) {
@@ -825,7 +822,7 @@ async function amiiboListingTool(match_count) {
                 list += (
                 `<div class="list_item ${status}" onclick="setAmiiboForSearch('${amiibots_id}', '${index.id}', '${ruleset_id}');">
                     <img src="images/${characterIcon}" class="list_image">
-                    <p class="stats">
+                    <p class="list_stats">
                         <i>Amiibo Name:</i>     <b>${index.name}</b> </br>
                         <i>Amiibo ID:</i>       ${index.id} </br>
                         <i>Rating:</i>          ${index.rating} </br>

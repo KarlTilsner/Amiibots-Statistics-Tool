@@ -51,11 +51,10 @@
         <main>
             <div class="header">
                 <h1 class="title">Amiibots Statistics Tool</h1> 
-                <p class="version">v1.1.1</p>
+                <p class="version">v1.1.2</p>
 
                 <p> This search tool will search 2500 games for the specified ruleset (~7 days of games). <br>
-                    This was done for performance reasons. Please contact <b>notkarl_#6743</b> on discord if you are having trouble finding IDs<br>
-                    Please note that search times can take up to 20 seconds, please be patient :D
+                    Please contact <b>notkarl_#6743</b> on discord if you are having trouble finding IDs
                 </p>
             </div>
 
@@ -63,7 +62,7 @@
 
             <div class="block">
                 <div class="flex_container">
-                    <div class="sub_container search_bar">
+                    <div class="container search_bar">
                         <form>
                             <input type="text"  id="search_amiibo_name_and_id"          name="trainer"    placeholder="Enter your Twitch username here">
 
@@ -74,7 +73,7 @@
                             </div>
 
                             <div class="search_buttons">
-                                <input type="button" value="Search for Amiibo IDs"              class="id_search_button" id="button" onclick="amiibotsIDSearch()" required></form>
+                                <input type="button" value="Search for Amiibo IDs"  class="id_search_button main_search" id="button" onclick="amiibotsIDSearch()" required></form>
                             </div>
                         </form>
                     </div>
@@ -84,12 +83,12 @@
 
             <div class="block">
                 <div class="flex_container">
-                    <div class="sub_container">
+                    <div class="container">
                         <h3 class="stats">Amiibots Trainer ID:</h3>
                         <div class="stats" id="amiibots_id_found"></div>
                     </div>
 
-                    <div class="sub_container quick_statistics amiibots_id">
+                    <div class="container quick_statistics amiibots_id">
                         <h3 class="stats">Progress:</h3>
                         <p class="stats" id="amiibo_id_found">Type your Twitch username to begin</p>
                     </div>
