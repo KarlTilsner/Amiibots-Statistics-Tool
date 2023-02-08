@@ -1,5 +1,11 @@
 Change Log:
 
+v1.1.3
+- Added an extended match history specifically for the amiibo being graphed
+- Added a name searching tool to search every valid amiibo on amiibots
+- Added a tierlist based on character population
+- Removed NaN% on the matchup chart
+
 v1.1.2
 - Minor changes to CSS
 - Fixed matchup chart bug with introduction to kazuya and sephiroth
