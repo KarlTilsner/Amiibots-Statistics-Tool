@@ -13,9 +13,9 @@
 
 
 
-
+    <!-- onload="queryLength('amiibo', 'generateTierList'); tierlistRulesetHighlight('start');" -->
     
-    <body onload="queryLength('amiibo', 'generateTierList'); tierlistRulesetHighlight('start');">
+    <body onload="queryLength('amiibo', 'usageTierlist'); usageTierlistRulesetHighlight('start'); usageTierlistFilterHighlight('start');"> 
 
         <nav class="navbar">
             <ul class="navbar_nav">
@@ -71,96 +71,73 @@
                 <div class="container search_bar">
                     <form>
                         <div class="search_buttons">
-                            <input class="thick_button" type="button"  id="ruleset_vanilla"  name="ruleset"   value="Vanilla"        onclick="tierlistRulesetHighlight('null', 'vanilla')">
-                            <input class="thick_button" type="button"  id="ruleset_b5b"      name="ruleset"   value="Big 5 Ban"      onclick="tierlistRulesetHighlight('null', 'b5b')">
-                            <input class="thick_button" type="button"  id="ruleset_ag"       name="ruleset"   value="Anything Goes"  onclick="tierlistRulesetHighlight('null', 'ag')">
+                            <input class="thick_button" type="button"  id="ruleset_vanilla"  name="ruleset"   value="Vanilla"        onclick="usageTierlistRulesetHighlight('null', 'vanilla')">
+                            <input class="thick_button" type="button"  id="ruleset_b5b"      name="ruleset"   value="Big 5 Ban"      onclick="usageTierlistRulesetHighlight('null', 'b5b')">
+                            <input class="thick_button" type="button"  id="ruleset_ag"       name="ruleset"   value="Anything Goes"  onclick="usageTierlistRulesetHighlight('null', 'ag')">
                         </div>
                     </form>
                 </div>
-
-
                 
-                <div class="container quick_statistics">
-                    <p class="stats" id="global_average_rating">Global Average Rating: (xx.xx)</p>
+                <div class="container search_bar">
+                    <form>
+                        <div class="search_buttons">
+                            <input class="thick_button" type="button"  id="filter_all"              name="ruleset"   value="Filter All"                 onclick="usageTierlistFilterHighlight('null', 'all')">
+                            <input class="thick_button" type="button"  id="filter_active"           name="ruleset"   value="Filter Active"              onclick="usageTierlistFilterHighlight('null', 'active')">
+                            <input class="thick_button" type="button"  id="filter_active_standby"   name="ruleset"   value="Filter Active and Standby"  onclick="usageTierlistFilterHighlight('null', 'active_standby')">
+                        </div>
+                    </form>
                 </div>
+                
+                <!-- <div class="container quick_statistics">
+                    <p class="stats" id="global_average_rating">Global Average Rating: (xx.xx)</p>
+                </div> -->
             </div>
 
 
 
             <div class="block">
                 <div class="container">
-                    <H2 id="tierlistTitle" style="text-align: center;">Amiibots Realtime Tierlist</H2>
+                    <H2 id="tierlistTitle" style="text-align: center;">Character Population Tierlist</H2>
 
                     <div class="flex_container">
                         <div class="tier_list_row_header" style="background-color: rgba(255, 255, 255, 1);">
-                            <h2 class="tier_list_row_header_text">U</h2>
+                            <h2 class="tier_list_row_header_text">UBER</h2>
                         </div>
-                        <div class="flex_container" id="U_TIER"></div>
+                        <div class="flex_container" id="UBER_TIER"></div>
                     </div>
 
 
                     <div class="flex_container">
                         <div class="tier_list_row_header" style="background-color: rgba(255, 127, 127, 1);">
-                            <h2 class="tier_list_row_header_text">S</h2>
+                            <h2 class="tier_list_row_header_text">OU</h2>
                         </div>
-                        <div class="flex_container" id="S_TIER"></div>
+                        <div class="flex_container" id="OU_TIER"></div>
                     </div>
 
 
                     <div class="flex_container">
                         <div class="tier_list_row_header" style="background-color: rgba(255, 191, 127, 1);">
-                            <h2 class="tier_list_row_header_text">A+</h2>
+                            <h2 class="tier_list_row_header_text">UU</h2>
                         </div>
-                        <div class="flex_container" id="A+_TIER"></div>
+                        <div class="flex_container" id="UU_TIER"></div>
                     </div>
 
 
                     <div class="flex_container">
                         <div class="tier_list_row_header" style="background-color: rgba(255, 223, 127, 1);">
-                            <h2 class="tier_list_row_header_text">A</h2>
+                            <h2 class="tier_list_row_header_text">RU</h2>
                         </div>
-                        <div class="flex_container" id="A_TIER"></div>
+                        <div class="flex_container" id="RU_TIER"></div>
                     </div>
 
 
                     <div class="flex_container">
                         <div class="tier_list_row_header" style="background-color: rgba(255, 255, 127, 1);">
-                            <h2 class="tier_list_row_header_text">B+</h2>
+                            <h2 class="tier_list_row_header_text">NU</h2>
                         </div>
-                        <div class="flex_container" id="B+_TIER"></div>
+                        <div class="flex_container" id="NU_TIER"></div>
                     </div>
 
-
-                    <div class="flex_container">
-                        <div class="tier_list_row_header" style="background-color: rgba(191, 255, 127, 1);">
-                            <h2 class="tier_list_row_header_text">B</h2>
-                        </div>
-                        <div class="flex_container" id="B_TIER"></div>
-                    </div>
-
-
-                    <div class="flex_container">
-                        <div class="tier_list_row_header" style="background-color: rgba(127, 255, 127, 1);">
-                            <h2 class="tier_list_row_header_text">C+</h2>
-                        </div>
-                        <div class="flex_container" id="C+_TIER"></div>
-                    </div>
-
-
-                    <div class="flex_container">
-                        <div class="tier_list_row_header" style="background-color: rgba(127, 255, 255, 1);">
-                            <h2 class="tier_list_row_header_text">C</h2>
-                        </div>
-                        <div class="flex_container" id="C_TIER"></div>
-                    </div>
-
-
-                    <div class="flex_container">
-                        <div class="tier_list_row_header" style="background-color: rgba(127, 191, 255, 1);">
-                            <h2 class="tier_list_row_header_text">D+</h2>
-                        </div>
-                        <div class="flex_container" id="D+_TIER"></div>  
-                    </div>
             
                 </div>
             </div>
@@ -171,3 +148,4 @@
 
         
     </body>
+</html>

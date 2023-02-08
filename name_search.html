@@ -14,8 +14,8 @@
 
 
 
-
-    <body onload="idSearchHighlight('start')">
+    
+    <body onload="queryLength('amiibo', 'nameSearchTool'); nameSearchToolHighlight('start');"> 
 
         <nav class="navbar">
             <ul class="navbar_nav">
@@ -66,10 +66,6 @@
             <div class="header">
                 <h1 class="title">Amiibots Statistics Tool</h1> 
                 <p class="version">v1.1.3</p>
-
-                <p> This search tool will search 2500 games for the specified ruleset (~7 days of games). <br>
-                    Please contact <b>Azend_#6743</b> on discord if you are having trouble finding IDs
-                </p>
             </div>
 
 
@@ -78,40 +74,27 @@
                 <div class="flex_container">
                     <div class="container search_bar">
                         <form>
-                            <input type="text"  id="search_amiibo_name_and_id"          name="trainer"    placeholder="Enter your Twitch username here">
+                            <input type="text"  id="search_amiibo_name"  name="amiibo_name_search"   onkeyup="nameSearchBar()"    placeholder="Search for an amiibo name">
+                        </form>
+                    </div>
 
+                    <div class="container search_bar">
+                        <form>
                             <div class="search_buttons">
-                                <input type="button"  id="ruleset_vanilla"  name="ruleset"   value="Vanilla"        onclick="idSearchHighlight('null', 'vanilla')">
-                                <input type="button"  id="ruleset_b5b"      name="ruleset"   value="Big 5 Ban"      onclick="idSearchHighlight('null', 'b5b')">
-                                <input type="button"  id="ruleset_ag"       name="ruleset"   value="Anything Goes"  onclick="idSearchHighlight('null', 'ag')">
-                            </div>
-
-                            <div class="search_buttons">
-                                <input type="button" value="Search for Amiibo IDs"  class="id_search_button main_search" id="button" onclick="amiibotsIDSearch()" required></form>
+                                <input class="button" type="button"  id="ruleset_vanilla"  name="ruleset"   value="Vanilla"        onclick="nameSearchToolHighlight('null', 'vanilla')">
+                                <input class="button" type="button"  id="ruleset_b5b"      name="ruleset"   value="Big 5 Ban"      onclick="nameSearchToolHighlight('null', 'b5b')">
+                                <input class="button" type="button"  id="ruleset_ag"       name="ruleset"   value="Anything Goes"  onclick="nameSearchToolHighlight('null', 'ag')">
                             </div>
                         </form>
                     </div>
+
                 </div>
             </div>
 
-
-            <div class="block">
-                <div class="flex_container">
-                    <div class="container">
-                        <h3 class="stats">Amiibots Trainer ID:</h3>
-                        <div class="stats" id="amiibots_id_found"></div>
-                    </div>
-
-                    <div class="container quick_statistics amiibots_id">
-                        <h3 class="stats">Progress:</h3>
-                        <p class="stats" id="amiibo_id_found">Type your Twitch username to begin</p>
-                    </div>
-                </div>
-            </div>
 
             <div class="block">
                 <div class="container">
-                    <h3 class="stats">List of User Amiibo:</h3>
+                    <h3 class="stats">List of All Amiibo:</h3>
                     <h4 class="stats" id="amiibo_count"></h4>
                     <div id="amiibo_list"></div>
                 </div>
