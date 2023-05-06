@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <meta name="Amiibots Statistics Tool" content="width = device-width", initial-scale = "1.0">
+        <title>Amiibots Statistics Tool</title>
+
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+        <link rel="stylesheet" href="css/styles.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.6.0/jszip.min.js"></script>
+        <script src="js/character_matchups.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" 
+                integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" 
+                crossorigin="anonymous" 
+                referrerpolicy="no-referrer"></script>
+    </head>
+
+
+
+
+
+    <body onload="getAllCharacters(); versionNo();">
+
+        <nav class="navbar">
+            <ul class="navbar_nav">
+
+                <li class="nav_item" onclick="window.location.href = 'index.html'">
+                    <a href="#" class="nav_link">
+                        <img class="nav_img" src="images/icon_amiibo_stats.png">
+                        <h2 class="link_text">Graphing Tool</h2>
+                    </a>
+                </li>
+
+                <li class="nav_item" onclick="window.location.href = 'id_search.html'">
+                    <a href="#" class="nav_link">
+                        <img class="nav_img" src="images/icon_id_search.png">
+                        <h2 class="link_text">ID Search Tool</h2>
+                    </a>
+                </li>
+
+                <li class="nav_item" onclick="window.location.href = 'name_search.html'">
+                    <a href="#" class="nav_link">
+                        <img class="nav_img" src="images/icon_name_search.png">
+                        <h2 class="link_text">Name Search Tool</h2>
+                    </a>
+                </li>
+
+                <li class="nav_item" onclick="window.location.href = 'tierlist.html'">
+                    <a href="#" class="nav_link">
+                        <img class="nav_img" src="images/icon_live_tierlist.png">
+                        <h2 class="link_text">Live Tierlist</h2>
+                    </a>
+                </li>
+
+                <li class="nav_item" onclick="window.location.href = 'usage_tierlist.html'">
+                    <a href="#" class="nav_link">
+                        <img class="nav_img" src="images/icon_usage_tierlist.png">
+                        <h2 class="link_text">Usage Tierlist</h2>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+
+
+
+        
+
+        <main>
+            <div class="header">
+                <h1 class="title">Amiibots Statistics Tool</h1> 
+                <p class="version" id="versionNo"></p>
+            </div>
+
+
+
+            <div class="block">
+                <div class="flex_container">
+                    <div class="container">
+
+                        <select class="" id="selectCharacterDropdown" onchange="characterMatchup(this)">
+                            <option value="Select a Character" id="">Select a Character</option>
+                          </select>
+
+                    </div>
+
+                    <div class="container">
+                        <div id="test"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <div class="block">
+                <div class="flex_container">
+                    <div class="container quick_statistics">
+                        <p class="stats" id="amiibo_rating">Rating: Calculating...</p>
+                        <p class="stats" id="amiibo_rating_max">Highest Rating: Calculating...</p>
+                        <p class="stats" id="amiibo_rating_mu">Rating mu: Calculating...</p>
+                        <p class="stats" id="amiibo_rating_sigma">Rating Sigma: Calculating...</p>
+                    </div>
+
+                    <div class="container quick_statistics">
+                        <p class="stats" id="amiibo_rank_overall">Rank (Overall): Calculating...</p>
+                        <p class="stats" id="amiibo_rank_character">Rank (Character): Calculating...</p>
+                        <p class="stats" id="amiibo_next_rank_overall">Next Rank (Overall): Calculating...</p>
+                        <p class="stats" id="amiibo_next_rank_character">Next Rank (Character): Calculating...</p>
+                    </div>
+                </div>
+            </div> -->
+
+
+
+            
+
+
+
+
+
+            <div class="block">
+                <div class="container">
+                    <h2 class="stats" id="rating_ditribution_chart_title" style="text-align: center;">Rating distribution</h2>
+
+
+                <div id="rating_ditribution">
+                    <canvas id="rating_ditribution_canvas"></canvas>
+                </div>
+
+                </div>
+            </div>
+
+
+            <input type="button" value="Copy to clipboard" onclick="copyCanvas('amiibo_lost_to_chart_canvas');">
+
+
+
+            <div class="block" id="matchup_chart_canvas">
+                <div class="container amiibo_lost_to">
+                        <h2 class="stats" id="matchup_chart_title" style="text-align: center;">Character Matchup Chart of:</h2>
+
+                        <div class="search_buttons">
+                            <input type="button"    value="Sort by Tierlist"                id="sort_by_tierlist"       onclick="   drawCharts(); 
+                                                                                                                                    highlightSortButton('sort_by_tierlist')" required></form>
+
+                            <input type="button"    value="Sort by Win Rate"                id="sort_by_win_rate"       onclick="   sortMatchupChartData('winRate'); 
+                                                                                                                                    highlightSortButton('sort_by_win_rate')" required></form>
+
+                            <input type="button"    value="Sort by Number of Encounters"    id="sort_by_encounters"     onclick="   sortMatchupChartData('numberOfEncounters'); 
+                                                                                                                                    highlightSortButton('sort_by_encounters')" required></form>
+
+                            <input type="button"    value="Sort by Most Lost To"            id="sort_by_most_lost"      onclick="   sortMatchupChartData('mostLostTo');
+                                                                                                                                    highlightSortButton('sort_by_most_lost')" required></form>
+                        </div>
+
+                        <div id="amiibo_lost_to">
+                            <canvas id="amiibo_lost_to_chart_canvas"></canvas>
+                        </div>
+                </div>
+            </div>
+
+
+
+
+
+        </main>
+
+
+
+
+
+    <script>
+
+                                                        
+
+//                                                              GRAPH AMIIBO LOST TO
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+            async function characterMatchupChart(sorted) {
+            let character_matchup_chart_location = document.getElementById('amiibo_lost_to_chart_canvas');  
+                
+                if (sorted == 'sorted') {
+                    const graph_height = ((matchupChart_characterPlayed_data.length * 20) + 200);
+                    document.getElementById('amiibo_lost_to').setAttribute("style", `height:${graph_height}px`);
+
+                    let character_matchup_chart = new Chart(character_matchup_chart_location, {
+                        type: 'bar',
+                        
+                        data: {
+                            labels: matchupChart_characterPlayed_data,
+                            datasets: [{
+                             label: `Defeated`,
+                                data: matchupChart_wonTo_data,
+                                backgroundColor: secondary_background_colour,
+                                borderColor: secondary_border_colour,
+                                fill: true,
+                                borderWidth: 1
+                            },
+                            {
+                                label: `Lost to`,
+                                data: matchupChart_lostTo_data,
+                                backgroundColor: primary_background_colour,
+                                borderColor: primary_border_colour,
+                                fill: true,
+                                borderWidth: 1
+                            }]
+                        },
+                        
+                        options: {
+                            indexAxis: 'y',
+                            responsive: true,
+                            maintainAspectRatio: false,
+                                                    scales: {
+                                x: {
+                                    stacked: true,
+                                    title: {
+                                        display: true,
+                                        text: 'Times Defeated'
+                                    },
+                                },
+                                y: {
+                                    stacked: true,
+                                },
+                            }
+                        },
+                        plugins: [ChartDataLabels], 
+                        labels: {
+                            fontColor: 'rgba(170, 200, 100, 1)',
+                        }
+                    });
+
+
+
+                } else {
+                    const graph_height = ((matchupChart_characterPlayed_data.length * 20) + 200);
+                    document.getElementById('amiibo_lost_to').setAttribute("style", `height:${graph_height}px`);
+                    let character_matchup_chart = new Chart(character_matchup_chart_location, {
+                        type: 'bar',
+                        
+                        data: {
+                            labels: matchupChart_characterPlayed_data,
+                            datasets: [{
+                                label: `Defeated`,
+                                data: matchupChart_wonTo_data,
+                                backgroundColor: secondary_background_colour,
+                                borderColor: secondary_border_colour,
+                                fill: true,
+                                borderWidth: 1
+                            },
+                            {
+                                label: `Lost to`,
+                                data: matchupChart_lostTo_data,
+                                backgroundColor: primary_background_colour,
+                                borderColor: primary_border_colour,
+                                fill: true,
+                                borderWidth: 1
+                            },
+                            {
+                                label: 'Tier',
+                                data: tier_break,
+                                backgroundColor: 'rgba(100, 100, 100, 0.2)',
+                                borderColor: 'rgba(100, 100, 100, 0.8)',
+                                fill: true,
+                                borderWidth: 1
+                            }]
+                        },
+                        
+                        options: {
+                            indexAxis: 'y',
+                            responsive: true,
+                            maintainAspectRatio: false,
+                                                    scales: {
+                                x: {
+                                    stacked: true,
+                                    title: {
+                                        display: true,
+                                        text: 'Times Defeated'
+                                    },
+                                },
+                                y: {
+                                    stacked: true,
+                                },
+                            }
+                        },
+                        plugins: [ChartDataLabels], 
+                        labels: {
+                            fontColor: 'rgba(170, 200, 100, 1)',
+                        }
+                    });
+                }
+            }
+
+
+
+
+
+
+
+            async function ratingDistribution(data, averageRating) {
+
+                // Calculate the Y values for the normal distribution
+                const normalDistribution = (x, mean, stdDev) =>
+                    Math.exp(-0.5 * Math.pow((x - mean) / stdDev, 2)) /
+                    (stdDev * Math.sqrt(2 * Math.PI));
+
+                const yValues = data.map((x) => normalDistribution(x, averageRating, 2.5));
+
+                // Create the chart
+                const ctx = document.getElementById("rating_ditribution_canvas").getContext("2d");
+                const myChart = new Chart(ctx, {
+                    type: "line",
+                    data: {
+                    labels: data,
+                    datasets: [
+                        {
+                        label: "Normal Distribution",
+                        data: yValues,
+                        backgroundColor: "rgba(255, 99, 132, 0.2)",
+                        borderColor: "rgba(255, 99, 132, 1)",
+                        borderWidth: 0.25,
+                        pointRadius: 0.25,
+                        pointHoverRadius: 0.25,
+                        fill: true,
+                        },
+                    ],
+                    },
+                    options: {
+                    scales: {
+                        yAxes: [
+                        {
+                            ticks: {
+                            beginAtZero: true,
+                            },
+                        },
+                        ],
+                    },
+                    },
+                });
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//                                                              END OF SCRIPT
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+        </script>
+    </body>
+</html>
