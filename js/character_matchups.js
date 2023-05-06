@@ -83,52 +83,8 @@ async function characterMatchup(selectedOption) {
 
 
 
-
-
-
-
-
-
-    // // Assuming you have a blob object of the zipped file, e.g. from an input file element
-    // const file = '../json/AmiibotsMatchHistory.zip';
-
-    // let jsonFile;
-
-    // // Create a new JSZip object
-    // const zip = new JSZip();
-
-    // // Load the zipped file into JSZip
-    // fetch(file)
-    // .then(response => response.arrayBuffer())
-    // .then(buffer => zip.loadAsync(buffer))
-    // .then((zip) => {
-    //     // Get a reference to the .json file within the zip
-    //     jsonFile = zip.file('AmiibotsMatchHistory.json');
-
-    //     if (jsonFile) {
-    //     // Read the contents of the .json file
-    //     jsonFile.async('string')
-    //         .then((jsonContent) => {
-    //         // Do something with the contents of the .json file
-    //         console.log('fetched');
-    //         })
-    //         .catch((error) => {
-    //         console.error('Error reading .json file:', error);
-    //         });
-    //     } else {
-    //     console.error('.json file not found in zip');
-    //     }
-    // })
-    // .catch((error) => {
-    //     console.error('Error loading zip file:', error);
-    // });
-
-
-
-
-
     async function readZip() {
-        const file = '../json/AmiibotsMatchHistory.zip';
+        const file = 'https://raw.githubusercontent.com/KarlTilsner/Amiibots-Statistics-Tool/main/json/AmiibotsMatchHistory.zip';
         const zip = new JSZip();
       
         const response = await fetch(file);
