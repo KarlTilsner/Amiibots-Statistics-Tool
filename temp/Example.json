@@ -1,0 +1,47 @@
+[
+  {
+    "winner_character_id": "4baddb51-1a48-481b-9c29-332c0f0fa5cb",
+    "winner_unique_amiibo_id": "5cebf15d-6d23-4af0-8bec-309bdf0f9c94",
+    "winner_name": "Jessica",
+    "winner_rating": 25.279676371070124,
+    "winner_trainer_name": "necros_555",
+    "winner_trainer_id": "58a63404-2061-49c1-90fc-dae6f337db67",
+    "loser_character_id": "1874d724-bd91-43ab-91ae-a8b4a740b951",
+    "loser_unique_amiibo_id": "b0db336b-b407-4e0d-b0bd-76abfa4d5747",
+    "loser_name": "Midley",
+    "loser_rating": 22.085679053299256,
+    "loser_trainer_name": "sploder123",
+    "loser_trainer_id": "7a7470ff-a67b-46aa-a149-de714a965895",
+    "created_at": "2023-04-23T07:07:08.079335+00:00"
+  },
+  {
+    "winner_character_id": "b2e680f3-0c62-4387-a4ac-b539d85e90c0",
+    "winner_unique_amiibo_id": "b7a42a67-3c5c-46e5-84bf-34f1f5030e13",
+    "winner_name": "Sun Tzu",
+    "winner_rating": 31.242029415258763,
+    "winner_trainer_name": "ggfan52",
+    "winner_trainer_id": "229cc080-eb7b-4fa0-856d-af16574a0979",
+    "loser_character_id": "81bb935e-51ad-4a35-92e6-9d7565bed6a9",
+    "loser_unique_amiibo_id": "2e84e122-f22b-45bc-ad70-82146861cc06",
+    "loser_name": "Mr. Kruger",
+    "loser_rating": 10.988897183359256,
+    "loser_trainer_name": "carbon_show",
+    "loser_trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+    "created_at": "2023-04-23T07:03:25.506979+00:00"
+  },
+  {
+    "winner_character_id": "39f4f717-151a-4cb0-b672-7a66ba3c5274",
+    "winner_unique_amiibo_id": "cbe69965-8be5-4ad4-9eda-a53e52dd9b42",
+    "winner_name": "I'm Better",
+    "winner_rating": 30.597934216198748,
+    "winner_trainer_name": "Azend_1",
+    "winner_trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+    "loser_character_id": "3a80cdac-93bb-4a75-8e38-f69f37d10ec6",
+    "loser_unique_amiibo_id": "b4ebdb90-4394-4919-8ee6-fa7b962cdad0",
+    "loser_name": "Keith",
+    "loser_rating": 28.813849661794322,
+    "loser_trainer_name": "nonSenseTaco",
+    "loser_trainer_id": "483fb9bd-575a-446b-90ee-b81fa0b8e69d",
+    "created_at": "2023-04-23T06:59:18.603745+00:00"
+  }
+]

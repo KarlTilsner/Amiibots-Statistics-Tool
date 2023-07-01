@@ -1,4 +1,16 @@
 Change Log:
+v1.2.0
+- Name search tool now allows you to search for a trainer name to filter all their amiibo
+- Added a matchup graph for an entire character
+    - Use a dropdown to select the character
+    - Shows how a specified character performs against every character
+    - Shows a rating distribution of the specified character
+    - Sort feature for all of the matchups, see the worst to best matchups
+- Added a rank tool to display how many amiibo a specified trainer has in the top 10
+    - displays amiibo ranked 1st on leaderboards
+    - displays amiibo ranked top 10 on leaderboards
+- Added the history of the highest rating for a specified character
+    - displays the highest rating ever recorded at a resolution of one week
 
 v1.1.3
 - Added an extended match history specifically for the amiibo being graphed

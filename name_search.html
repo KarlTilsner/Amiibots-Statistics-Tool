@@ -8,14 +8,16 @@
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
         <link rel="stylesheet" href="css/styles.css">
-        <script src="js/index.js"></script>
+
+        <script src="js/name_search.js"></script>
+        <script src="js/versionNumber.js"></script>
     </head>
 
 
 
 
     
-    <body onload="queryLength('amiibo', 'nameSearchTool'); nameSearchToolHighlight('start');"> 
+    <body> 
 
         <nav class="navbar">
             <ul class="navbar_nav">
@@ -31,6 +33,20 @@
                     <a href="#" class="nav_link">
                         <img class="nav_img" src="images/icon_id_search.png">
                         <h2 class="link_text">ID Search Tool</h2>
+                    </a>
+                </li>
+
+                <li class="nav_item" onclick="window.location.href = 'character_matchups.html'">
+                    <a href="#" class="nav_link">
+                        <img class="nav_img" src="images/icon_matchup_tool.png">
+                        <h2 class="link_text">Character Matchups</h2>
+                    </a>
+                </li>
+
+                <li class="nav_item" onclick="window.location.href = 'rank_tool.html'">
+                    <a href="#" class="nav_link">
+                        <img class="nav_img" src="images/icon_rank_tool.png">
+                        <h2 class="link_text">Rank Tool</h2>
                     </a>
                 </li>
 
@@ -65,7 +81,7 @@
         <main>
             <div class="header">
                 <h1 class="title">Amiibots Statistics Tool</h1> 
-                <p class="version">v1.1.3</p>
+                <p class="version" id="versionNo"></p>
             </div>
 
 
@@ -75,6 +91,12 @@
                     <div class="container search_bar">
                         <form>
                             <input type="text"  id="search_amiibo_name"  name="amiibo_name_search"   onkeyup="nameSearchBar()"    placeholder="Search for an amiibo name">
+                        </form>
+                    </div>
+
+                    <div class="container search_bar">
+                        <form>
+                            <input type="text"  id="search_trainer_name"  name="trainer_name_search"   onkeyup="nameSearchBar()"    placeholder="Search for a trainer's name">
                         </form>
                     </div>
 

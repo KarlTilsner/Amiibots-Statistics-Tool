@@ -11,6 +11,7 @@
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.6.0/jszip.min.js"></script>
         <script src="js/character_matchups.js"></script>
+        <script src="js/versionNumber.js"></script>
 
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" 
@@ -23,7 +24,7 @@
 
 
 
-    <body onload="getAllCharacters(); versionNo();">
+    <body>
 
         <nav class="navbar">
             <ul class="navbar_nav">
@@ -39,6 +40,20 @@
                     <a href="#" class="nav_link">
                         <img class="nav_img" src="images/icon_id_search.png">
                         <h2 class="link_text">ID Search Tool</h2>
+                    </a>
+                </li>
+
+                <li class="nav_item" onclick="window.location.href = 'character_matchups.html'">
+                    <a href="#" class="nav_link">
+                        <img class="nav_img" src="images/icon_matchup_tool.png">
+                        <h2 class="link_text">Character Matchups</h2>
+                    </a>
+                </li>
+
+                <li class="nav_item" onclick="window.location.href = 'rank_tool.html'">
+                    <a href="#" class="nav_link">
+                        <img class="nav_img" src="images/icon_rank_tool.png">
+                        <h2 class="link_text">Rank Tool</h2>
                     </a>
                 </li>
 
@@ -79,51 +94,43 @@
 
 
             <div class="block">
+
                 <div class="flex_container">
-                    <div class="container">
+                    <select class="dropdownMenu" id="selectCharacterDropdown" onchange="characterMatchup(this)">
+                        <option class="dropdownMenuOption" value="Select a Character" id="">Select a Character</option>
+                    </select>
 
-                        <select class="" id="selectCharacterDropdown" onchange="characterMatchup(this)">
-                            <option value="Select a Character" id="">Select a Character</option>
-                          </select>
-
+                    <div class="container list_item_short" id="list_item_searchable">
+                        <img id='list_img' src="images/Blank Icon.png" class="list_image">
+                        <p class="list_stats">
+                            <i id="list_rating">Rating:</i></br>
+                            <i id="list_win_rate">Win Rate:</i></br>
+                            <i id="list_wins">Wins:</i></br>
+                            <i id="list_losses">Losses:</i></br>
+                            <i id="list_total_matches">Total Matches:</i></br>
+                            </br>
+                        </p>
                     </div>
+                </div>
+            </div>
+       
 
-                    <div class="container">
-                        <div id="test"></div>
+
+            <div class="block">
+                <div class="container">
+                    <h2 class="stats" id="rating_history_chart_title" style="text-align: center;">Rating History</h2>
+
+                    <div class="rating_history" id="rating_history">
+                        <canvas id="rating_history_chart_canvas"></canvas>
                     </div>
                 </div>
             </div>
 
 
-            <!-- <div class="block">
-                <div class="flex_container">
-                    <div class="container quick_statistics">
-                        <p class="stats" id="amiibo_rating">Rating: Calculating...</p>
-                        <p class="stats" id="amiibo_rating_max">Highest Rating: Calculating...</p>
-                        <p class="stats" id="amiibo_rating_mu">Rating mu: Calculating...</p>
-                        <p class="stats" id="amiibo_rating_sigma">Rating Sigma: Calculating...</p>
-                    </div>
-
-                    <div class="container quick_statistics">
-                        <p class="stats" id="amiibo_rank_overall">Rank (Overall): Calculating...</p>
-                        <p class="stats" id="amiibo_rank_character">Rank (Character): Calculating...</p>
-                        <p class="stats" id="amiibo_next_rank_overall">Next Rank (Overall): Calculating...</p>
-                        <p class="stats" id="amiibo_next_rank_character">Next Rank (Character): Calculating...</p>
-                    </div>
-                </div>
-            </div> -->
-
-
-
-            
-
-
-
-
 
             <div class="block">
                 <div class="container">
-                    <h2 class="stats" id="rating_ditribution_chart_title" style="text-align: center;">Rating distribution</h2>
+                    <h2 class="stats" id="rating_ditribution_chart_title" style="text-align: center;">Rating Distribution</h2>
 
 
                 <div id="rating_ditribution">
@@ -134,27 +141,22 @@
             </div>
 
 
-            <input type="button" value="Copy to clipboard" onclick="copyCanvas('amiibo_lost_to_chart_canvas');">
-
-
 
             <div class="block" id="matchup_chart_canvas">
                 <div class="container amiibo_lost_to">
-                        <h2 class="stats" id="matchup_chart_title" style="text-align: center;">Character Matchup Chart of:</h2>
+                        <h2 class="stats" id="matchup_chart_title" style="text-align: center;">Character Matchups</h2>
 
                         <div class="search_buttons">
-                            <input type="button"    value="Sort by Tierlist"                id="sort_by_tierlist"       onclick="   drawCharts(); 
-                                                                                                                                    highlightSortButton('sort_by_tierlist')" required></form>
+                            <input type="button"    value="Sort by Alphabetical"            id="sort_by_alphabetical"   onclick="   sortMatchupChartData('alphabetical'); 
+                                                                                                                                    highlightSortButton('sort_by_alphabetical')" required></form>
 
                             <input type="button"    value="Sort by Win Rate"                id="sort_by_win_rate"       onclick="   sortMatchupChartData('winRate'); 
                                                                                                                                     highlightSortButton('sort_by_win_rate')" required></form>
 
-                            <input type="button"    value="Sort by Number of Encounters"    id="sort_by_encounters"     onclick="   sortMatchupChartData('numberOfEncounters'); 
-                                                                                                                                    highlightSortButton('sort_by_encounters')" required></form>
-
-                            <input type="button"    value="Sort by Most Lost To"            id="sort_by_most_lost"      onclick="   sortMatchupChartData('mostLostTo');
-                                                                                                                                    highlightSortButton('sort_by_most_lost')" required></form>
+                            <input type="button" value="Copy to clipboard" onclick="copyCanvas('amiibo_lost_to_chart_canvas');">
                         </div>
+
+                        
 
                         <div id="amiibo_lost_to">
                             <canvas id="amiibo_lost_to_chart_canvas"></canvas>
@@ -174,171 +176,310 @@
 
     <script>
 
-                                                        
 
-//                                                              GRAPH AMIIBO LOST TO
+           
+//                                                              GRAPH RATING HISTORY
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
-            async function characterMatchupChart(sorted) {
-            let character_matchup_chart_location = document.getElementById('amiibo_lost_to_chart_canvas');  
+    //Draw chart onto a canvas
+    // async function RatingHistoryChart() {
+
+    // const barWidth = ((highestRatedHistory.length)/100)*0.25;
+
+    // let rating_history_chart_location = document.getElementById('rating_history_chart_canvas');  
+    //     let rating_history_chart = new Chart(rating_history_chart_location, {
+    //         type: 'line',
+            
+    //         data: {
+    //             labels: weeks,
+    //             datasets: [{
+    //                 label: `Rating`,
+    //                 data: rating,
+    //                 backgroundColor: primary_background_colour,
+    //                 borderColor: primary_border_colour,
+    //                 fill: true,
+    //                 borderWidth: 1,
+    //                 pointRadius: 1,
+    //                 pointHoverRadius: 1
+    //             }]
+    //         },
+            
+    //         options: {
+    //             responsive: true,
+    //             maintainAspectRatio: false,
+    //             scales: {
+    //                 x: {
+    //                     grid: {
+    //                         display: false
+    //                     },
+    //                     title: {
+    //                         display: true,
+    //                         text: 'Week'
+    //                     }
+    //                 },
+    //                 y: {
+    //                     beginAtZero: true,
+    //                     grid: {
+    //                         color: 'rgba(200, 200, 200, 0.2)'
+    //                     },
+    //                     title: {
+    //                         display: true,
+    //                         text: 'Rating Over Time'
+    //                     }
+    //                 }
+    //             }
+    //         } 
+    //     });
+    // }
+
+
+    // async function RatingHistoryChart(newDataset) {
+    //     // const barWidth = (highestRatedHistory.length / 100) * 0.25;
+
+    //     let rating_history_chart_location = document.getElementById('rating_history_chart_canvas');
+    //     let rating_history_chart = new Chart(rating_history_chart_location, {
+    //         type: 'bar',
+    //         data: {
+    //             labels: xAxis_weeks,
+    //             datasets: newDataset, // Add the new dataset here 
+    //         },
+    //         options: {
+    //             responsive: true,
+    //             maintainAspectRatio: false,
+    //             scales: {
+    //                 x: {
+    //                     grid: {
+    //                         display: false,
+    //                     },
+    //                     title: {
+    //                         display: true,
+    //                         text: 'Week',
+    //                     },
+    //                 },
+    //                 y: {
+    //                     beginAtZero: true,
+    //                     grid: {
+    //                         color: 'rgba(200, 200, 200, 0.2)',
+    //                     },
+    //                     title: {
+    //                         display: true,
+    //                         text: 'Rating Over Time',
+    //                     },
+    //                 },
+    //             },
+    //         },
+    //     });
+    // }
+
+
+
+
+    async function RatingHistoryChart(datasets) {
+  const barWidth = (highestRatedHistory.length / 100) * 0.25;
+
+  let rating_history_chart_location = document.getElementById('rating_history_chart_canvas');
+  let rating_history_chart = new Chart(rating_history_chart_location, {
+    type: 'line',
+    data: {
+      labels: xAxis_weeks,
+      datasets: datasets, // Use the provided datasets array
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        x: {
+          grid: {
+            display: false,
+          },
+          title: {
+            display: true,
+            text: 'Week',
+          },
+        },
+        y: {
+          beginAtZero: true,
+          grid: {
+            color: 'rgba(200, 200, 200, 0.2)',
+          },
+          title: {
+            display: true,
+            text: 'Rating Over Time',
+          },
+        },
+      },
+    },
+  });
+}
+
+
+    
+
+
+
+
+// GRAPH MATCHUP DATA
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+    async function characterMatchupChart(sorted) {
+    let character_matchup_chart_location = document.getElementById('amiibo_lost_to_chart_canvas');  
+        
+        if (sorted == 'sorted') {
+            const graph_height = ((matchupChart_characterPlayed_data.length * 20) + 200);
+            document.getElementById('amiibo_lost_to').setAttribute("style", `height:${graph_height}px`);
+
+            let character_matchup_chart = new Chart(character_matchup_chart_location, {
+                type: 'bar',
                 
-                if (sorted == 'sorted') {
-                    const graph_height = ((matchupChart_characterPlayed_data.length * 20) + 200);
-                    document.getElementById('amiibo_lost_to').setAttribute("style", `height:${graph_height}px`);
-
-                    let character_matchup_chart = new Chart(character_matchup_chart_location, {
-                        type: 'bar',
-                        
-                        data: {
-                            labels: matchupChart_characterPlayed_data,
-                            datasets: [{
-                             label: `Defeated`,
-                                data: matchupChart_wonTo_data,
-                                backgroundColor: secondary_background_colour,
-                                borderColor: secondary_border_colour,
-                                fill: true,
-                                borderWidth: 1
-                            },
-                            {
-                                label: `Lost to`,
-                                data: matchupChart_lostTo_data,
-                                backgroundColor: primary_background_colour,
-                                borderColor: primary_border_colour,
-                                fill: true,
-                                borderWidth: 1
-                            }]
-                        },
-                        
-                        options: {
-                            indexAxis: 'y',
-                            responsive: true,
-                            maintainAspectRatio: false,
-                                                    scales: {
-                                x: {
-                                    stacked: true,
-                                    title: {
-                                        display: true,
-                                        text: 'Times Defeated'
-                                    },
-                                },
-                                y: {
-                                    stacked: true,
-                                },
-                            }
-                        },
-                        plugins: [ChartDataLabels], 
-                        labels: {
-                            fontColor: 'rgba(170, 200, 100, 1)',
-                        }
-                    });
-
-
-
-                } else {
-                    const graph_height = ((matchupChart_characterPlayed_data.length * 20) + 200);
-                    document.getElementById('amiibo_lost_to').setAttribute("style", `height:${graph_height}px`);
-                    let character_matchup_chart = new Chart(character_matchup_chart_location, {
-                        type: 'bar',
-                        
-                        data: {
-                            labels: matchupChart_characterPlayed_data,
-                            datasets: [{
-                                label: `Defeated`,
-                                data: matchupChart_wonTo_data,
-                                backgroundColor: secondary_background_colour,
-                                borderColor: secondary_border_colour,
-                                fill: true,
-                                borderWidth: 1
-                            },
-                            {
-                                label: `Lost to`,
-                                data: matchupChart_lostTo_data,
-                                backgroundColor: primary_background_colour,
-                                borderColor: primary_border_colour,
-                                fill: true,
-                                borderWidth: 1
-                            },
-                            {
-                                label: 'Tier',
-                                data: tier_break,
-                                backgroundColor: 'rgba(100, 100, 100, 0.2)',
-                                borderColor: 'rgba(100, 100, 100, 0.8)',
-                                fill: true,
-                                borderWidth: 1
-                            }]
-                        },
-                        
-                        options: {
-                            indexAxis: 'y',
-                            responsive: true,
-                            maintainAspectRatio: false,
-                                                    scales: {
-                                x: {
-                                    stacked: true,
-                                    title: {
-                                        display: true,
-                                        text: 'Times Defeated'
-                                    },
-                                },
-                                y: {
-                                    stacked: true,
-                                },
-                            }
-                        },
-                        plugins: [ChartDataLabels], 
-                        labels: {
-                            fontColor: 'rgba(170, 200, 100, 1)',
-                        }
-                    });
-                }
-            }
-
-
-
-
-
-
-
-            async function ratingDistribution(data, averageRating) {
-
-                // Calculate the Y values for the normal distribution
-                const normalDistribution = (x, mean, stdDev) =>
-                    Math.exp(-0.5 * Math.pow((x - mean) / stdDev, 2)) /
-                    (stdDev * Math.sqrt(2 * Math.PI));
-
-                const yValues = data.map((x) => normalDistribution(x, averageRating, 2.5));
-
-                // Create the chart
-                const ctx = document.getElementById("rating_ditribution_canvas").getContext("2d");
-                const myChart = new Chart(ctx, {
-                    type: "line",
-                    data: {
-                    labels: data,
-                    datasets: [
-                        {
-                        label: "Normal Distribution",
-                        data: yValues,
-                        backgroundColor: "rgba(255, 99, 132, 0.2)",
-                        borderColor: "rgba(255, 99, 132, 1)",
-                        borderWidth: 0.25,
-                        pointRadius: 0.25,
-                        pointHoverRadius: 0.25,
+                data: {
+                    labels: matchupChart_characterPlayed_data,
+                    datasets: [{
+                        label: `Defeated`,
+                        data: matchupChart_wonTo_data,
+                        backgroundColor: secondary_background_colour,
+                        borderColor: secondary_border_colour,
                         fill: true,
-                        },
-                    ],
+                        borderWidth: 1
                     },
-                    options: {
-                    scales: {
-                        yAxes: [
-                        {
-                            ticks: {
-                            beginAtZero: true,
+                    {
+                        label: `Lost to`,
+                        data: matchupChart_lostTo_data,
+                        backgroundColor: primary_background_colour,
+                        borderColor: primary_border_colour,
+                        fill: true,
+                        borderWidth: 1
+                    }]
+                },
+                
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                                            scales: {
+                        x: {
+                            stacked: true,
+                            title: {
+                                display: true,
+                                text: 'Times Defeated'
                             },
                         },
-                        ],
+                        y: {
+                            stacked: true,
+                        },
+                    }
+                },
+                plugins: [ChartDataLabels], 
+                labels: {
+                    fontColor: 'rgba(170, 200, 100, 1)',
+                }
+            });
+
+
+
+        } else {
+            const graph_height = ((matchupChart_characterPlayed_data.length * 20) + 200);
+            document.getElementById('amiibo_lost_to').setAttribute("style", `height:${graph_height}px`);
+            let character_matchup_chart = new Chart(character_matchup_chart_location, {
+                type: 'bar',
+                
+                data: {
+                    labels: matchupChart_characterPlayed_data,
+                    datasets: [{
+                        label: `Defeated`,
+                        data: matchupChart_wonTo_data,
+                        backgroundColor: secondary_background_colour,
+                        borderColor: secondary_border_colour,
+                        fill: true,
+                        borderWidth: 1
                     },
+                    {
+                        label: `Lost to`,
+                        data: matchupChart_lostTo_data,
+                        backgroundColor: primary_background_colour,
+                        borderColor: primary_border_colour,
+                        fill: true,
+                        borderWidth: 1
                     },
-                });
-            }
+                    {
+                        label: 'Tier',
+                        data: tier_break,
+                        backgroundColor: 'rgba(100, 100, 100, 0.2)',
+                        borderColor: 'rgba(100, 100, 100, 0.8)',
+                        fill: true,
+                        borderWidth: 1
+                    }]
+                },
+                
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                                            scales: {
+                        x: {
+                            stacked: true,
+                            title: {
+                                display: true,
+                                text: 'Times Defeated'
+                            },
+                        },
+                        y: {
+                            stacked: true,
+                        },
+                    }
+                },
+                plugins: [ChartDataLabels], 
+                labels: {
+                    fontColor: 'rgba(170, 200, 100, 1)',
+                }
+            });
+        }
+    }
+
+
+
+
+
+
+
+    async function ratingDistribution(data, averageRating) {
+
+        // Calculate the Y values for the normal distribution
+        const normalDistribution = (x, mean, stdDev) =>
+            Math.exp(-0.5 * Math.pow((x - mean) / stdDev, 2)) /
+            (stdDev * Math.sqrt(2 * Math.PI));
+
+        const yValues = data.map((x) => normalDistribution(x, averageRating, 2.5));
+
+        // Create the chart
+        const ctx = document.getElementById("rating_ditribution_canvas").getContext("2d");
+        const myChart = new Chart(ctx, {
+            type: "line",
+            data: {
+            labels: data,
+            datasets: [
+                {
+                label: "Normal Distribution",
+                data: yValues,
+                backgroundColor: "rgba(255, 99, 132, 0.2)",
+                borderColor: "rgba(255, 99, 132, 1)",
+                borderWidth: 0.25,
+                pointRadius: 0.25,
+                pointHoverRadius: 0.25,
+                fill: true,
+                },
+            ],
+            },
+            options: {
+            scales: {
+                yAxes: [
+                {
+                    ticks: {
+                    beginAtZero: true,
+                    },
+                },
+                ],
+            },
+            },
+        });
+    }
 
 
 
