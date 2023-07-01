@@ -8,14 +8,16 @@
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
         <link rel="stylesheet" href="css/styles.css">
-        <script src="js/index.js"></script>
+
+        <script src="js/id_search.js"></script>
+        <script src="js/versionNumber.js"></script>
     </head>
 
 
 
 
 
-    <body onload="idSearchHighlight('start')">
+    <body>
 
         <nav class="navbar">
             <ul class="navbar_nav">
@@ -31,6 +33,20 @@
                     <a href="#" class="nav_link">
                         <img class="nav_img" src="images/icon_id_search.png">
                         <h2 class="link_text">ID Search Tool</h2>
+                    </a>
+                </li>
+
+                <li class="nav_item" onclick="window.location.href = 'character_matchups.html'">
+                    <a href="#" class="nav_link">
+                        <img class="nav_img" src="images/icon_matchup_tool.png">
+                        <h2 class="link_text">Character Matchups</h2>
+                    </a>
+                </li>
+
+                <li class="nav_item" onclick="window.location.href = 'rank_tool.html'">
+                    <a href="#" class="nav_link">
+                        <img class="nav_img" src="images/icon_rank_tool.png">
+                        <h2 class="link_text">Rank Tool</h2>
                     </a>
                 </li>
 
@@ -65,7 +81,7 @@
         <main>
             <div class="header">
                 <h1 class="title">Amiibots Statistics Tool</h1> 
-                <p class="version">v1.1.3</p>
+                <p class="version" id="versionNo"></p>
 
                 <p> This search tool will search 2500 games for the specified ruleset (~7 days of games). <br>
                     Please contact <b>Azend_#6743</b> on discord if you are having trouble finding IDs
@@ -109,6 +125,7 @@
                 </div>
             </div>
 
+            
             <div class="block">
                 <div class="container">
                     <h3 class="stats">List of User Amiibo:</h3>
@@ -116,11 +133,11 @@
                     <div id="amiibo_list"></div>
                 </div>
             </div>
+
+
+
+
+
         </main>
-
-
-
-
-
     </body>
 </html>

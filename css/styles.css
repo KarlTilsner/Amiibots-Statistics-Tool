@@ -115,6 +115,12 @@ div.header {
     border-radius: var(--border-radius);
 }
 
+.padding_container {
+    width: var(--content-width);
+    padding-left: var(--small-spaces);
+    display: flex;
+}
+
 .flex_container {
     width: var(--content-width);
     gap: var(--small-spaces);
@@ -276,15 +282,19 @@ b.INACTIVE {
 
 input {
     width: 100%;
-    height: 2rem;
+
     margin-top: 0;
     margin-bottom: 0;
-    padding: 0;
+    padding: 0.6rem;
     border: none;
     background-color: var(--theme-background-colour);
     color: white;
     border-radius: var(--border-radius);
     transition: var(--theme-transition-speed);
+}
+
+input[type="text"] {
+    width: calc(100% - 1.2rem);
 }
 
 .search_buttons {
@@ -317,6 +327,66 @@ img {
 .main_search {
     background-color: var(--theme-main-search-button);
 }
+
+.dropdownMenu {
+    color: white;
+    background-color: var(--main-background-colour);
+    padding: 1rem;
+    border: var(--theme-border);
+    border-color: var(--theme-border-colour);
+    border-radius: var(--border-radius);
+}
+
+.dropdownMenu:hover {
+    cursor: pointer;
+}
+
+.flex_space_around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rangeSlider {
+    appearance: none;
+    width: 100%;
+    margin: 1rem;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.rangeSlider:hover {
+    opacity: 1;
+  }
+
+  .rangeSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+
+  .rangeSlider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
 
 ::-webkit-scrollbar {
     width: 1rem;
