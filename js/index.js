@@ -1,485 +1,727 @@
-//                                                              STARTER FUNCTION
-//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
-window.onload = function() {
-    queryLength('singles_matches', 'fetchData');
-};
+// STARTER FUNCTION
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+document.addEventListener('DOMContentLoaded', function() {
+    amiiboStats();
+});
 
 
 
 
 
-//                                                              GLOBAL PARAMETERS
-//---------------------------------------------------------------------------------------------------------------------------------------------------------  
-// Search parameters 
-let amiibo_id = window.localStorage.getItem("Amiibo Name");
-let amiibots_id = 'Trainer ID Not Found';
+// SAVE SEARCH BAR DATA
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+function searchMemory() {
+    const amiibo_id = document.querySelector('#amiibo_id').value;
+    window.localStorage.setItem('saved_amiibo_id', amiibo_id);
+}
 
-// Ruleset Selector
-window.localStorage.setItem("vanilla", '44748ebb-e2f3-4157-90ec-029e26087ad0');
-window.localStorage.setItem("b5b", '328d8932-456f-4219-9fa4-c4bafdb55776');
-window.localStorage.setItem("ag", 'af1df0cd-3251-4b44-ba04-d48de5b73f8b');
-let ruleset_input = window.localStorage.getItem("Ruleset");
-let ruleset_select = window.localStorage.getItem(ruleset_input);
 
-// Query URL
-let user_id = `&user_id=${window.localStorage.getItem("Twitch Name")}`;
-let ruleset_id = `&ruleset_id=${ruleset_select}`;
-let created_at_start = '&created_at_start=2018-11-10T00%3A00%3A00Z';
-let matchmaking_status = '&matchmaking_status=ACTIVE,STANDBY';
 
-// Gathered data
-let amiibo_name = 'Amiibo Not Found';
-const rating_change = [];
-const rating_reversed = [0];
-const rating = [];
-const rating_mu = [];
-const rating_sigma = [];
-let my_character_id = 'null';
-let my_character_name = 'null';
-let all_character_names = [];
-let all_character_id = [];
 
-// Rating history chart data
-const yAxis = rating_reversed; 
-const yAxisBar = [];     
-const xAxis = [];
 
-// Amiibo matchup chart data
-const amiibo_lost_to_id = [];
-const amiibo_defeated_id = [];
-let character_id = [];
-let character_name = [];
-const character_defeated_id = [];
-const character_name_count = [];
-    // Data graphed in matchup chart
-    let character_lost_to_id_count = [];
-    let character_defeated_id_count = [];
-    let tier_break = [];
-    let character_win_rate = [];
+// GLOBAL VARIABLES
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+// Data for rating history chart
+const xAxis_game_count = []; 
 
-    let sorted_character_lost_to_count = [];
-    let sorted_character_defeated_count = [];
-    let sorted_character_name = [];
-    let sorted_character_win_rate = [];
+// Data for matchup chart
+let matchups_tierlist_order = [];
+let matchups_won = [];
+let matchups_lost = [];
+let matchups_winrate = [];
+let matchups_sort_winrate = [];
+let matchups_encounters = [];
 
-// Leaderboard data
-const leaderboard_character_id = [];
-const leaderboard_amiibo_id = [];
-const leaderboard_same_character_id = [];
-const leaderboard_rating_overall = [];
-const leaderboard_rating_character = [];
-let rank_overall = 0;
-let rank_character = 0;
-let next_rank_overall = 0;
-let next_rank_character = 0;
+// Character data
+const all_character_names = [];
+const all_character_ids = [];
 
 // Chart Theme Colours
-let primary_background_colour =     'rgba(255, 99, 132, 0.2)';      // red
-let primary_border_colour =         'rgba(255, 99, 132, 1)';        // red
-let secondary_background_colour =   'rgba(170, 200, 100, 0.2)';     // green
-let secondary_border_colour =       'rgba(170, 200, 100, 1)';       // green
-
-// Tier List
-const tiers = ['U TIER', 'S TIER', 'A+ TIER', 'A TIER', 'B+ TIER', 'B TIER', 'C+ TIER', 'C TIER', 'D+ TIER'];
-const tier_list = [ 'U TIER', 'Incineroar', 
-                    'S TIER', 'Kazuya', 'Min Min', 'King K. Rool', 'Terry', 'Bowser', 'Byleth', 
-                    'A+ TIER', 'Mii Gunner', 'King Dedede', 'Ridley', 'Ness', 'Link', 
-                    'A TIER', 'Olimar', 'Lucas', 'Hero', 'Ganondorf', 'Zelda', 'Piranha Plant', 'Snake', 'Mii Brawler', 'Captain Falcon', 'Mii Swordfighter', 'Donkey Kong', 'Pit', 'Dark Pit', 'Banjo & Kazooie', 
-                    'B+ TIER', 'Sephiroth', 'Steve', 'Kirby', 'Dr. Mario', 'Ike', 'Pokemon Trainer', 'Shulk', 'Chrom', 'Little Mac', 'Cloud', 'Yoshi', 'Roy', 'Ryu', 
-                    'B TIER', 'Luigi', 'Robin', 'Mega Man', 'Corrin', 'Isabelle', 'Meta Knight', 'Wolf', 'Lucina', 'Joker', 'Pac-Man', 'Palutena', 'Falco', 'Wario', 'Samus', 'Dark Samus', 'Bowser Jr.', 
-                    'C+ TIER', 'Villager', 'Mewtwo', 'Ice Climbers', 'Marth', 'Duck Hunt', 'Lucario', 'Mario', 'Pikachu', 'Wii Fit Trainer', 'Greninja', 'Sonic', 'Simon', 'Richter', 'Rosalina & Luma', 
-                    'C TIER', 'Peach', 'Daisy', 'Diddy Kong', 'Toon Link', 'R.O.B.', 'Young Link', 'Inkling', 'Pichu', 'Mr. Game & Watch', 'Ken', 
-                    'D+ TIER', 'Jigglypuff', 'Sheik', 'Fox', 'Zero Suit Samus', 'Bayonetta'
-                ];
+const primary_background_colour =     'rgba(255, 99, 132, 0.2)';      // red
+const primary_border_colour =         'rgba(255, 99, 132, 1)';        // red
+const secondary_background_colour =   'rgba(170, 200, 100, 0.2)';     // green
+const secondary_border_colour =       'rgba(170, 200, 100, 1)';       // green
+const tertiary_background_colour =    'rgba(0, 170, 240, 0.2)'        // blue
+const tertiary_border_colour =        'rgba(0, 170, 240, 1)'          // blue
+const quaternary_background_colour =  'rgba(255, 170, 0, 0.2)'        // orange
+const quaternary_border_colour =      'rgba(255, 170, 0, 1)'          // orange
 
 
 
 
 
-//                                                              AUTO SEARCH HOW MANY MATCHES NEED TO BE QUERIED
-//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
-async function queryLength(apiURL, data_outlet) {
-
-let queryURL = `https://www.amiibots.com/api/${apiURL}?per_page=1`;
-let match_count = 0;
-let queryURL_leaderboard = 'https://www.amiibots.com/api/amiibo?per_page=1'
-let leaderbaord_count = 0;
-
-    // fetchData specific
-    if (apiURL === 'singles_matches' && data_outlet === 'fetchData') {
-        queryURL += created_at_start + user_id + ruleset_id;
-
-        fetch(queryURL_leaderboard)
-        .then(function(queryURL_response) {return queryURL_response.json();})
-        .then(function(data) {
-            leaderbaord_count = data.total;
-            console.log(`Found ${leaderbaord_count} leaderboard matches!`); 
-        });
-
-        fetch(queryURL)
-        .then(function(queryURL_response) {return queryURL_response.json();})
-        .then(function(data) {
-            match_count = data.total;
-            console.log(`Found ${match_count} "${apiURL}" matches!`);
-            if (data_outlet === 'fetchData') {fetchData(match_count, leaderbaord_count);}
-        });
-    } 
-}
-
-
-
-
-
-//                                                              FUNCTION WAY TOO BIG FOR ITS OWN GOOD
-//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
-async function fetchData(match_count, leaderbaord_count) {
-
-console.log(leaderbaord_count);
-if (leaderbaord_count == 0) {
-    window.location.reload();
-}
-
-// Query URL
-const matches = match_count;
-match_count = `&per_page=${match_count}`;
-
-const url_matches = 'https://www.amiibots.com/api/singles_matches?' + match_count + user_id + ruleset_id + created_at_start; 
-const url_get_all_characters = 'https://www.amiibots.com/api/utility/get_all_characters';
-
-// Change placeholder text to show what is being searched
-document.querySelector('#twitch_name').placeholder = ("Current Trainer ID is: " + window.localStorage.getItem("Twitch Name"));
-document.querySelector('#amiibo_name').placeholder = ("Current Amiibo ID is: " + window.localStorage.getItem("Amiibo Name"));
-// document.querySelector('#ruleset').placeholder = ("Current Ruleset is: " + window.localStorage.getItem("Ruleset"));
-
-// Highlight buttons
-let highlightRulesetButton = window.localStorage.getItem('Ruleset');
-document.getElementById(`ruleset_${highlightRulesetButton}`).setAttribute("style", `background-color: rgba(220, 220, 220, 0.3)`);
-
-window.localStorage.setItem('SortType', 'sort_by_tierlist');
-let sort_type = window.localStorage.getItem('SortType');
-document.getElementById(`${sort_type}`).setAttribute("style", `background-color: rgba(220, 220, 220, 0.3)`);
-
-// Fetch data from Amiibots API
-console.log('Querying the API');
-const singles_matches = await fetch(url_matches);
-const get_all_characters = await fetch(url_get_all_characters);
-
-// After response is recieved
-const datapoints = await singles_matches.json();
-const get_all_characters_json = await get_all_characters.json();
-console.log('Recieved response');
-
-// Filter data and push it into an array
-console.log(`This trainer has ${datapoints.data.length} out of ${matches} matches searched`);
-
-// Push rating changes into array
-const ratingChange = datapoints.data.map(
-    function(index) {
-        if (index.winner_info.id === amiibo_id) {
-            rating_change.push(index.winner_info.rating_change);
-            rating_mu.push(index.winner_info.rating_mu);
-            rating_sigma.push(index.winner_info.rating_sigma);
-            rating.push(index.winner_info.rating);
-            amiibo_name = index.winner_info.name;
-            amiibo_defeated_id.push(index.loser_info.character_id);
-            my_character_id = index.winner_info.character_id;
-            return(index.winner_info.rating_change);
-        } 
-        else if (index.loser_info.id === amiibo_id) {
-            rating_change.push(index.loser_info.rating_change);
-            rating_mu.push(index.loser_info.rating_mu);
-            rating_sigma.push(index.loser_info.rating_sigma);
-            rating.push(index.loser_info.rating);
-            amiibo_name = index.loser_info.name;
-            amiibo_lost_to_id.push(index.winner_info.character_id);
-            my_character_id = index.loser_info.character_id;
-            return(index.loser_info.rating_change);
-        }    
-        else return (0);     
-    });
-
-    // Display amiibo name on graphs
-    document.getElementById('rating_history_chart_title').innerHTML = (`Rating History of: ${amiibo_name}`);
-    document.getElementById('matchup_chart_title').innerHTML = (`Character Matchups of: ${amiibo_name}`);
-    document.getElementById('extended_match_history').innerHTML = (`Match History of: ${amiibo_name}`);
-
-    console.log(`${amiibo_name} has played ${rating.length} out of ${matches} matches searched`);
-
-
-// Get all character ids
-// Get all character names
-all_character_names = [];
-all_character_id = [];
-const all_characters_query = await fetch('https://www.amiibots.com/api/utility/get_all_characters');
-const all_characters_response = await all_characters_query.json();
-
-const all_characters_data = all_characters_response.data.map(
-    function(index) {
-        all_character_names.push(index.name);
-        all_character_id.push(index.id);
-});
-
-
-// List all matches onto page
-let content = document.getElementById('amiibo_list');
-let list = '<div class="flex_list_container">';
-let characterIcon = 'no icon';
-const extendedMatchHistory = datapoints.data.map(
-    function(index) {
-        if (index.winner_info.id === amiibo_id) {
-            // Match current character with icon
-            characterIcon = 'reset';
-            for (let i = 0; i < all_character_id.length; i++) {
-                if (all_character_id[i] == index.loser_info.character_id) {
-                    characterIcon = (`${all_character_names[i]}.png`)
-                }
-            }
-            
-            // Put image onto the listed item when amiibots is fixed
-            list += (
-            `<div class="list_item_short wonMatch" id="list_item_searchable">
-                <img src="images/${characterIcon}" class="list_image">
-                <p class="list_stats">
-                    <i>Trainer Name:</i>        <b>${index.loser_info.trainer_name}</b> </br>
-                    <i>Amiibo Name:</i>         <b>${index.loser_info.name}</b> </br>
-                    <i>Opponent Rating:</i>     ${(index.loser_info.rating).toFixed(3)} </br>
-                    <i>Your Rating Change</i>   ${(index.winner_info.rating_change).toFixed(3)} </br>
-                    </br>
-                </p>
-            </div>`
-            );
-        } 
-        else if (index.loser_info.id === amiibo_id) {
-
-            // Match current character with icon
-            characterIcon = 'reset';
-            for (let i = 0; i < all_character_id.length; i++) {
-                if (all_character_id[i] == index.winner_info.character_id) {
-                    characterIcon = (`${all_character_names[i]}.png`)
-                }
-            }
-            
-            // Put image onto the listed item when amiibots is fixed
-            list += (
-            `<div class="list_item_short lostMatch" id="list_item_searchable">
-                <img src="images/${characterIcon}" class="list_image">
-                <p class="list_stats">
-                    <i>Trainer Name:</i>        <b>${index.winner_info.trainer_name}</b> </br>
-                    <i>Amiibo Name:</i>         <b>${index.winner_info.name}</b> </br>
-                    <i>Opponent Rating:</i>     ${(index.winner_info.rating).toFixed(3)} </br>
-                    <i>Your Rating Change</i>   ${(index.loser_info.rating_change).toFixed(3)} </br>
-                    </br>
-                </p>
-            </div>`
-            );
-        }    
-    });
-list += "</div>";
-content.innerHTML = list;
-
-
-
-
-
-//                                                              AMIIBO MATCHUP CHART DATA
-//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
-    // Generate data for X and Y axis for characters that won
-        let tier_list_charid = [];
-
-    const pushCharacterData = get_all_characters_json.data.map(
+// Queries all character names and IDs and pushed them into arrays
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+async function get_all_characters() {
+    const url = `https://www.amiibots.com/api/utility/get_all_characters`;
+    const query = await fetch(url);
+    const response = await query.json();
+    const data = response.data.map(
         function(index) {
-            character_name.push(index.name);
-            character_id.push(index.id);
-
-            if (index.id === my_character_id) {
-                my_character_name = index.name;
-            }
-        });
-
-    // Sort into tier lists
-    tier_list[36] = character_name[58]; // THIS IS THE FILTHIEST PIECE OF CODE I HAVE EVER WRITTEN IN DATA ENGINEERING I WANT A FIX TO THIS TRASH ASAP
-    for (let i = 0; i < tier_list.length; i++) {
-        for (x = 0; x < tiers.length; x++) {
-            if (tiers[x] == tier_list[i]) {
-                tier_list_charid.push(tiers[x]);
-            }
+            all_character_ids.push(index.id);
+            all_character_names.push(index.name);
         }
-        for (let y = 0; y < character_name.length; y++) {
-            if (character_name[y] == tier_list[i]) {
-                tier_list_charid.push(character_id[y]);
-            } 
-        }
-    }
-
-    // Amiibo matchup chart axis data
-    for (i = 0; i < tier_list_charid.length; i++) {
-        // for every character add to a counter
-        let amiibo_lost_to_counter = 0;
-        let defeated_amiibo_counter = 0;
-        let tier_counter = 0;
-
-        // Check if pointer is on a tier
-        for (x = 0; x < tiers.length; x++) {
-            if (tiers[x] == tier_list_charid[i]) {
-                tier_counter = 50;
-            }
-        }
-
-        // Check if pointer is on an amiibo lost to
-        for (y = 0; y < amiibo_lost_to_id.length; y++) {
-            if (amiibo_lost_to_id[y] == tier_list_charid[i]) {
-                amiibo_lost_to_counter++;
-            }
-        }
-
-        // Check if pointer is on an a defeated amiibo
-        for (z = 0; z < amiibo_defeated_id.length; z++) {
-            if (amiibo_defeated_id[z] == tier_list_charid[i]) {
-                defeated_amiibo_counter++;
-            }
-        }
-
-        // Push counters to win/loss arrays for graphing
-        if (amiibo_lost_to_counter == 0 && defeated_amiibo_counter == 0 && tier_counter == 50) {
-            tier_break.push(tier_counter);
-            character_lost_to_id_count.push(0);
-            character_defeated_id_count.push(0);
-        }
-
-        if ((amiibo_lost_to_counter > 0) || (defeated_amiibo_counter > 0)) {
-            tier_break.push(0);
-        }
-        
-        if (amiibo_lost_to_counter > 0) {
-            character_lost_to_id_count.push(amiibo_lost_to_counter);
-        }
-        if (amiibo_lost_to_counter == 0 && defeated_amiibo_counter > 0) {
-            character_lost_to_id_count.push(0);
-        }
-        if (defeated_amiibo_counter > 0) {
-            character_defeated_id_count.push(defeated_amiibo_counter);
-        }
-        if (defeated_amiibo_counter == 0 && amiibo_lost_to_counter > 0) {
-            character_defeated_id_count.push(0);
-        }
-
-        // Push all tiers and character names with values > 0
-        if ((amiibo_lost_to_counter == 0 && defeated_amiibo_counter == 0 && tier_counter == 50) || (amiibo_lost_to_counter > 0) || (defeated_amiibo_counter > 0)) {
-            character_name_count.push(tier_list[i]);
-        }
-    }
-
-    // Win rate calculator
-    for (let i = 0; i < character_name_count.length; i++) { 
-        if (character_defeated_id_count[i] == 0 && character_lost_to_id_count[i] == 0) {
-            character_win_rate.push(character_name_count[i]);
-        } else character_win_rate.push(`${character_name_count[i]} (${(((character_defeated_id_count[i])/(character_lost_to_id_count[i] + character_defeated_id_count[i]))*100).toFixed(2)}%)`);
-    }
-
-
-
-
-
-//                                                              GENERATE RATING HISTORY ARRAYS
-//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
-for (let i = rating.length - 1; i >= 0; i--) {
-    rating_reversed.push(rating[i]);
+    );
+    console.log('Found all characters');
 }
 
-for (let i = 0; i < rating_reversed.length; i++) {
-    xAxis.push(i);   
-}
-
-console.log(`Rating: ${rating_reversed[rating_reversed.length - 1]}`);
 
 
 
 
+// HANDLES QUICK STATS, RATING HISTORY, CHARACTER MATCHUPS, AND MATCH HISTORY
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+async function amiiboStats() {
 
-//                                                              HIGHLIGHT HIGHEST RATING VALUE
-//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
-let max_rating_value = Math.max.apply(null, rating_reversed).toFixed(5);
+    // Read the ID submitted in the text box and put it into LocalStorage for later
+    const amiibo_id = window.localStorage.getItem('saved_amiibo_id');
+    let amiibo_name = null;
+    let amiibo_ruleset = null;
+    let character_id = null;
 
-for (let i = 0; i < yAxis.length; i++) {
-    if (yAxis[i].toFixed(5) == max_rating_value) {
-    yAxisBar.push(yAxis[i]);
-    } else {
-        yAxisBar.push(0)
+    // Storage for each part of the tool
+    const all_matches_data = []; // stores all matches for the specified character
+    let ratingHistory = []; // stores graph data for rating history and highest rating
+
+
+
+    // Destroy the page if anyone searches their amiibo
+    const rollEveryone = Math.floor(Math.random() * 1000) + 1;
+    console.log(rollEveryone);
+    if (rollEveryone == 137) {
+        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley";
     }
-}
 
-drawCharts();
+
+    // Destroy the page if ben searches his amiibo
+    if (amiibo_id == '26680dc4-8cbd-4de5-ab92-f6e018f63f73') {
+        const rollBen = Math.floor(Math.random() * 10) + 1;
+        console.log(rollBen);
+        if (rollBen == 7) {
+            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley";
+        }
+    }
+
+
     
+    await get_all_characters();
 
 
 
+    
+    
+// EXTRACTS ALL RELAVENT DATA FOR EACH TOOL
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+    let highest_rating = [{
+        "highest_rating": 0,
+        "match": 0
+    }];
 
-//                                                              GETTING LEADERBOARD DATA
-//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
-// Get leaderboard data
-console.log('Querying leaderboard data');
-const playable_character_id = `&playable_character_id=${my_character_id}`; //1874d724-bd91-43ab-91ae-a8b4a740b951
-match_count = `&per_page=${leaderbaord_count}`;
-const rank_url_query = 'https://www.amiibots.com/api/amiibo?' + match_count + ruleset_id + matchmaking_status;
+    // Query the amiibo at https://www.amiibots.com/api/singles_matches/by_amiibo_id/[AMIIBO_ID]
+    const query = await fetch(`https://www.amiibots.com/api/singles_matches/by_amiibo_id/${amiibo_id}`);
+    const response = await query.json();
+    async function extractMatchData() {
+        let matchCount = 0;
 
-const amiibo_ranks_data_query = await fetch(rank_url_query);
-const amiibo_ranks_data = await amiibo_ranks_data_query.json();
-
-console.log('Recieved response');
-
-const amiibo_ranks_data_loop = amiibo_ranks_data.data.map(
-    function(index) {
-        leaderboard_amiibo_id.push(index.id);
-        leaderboard_character_id.push(index.playable_character_id);
-        leaderboard_rating_overall.push(index.rating);
-});
-
-for (let i = 0; i < leaderboard_amiibo_id.length; i++) {
-    // Get leaderbaord rank overall
-    if (leaderboard_amiibo_id[i] === amiibo_id) {
-        rank_overall = i + 1;
-
-        if (rank_overall != 1) {
-            next_rank_overall = (leaderboard_rating_overall[i - 1] - leaderboard_rating_overall[i]).toFixed(5);
+        // This will delete all elements on the page and produce an error message if the amiibo has no games
+        try {
+            matchCount = response.data.length;
+            amiibo_ruleset = response.data[0].ruleset_id;
+        } catch (error) {
+            const elementsToRemove = document.querySelectorAll('#remove_child_if_no_matches');
+            elementsToRemove.forEach(element => {
+                element.remove();
+            });
+            document.querySelector('main').innerHTML += '<h1 class="container" style="text-align: center;">AMIIBO HAS NO DATA</h1>';
         }
+
+
+        // Take data from the API and store it into the correct objects
+        const file = response.data.map(
+            async function(index) {
+
+                all_matches_data.push(index);
+
+                // Data for rating history
+                if (amiibo_id == index.winner_info.id) {
+                    amiibo_name = index.winner_info.name;
+
+                    if (index.winner_info.rating > highest_rating[0].highest_rating) {
+                        highest_rating = [{
+                            "highest_rating": index.winner_info.rating,
+                            "match": matchCount
+                        }];
+                    }
+
+                    ratingHistory.push({
+                        "rating_history": (index.winner_info.rating).toFixed(2),
+                        "highest_rating": 0,
+                        "rating_sigma": (index.winner_info.rating_sigma).toFixed(2),
+                        "rating_mu": (index.winner_info.rating_mu).toFixed(2),
+                        "match": matchCount
+                    });
+                }
+
+                if (amiibo_id == index.loser_info.id) {
+                    amiibo_name = index.loser_info.name;
+
+                    if (index.loser_info.rating > highest_rating[0].highest_rating) {
+                        highest_rating = [{
+                            "highest_rating": index.loser_info.rating,
+                            "match": matchCount
+                        }];
+                    }
+
+                    ratingHistory.push({
+                        "rating_history": (index.loser_info.rating).toFixed(2),
+                        "highest_rating": 0,
+                        "rating_sigma": (index.loser_info.rating_sigma).toFixed(2),
+                        "rating_mu": (index.loser_info.rating_mu).toFixed(2),
+                        "match": matchCount
+                    });
+                }
+
+                // increase this to record what match we are on
+                matchCount--;
+            }
+        );
+    }
+    await extractMatchData();
+
+   
+
+
+
+// RATING HISTORY CODE
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+    async function processAmiiboStats() {
+        // Push initial stats of the amiibo for rating history
+        if (response.data[response.data.length - 1].fp1.id == amiibo_id) {
+            character_id = response.data[response.data.length - 1].fp1.character_id;
+            ratingHistory.push({
+                "rating_history": 0,
+                "highest_rating": 0,
+                "rating_sigma": (response.data[response.data.length - 1].fp1.rating_sigma).toFixed(2),
+                "rating_mu": (response.data[response.data.length - 1].fp1.rating_mu).toFixed(2),
+                "match": 0
+            });
+        } else if (response.data[response.data.length - 1].fp2.id == amiibo_id) {
+            character_id = response.data[response.data.length - 1].fp2.character_id;
+            ratingHistory.push({
+                "rating_history": 0,
+                "highest_rating": 0,
+                "rating_sigma": (response.data[response.data.length - 1].fp2.rating_sigma).toFixed(2),
+                "rating_mu": (response.data[response.data.length - 1].fp2.rating_mu).toFixed(2),
+                "match": 0
+            });
+        }
+    
+        // Reverse the order of the rating history and update the highest rating in the data structure
+        let temp = [];
+        for (let i = ratingHistory.length - 1; i >= 0; i--) {
+            if (ratingHistory[i].match == highest_rating[0].match) {
+                ratingHistory[i].highest_rating = (highest_rating[0].highest_rating).toFixed(2);
+            }
+            temp.push(ratingHistory[i]);
+        }
+        ratingHistory = temp;
+    }
+    await processAmiiboStats();
+
+
+    // Manages datasets for the rating history chart
+    async function ratingHistoryDatasets() {
+        const datasets = [];
+        let newDataset;
+
+        // Push match count into array for chart
+        for (let i = 0; i < ratingHistory.length; i++) {
+            xAxis_game_count.push(ratingHistory[i].match);
+        }
+
+        // Push rating history
+        const ratingHistory_rating = [];
+        for (let i = 0; i < ratingHistory.length; i++) {
+            ratingHistory_rating.push(Number(ratingHistory[i].rating_history));
+        }
+
+        // Push highest rating
+        const ratingHistory_highestRating = [];
+        for (let i = 0; i < ratingHistory.length; i++) {
+            ratingHistory_highestRating.push(ratingHistory[i].highest_rating);
+        }
+
+        // Push rating sigma
+        const ratingHistory_ratingSigma = [];
+        for (let i = 0; i < ratingHistory.length; i++) {
+            ratingHistory_ratingSigma.push(ratingHistory[i].rating_sigma);
+        }
+
+        // Push rating mu
+        const ratingHistory_rating_mu = [];
+        for (let i = 0; i < ratingHistory.length; i++) {
+            ratingHistory_rating_mu.push(ratingHistory[i].rating_mu);
+        }
+
+        // Create and push datasets
+        newDataset = {
+            label: 'Rating History',
+            data: ratingHistory_rating,
+            backgroundColor: primary_background_colour,
+            borderColor: primary_border_colour,
+            fill: true,
+            borderWidth: 1,
+            pointRadius: 1,
+            pointHoverRadius: 1,
+        };
+        datasets.push(newDataset);
+        newDataset = {};
+    
+        const barWidth = ((xAxis_game_count.length)/100)*0.35;
+        newDataset = {
+            label: `Highest Rating`,
+            data: ratingHistory_highestRating,
+            backgroundColor: secondary_background_colour, 
+            borderColor: secondary_border_colour, 
+            fill: true,
+            borderWidth: 2,
+            barPercentage: barWidth,
+            type: 'bar',
+        };
+        datasets.push(newDataset);
+        newDataset = {};
+
+        newDataset = {
+            label: 'Rating Sigma',
+            data: ratingHistory_ratingSigma,
+            borderColor: quaternary_border_colour,
+            fill: true,
+            borderWidth: 1,
+            pointRadius: 1,
+            pointHoverRadius: 1,
+        };
+        datasets.push(newDataset);
+        newDataset = {};
+
+        newDataset = {
+            label: 'Rating mu',
+            data: ratingHistory_rating_mu,
+            borderColor: tertiary_border_colour,
+            fill: true,
+            borderWidth: 1,
+            pointRadius: 1,
+            pointHoverRadius: 1,
+        };
+        datasets.push(newDataset);
+        newDataset = {};
+        
+        drawRatingHistory(datasets);
+    }
+    await ratingHistoryDatasets();
+
+
+
+
+
+// MINI LEADERBOARD AND AMIIBO RANK CODE
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+    const rank_worker = new Worker('./js/worker_index_rank.js');
+
+    const worker_message = {
+        "amiibo_id": amiibo_id,
+        "amiibo_ruleset": amiibo_ruleset,
+        "character_id": character_id
     }
 
-    // Get all same character leaderboard data
-    if (leaderboard_character_id[i] === my_character_id) {
-        leaderboard_same_character_id.push(leaderboard_amiibo_id[i]);
-        leaderboard_rating_character.push(leaderboard_rating_overall[i])
+    rank_worker.postMessage(worker_message);
+
+    // Update DOM elements whenever this information gets back
+    rank_worker.onmessage = function(amiibo_rank_data) {
+
+        const overall_leaderboard = amiibo_rank_data.data.overall_leaderboard;
+        const character_leaderboard = amiibo_rank_data.data.character_leaderboard;
+
+        function printOverallLeaderboard () {
+            // Print every amiibo onto the screen
+            let content = document.getElementById('overall_rank_mini_leaderboard');
+            let list = '<div class="micro_leaderboard_container">';
+    
+            for (let i = 0; i < overall_leaderboard.length; i++) {
+                for (let x = 0; x < all_character_ids.length; x++) {
+                    let characterIcon = 0;
+    
+                    if (all_character_ids[x] == overall_leaderboard[i].character_id) {
+    
+                        // Match current character with icon
+                        characterIcon = (`${all_character_names[x]}.png`);
+    
+                        // Put image onto the listed item when amiibots is fixed
+                        list += (
+                        `<div class="micro_leaderboard_item ${overall_leaderboard[i].character_highlight}" id="list_item_searchable">
+
+                            <img src="./images/${characterIcon}" class="list_image">
+
+                            <div class="micro_leaderboard_stats">
+                                <h2>${overall_leaderboard[i].amiibo_name}</h2>
+                                <h3>${overall_leaderboard[i].trainer_name}</h3>
+                            </div>
+
+                            <div class="micro_leaderboard_stats">
+                                <h2>Rating:</h2>
+                                <h3>${overall_leaderboard[i].rating.toFixed(2)}</h3>
+                            </div>
+
+                            <div class="micro_leaderboard_stats">
+                                <h2>Rating Diff:</h2>
+                                <h3>${Math.abs(overall_leaderboard[i].rating_difference).toFixed(2)}</h3>
+                            </div>
+
+                            <div class="micro_leaderboard_stats">
+                                <h2>Rank:</h2>   
+                                <h3>${overall_leaderboard[i].rank}</h3>
+                            </div>
+                            
+                        </div>`
+                        );
+                    }
+                }
+            }
+            list += "</div>";
+            content.innerHTML = list;
+        }
+        printOverallLeaderboard();
+
+
+
+        function printCharacterLeaderboard () {
+            // Print every amiibo onto the screen
+            let content = document.getElementById('character_rank_mini_leaderboard');
+            let list = '<div class="micro_leaderboard_container">';
+    
+            for (let i = 0; i < character_leaderboard.length; i++) {
+                for (let x = 0; x < all_character_ids.length; x++) {
+                    let characterIcon = 0;
+    
+                    if (all_character_ids[x] == character_leaderboard[i].character_id) {
+    
+                        // Match current character with icon
+                        characterIcon = (`${all_character_names[x]}.png`);
+    
+                        // Put image onto the listed item when amiibots is fixed
+                        list += (
+                        `<div class="micro_leaderboard_item ${character_leaderboard[i].character_highlight}" id="list_item_searchable">
+                            <img src="./images/${characterIcon}" class="list_image">
+
+                            <div class="micro_leaderboard_stats">
+                                <h2>${character_leaderboard[i].amiibo_name}</h2>
+                                <h3>${character_leaderboard[i].trainer_name}</h3>
+                            </div>
+
+                            <div class="micro_leaderboard_stats">
+                                <h2>Rating:</h2>
+                                <h3>${character_leaderboard[i].rating.toFixed(2)}</h3>
+                            </div>
+
+                            <div class="micro_leaderboard_stats">
+                                <h2>Rating Diff:</h2>
+                                <h3>${Math.abs(character_leaderboard[i].rating_difference).toFixed(2)}</h3>
+                            </div>
+
+                            <div class="micro_leaderboard_stats">
+                                <h2>Rank:</h2>   
+                                <h3>${character_leaderboard[i].rank}</h3>
+                            </div>
+                        </div>`
+                        );
+                    }
+                }
+            }
+            list += "</div>";
+            content.innerHTML = list;
+        }
+        printCharacterLeaderboard();
     }
+
+
+
+
+
+// AMIIBO MATCHUPS CODE
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+    const matchups_worker = new Worker('./js/worker_index_matchups.js');
+
+    const matchups_worker_message = {
+        "amiibo_id": amiibo_id,
+        "amiibo_ruleset": amiibo_ruleset,
+        "character_id": character_id,
+        "all_matches_data": all_matches_data
+    };
+
+    matchups_worker.postMessage(matchups_worker_message);
+
+    // Update DOM elements whenever this information gets back
+    matchups_worker.onmessage = function(matchups_data) {
+        const graph_height = ((matchups_data.data.matchups_winrate.length * 20) + 200);
+        document.getElementById('matchups').setAttribute("style", `height:${graph_height}px`);
+
+        matchups_won = matchups_data.data.matchups_won;
+        matchups_lost = matchups_data.data.matchups_lost;
+        matchups_winrate = matchups_data.data.matchups_winrate;
+        matchups_tierlist_order = matchups_data.data.matchups_tierlist_order;
+        matchups_sort_winrate = matchups_data.data.matchups_sort_winrate;
+        matchups_encounters = matchups_data.data.matchups_encounters;
+
+        const datasets = [
+            {
+                label: `Defeated`,
+                data: matchups_data.data.matchups_won,
+                backgroundColor: secondary_background_colour,
+                borderColor: secondary_border_colour,
+                fill: true,
+                borderWidth: 1
+            },
+            {
+                label: `Lost to`,
+                data: matchups_data.data.matchups_lost,
+                backgroundColor: primary_background_colour,
+                borderColor: primary_border_colour,
+                fill: true,
+                borderWidth: 1
+            }
+        ];
+
+        highlightSortButton('sort_by_tierlist');
+        drawMatchupChart(datasets);
+    }
+
+
+
+
+
+// FULL MATCH HISTORY CODE
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+// 'your_rating': all_matches_data[i].winner_info.rating,
+
+    function fullMatchHistory () {
+        // console.log(all_matches_data);
+
+        // Sort match data for the match card
+        const full_match_history = [];
+        for (let i = 0; i < all_matches_data.length; i++) {
+
+            if (amiibo_id == all_matches_data[i].fp1.id && amiibo_id == all_matches_data[i].winner_info.id) {
+                full_match_history.push({
+                    'character_id': all_matches_data[i].fp2.character_id,
+                    'name': all_matches_data[i].fp2.name,
+                    'trainer_name': all_matches_data[i].fp2.trainer_name,
+                    
+                    'opponent_rating': all_matches_data[i].fp2.rating,
+                    'your_rating':  all_matches_data[i].fp1.rating,
+                    'your_current_rating': all_matches_data[i].winner_info.rating,
+                    'rating_change': all_matches_data[i].winner_info.rating_change,
+
+                    'match_number': all_matches_data.length - i,
+                    'match_selection': all_matches_data[i].match_metadata.fp1_selection,
+                    'match_win': true 
+                });
+            } 
+
+            if (amiibo_id == all_matches_data[i].fp1.id && amiibo_id == all_matches_data[i].loser_info.id) {
+                full_match_history.push({
+                    'character_id': all_matches_data[i].fp2.character_id,
+                    'name': all_matches_data[i].fp2.name,
+                    'trainer_name': all_matches_data[i].fp2.trainer_name,
+                    
+                    'opponent_rating': all_matches_data[i].fp2.rating,
+                    'your_rating':  all_matches_data[i].fp1.rating,
+                    'your_current_rating': all_matches_data[i].loser_info.rating,
+                    'rating_change': all_matches_data[i].loser_info.rating_change,
+
+                    'match_number': all_matches_data.length - i,
+                    'match_selection': all_matches_data[i].match_metadata.fp1_selection,
+                    'match_win': false
+                });
+            }
+
+            if (amiibo_id == all_matches_data[i].fp2.id && amiibo_id == all_matches_data[i].winner_info.id) {
+                full_match_history.push({
+                    'character_id': all_matches_data[i].fp1.character_id,
+                    'name': all_matches_data[i].fp1.name,
+                    'trainer_name': all_matches_data[i].fp1.trainer_name,
+                    
+                    'opponent_rating': all_matches_data[i].fp1.rating,
+                    'your_rating':  all_matches_data[i].fp2.rating,
+                    'your_current_rating': all_matches_data[i].winner_info.rating,
+                    'rating_change': all_matches_data[i].winner_info.rating_change,
+
+                    'match_number': all_matches_data.length - i,
+                    'match_selection': all_matches_data[i].match_metadata.fp2_selection,
+                    'match_win': true 
+                });
+            }
+
+            if (amiibo_id == all_matches_data[i].fp2.id && amiibo_id == all_matches_data[i].loser_info.id) {
+                full_match_history.push({
+                    'character_id': all_matches_data[i].fp1.character_id,
+                    'name': all_matches_data[i].fp1.name,
+                    'trainer_name': all_matches_data[i].fp1.trainer_name,
+                    
+                    'opponent_rating': all_matches_data[i].fp1.rating,
+                    'your_rating':  all_matches_data[i].fp2.rating,
+                    'your_current_rating': all_matches_data[i].loser_info.rating,
+                    'rating_change': all_matches_data[i].loser_info.rating_change,
+
+                    'match_number': all_matches_data.length - i,
+                    'match_selection': all_matches_data[i].match_metadata.fp2_selection,
+                    'match_win': false
+                });
+            }
+        }
+
+        // console.log(full_match_history);
+
+
+        // Get longest winstreak
+        let LongestWinstreak = 0;
+        let currentWinstreak = 0;
+        for (let i = 0; i < full_match_history.length; i++) {
+            if (full_match_history[i].match_win == true) {
+                currentWinstreak++;
+                if (currentWinstreak > LongestWinstreak) {
+                    LongestWinstreak = currentWinstreak;
+                }
+            } else currentWinstreak = 0;
+
+        }
+
+        document.getElementById('amiibo_longest_winstreak').innerText += ` ${LongestWinstreak}`;
+
+
+        // Add + sign to rating increases
+        for (let i = 0; i < full_match_history.length; i++) {
+            if (full_match_history[i].rating_change > 0) {
+                full_match_history[i].rating_change = `+${full_match_history[i].rating_change.toFixed(2)}`;
+            } else {
+                full_match_history[i].rating_change = full_match_history[i].rating_change.toFixed(2);
+            }
+        }
+
+        // Fix any null values
+        for (let i = 0; i < full_match_history.length; i++) {
+            if (full_match_history[i].your_rating == null) {
+                full_match_history[i].your_rating = 0;
+            }
+
+            if (full_match_history[i].opponent_rating == null) {
+                full_match_history[i].opponent_rating = 0;
+            }
+        }
+
+
+        // List all matches onto page
+        let content = document.getElementById('amiibo_list');
+        let list = '<div class="flex_list_container">';
+        for (let i = 0; i < full_match_history.length; i++)  {
+
+            // Match current character with icon
+            let characterIcon = 'reset';
+            for (let x = 0; x < all_character_ids.length; x++) {
+                if (all_character_ids[x] == full_match_history[i].character_id) {
+                    characterIcon = (`${all_character_names[x]}.png`)
+                }
+            }
+
+            if (amiibo_id == '26680dc4-8cbd-4de5-ab92-f6e018f63f73') {
+                // Broken code for ben
+                list += (
+                    `<div class="list_item_short match_win_${full_match_history[i].match_win}" id="list_item_searchable">
+                        <img src="images/${characterIcon}" class="list_image">
+                        <div class="list_stats">
+                            <i>Trainer Name:</i>        <b>${full_match_history[i].trainer_name}</b> </br>
+                            <i>Amiibo Name:</i>         <b>${full_match_history[i].name}</b> </br>
+                            <i>Opponent Rating:</i>     ${(full_match_history[i].opponent_rating).toFixed(2)} </br>
+                            <i>Your Rating Change</i>   ${full_match_history[i].rating_change} </br>
+                        </div>
+                    </div>`
+                );
+            } else {
+                // Normal code for everyone else
+                list += (
+                    `<div class="micro_leaderboard_item match_win_${full_match_history[i].match_win}" id="list_item_searchable">
+                        <img src="./images/${characterIcon}" class="list_image">
+
+                        <div class="micro_leaderboard_stats">
+                            <h2>${full_match_history[i].trainer_name}</h2>
+                            <h1>${full_match_history[i].name}</h1>
+                        </div>
+
+                        <div class="micro_leaderboard_stats">
+                            <h2>Opponent Rating:</h2>
+                            <h1>${full_match_history[i].opponent_rating.toFixed(2)}</h1>
+                        </div>
+
+                        <div class="micro_leaderboard_stats">
+                            <h2>Your Rating:</h2>
+                            <h1>${full_match_history[i].your_rating.toFixed(2)}</h1>
+                        </div>
+
+                        <div class="micro_leaderboard_stats">
+                            <h2>Rating Change:</h2>   
+                            <h1>${full_match_history[i].your_current_rating.toFixed(2)} (${full_match_history[i].rating_change})</h1>
+                        </div>
+
+                        <div class="micro_leaderboard_stats">
+                        <h2>Match: ${full_match_history[i].match_number}</h2>   
+                        <h2>Selection: ${full_match_history[i].match_selection}</h2>
+                    </div>
+                    </div>`
+                );
+            }
+
+        }
+        list += "</div>";
+        content.innerHTML = list;
+
+    }
+    fullMatchHistory();
+
+
+
+
+
+    // Update DOM elements and charts to display data
+    document.getElementById('rating_history_chart_title').innerText += ` ${amiibo_name}`;
+    document.getElementById('matchup_chart_title').innerText += ` ${amiibo_name}`;
+    document.getElementById('match_history').innerText = `${amiibo_name}'s ${document.getElementById('match_history').innerText}`;
+
+    document.getElementById('amiibo_rating').innerText += ` ${ratingHistory[ratingHistory.length - 1].rating_history}`;
+    document.getElementById('amiibo_highest_rating').innerText += ` ${highest_rating[0].highest_rating.toFixed(2)}`;
+    document.getElementById('amiibo_rating_mu').innerText += ` ${ratingHistory[ratingHistory.length - 1].rating_mu}`;
+    document.getElementById('amiibo_rating_sigma').innerText += ` ${ratingHistory[ratingHistory.length - 1].rating_sigma}`;
 }
 
-for (let i = 0; i < leaderboard_same_character_id.length; i++) {
-    if (leaderboard_same_character_id[i] === amiibo_id) {
-        rank_character = i + 1;
 
-        if (rank_character != 1) {
-            next_rank_character = (leaderboard_rating_character[i - 1] - leaderboard_rating_character[i]).toFixed(5);
-        }
-    }
-} 
 
-// Update quick statistcs
-document.getElementById('amiibo_rating').innerText = (`Rating: ${(rating_reversed[rating_reversed.length - 1]).toFixed(5)}`);
-document.getElementById('amiibo_rating_max').innerText = (`Highest Rating: ${(Math.max.apply(null, rating_reversed).toFixed(5))}`);
-document.getElementById('amiibo_rating_mu').innerText = (`Rating mu: ${(rating_mu[rating_mu.length - rating_mu.length + 1].toFixed(5))}`);
-document.getElementById('amiibo_rating_sigma').innerText = (`Rating Sigma: ${(rating_sigma[rating_sigma.length - rating_sigma.length + 1]).toFixed(5)}`);
 
-document.getElementById('amiibo_rank_overall').innerText = (`Rank (Overall): ${rank_overall} / ${leaderboard_amiibo_id.length}`);
-document.getElementById('amiibo_rank_character').innerText = (`Rank (${my_character_name}): ${rank_character} / ${leaderboard_same_character_id.length}`);
-document.getElementById('amiibo_next_rank_overall').innerText = (`Next Rank (Overall): ${next_rank_overall}`);
-document.getElementById('amiibo_next_rank_character').innerText = (`Next Rank (${my_character_name}): ${next_rank_character}`);
 
-console.log('Data Fetched!');
-} // END OF fetchData();
+// CREATE NEW CANVASES TO RENDER GRAPHS ON
+//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
+function drawRatingHistory(datasets) {
+    document.getElementById('rating_history').innerHTML = '<canvas id="rating_history_chart_canvas"></canvas>';  
+    RatingHistoryChart(datasets);
+}
+
+async function drawMatchupChart(datasets) {
+    await document.getElementById('matchups_chart_canvas').remove();
+    document.getElementById('matchups').innerHTML = '<canvas id="matchups_chart_canvas"></canvas>';  
+    characterMatchupChart(datasets);
+}
 
 
 
 
 
-//                                                              HIGHLIGHT SORT BUTTON
+// HIGHLIGHT SORT BUTTON
 //--------------------------------------------------------------------------------------------------------------------------------------------------------- 
 function highlightSortButton(button_id) {
     let sort_type = window.localStorage.getItem('SortType');
@@ -493,93 +735,56 @@ function highlightSortButton(button_id) {
 
 
 
-//                                                              HIGHLIGHT RULESET BUTTON
-//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
-function highlightRulesetButton(button_id) {
-    try {    
-        let highlightRulesetButton = window.localStorage.getItem('Ruleset');
-        document.getElementById(`ruleset_${highlightRulesetButton}`).removeAttribute("style", `background-color: rgba(220, 220, 220, 0.3)`);
-
-        document.getElementById(`ruleset_${button_id}`).setAttribute("style", `background-color: rgba(220, 220, 220 , 0.3)`);
-        window.localStorage.setItem('Ruleset', `${button_id}`);
-        console.log('Ruleset is: ' + button_id);
-    } catch (err) {
-        document.getElementById(`ruleset_${button_id}`).setAttribute("style", `background-color: rgba(220, 220, 220 , 0.3)`);
-        window.localStorage.setItem('Ruleset', `${button_id}`);
-        console.log('Ruleset is: ' + button_id);
-    }
-}
-
-
-
-
-
-//                                                              MATCHUP CHART SORTING
-//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
+// SORT MATCHUP CHART
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
 function sortMatchupChartData(sortType) {
-    sorted_character_name = [];
-    sorted_character_lost_to_count = [];
-    sorted_character_defeated_count = [];
-    sorted_character_win_rate = [];
-    let total_encounters = [];
-
-    for (let i = 0; i < character_id.length; i++) {
-        let lost_to_counter = 0;
-        let defeated_counter = 0;
-
-        // Count up all amiibo lost to
-        for (let x = 0; x < amiibo_lost_to_id.length; x++) {
-            if (character_id[i] == amiibo_lost_to_id[x]) {
-                lost_to_counter++;
-            }
-        }
-
-        // Count up all amiibo defeated
-        for (y = 0; y < amiibo_defeated_id.length; y++) {
-            if (character_id[i] == amiibo_defeated_id[y]) {
-                defeated_counter++;
-            }
-        }
-
-        let totalEncounters = lost_to_counter + defeated_counter;
-
-        // Push counts into array for sorting
-        if (lost_to_counter > 0) {
-            sorted_character_lost_to_count.push(lost_to_counter);
-        }
-
-        if (lost_to_counter > 0 && defeated_counter == 0) {
-            sorted_character_defeated_count.push(0);
-        }
-
-        if (defeated_counter > 0) {
-            sorted_character_defeated_count.push(defeated_counter);
-        }
-
-        if (defeated_counter > 0 && lost_to_counter == 0) {
-            sorted_character_lost_to_count.push(0);
-        }
-
-        // Push character names without a 0
-        if (defeated_counter > 0 || lost_to_counter > 0) {
-            sorted_character_name.push(character_name[i]);
-            total_encounters.push(totalEncounters);
-            if (((defeated_counter / totalEncounters) * 100).toFixed(2) == '100.00') {
-                sorted_character_win_rate.push((((defeated_counter / totalEncounters) * 100).toFixed(2)) - 0.01);
-            } else sorted_character_win_rate.push(((defeated_counter / totalEncounters) * 100).toFixed(2));
-        }        
-    }
-
-    if (sortType === 'winRate') {
-        // Sort array from highest to lowest
+    if (sortType === 'tierlist') {
+        // Sort array from lowest to highest
         // Combine arrays
         let combineSort = [];
-        for (let i = 0; i < sorted_character_name.length; i++) {
-            combineSort.push({  'name': sorted_character_name[i], 
-                                'lostTo': sorted_character_lost_to_count[i], 
-                                'defeated': sorted_character_defeated_count[i], 
-                                'winRate': sorted_character_win_rate[i]
-                            });
+        for (let i = 0; i < matchups_winrate.length; i++) {
+            combineSort.push({  
+                'name': matchups_winrate[i], 
+                'lostTo': matchups_lost[i], 
+                'wonTo': matchups_won[i], 
+                'winRate': Number(matchups_sort_winrate[i]),
+                'order': Number(matchups_tierlist_order[i]),
+                'encounters': Number(matchups_encounters[i])
+            });
+        }
+
+        // Sort arrays
+        combineSort.sort(function(a, b) {
+            return ((a.order < b.order) ? -1 : ((a.order == b.order)) ? 0 : 1);
+        });
+
+        // Seperate data into arrays
+        for (let i = 0; i < combineSort.length; i++) {
+            matchups_winrate[i] = combineSort[i].name;
+            matchups_lost[i] = combineSort[i].lostTo;
+            matchups_won[i] = combineSort[i].wonTo;
+            matchups_sort_winrate[i] = Number(combineSort[i].winRate);
+            matchups_tierlist_order[i] = Number(combineSort[i].order);
+            matchups_encounters[i] = Number(combineSort[i].encounters);
+        }
+
+        console.log('Sorted by tierlist');
+    }
+
+
+    if (sortType === 'winRate') {
+        // Sort array from lowest to highest
+        // Combine arrays
+        let combineSort = [];
+        for (let i = 0; i < matchups_winrate.length; i++) {
+            combineSort.push({  
+                'name': matchups_winrate[i], 
+                'lostTo': matchups_lost[i], 
+                'wonTo': matchups_won[i], 
+                'winRate': Number(matchups_sort_winrate[i]),
+                'order': Number(matchups_tierlist_order[i]),
+                'encounters': Number(matchups_encounters[i])
+            });
         }
 
         // Sort arrays
@@ -589,32 +794,31 @@ function sortMatchupChartData(sortType) {
 
         // Seperate data into arrays
         for (let i = 0; i < combineSort.length; i++) {
-            sorted_character_name[i] = combineSort[i].name;
-            sorted_character_lost_to_count[i] = combineSort[i].lostTo;
-            sorted_character_defeated_count[i] = combineSort[i].defeated;
-            sorted_character_win_rate[i] = combineSort[i].winRate;
+            matchups_winrate[i] = combineSort[i].name;
+            matchups_lost[i] = combineSort[i].lostTo;
+            matchups_won[i] = combineSort[i].wonTo;
+            matchups_sort_winrate[i] = Number(combineSort[i].winRate);
+            matchups_tierlist_order[i] = Number(combineSort[i].order);
+            matchups_encounters[i] = Number(combineSort[i].encounters);
         }
 
-        // Fix 99.99 and push win rate into names
-        for (let i = 0; i < combineSort.length; i++) {
-            if (sorted_character_win_rate[i] == "99.99")
-            sorted_character_win_rate[i] = "100.00";
-
-            sorted_character_name[i] = (`${sorted_character_name[i]} (${sorted_character_win_rate[i]}%)`);
-        }
+        console.log('Sorted by winrate');
     }
 
-    else if (sortType === 'numberOfEncounters') {
-        // Sort array from highest to lowest
+
+    if (sortType === 'numberOfEncounters') {
+        // Sort array from lowest to highest
         // Combine arrays
         let combineSort = [];
-        for (let i = 0; i < sorted_character_name.length; i++) {
-            combineSort.push({  'name': sorted_character_name[i], 
-                                'lostTo': sorted_character_lost_to_count[i], 
-                                'defeated': sorted_character_defeated_count[i], 
-                                'winRate': sorted_character_win_rate[i],
-                                'encounters': total_encounters[i],
-                            });
+        for (let i = 0; i < matchups_winrate.length; i++) {
+            combineSort.push({  
+                'name': matchups_winrate[i], 
+                'lostTo': matchups_lost[i], 
+                'wonTo': matchups_won[i], 
+                'winRate': Number(matchups_sort_winrate[i]),
+                'order': Number(matchups_tierlist_order[i]),
+                'encounters': Number(matchups_encounters[i])
+            });
         }
 
         // Sort arrays
@@ -624,94 +828,36 @@ function sortMatchupChartData(sortType) {
 
         // Seperate data into arrays
         for (let i = 0; i < combineSort.length; i++) {
-            sorted_character_name[i] = combineSort[i].name;
-            sorted_character_lost_to_count[i] = combineSort[i].lostTo;
-            sorted_character_defeated_count[i] = combineSort[i].defeated;
-            sorted_character_win_rate[i] = combineSort[i].winRate;
+            matchups_winrate[i] = combineSort[i].name;
+            matchups_lost[i] = combineSort[i].lostTo;
+            matchups_won[i] = combineSort[i].wonTo;
+            matchups_sort_winrate[i] = Number(combineSort[i].winRate);
+            matchups_tierlist_order[i] = Number(combineSort[i].order);
+            matchups_encounters[i] = Number(combineSort[i].encounters);
         }
 
-        // Fix 99.99 and push win rate into names
-        for (let i = 0; i < combineSort.length; i++) {
-            if (sorted_character_win_rate[i] == "99.99")
-            sorted_character_win_rate[i] = "100.00";
-
-            sorted_character_name[i] = (`${sorted_character_name[i]} (${sorted_character_win_rate[i]}%)`);
-        }
+        console.log('Sorted by number of encounters');
     }
 
-    else if (sortType === 'mostLostTo') {
-        // Sort array from highest to lowest
-        // Combine arrays
-        let combineSort = [];
-        for (let i = 0; i < sorted_character_name.length; i++) {
-            combineSort.push({  'name': sorted_character_name[i], 
-                                'lostTo': sorted_character_lost_to_count[i], 
-                                'defeated': sorted_character_defeated_count[i], 
-                                'winRate': sorted_character_win_rate[i]
-                            });
+
+    const datasets = [
+        {
+            label: `Defeated`,
+            data: matchups_won,
+            backgroundColor: secondary_background_colour,
+            borderColor: secondary_border_colour,
+            fill: true,
+            borderWidth: 1
+        },
+        {
+            label: `Lost to`,
+            data: matchups_lost,
+            backgroundColor: primary_background_colour,
+            borderColor: primary_border_colour,
+            fill: true,
+            borderWidth: 1
         }
+    ];
 
-        // Sort arrays
-        combineSort.sort(function(a, b) {
-            return ((a.lostTo > b.lostTo) ? -1 : ((a.lostTo == b.lostTo)) ? 0 : 1);
-        });
-
-        // Seperate data into arrays
-        for (let i = 0; i < combineSort.length; i++) {
-            sorted_character_name[i] = combineSort[i].name;
-            sorted_character_lost_to_count[i] = combineSort[i].lostTo;
-            sorted_character_defeated_count[i] = combineSort[i].defeated;
-            sorted_character_win_rate[i] = combineSort[i].winRate;
-        }
-
-        // Fix 99.99 and push win rate into names
-        for (let i = 0; i < combineSort.length; i++) {
-            if (sorted_character_win_rate[i] == "99.99")
-            sorted_character_win_rate[i] = "100.00";
-
-            sorted_character_name[i] = (`${sorted_character_name[i]} (${sorted_character_win_rate[i]}%)`);
-        }
-    }
-
-    drawCharts('sorted');
-}
-
-
-
-
-
-//                                                              SEARCH BAR MEMORY AND FUNCTIONALITY
-//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
-function searchParameters() {
-    //Get text field information
-    const twitch_name = document.querySelector('#twitch_name').value;
-    console.log('Twitch Name is: ' + twitch_name);
-
-    const amiibo_name = document.querySelector('#amiibo_name').value;
-    console.log('Amiibo Name is: ' + amiibo_name);
-
-    // const ruleset = document.querySelector('#ruleset').value;
-    // console.log('Ruleset is: ' + ruleset);
-
-    //Put it into local storage
-    window.localStorage.setItem("Twitch Name", twitch_name);
-    window.localStorage.setItem("Amiibo Name", amiibo_name);
-    // window.localStorage.setItem("Ruleset", ruleset);
-};
-
-
-
-
-
-//                                                              RE-RENDER CHART.JS CHARTS
-//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
-function drawCharts(sorted) {
-    document.getElementById('rating_history_chart_canvas').remove();
-    document.getElementById('rating_history').innerHTML = '<canvas id="rating_history_chart_canvas"></canvas>';
-
-    document.getElementById('amiibo_lost_to_chart_canvas').remove();
-    document.getElementById('amiibo_lost_to').innerHTML = '<canvas id="amiibo_lost_to_chart_canvas"></canvas>';   
-
-    RatingHistoryChart();
-    characterMatchupChart(sorted);
+    drawMatchupChart(datasets);
 }
