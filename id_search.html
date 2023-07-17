@@ -11,6 +11,7 @@
 
         <script src="js/id_search.js"></script>
         <script src="js/versionNumber.js"></script>
+        <script src="js/navBarElement.js"></script>
     </head>
 
 
@@ -19,60 +20,7 @@
 
     <body>
 
-        <nav class="navbar">
-            <ul class="navbar_nav">
-
-                <li class="nav_item" onclick="window.location.href = 'index.html'">
-                    <a href="#" class="nav_link">
-                        <img class="nav_img" src="images/icon_amiibo_stats.png">
-                        <h2 class="link_text">Graphing Tool</h2>
-                    </a>
-                </li>
-
-                <li class="nav_item" onclick="window.location.href = 'id_search.html'">
-                    <a href="#" class="nav_link">
-                        <img class="nav_img" src="images/icon_id_search.png">
-                        <h2 class="link_text">ID Search Tool</h2>
-                    </a>
-                </li>
-
-                <li class="nav_item" onclick="window.location.href = 'character_matchups.html'">
-                    <a href="#" class="nav_link">
-                        <img class="nav_img" src="images/icon_matchup_tool.png">
-                        <h2 class="link_text">Character Matchups</h2>
-                    </a>
-                </li>
-
-                <li class="nav_item" onclick="window.location.href = 'rank_tool.html'">
-                    <a href="#" class="nav_link">
-                        <img class="nav_img" src="images/icon_rank_tool.png">
-                        <h2 class="link_text">Rank Tool</h2>
-                    </a>
-                </li>
-
-                <li class="nav_item" onclick="window.location.href = 'name_search.html'">
-                    <a href="#" class="nav_link">
-                        <img class="nav_img" src="images/icon_name_search.png">
-                        <h2 class="link_text">Name Search Tool</h2>
-                    </a>
-                </li>
-
-                <li class="nav_item" onclick="window.location.href = 'tierlist.html'">
-                    <a href="#" class="nav_link">
-                        <img class="nav_img" src="images/icon_live_tierlist.png">
-                        <h2 class="link_text">Live Tierlist</h2>
-                    </a>
-                </li>
-
-                <li class="nav_item" onclick="window.location.href = 'usage_tierlist.html'">
-                    <a href="#" class="nav_link">
-                        <img class="nav_img" src="images/icon_usage_tierlist.png">
-                        <h2 class="link_text">Usage Tierlist</h2>
-                    </a>
-                </li>
-
-            </ul>
-        </nav>
+        <nav class="navbar" id="documentNavbar"></nav>
 
 
 
