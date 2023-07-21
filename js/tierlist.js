@@ -1,6 +1,11 @@
 //                                                              STARTER FUNCTION
 //--------------------------------------------------------------------------------------------------------------------------------------------------------- 
 window.onload = function() {
+    // Set rulesets
+    window.localStorage.setItem('vanilla', '44748ebb-e2f3-4157-90ec-029e26087ad0');
+    window.localStorage.setItem('b5b', '328d8932-456f-4219-9fa4-c4bafdb55776');
+    window.localStorage.setItem('ag', 'af1df0cd-3251-4b44-ba04-d48de5b73f8b');
+
     tierlistRulesetHighlight('start');
     generateTierList();
 };

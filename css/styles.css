@@ -141,7 +141,13 @@ div.header {
     gap: var(--small-spaces);
 }
 
-.micro_leaderboard_container {
+
+
+
+
+
+
+.list_item_container {
     width: var(--content-width);
     display: flex;
     flex-direction: column;
@@ -150,36 +156,45 @@ div.header {
     gap: var(--small-spaces);
 }
 
-.micro_leaderboard_item {
-    width: 100%;
+.list_item {
+    width: var(--content-width);
     height: 6rem;
     font-size: 11px;
     transition: var(--theme-transition-speed);
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.micro_leaderboard_stats {
+.list_image {
+    width: 6rem;
+    height: 6rem;
+}
+
+.list_stats_grid_container {
+    display: grid;
+    grid-template-columns: 12rem;
+}
+
+.list_stats_container {
+    width: var(--content-width);
+    display: flex;
+}
+
+.list_stats {
     width: var(--content-width);
     margin: auto;
     margin-left: var(--small-spaces);
     padding: 0;
+    white-space: nowrap;
 }
 
 .highlight_amiibo {
     background-color: var(--theme-highlight-colour);
 }
 
-.list_item {
-    width: 24rem;
-    height: 6rem;
-    font-size: 11px;
-    transition: var(--theme-transition-speed);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+
+
+
 
 .list_item_short {
     width: 20rem;
@@ -191,17 +206,9 @@ div.header {
     align-items: center;
 }
 
-.list_image {
-    width: 6rem;
-    height: 6rem;
-}
 
-.list_stats {
-    margin: 0;
-    margin-right: auto;
-    margin-left: 5px;
-    padding: 0;
-}
+
+
 
 .list_item:hover {
     background-color: var(--theme-highlight-colour);
@@ -216,29 +223,23 @@ div.header {
     background-color: rgba(255, 99, 132, 0.2);
 }
 
-b.ACTIVE {
-    color: rgba(34, 71, 34, 1);
-}
 
-b.STANDBY {
-    color: rgba(100, 0, 160, 1);
-}
 
-b.INACTIVE {
-    color: rgba(64, 64, 64, 1);
-}
 
-.ACTIVE:hover {
+
+
+
+.ACTIVE {
     background-color: rgba(34, 71, 34, 0.3);
     color: white;
 }
 
-.STANDBY:hover {
+.STANDBY {
     background-color: rgba(100, 0, 160, 0.3);
     color: white;
 }
 
-.INACTIVE:hover {
+.INACTIVE {
     background-color: rgba(64, 64, 64, 0.3);
     color: white;
 }
@@ -499,12 +500,22 @@ img {
         padding-bottom: 7rem;
     }
 
-    .micro_leaderboard_stats {
-        font-size: 75%;
+    .list_stats {
+        font-size: 85%;
         width: var(--content-width);
         margin: auto;
         margin-left: var(--small-spaces);
         padding: 0;
+    }
+
+    .list_stats_grid_container {
+        display: grid;
+        grid-template-columns: 10rem;
+    }
+    
+
+    .mobile_remove {
+        display: none;
     }
 
 }

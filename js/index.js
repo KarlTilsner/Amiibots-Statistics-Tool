@@ -1,6 +1,8 @@
 // STARTER FUNCTION
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
 document.addEventListener('DOMContentLoaded', function() {
+    window.localStorage.setItem('SortType', 'sort_by_tierlist');
+    highlightSortButton('sort_by_tierlist');
     amiiboStats();
 });
 
@@ -19,6 +21,18 @@ function searchMemory() {
 
 
 
+// UPDATE THE STORED AMIIBO ID AND REDIRECT TO THE STATS TOOL
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+function updateStatsSearch(new_id) {
+    console.log('updated id');
+    window.localStorage.setItem('saved_amiibo_id', new_id);
+    window.location.href = "./index.html";
+}
+
+
+
+
+
 // GLOBAL VARIABLES
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
 // Data for rating history chart
@@ -31,10 +45,6 @@ let matchups_lost = [];
 let matchups_winrate = [];
 let matchups_sort_winrate = [];
 let matchups_encounters = [];
-
-// Character data
-const all_character_names = [];
-const all_character_ids = [];
 
 // Chart Theme Colours
 const primary_background_colour =     'rgba(255, 99, 132, 0.2)';      // red
@@ -56,13 +66,10 @@ async function get_all_characters() {
     const url = `https://www.amiibots.com/api/utility/get_all_characters`;
     const query = await fetch(url);
     const response = await query.json();
-    const data = response.data.map(
-        function(index) {
-            all_character_ids.push(index.id);
-            all_character_names.push(index.name);
-        }
-    );
-    console.log('Found all characters');
+    const data = response.data.map(index => index);
+    
+    console.log("Got all character names and ids");
+    return data;
 }
 
 
@@ -104,7 +111,7 @@ async function amiiboStats() {
 
 
     
-    await get_all_characters();
+    const all_characters = await get_all_characters();
 
 
 
@@ -344,43 +351,47 @@ async function amiiboStats() {
         function printOverallLeaderboard () {
             // Print every amiibo onto the screen
             let content = document.getElementById('overall_rank_mini_leaderboard');
-            let list = '<div class="micro_leaderboard_container">';
+            let list = '<div class="list_item_container">';
     
             for (let i = 0; i < overall_leaderboard.length; i++) {
-                for (let x = 0; x < all_character_ids.length; x++) {
+                for (let x = 0; x < all_characters.length; x++) {
                     let characterIcon = 0;
     
-                    if (all_character_ids[x] == overall_leaderboard[i].character_id) {
+                    if (all_characters[x].id == overall_leaderboard[i].character_id) {
     
                         // Match current character with icon
-                        characterIcon = (`${all_character_names[x]}.png`);
+                        characterIcon = (`${all_characters[x].name}.png`);
     
                         // Put image onto the listed item when amiibots is fixed
                         list += (
-                        `<div class="micro_leaderboard_item ${overall_leaderboard[i].character_highlight}" id="list_item_searchable">
+                        `<div class="list_item ${overall_leaderboard[i].character_highlight}" id="list_item_searchable" onclick="updateStatsSearch('${overall_leaderboard[i].amiibo_id}')">
 
                             <img src="./images/${characterIcon}" class="list_image">
 
-                            <div class="micro_leaderboard_stats">
-                                <h2>${overall_leaderboard[i].amiibo_name}</h2>
-                                <h3>${overall_leaderboard[i].trainer_name}</h3>
+                            <div class="list_stats_grid_container">
+                                <div class="list_stats amiibo_trainer_name_title">
+                                    <h2>${overall_leaderboard[i].trainer_name}</h2>
+                                    <h1>${overall_leaderboard[i].amiibo_name}</h1>
+                                </div>
                             </div>
 
-                            <div class="micro_leaderboard_stats">
-                                <h2>Rating:</h2>
-                                <h3>${overall_leaderboard[i].rating.toFixed(2)}</h3>
+                            <div class="list_stats_container">
+                                <div class="list_stats">
+                                    <h2>Rating:</h2>
+                                    <h1>${overall_leaderboard[i].rating.toFixed(2)}</h1>
+                                </div>
+
+                                <div class="list_stats mobile_remove">
+                                    <h2>Rating Diff:</h2>
+                                    <h1>${Math.abs(overall_leaderboard[i].rating_difference).toFixed(2)}</h1>
+                                </div>
+
+                                <div class="list_stats">
+                                    <h2>Rank:</h2>   
+                                    <h1>${overall_leaderboard[i].rank}</h1>
+                                </div>
                             </div>
 
-                            <div class="micro_leaderboard_stats">
-                                <h2>Rating Diff:</h2>
-                                <h3>${Math.abs(overall_leaderboard[i].rating_difference).toFixed(2)}</h3>
-                            </div>
-
-                            <div class="micro_leaderboard_stats">
-                                <h2>Rank:</h2>   
-                                <h3>${overall_leaderboard[i].rank}</h3>
-                            </div>
-                            
                         </div>`
                         );
                     }
@@ -396,41 +407,46 @@ async function amiiboStats() {
         function printCharacterLeaderboard () {
             // Print every amiibo onto the screen
             let content = document.getElementById('character_rank_mini_leaderboard');
-            let list = '<div class="micro_leaderboard_container">';
+            let list = '<div class="list_item_container">';
     
             for (let i = 0; i < character_leaderboard.length; i++) {
-                for (let x = 0; x < all_character_ids.length; x++) {
+                for (let x = 0; x < all_characters.length; x++) {
                     let characterIcon = 0;
     
-                    if (all_character_ids[x] == character_leaderboard[i].character_id) {
+                    if (all_characters[x].id == character_leaderboard[i].character_id) {
     
                         // Match current character with icon
-                        characterIcon = (`${all_character_names[x]}.png`);
+                        characterIcon = (`${all_characters[x].name}.png`);
     
                         // Put image onto the listed item when amiibots is fixed
                         list += (
-                        `<div class="micro_leaderboard_item ${character_leaderboard[i].character_highlight}" id="list_item_searchable">
+                        `<div class="list_item ${character_leaderboard[i].character_highlight}" id="list_item_searchable" onclick="updateStatsSearch('${character_leaderboard[i].amiibo_id}')">
                             <img src="./images/${characterIcon}" class="list_image">
 
-                            <div class="micro_leaderboard_stats">
-                                <h2>${character_leaderboard[i].amiibo_name}</h2>
-                                <h3>${character_leaderboard[i].trainer_name}</h3>
+                            <div class="list_stats_grid_container">
+                                <div class="list_stats amiibo_trainer_name_title">
+                                    <h2>${character_leaderboard[i].trainer_name}</h2>
+                                    <h1>${character_leaderboard[i].amiibo_name}</h1>
+                                </div>
                             </div>
 
-                            <div class="micro_leaderboard_stats">
-                                <h2>Rating:</h2>
-                                <h3>${character_leaderboard[i].rating.toFixed(2)}</h3>
+                            <div class="list_stats_container">
+                                <div class="list_stats">
+                                    <h2>Rating:</h2>
+                                    <h1>${character_leaderboard[i].rating.toFixed(2)}</h1>
+                                </div>
+
+                                <div class="list_stats mobile_remove">
+                                    <h2>Rating Diff:</h2>
+                                    <h1>${Math.abs(character_leaderboard[i].rating_difference).toFixed(2)}</h1>
+                                </div>
+
+                                <div class="list_stats">
+                                    <h2>Rank:</h2>   
+                                    <h1>${character_leaderboard[i].rank}</h1>
+                                </div>
                             </div>
 
-                            <div class="micro_leaderboard_stats">
-                                <h2>Rating Diff:</h2>
-                                <h3>${Math.abs(character_leaderboard[i].rating_difference).toFixed(2)}</h3>
-                            </div>
-
-                            <div class="micro_leaderboard_stats">
-                                <h2>Rank:</h2>   
-                                <h3>${character_leaderboard[i].rank}</h3>
-                            </div>
                         </div>`
                         );
                     }
@@ -512,6 +528,7 @@ async function amiiboStats() {
             if (amiibo_id == all_matches_data[i].fp1.id && amiibo_id == all_matches_data[i].winner_info.id) {
                 full_match_history.push({
                     'character_id': all_matches_data[i].fp2.character_id,
+                    'opponent_id': all_matches_data[i].fp2.id,
                     'name': all_matches_data[i].fp2.name,
                     'trainer_name': all_matches_data[i].fp2.trainer_name,
                     
@@ -529,6 +546,7 @@ async function amiiboStats() {
             if (amiibo_id == all_matches_data[i].fp1.id && amiibo_id == all_matches_data[i].loser_info.id) {
                 full_match_history.push({
                     'character_id': all_matches_data[i].fp2.character_id,
+                    'opponent_id': all_matches_data[i].fp2.id,
                     'name': all_matches_data[i].fp2.name,
                     'trainer_name': all_matches_data[i].fp2.trainer_name,
                     
@@ -546,6 +564,7 @@ async function amiiboStats() {
             if (amiibo_id == all_matches_data[i].fp2.id && amiibo_id == all_matches_data[i].winner_info.id) {
                 full_match_history.push({
                     'character_id': all_matches_data[i].fp1.character_id,
+                    'opponent_id': all_matches_data[i].fp1.id,
                     'name': all_matches_data[i].fp1.name,
                     'trainer_name': all_matches_data[i].fp1.trainer_name,
                     
@@ -563,6 +582,7 @@ async function amiiboStats() {
             if (amiibo_id == all_matches_data[i].fp2.id && amiibo_id == all_matches_data[i].loser_info.id) {
                 full_match_history.push({
                     'character_id': all_matches_data[i].fp1.character_id,
+                    'opponent_id': all_matches_data[i].fp1.id,
                     'name': all_matches_data[i].fp1.name,
                     'trainer_name': all_matches_data[i].fp1.trainer_name,
                     
@@ -625,9 +645,9 @@ async function amiiboStats() {
 
             // Match current character with icon
             let characterIcon = 'reset';
-            for (let x = 0; x < all_character_ids.length; x++) {
-                if (all_character_ids[x] == full_match_history[i].character_id) {
-                    characterIcon = (`${all_character_names[x]}.png`)
+            for (let x = 0; x < all_characters.length; x++) {
+                if (all_characters[x].id == full_match_history[i].character_id) {
+                    characterIcon = (`${all_characters[x].name}.png`)
                 }
             }
 
@@ -647,33 +667,38 @@ async function amiiboStats() {
             } else {
                 // Normal code for everyone else
                 list += (
-                    `<div class="micro_leaderboard_item match_win_${full_match_history[i].match_win}" id="list_item_searchable">
+                    `<div class="list_item match_win_${full_match_history[i].match_win}" id="list_item_searchable" onclick="updateStatsSearch('${full_match_history[i].opponent_id}')">
                         <img src="./images/${characterIcon}" class="list_image">
 
-                        <div class="micro_leaderboard_stats">
-                            <h2>${full_match_history[i].trainer_name}</h2>
-                            <h1>${full_match_history[i].name}</h1>
+                        <div class="list_stats_grid_container">
+                            <div class="list_stats amiibo_trainer_name_title">
+                                <h2>${full_match_history[i].trainer_name}</h2>
+                                <h1>${full_match_history[i].name}</h1>
+                            </div>
                         </div>
 
-                        <div class="micro_leaderboard_stats">
-                            <h2>Opponent Rating:</h2>
-                            <h1>${full_match_history[i].opponent_rating.toFixed(2)}</h1>
+                        <div class="list_stats_container">
+                            <div class="list_stats">
+                                <h2>Opponent Rating:</h2>
+                                <h1>${full_match_history[i].opponent_rating.toFixed(2)}</h1>
+                            </div>
+
+                            <div class="list_stats">
+                                <h2>Your Rating:</h2>
+                                <h1>${full_match_history[i].your_rating.toFixed(2)}</h1>
+                            </div>
+
+                            <div class="list_stats">
+                                <h2>Rating Change:</h2>   
+                                <h1>${full_match_history[i].your_current_rating.toFixed(2)} (${full_match_history[i].rating_change})</h1>
+                            </div>
+
+                            <div class="list_stats mobile_remove">
+                                <h2>Match: ${full_match_history[i].match_number}</h2>   
+                                <h2>Selection: ${full_match_history[i].match_selection}</h2>
+                            </div>
                         </div>
 
-                        <div class="micro_leaderboard_stats">
-                            <h2>Your Rating:</h2>
-                            <h1>${full_match_history[i].your_rating.toFixed(2)}</h1>
-                        </div>
-
-                        <div class="micro_leaderboard_stats">
-                            <h2>Rating Change:</h2>   
-                            <h1>${full_match_history[i].your_current_rating.toFixed(2)} (${full_match_history[i].rating_change})</h1>
-                        </div>
-
-                        <div class="micro_leaderboard_stats">
-                        <h2>Match: ${full_match_history[i].match_number}</h2>   
-                        <h2>Selection: ${full_match_history[i].match_selection}</h2>
-                    </div>
                     </div>`
                 );
             }

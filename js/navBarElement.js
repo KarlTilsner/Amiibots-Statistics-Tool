@@ -17,17 +17,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 </a>
             </li>
 
-            <li class="nav_item" onclick="window.location.href = 'id_search.html'">
+            <li class="nav_item" onclick="window.location.href = 'amiibo_search.html'">
                 <a href="#" class="nav_link">
-                    <img class="nav_img" src="images/icon_id_search.png">
-                    <h2 class="link_text">Amiibo & Player Search</h2>
-                </a>
-            </li>
-
-            <li class="nav_item" onclick="window.location.href = 'character_matchups.html'">
-                <a href="#" class="nav_link">
-                    <img class="nav_img" src="images/icon_matchup_tool.png">
-                    <h2 class="link_text">Amiibots Matchups</h2>
+                    <img class="nav_img" src="images/icon_amiibo_search.png">
+                    <h2 class="link_text">Browse All Amiibo</h2>
                 </a>
             </li>
 
@@ -38,10 +31,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 </a>
             </li>
 
-            <li class="nav_item" onclick="window.location.href = 'name_search.html'">
+            <li class="nav_item" onclick="window.location.href = 'character_matchups.html'">
                 <a href="#" class="nav_link">
-                    <img class="nav_img" src="images/icon_name_search.png">
-                    <h2 class="link_text">Browse All Amiibo</h2>
+                    <img class="nav_img" src="images/icon_matchup_tool.png">
+                    <h2 class="link_text">Amiibots Matchups (WIP)</h2>
                 </a>
             </li>
 
