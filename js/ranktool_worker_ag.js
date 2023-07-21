@@ -57,7 +57,8 @@ self.onmessage = async function(userInput) {
                     "amiibo_id": index.id,
                     "amiibo_rating": index.rating,
                     "total_matches": index.total_matches,
-                    "character_id": index.playable_character_id
+                    "character_id": index.playable_character_id,
+                    "match_selection_status": index.match_selection_status
                 });
             }
         );
@@ -88,6 +89,7 @@ self.onmessage = async function(userInput) {
                         "amiibo_rating": all_ruleset_amiibo[x].amiibo_rating,
                         "total_matches": all_ruleset_amiibo[x].total_matches,
                         "character_id": all_ruleset_amiibo[x].character_id,
+                        "match_selection_status": all_ruleset_amiibo[x].match_selection_status,
                         "amiibo_rank": character_rank
                     });
                 }
@@ -101,6 +103,7 @@ self.onmessage = async function(userInput) {
                         "amiibo_rating": all_ruleset_amiibo[x].amiibo_rating,
                         "total_matches": all_ruleset_amiibo[x].total_matches,
                         "character_id": all_ruleset_amiibo[x].character_id,
+                        "match_selection_status": all_ruleset_amiibo[x].match_selection_status,
                         "amiibo_rank": character_rank
                     });
                 }

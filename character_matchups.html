@@ -39,6 +39,11 @@
                 <p class="version" id="versionNo"></p>
             </div>
 
+            <div>   The Matchups Tool is currently work in progress. </br>
+                    The loading time for this tool reders it almost unuseable. </br>
+                    If you wish to use this tool at a reasonable speed, </br>
+                    clone the repository and run Amiibots Statistics Tool on a live server</div>
+
 
 
             <div class="block">
@@ -128,98 +133,6 @@
            
 //                                                              GRAPH RATING HISTORY
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
-    //Draw chart onto a canvas
-    // async function RatingHistoryChart() {
-
-    // const barWidth = ((highestRatedHistory.length)/100)*0.25;
-
-    // let rating_history_chart_location = document.getElementById('rating_history_chart_canvas');  
-    //     let rating_history_chart = new Chart(rating_history_chart_location, {
-    //         type: 'line',
-            
-    //         data: {
-    //             labels: weeks,
-    //             datasets: [{
-    //                 label: `Rating`,
-    //                 data: rating,
-    //                 backgroundColor: primary_background_colour,
-    //                 borderColor: primary_border_colour,
-    //                 fill: true,
-    //                 borderWidth: 1,
-    //                 pointRadius: 1,
-    //                 pointHoverRadius: 1
-    //             }]
-    //         },
-            
-    //         options: {
-    //             responsive: true,
-    //             maintainAspectRatio: false,
-    //             scales: {
-    //                 x: {
-    //                     grid: {
-    //                         display: false
-    //                     },
-    //                     title: {
-    //                         display: true,
-    //                         text: 'Week'
-    //                     }
-    //                 },
-    //                 y: {
-    //                     beginAtZero: true,
-    //                     grid: {
-    //                         color: 'rgba(200, 200, 200, 0.2)'
-    //                     },
-    //                     title: {
-    //                         display: true,
-    //                         text: 'Rating Over Time'
-    //                     }
-    //                 }
-    //             }
-    //         } 
-    //     });
-    // }
-
-
-    // async function RatingHistoryChart(newDataset) {
-    //     // const barWidth = (highestRatedHistory.length / 100) * 0.25;
-
-    //     let rating_history_chart_location = document.getElementById('rating_history_chart_canvas');
-    //     let rating_history_chart = new Chart(rating_history_chart_location, {
-    //         type: 'bar',
-    //         data: {
-    //             labels: xAxis_weeks,
-    //             datasets: newDataset, // Add the new dataset here 
-    //         },
-    //         options: {
-    //             responsive: true,
-    //             maintainAspectRatio: false,
-    //             scales: {
-    //                 x: {
-    //                     grid: {
-    //                         display: false,
-    //                     },
-    //                     title: {
-    //                         display: true,
-    //                         text: 'Week',
-    //                     },
-    //                 },
-    //                 y: {
-    //                     beginAtZero: true,
-    //                     grid: {
-    //                         color: 'rgba(200, 200, 200, 0.2)',
-    //                     },
-    //                     title: {
-    //                         display: true,
-    //                         text: 'Rating Over Time',
-    //                     },
-    //                 },
-    //             },
-    //         },
-    //     });
-    // }
-
-
-
 
     async function RatingHistoryChart(datasets) {
   const barWidth = (highestRatedHistory.length / 100) * 0.25;

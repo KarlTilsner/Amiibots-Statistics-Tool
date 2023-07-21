@@ -1,6 +1,11 @@
 //                                                              STARTER FUNCTION
 //--------------------------------------------------------------------------------------------------------------------------------------------------------- 
 window.onload = function() {
+    // Set rulesets
+    window.localStorage.setItem('vanilla', '44748ebb-e2f3-4157-90ec-029e26087ad0');
+    window.localStorage.setItem('b5b', '328d8932-456f-4219-9fa4-c4bafdb55776');
+    window.localStorage.setItem('ag', 'af1df0cd-3251-4b44-ba04-d48de5b73f8b');
+
     usageTierlistRulesetHighlight('start');
     usageTierlistFilterHighlight('start');
     usage_tierlist('7000');
@@ -58,7 +63,7 @@ function usageTierlistFilterHighlight(start, button_id) {
         document.getElementById(`filter_${highlightRulesetButton}`).setAttribute("style", `background-color: rgba(220, 220, 220, 0.3)`);
         } catch (err) {
             window.localStorage.setItem('Usage Tierlist Filter', 'active_standby');
-            let highlightRulesetButton = window.localStorage.getItem('Usage Tierlist Ruleset');
+            let highlightRulesetButton = window.localStorage.getItem('Usage Tierlist Filter');
             document.getElementById(`filter_${highlightRulesetButton}`).setAttribute("style", `background-color: rgba(220, 220, 220, 0.3)`);
             console.log("Filter was empty");
         }

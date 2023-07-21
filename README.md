@@ -1,4 +1,11 @@
 # Change Log:
+## v1.2.2
+- All amiibo listed in any tool is now clickable
+    - Clicking on an amiibo will redirect to the amiibo stats tool and display all their stats (as long as they havent been deleted or havent got enough games)
+- Tweaked the font sizes and GUI to make tools that list amiibo more mobile friendly
+- The "ID Search Tool" has been retired and will be replaced by the rebranded "Amiibo Search" tool previously known as the "Name Search Tool"
+- Improved stability and slayed bugs
+
 ## v1.2.1
 - Overhauled code for the amiibo stats page
     - Utilises the new API endpoints for faster loading
