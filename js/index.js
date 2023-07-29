@@ -60,7 +60,7 @@ const quaternary_border_colour =      'rgba(255, 170, 0, 1)'          // orange
 
 
 
-// Queries all character names and IDs and pushed them into arrays
+// Queries all character names and IDs and loads them into an object
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
 async function get_all_characters() {
     const url = `https://www.amiibots.com/api/utility/get_all_characters`;

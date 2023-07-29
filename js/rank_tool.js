@@ -17,15 +17,6 @@ async function rank_tool() {
 
     let amiibo_count = 0;
 
-    let vanilla_top_place = [];
-    let vanilla_top_ten = [];
-
-    let b5b_top_place = [];
-    let b5b_top_ten = [];
-
-    let ag_top_place = [];
-    let ag_top_ten = [];
-
     // spin up new workers
     const worker_vanilla = new Worker('./js/ranktool_worker_v.js');
     worker_vanilla.postMessage(userInput);
@@ -58,8 +49,8 @@ async function rank_tool() {
 
 
     worker_vanilla.onmessage = function(message) {
-        vanilla_top_place = message.data.topPlaceAmiibo;
-        vanilla_top_ten = message.data.topTenAmiibo;
+        const vanilla_top_place = message.data.topPlaceAmiibo;
+        const vanilla_top_ten = message.data.topTenAmiibo;
 
         amiibo_count += (vanilla_top_place.length + vanilla_top_ten.length);
 
@@ -182,8 +173,8 @@ async function rank_tool() {
 
 
     worker_b5b.onmessage = function(message) {
-        b5b_top_place = message.data.topPlaceAmiibo;
-        b5b_top_ten = message.data.topTenAmiibo;
+        const b5b_top_place = message.data.topPlaceAmiibo;
+        const b5b_top_ten = message.data.topTenAmiibo;
 
         amiibo_count += (b5b_top_place.length + b5b_top_ten.length);
 
@@ -303,8 +294,8 @@ async function rank_tool() {
 
 
     worker_ag.onmessage = function(message) {
-        ag_top_place = message.data.topPlaceAmiibo;
-        ag_top_ten = message.data.topTenAmiibo;
+        const ag_top_place = message.data.topPlaceAmiibo;
+        const ag_top_ten = message.data.topTenAmiibo;
 
         amiibo_count += (ag_top_place.length + ag_top_ten.length);
 

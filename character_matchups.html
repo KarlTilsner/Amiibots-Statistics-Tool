@@ -39,11 +39,6 @@
                 <p class="version" id="versionNo"></p>
             </div>
 
-            <div>   The Matchups Tool is currently work in progress. </br>
-                    The loading time for this tool reders it almost unuseable. </br>
-                    If you wish to use this tool at a reasonable speed, </br>
-                    clone the repository and run Amiibots Statistics Tool on a live server</div>
-
 
 
             <div class="block">
@@ -55,14 +50,14 @@
 
                     <div class="container list_item_short" id="list_item_searchable">
                         <img id='list_img' src="images/Blank Icon.png" class="list_image">
-                        <p class="list_stats">
+                        <!-- <p class="list_stats">
                             <i id="list_rating">Rating:</i></br>
                             <i id="list_win_rate">Win Rate:</i></br>
                             <i id="list_wins">Wins:</i></br>
                             <i id="list_losses">Losses:</i></br>
                             <i id="list_total_matches">Total Matches:</i></br>
                             </br>
-                        </p>
+                        </p> -->
                     </div>
                 </div>
             </div>
@@ -76,20 +71,6 @@
                     <div class="rating_history" id="rating_history">
                         <canvas id="rating_history_chart_canvas"></canvas>
                     </div>
-                </div>
-            </div>
-
-
-
-            <div class="block">
-                <div class="container">
-                    <h2 class="stats" id="rating_ditribution_chart_title" style="text-align: center;">Rating Distribution</h2>
-
-
-                <div id="rating_ditribution">
-                    <canvas id="rating_ditribution_canvas"></canvas>
-                </div>
-
                 </div>
             </div>
 
@@ -135,45 +116,43 @@
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
 
     async function RatingHistoryChart(datasets) {
-  const barWidth = (highestRatedHistory.length / 100) * 0.25;
+        const barWidth = (highestRatedHistory.length / 100) * 0.25;
 
-  let rating_history_chart_location = document.getElementById('rating_history_chart_canvas');
-  let rating_history_chart = new Chart(rating_history_chart_location, {
-    type: 'line',
-    data: {
-      labels: xAxis_weeks,
-      datasets: datasets, // Use the provided datasets array
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      scales: {
-        x: {
-          grid: {
-            display: false,
-          },
-          title: {
-            display: true,
-            text: 'Week',
-          },
-        },
-        y: {
-          beginAtZero: true,
-          grid: {
-            color: 'rgba(200, 200, 200, 0.2)',
-          },
-          title: {
-            display: true,
-            text: 'Rating Over Time',
-          },
-        },
-      },
-    },
-  });
-}
+        let rating_history_chart_location = document.getElementById('rating_history_chart_canvas');
+        let rating_history_chart = new Chart(rating_history_chart_location, {
+            type: 'line',
+            data: {
+                labels: xAxis_weeks,
+                datasets: datasets, // Use the provided datasets array
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        grid: {
+                            display: false,
+                        },
+                        title: {
+                            display: true,
+                            text: 'Week',
+                        },
+                    },
+                    y: {
+                        beginAtZero: true,
+                        grid: {
+                            color: 'rgba(200, 200, 200, 0.2)',
+                        },
+                        title: {
+                            display: true,
+                            text: 'Rating Over Time',
+                        },
+                    },
+                },
+            },
+        });
+    }
 
-
-    
 
 
 
@@ -293,77 +272,6 @@
             });
         }
     }
-
-
-
-
-
-
-
-    async function ratingDistribution(data, averageRating) {
-
-        // Calculate the Y values for the normal distribution
-        const normalDistribution = (x, mean, stdDev) =>
-            Math.exp(-0.5 * Math.pow((x - mean) / stdDev, 2)) /
-            (stdDev * Math.sqrt(2 * Math.PI));
-
-        const yValues = data.map((x) => normalDistribution(x, averageRating, 2.5));
-
-        // Create the chart
-        const ctx = document.getElementById("rating_ditribution_canvas").getContext("2d");
-        const myChart = new Chart(ctx, {
-            type: "line",
-            data: {
-            labels: data,
-            datasets: [
-                {
-                label: "Normal Distribution",
-                data: yValues,
-                backgroundColor: "rgba(255, 99, 132, 0.2)",
-                borderColor: "rgba(255, 99, 132, 1)",
-                borderWidth: 0.25,
-                pointRadius: 0.25,
-                pointHoverRadius: 0.25,
-                fill: true,
-                },
-            ],
-            },
-            options: {
-            scales: {
-                yAxes: [
-                {
-                    ticks: {
-                    beginAtZero: true,
-                    },
-                },
-                ],
-            },
-            },
-        });
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
