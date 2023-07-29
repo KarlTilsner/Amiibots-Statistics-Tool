@@ -1,4 +1,9 @@
 # Change Log:
+## v1.2.3
+- Overhauled how data is processed in the matchup tool
+    - Greatly increased the speed that the matchups load
+- Removed the rating distribution chart in the matchup tool
+
 ## v1.2.2
 - All amiibo listed in any tool is now clickable
     - Clicking on an amiibo will redirect to the amiibo stats tool and display all their stats (as long as they havent been deleted or havent got enough games)
