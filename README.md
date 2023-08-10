@@ -1,4 +1,7 @@
 # Change Log:
+## v1.2.3.2
+- Fixed minor bug
+
 ## v1.2.3.1
 - Updated matchup data
 
