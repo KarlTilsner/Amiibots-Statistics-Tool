@@ -1,7 +1,10 @@
 # Change Log:
+## v1.2.3.1
+- Updated matchup data
+
 ## v1.2.3
 - Overhauled how data is processed in the matchup tool
-    - Greatly increased the speed that the matchups load
+    - Greatly increased the speed that the matchups loads
 - Removed the rating distribution chart in the matchup tool
 
 ## v1.2.2
