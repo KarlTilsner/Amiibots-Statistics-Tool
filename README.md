@@ -1,4 +1,10 @@
 # Change Log:
+## v1.2.4
+- Added unofficial trainer leaderboard
+    - Uses a points based system similar to formula 1 to rank trainers
+    - Highest character recieves full points
+    - Duplicate characters recieve 1 point
+
 ## v1.2.3.2
 - Fixed minor bug
 

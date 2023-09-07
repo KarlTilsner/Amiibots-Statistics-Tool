@@ -9,7 +9,8 @@
 
         <link rel="stylesheet" href="css/styles.css">
 
-        <script src="js/rank_tool.js"></script>
+        <!-- <script src="js/rank_tool.js"></script> -->
+        <script src="js/trainer_ranks.js"></script>
         <script src="js/versionNumber.js"></script>
         <script src="js/navBarElement.js"></script>
     </head>
@@ -37,16 +38,54 @@
                 <div class="flex_container">
                     <div class="container search_bar">
                         <form>
-                            <input type="text" id="trainer_name" name="trainer" placeholder="Enter your Twitch username here" required>
+                            <input type="text" id="trainer_name" name="trainer" placeholder="Search Trainers" onkeyup="printCharacterLeaderboard()" required>
 
-                            <input type="button" value="Search for top placing amiibo" class="main_search" id="search_button" onclick="rank_tool();">
+                            <!-- <input type="button" value="Search for top placing amiibo" class="main_search" id="search_button" onclick="rank_tool();"> -->
                         </form>
+                    </div>
+
+
+                    <div class="container search_bar">
+                        <form>
+                            <div class="search_buttons">
+                                <input class="button" type="button"  id="ruleset_vanilla"  name="ruleset"   value="Vanilla"        onclick="buttonHighlight('null', 'vanilla')">
+                                <input class="button" type="button"  id="ruleset_b5b"      name="ruleset"   value="Big 5 Ban"      onclick="buttonHighlight('null', 'b5b')">
+                                <input class="button" type="button"  id="ruleset_ag"       name="ruleset"   value="Anything Goes"  onclick="buttonHighlight('null', 'ag')">
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="block">
+                <div  class="flex_container">
+                    <div class="container quick_statistics">
+                        <h1 class="stats">Unofficial Trainer Leaderboard</h1>
+                            <div class="padding_container">
+                                <div class="flex_list_container" id="test"></div>
+                            </div>
                     </div>
                 </div>
             </div>
 
 
-            <div class="block">
+
+
+
+
+
+
+
+            <!-- <div class="block">
                 <div class="flex_container">
                     <div class="container quick_statistics">
                         <h1 class="stats">Vanilla:</h1>
@@ -102,7 +141,7 @@
                             </div>              
                     </div>
                 </div>
-            </div>
+            </div> -->
 
 
 

@@ -185,12 +185,19 @@ div.header {
     margin-left: var(--small-spaces);
     padding: 0;
     white-space: nowrap;
+    overflow: hidden;
 }
 
 .highlight_amiibo {
     background-color: var(--theme-highlight-colour);
 }
 
+.trainer_rank_unique_amiibo {
+    margin: auto;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
 
 
 

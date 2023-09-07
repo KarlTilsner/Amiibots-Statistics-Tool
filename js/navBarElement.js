@@ -1,4 +1,4 @@
-//                                                              STARTER FUNCTION
+// STARTER FUNCTION
 //--------------------------------------------------------------------------------------------------------------------------------------------------------- 
 document.addEventListener('DOMContentLoaded', function() {
     let content = document.getElementById('documentNavbar');
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <li class="nav_item" onclick="window.location.href = 'rank_tool.html'">
                 <a href="#" class="nav_link">
                     <img class="nav_img" src="images/icon_rank_tool.png">
-                    <h2 class="link_text">Rank Tool</h2>
+                    <h2 class="link_text">Trainer Leaderboard</h2>
                 </a>
             </li>
 
