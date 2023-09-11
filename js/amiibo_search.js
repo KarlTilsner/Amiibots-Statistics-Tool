@@ -130,12 +130,12 @@ async function nameSearchTool() {
         }
     );
 
-    
-
     // Find overall ranks for every amiibo
+    let overall_rank = 0;
     for (let i = 0; i < all_amiibo_data.length; i++) {
         if (all_amiibo_data[i].match_selection_status != 'INACTIVE') {
-            all_amiibo_data[i].overall_rank = i + 1;
+            overall_rank++;
+            all_amiibo_data[i].overall_rank = overall_rank;
         }
     }
 
@@ -191,10 +191,11 @@ function nameSearchBar() {
                         characterIcon = (`${all_characters[i].name}.png`)
                     }
                 }
+
                 
                 // Put image onto the listed item when amiibots is fixed
                 list += (
-                `<div class="list_item ${status}" id="list_item_searchable" onclick="updateStatsSearch('${index.amiibo_id}')">
+                `<div class="list_item ${status}" id="list_item_searchable" onclick="updateStatsSearch('${index.amiibo_id}'), addAmiiboToSearchHistory('${index.trainer_name}', '${index.amiibo_name}', '${index.amiibo_id}', '${index.character_id}', '${window.localStorage.getItem(window.localStorage.getItem("Name Search Tool Ruleset"))}', '${new Date()}')">
 
                     <img src="./images/${characterIcon}" class="list_image">
 

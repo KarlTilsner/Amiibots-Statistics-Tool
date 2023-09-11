@@ -3,6 +3,8 @@ self.onmessage = async function(amiibo_id_message) {
     const amiibo_id = amiibo_id_message.data.amiibo_id;
     const amiibo_ruleset = amiibo_id_message.data.amiibo_ruleset;
     const character_id = amiibo_id_message.data.character_id;
+    const rating_mu = amiibo_id_message.data.rating_mu;
+    let matchmaking_status = null;
 
     async function getCharacterName() {
         const query = await fetch(`https://www.amiibots.com/api/utility/character_id_to_name?character_id=${character_id}`);
@@ -40,8 +42,13 @@ self.onmessage = async function(amiibo_id_message) {
         const query = await fetch(`https://www.amiibots.com/api/amiibo?per_page=${numberOfAmiibo}&ruleset_id=${amiibo_ruleset}&matchmaking_status=ACTIVE,STANDBY`);
         const response = await query.json();
         // console.log(response);
-        const file = response.data.map(
+        response.data.map(
             async function(index) {
+
+                // Get amiibo matchmaking status
+                if (amiibo_id == index.id) {
+                    matchmaking_status = index.match_selection_status;
+                }
 
                 overallRank++;
                 overall_leaderboard.push({
@@ -88,10 +95,10 @@ self.onmessage = async function(amiibo_id_message) {
         // console.log(character_leaderboard);
 
         const rank_quick_stats = {
-            'rank_overall':  0,
-            'rank_character': 0,
-            'next_rank_overall': 0,
-            'next_rank_character': 0
+            rank_overall:  0,
+            rank_character: 0,
+            next_rank_overall: 0,
+            next_rank_character: 0
         };
 
 
@@ -272,19 +279,51 @@ self.onmessage = async function(amiibo_id_message) {
             }
         }
 
-        console.log(shortened_overall_leaderboard);
-        console.log(shortened_character_leaderboard);
+
+
+
+
+        async function findSurroundingAmiibo() {
+            const upperBound = rating_mu + 5;
+            const lowerBound = rating_mu - 5;
+
+            const possibleOpponents = [];
+            
+            response.data.map(index => {
+                // If amiibo is active get all amiibo within range
+                if (matchmaking_status == "ACTIVE") {
+                    if (index.rating_mu <= upperBound && index.rating_mu >= lowerBound) {
+                        possibleOpponents.push(index);
+                    }
+                }
+
+                // If amiibo is standby get all amiibo within range that are active
+                if (matchmaking_status == "STANDBY") {
+                    if (index.rating_mu <= upperBound && index.rating_mu >= lowerBound && index.match_selection_status == "ACTIVE") {
+                        possibleOpponents.push(index);
+                    }
+                }
+            });
+
+            return possibleOpponents;
+        }
+        const opponent_frequency = await findSurroundingAmiibo();
+
+
+        
+
 
         const processedData = {
-            "character_leaderboard": shortened_character_leaderboard,
-            "overall_leaderboard": shortened_overall_leaderboard,
-            "quick_stats": rank_quick_stats
+            character_leaderboard: shortened_character_leaderboard,
+            overall_leaderboard: shortened_overall_leaderboard,
+            quick_stats: rank_quick_stats,
+            opponent_frequency: opponent_frequency
         };
 
         return processedData;
     }
     const processedData = await findAmiiboRank();
-
+    
     console.log('Finished finding ranks');
 
     self.postMessage(processedData);

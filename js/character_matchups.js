@@ -83,23 +83,13 @@ async function characterMatchup(selectedOption) {
     document.getElementById('amiibo_lost_to_chart_canvas').remove();
     document.getElementById('rating_history_chart_canvas').remove();
 
-
-
-
-
     // // Load data into card
     document.getElementById('list_img').src = `images/Blank Icon.png`;
-    // document.getElementById('list_rating').innerText = `Rating:`;
-    // document.getElementById('list_win_rate').innerText = `Win Rate:`;
-    // document.getElementById('list_wins').innerText = `Wins:`;
-    // document.getElementById('list_losses').innerText = `Losses:`;
-    // document.getElementById('list_total_matches').innerText = `Total Matches:`;
-
-    // document.getElementById('matchup_chart_title').innerText = `Character Matchup Chart of:`;
-
-
-
-
+    document.getElementById('list_rating').innerText = `--.--`;
+    document.getElementById('list_win_rate').innerText = `--.--%`;
+    document.getElementById('list_wins').innerText = `----`;
+    document.getElementById('list_losses').innerText = `----`;
+    document.getElementById('list_total_matches').innerText = `----`;
 
     highlightSortButton('sort_by_alphabetical');
 
@@ -127,15 +117,22 @@ async function characterMatchup(selectedOption) {
 // AMIIBO MATCHUP CHART CODE
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
     async function createMatchupChart() {
-        const test = [];
 
         // Push specific amiibo data into array for matchup chart
         const matchups_query = await fetch('./json/AmiibotsMatchupData.json');
         const matchups_data = await matchups_query.json();
+        console.log("🚀 ~ createMatchupChart ~ matchups_data:", matchups_data);
+
+        // Data for amiibo card
+        let specified_character_rating = 0;
+        let specified_character_wins = 0;
+        let specified_character_losses = 0;
 
         matchups_data.map(function(index) {
             if (index.id == specifiedCharacter) {
-                index.data.forEach(element => {
+                index.data.map(element => {
+                    specified_character_wins += element.wins;
+                    specified_character_losses += element.losses;
                     
                     matchupChart_wonTo_data.push(element.wins);
                     matchupChart_lostTo_data.push(element.losses);
@@ -147,58 +144,22 @@ async function characterMatchup(selectedOption) {
             }
         });
 
-        console.log(test);
-
-        
-        // need matchupChart_wonTo_data
-        // need matchupChart_lostTo_data
-        // need matchupChart_characterPlayed_data
-        // need matchupChart_win_rate
-
-
-        // matchupChart_win_rate.push(`${((counter_wonTo / (counter_wonTo + counter_lostTo)) * 100).toFixed(2)}`);
-        // matchupChart_characterPlayed_data.push(`${all_character_names[i]} (${((counter_wonTo / (counter_wonTo + counter_lostTo)) * 100).toFixed(2)})`);
-    
-        console.log(matchupChart_win_rate);
         document.getElementById('matchup_chart_title').innerText = `Character Matchup Chart of: ${specifiedCharacter_name}`;
     
-
-
-
-
-
-
-
-
-
-
-        // amiibo card code
-        
-    
-        // // calculate average rating
-        // // must account for sigma value
-        // const sum = specifiedCharacter_Rating.reduce((acc, val) => acc + val, 0);
-        // averageRating = sum / specifiedCharacter_Rating.length;
-    
-            // Match current character with icon
-            let characterIcon = 'no icon';
-            for (let i = 0; i < all_character_ids.length; i++) {
-                if (all_character_ids[i] == specifiedCharacter) {
-                    characterIcon = (`${all_character_names[i]}.png`)
-                }
+        // Match current character with icon
+        let characterIcon = 'no icon';
+        for (let i = 0; i < all_character_ids.length; i++) {
+            if (all_character_ids[i] == specifiedCharacter) {
+                characterIcon = (`${all_character_names[i]}.png`)
             }
-            
-        // // Load data into card
+        }
+  
+        // Load data into card
         document.getElementById('list_img').src = `images/${characterIcon}`;
-        // document.getElementById('list_rating').innerText = `Rating: ${averageRating}`;
-        // document.getElementById('list_win_rate').innerText = `Win Rate: ${((totalWins / (totalWins + totalLosses)) * 100).toFixed(2)}`;
-        // document.getElementById('list_wins').innerText = `Wins: ${totalWins}`;
-        // document.getElementById('list_losses').innerText = `Losses: ${totalLosses}`;
-        // document.getElementById('list_total_matches').innerText = `Total Matches: ${totalMatches}`;
-    
-        // specifiedCharacter_Rating.sort((a, b) => b - a);
-    
-
+        document.getElementById('list_win_rate').innerText = `${((specified_character_wins / (specified_character_wins + specified_character_losses)) * 100).toFixed(2)}%`;
+        document.getElementById('list_wins').innerText = specified_character_wins;
+        document.getElementById('list_losses').innerText = specified_character_losses;
+        document.getElementById('list_total_matches').innerText = specified_character_wins + specified_character_losses;
 
         window.localStorage.setItem('SortType', 'sort_by_alphabetical');
     
@@ -218,16 +179,18 @@ async function characterMatchup(selectedOption) {
         // Push specified amiibo data into array for rating history chart
         const rating_history_query = await fetch('./json/AmiibotsRatingHistory.json');
         const rating_history_data = await rating_history_query.json();
+        console.log("🚀 ~ createHighestRatingHistoryChart ~ rating_history_data:", rating_history_data);
 
         rating_history_data.map(function(index) {
             if (index.id == specifiedCharacter) {
+                // Get highest rating
+                document.getElementById('list_rating').innerText = index.rating_history[index.rating_history.length - 1].rating.toFixed(2);
+
                 index.rating_history.forEach(element => {
                     highestRatedHistory.push(element);
                 });
             }
         });
-
-        // console.log(highestRatedHistory);
 
         // collect every unique trainer id
         let uniqueTrainers = [];
@@ -236,8 +199,6 @@ async function characterMatchup(selectedOption) {
                 uniqueTrainers.push(highestRatedHistory[i].trainer_id);
             }
         }
-
-        // console.log(uniqueTrainers);
 
         // split trainers into their own array
         let trainerGraphRatingData = [];
@@ -255,8 +216,6 @@ async function characterMatchup(selectedOption) {
             trainerGraphRatingData.push(temp);
         }
 
-        // console.log(trainerGraphRatingData);
-
         // get the latest username for each unique trainer
         let latestTrainerNames = [];
         for (let i = 0; i < uniqueTrainers.length; i++) {
@@ -268,8 +227,6 @@ async function characterMatchup(selectedOption) {
             }
             latestTrainerNames.push(latestName);
         }
-
-        // console.log(latestTrainerNames);
 
         // push data for the graph to read into arrays
         xAxis_weeks = [];

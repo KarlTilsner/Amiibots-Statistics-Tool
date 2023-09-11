@@ -4,7 +4,7 @@
     --theme-background-colour: rgba(15, 15, 15, 0.97);      /* Dark Grey */
     --theme-border-colour: rgba(200, 200, 200, 0.2);        /* Grey */
     --theme-highlight-colour: rgba(220, 220, 220 , 0.3);    /* Light Grey */
-    --theme-transition-speed: 300ms ease;
+    --theme-transition-speed: 200ms ease;
     --theme-main-search-button: rgba(200, 200, 200, 0.2);          /* Grey */
 
     --border-width: 3px;
@@ -83,7 +83,10 @@ div.header {
     width: var(--content-width);
     margin-top: 0;
     margin-bottom: var(--small-spaces);
-    pointer-events: none;
+
+    display: flex;
+    flex-direction: row;
+    /* pointer-events: none; */
 }
 
 .title {
@@ -133,6 +136,10 @@ div.header {
     padding: var(--small-spaces);
 }
 
+.even_padding {
+    padding: var(--small-spaces);
+}
+
 .flex_list_container {
     width: var(--content-width);
     display: flex;
@@ -141,6 +148,32 @@ div.header {
     gap: var(--small-spaces);
 }
 
+
+
+/* SKETCHY AS CODE ----------------------------------------------------------- */
+.opponent_frequency_graph {
+    padding: 0.5rem;
+}
+/* SKETCHY AS CODE ----------------------------------------------------------- */
+
+
+
+.search_history_button {
+    margin: auto;
+    margin-right: 0;
+    transition: var(--theme-transition-speed);
+}
+
+.search_history_button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.search_history_icon {
+    margin: auto;
+    width: 3rem;
+    height: 3rem;
+}
 
 
 

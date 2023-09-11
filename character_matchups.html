@@ -13,6 +13,7 @@
         <script src="js/character_matchups.js"></script>
         <script src="js/versionNumber.js"></script>
         <script src="js/navBarElement.js"></script>
+        <script src="js/search_history.js"></script>
 
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" 
@@ -35,8 +36,26 @@
 
         <main>
             <div class="header">
-                <h1 class="title">Amiibots Statistics Tool</h1> 
-                <p class="version" id="versionNo"></p>
+                <div>
+                    <h1 class="title">Amiibots Statistics Tool</h1> 
+                    <p class="version" id="versionNo"></p>
+                </div>
+
+                <div class="search_history_button" onclick="toggleVisibility()">
+                    <img class="search_history_icon" src="images/icon_search_history.png">
+                </div>
+
+            </div>
+
+
+
+            <div class="block" id="searchHistoryDropdown" style="display: none;">
+                <div class="container">
+                    <h1 style="margin-left: 1rem; margin-right: 1rem; border-bottom: 1px solid rgba(200, 200, 200, 0.2);">Search History</h1>
+                    <div class="even_padding">
+                        <div class="flex_list_container" id="searchHistoryDropdownContent"></div>
+                    </div>
+                </div>
             </div>
 
 
@@ -48,17 +67,53 @@
                         <option class="dropdownMenuOption" value="Select a Character" id="">Select a Character</option>
                     </select>
 
-                    <div class="container list_item_short" id="list_item_searchable">
+                    <div class="container">
+                        <div class="list_item" id="list_item_searchable">
+                            <img id="list_img" src="images/Blank Icon.png" class="list_image">
+
+                            <div class="list_stats_container">
+                                <div class="list_stats">
+                                    <h2>Highest Rating</h2>
+                                    <h1 id="list_rating">--.--</h1>
+                                </div>
+
+                                <div class="list_stats">
+                                    <h2>Win Rate</h2>   
+                                    <h1 id="list_win_rate">--.--%</h1>
+                                </div>
+
+                                <div class="list_stats">
+                                    <h2>Wins</h2>
+                                    <h1 id="list_wins">----</h1>
+                                </div>
+
+                                <div class="list_stats">
+                                    <h2>Losses</h2>
+                                    <h1 id="list_losses">----</h1>
+                                </div>
+
+                                <div class="list_stats">
+                                    <h2>Total Matches</h2>   
+                                    <h1 id="list_total_matches">----</h1>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <!-- <div class="container list_item_short" id="list_item_searchable">
                         <img id='list_img' src="images/Blank Icon.png" class="list_image">
-                        <!-- <p class="list_stats">
+                        <p class="list_stats">
                             <i id="list_rating">Rating:</i></br>
                             <i id="list_win_rate">Win Rate:</i></br>
                             <i id="list_wins">Wins:</i></br>
                             <i id="list_losses">Losses:</i></br>
                             <i id="list_total_matches">Total Matches:</i></br>
                             </br>
-                        </p> -->
-                    </div>
+                        </p>
+                    </div> -->
                 </div>
             </div>
        

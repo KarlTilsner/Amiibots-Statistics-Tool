@@ -65,14 +65,12 @@ let ruleset_id = null;
 
 
 
+// GET ALL TRAINERS AND THEIR AMIIBO AND GIVE THEM A SCORE BASED ON AMIIBO RANKS
+//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
 async function main() {
     // Getting ruleset
     let ruleset_input = window.localStorage.getItem("Rank Tool Ruleset");
     ruleset_id = window.localStorage.getItem(ruleset_input);
-
-
-
-
 
     // get all character names and ids
     async function get_all_characters() {
@@ -85,10 +83,6 @@ async function main() {
         return data;
     }
     all_characters = await get_all_characters();
-
-
-
-
 
     // get all amiibo
     async function get_all_amiibo() {
@@ -122,10 +116,6 @@ async function main() {
     }
     const all_amiibo = await get_all_amiibo();
 
-
-
-
-
     // rank each amiibo
     for (let i = 0; i < all_characters.length; i++) {
         let rank = 1;
@@ -137,10 +127,6 @@ async function main() {
         }
     }
 
-
-
-
-
     // get all unique trainers
     const unique_trainers = [];
     all_amiibo.map(index => {
@@ -151,10 +137,6 @@ async function main() {
             });
         }
     });
-
-
-
-
 
     // create an object for each trainer with their amiibo 
     unique_trainers.map(trainer => {
@@ -184,7 +166,6 @@ async function main() {
             return ((a.character_rank < b.character_rank) ? -1 : ((a.character_rank == b.character_rank)) ? 0 : 1);
         });
 
-        
         trainer_amiibo.map(amiibo => {
             if (!trainer_data.amiibo.some(highest_character => highest_character.character == amiibo.character)) {
                 amiibo.highest = true;
@@ -198,11 +179,7 @@ async function main() {
         all_trainer_data.push(trainer_data);
     });
 
-
-
-
-
-    // get the points assigned to each place
+    // Get the points assigned to each place
     async function get_points() {
         const url = `./json/points_system.json`;
         const query = await fetch(url);
@@ -213,10 +190,7 @@ async function main() {
     }
     const points_system = await get_points();
 
-
-
-
-
+    // Give trainers their score
     all_trainer_data.map(trainer => {
         let trainer_score = 0;
 
@@ -232,14 +206,8 @@ async function main() {
         trainer.trainer_score = trainer_score;
     });
 
-    
-
-
-
     // Sort arrays
     all_trainer_data.sort((a, b) => b.trainer_score - a.trainer_score);
-
-
 
     // Rank trainers
     let rank = 1;
@@ -255,11 +223,7 @@ async function main() {
         }
     });
 
-
-
-
-
-    console.log("🚀 ~ main ~ all_trainer_data:", all_trainer_data);
+    // console.log("🚀 ~ main ~ all_trainer_data:", all_trainer_data);
 
     await printCharacterLeaderboard();
 }
@@ -267,7 +231,8 @@ async function main() {
 
 
 
-
+// DISPLAY ALL TRAINERS WITH A SCORE ONTO THE DOM
+//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
 async function printCharacterLeaderboard() {
 
     let content = document.getElementById('test');

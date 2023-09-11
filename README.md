@@ -1,4 +1,15 @@
 # Change Log:
+## v1.2.5
+- Added search history
+    - 10 amiibo can be seen in the search history
+    - Displays information about the amiibo and how long ago it was searched
+- Added a graph showing the frequency of characters within matchup range in amiibo stats
+    - Filters amiibo that can be matched into acording to your matchmaking status
+    - Click on a character icon to see all amiibo for that character
+- Improved code for navbar
+- Fixed bug where inactive amiibo had an overall rank in amiibo search
+- Fixed missing stats for character matchups
+
 ## v1.2.4
 - Added unofficial trainer leaderboard
     - Uses a points based system similar to formula 1 to rank trainers

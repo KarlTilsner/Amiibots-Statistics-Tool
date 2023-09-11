@@ -12,6 +12,7 @@
         <script src="js/amiibo_search.js"></script>
         <script src="js/versionNumber.js"></script>
         <script src="js/navBarElement.js"></script>
+        <script src="js/search_history.js"></script>
     </head>
 
 
@@ -28,8 +29,26 @@
 
         <main>
             <div class="header">
-                <h1 class="title">Amiibots Statistics Tool</h1> 
-                <p class="version" id="versionNo"></p>
+                <div>
+                    <h1 class="title">Amiibots Statistics Tool</h1> 
+                    <p class="version" id="versionNo"></p>
+                </div>
+
+                <div class="search_history_button" onclick="toggleVisibility()">
+                    <img class="search_history_icon" src="images/icon_search_history.png">
+                </div>
+
+            </div>
+
+
+
+            <div class="block" id="searchHistoryDropdown" style="display: none;">
+                <div class="container">
+                    <h1 style="margin-left: 1rem; margin-right: 1rem; border-bottom: 1px solid rgba(200, 200, 200, 0.2);">Search History</h1>
+                    <div class="even_padding">
+                        <div class="flex_list_container" id="searchHistoryDropdownContent"></div>
+                    </div>
+                </div>
             </div>
 
 

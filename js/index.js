@@ -62,12 +62,14 @@ const quaternary_border_colour =      'rgba(255, 170, 0, 1)'          // orange
 
 // Queries all character names and IDs and loads them into an object
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
+let all_characters_global = [];
 async function get_all_characters() {
     const url = `https://www.amiibots.com/api/utility/get_all_characters`;
     const query = await fetch(url);
     const response = await query.json();
     const data = response.data.map(index => index);
-    
+    all_characters_global = data;
+
     console.log("Got all character names and ids");
     return data;
 }
@@ -82,9 +84,11 @@ async function amiiboStats() {
 
     // Read the ID submitted in the text box and put it into LocalStorage for later
     const amiibo_id = window.localStorage.getItem('saved_amiibo_id');
+    let trainer_name = null;
     let amiibo_name = null;
     let amiibo_ruleset = null;
     let character_id = null;
+    let rating_mu = null;
 
     // Storage for each part of the tool
     const all_matches_data = []; // stores all matches for the specified character
@@ -140,6 +144,16 @@ async function amiiboStats() {
                 element.remove();
             });
             document.querySelector('main').innerHTML += '<h1 class="container" style="text-align: center;">AMIIBO HAS NO DATA</h1>';
+        }
+
+
+        // Get latest trainer name and rating_mu
+        if (amiibo_id == response.data[0].winner_info.id) {
+            trainer_name = response.data[0].winner_info.trainer_name;
+            rating_mu = response.data[0].winner_info.rating_mu;
+        } else if (amiibo_id == response.data[0].loser_info.id) {
+            trainer_name = response.data[0].loser_info.trainer_name;
+            rating_mu = response.data[0].loser_info.rating_mu;
         }
 
 
@@ -330,14 +344,15 @@ async function amiiboStats() {
 
 
 
-// MINI LEADERBOARD AND AMIIBO RANK CODE
+// MINI LEADERBOARD, AMIIBO RANK, AND OPPONENT FREQUENCY CODE
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
     const rank_worker = new Worker('./js/worker_index_rank.js');
 
     const worker_message = {
-        "amiibo_id": amiibo_id,
-        "amiibo_ruleset": amiibo_ruleset,
-        "character_id": character_id
+        amiibo_id: amiibo_id,
+        amiibo_ruleset: amiibo_ruleset,
+        character_id: character_id,
+        rating_mu: rating_mu
     }
 
     rank_worker.postMessage(worker_message);
@@ -364,7 +379,7 @@ async function amiiboStats() {
     
                         // Put image onto the listed item when amiibots is fixed
                         list += (
-                        `<div class="list_item ${overall_leaderboard[i].character_highlight}" id="list_item_searchable" onclick="updateStatsSearch('${overall_leaderboard[i].amiibo_id}')">
+                        `<div class="list_item ${overall_leaderboard[i].character_highlight}" id="list_item_searchable" onclick="updateStatsSearch('${overall_leaderboard[i].amiibo_id}'), addAmiiboToSearchHistory('${overall_leaderboard[i].trainer_name}', '${overall_leaderboard[i].amiibo_name}', '${overall_leaderboard[i].amiibo_id}', '${overall_leaderboard[i].character_id}', '${amiibo_ruleset}', '${new Date()}')">
 
                             <img src="./images/${characterIcon}" class="list_image">
 
@@ -420,7 +435,7 @@ async function amiiboStats() {
     
                         // Put image onto the listed item when amiibots is fixed
                         list += (
-                        `<div class="list_item ${character_leaderboard[i].character_highlight}" id="list_item_searchable" onclick="updateStatsSearch('${character_leaderboard[i].amiibo_id}')">
+                        `<div class="list_item ${character_leaderboard[i].character_highlight}" id="list_item_searchable" onclick="updateStatsSearch('${character_leaderboard[i].amiibo_id}', addAmiiboToSearchHistory('${character_leaderboard[i].trainer_name}', '${character_leaderboard[i].amiibo_name}', '${character_leaderboard[i].amiibo_id}', '${character_leaderboard[i].character_id}', '${amiibo_ruleset}', '${new Date()}'))">
                             <img src="./images/${characterIcon}" class="list_image">
 
                             <div class="list_stats_grid_container">
@@ -456,6 +471,105 @@ async function amiiboStats() {
             content.innerHTML = list;
         }
         printCharacterLeaderboard();
+
+
+
+        function prinOpponentFrequency() {
+            const opponent_frequency_data = amiibo_rank_data.data.opponent_frequency;
+            console.log("🚀 ~ prinOpponentFrequency ~ opponent_frequency_data:", opponent_frequency_data);
+
+            const opponent_frequency = [];
+
+            // count up the number of each character within matchup range and collect all possible opponents sorted by character
+            all_characters.map(character => {
+                let frequency = 0;
+                const temp = [];
+                opponent_frequency_data.map(opponent => {
+                    if (character.id == opponent.playable_character_id) {
+                        frequency++;
+                        temp.push(opponent);
+                    }
+                });
+
+                // Store the frequency of the opponent and data of surrounding opponents
+                const opponent = {
+                    name: character.name,
+                    id: character.id,
+                    frequency: frequency,
+                    data: temp
+                }
+                opponent_frequency.push(opponent);
+            });
+
+            // Sort arrays
+            opponent_frequency.sort((a, b) => b.frequency - a.frequency);
+
+            console.log(opponent_frequency);
+
+            // Display all surrounding amiibo and their frequency
+            let content = document.getElementById('opponent_frequency_graph');
+            opponent_frequency.map(opponent => {
+                if (opponent.frequency > 0) {
+                    content.innerHTML += (
+                        `<div class="tier_list_item" onclick="displaySurroundingOpponents('${opponent.id}')">
+                            <img src="images/${opponent.name}.png" class="tier_list_image">
+                            <div class="tier_list_text_box">
+                                <p class="tier_list_text">${opponent.frequency}</p>
+                            </div>
+                        </div>`
+                    );
+                }
+            });
+
+
+            // Create divs for all surrounding opponents
+            content = document.getElementById('surrounding_amiibo');
+            let list = `<div class="flex_list_container">`;
+            opponent_frequency.map(opponent => {
+
+                if (opponent.frequency > 0) {
+                    list += `<div class="flex_list_container" id="${opponent.id}" style="display: none;">`;
+                    opponent.data.map(index => {
+                        list += (
+                            `<div class="list_item ${index.match_selection_status}" id="list_item_searchable" onclick="updateStatsSearch('${index.id}', addAmiiboToSearchHistory('${index.user.twitch_user_name}', '${index.name}', '${index.id}', '${index.playable_character_id}', '${amiibo_ruleset}', '${new Date()}'))">
+                                <img src="./images/${opponent.name}.png" class="list_image">
+    
+                                <div class="list_stats_grid_container">
+                                    <div class="list_stats amiibo_trainer_name_title">
+                                        <h2>${index.user.twitch_user_name}</h2>
+                                        <h1>${index.name}</h1>
+                                    </div>
+                                </div>
+    
+                                <div class="list_stats_container">
+                                    <div class="list_stats">
+                                        <h2>Rating:</h2>
+                                        <h1>${index.rating.toFixed(2)}</h1>
+                                    </div>
+    
+                                    <div class="list_stats">
+                                        <h2>Matches:</h2>   
+                                        <h1>${index.total_matches}</h1>
+                                    </div>
+    
+                                    <div class="list_stats">
+                                        <h2>Status:</h2>   
+                                        <h1>${index.match_selection_status}</h1>
+                                    </div>
+                                </div>
+    
+                            </div>`
+                        );
+                    });
+                    list += `</div>`;
+                }
+
+            });
+            list += `</div>`;
+            content.innerHTML = list;
+        
+        }
+        prinOpponentFrequency();
     }
 
 
@@ -519,8 +633,6 @@ async function amiiboStats() {
 // 'your_rating': all_matches_data[i].winner_info.rating,
 
     function fullMatchHistory () {
-        // console.log(all_matches_data);
-
         // Sort match data for the match card
         const full_match_history = [];
         for (let i = 0; i < all_matches_data.length; i++) {
@@ -667,7 +779,7 @@ async function amiiboStats() {
             } else {
                 // Normal code for everyone else
                 list += (
-                    `<div class="list_item match_win_${full_match_history[i].match_win}" id="list_item_searchable" onclick="updateStatsSearch('${full_match_history[i].opponent_id}')">
+                    `<div class="list_item match_win_${full_match_history[i].match_win}" id="list_item_searchable" onclick="updateStatsSearch('${full_match_history[i].opponent_id}', addAmiiboToSearchHistory('${full_match_history[i].trainer_name}', '${full_match_history[i].name}', '${full_match_history[i].opponent_id}', '${full_match_history[i].character_id}', '${amiibo_ruleset}', '${new Date()}'))">
                         <img src="./images/${characterIcon}" class="list_image">
 
                         <div class="list_stats_grid_container">
@@ -723,6 +835,9 @@ async function amiiboStats() {
     document.getElementById('amiibo_highest_rating').innerText += ` ${highest_rating[0].highest_rating.toFixed(2)}`;
     document.getElementById('amiibo_rating_mu').innerText += ` ${ratingHistory[ratingHistory.length - 1].rating_mu}`;
     document.getElementById('amiibo_rating_sigma').innerText += ` ${ratingHistory[ratingHistory.length - 1].rating_sigma}`;
+
+    addAmiiboToSearchHistory(`${trainer_name}`, `${amiibo_name}`, `${amiibo_id}`, `${character_id}`, `${amiibo_ruleset}`, `${new Date()}`);
+    // console.log(`${trainer_name}`, `${amiibo_name}`, `${amiibo_id}`, `${character_id}`, `${amiibo_ruleset}`, `${new Date()}`);
 }
 
 
@@ -885,4 +1000,24 @@ function sortMatchupChartData(sortType) {
     ];
 
     drawMatchupChart(datasets);
+}
+
+
+
+
+
+// Make hidden tab show all surrounding opponents for the selected character
+function displaySurroundingOpponents(selected_character_id) {
+    // Close any other character that may be open
+    all_characters_global.map(character => {
+        try {
+            document.getElementById(character.id).style.display = "none";
+        } catch (error) {
+            console.log(error);
+        }
+    });
+    
+    // Open the selected character
+    document.getElementById('surrounding_amiibo').style.display = "block";
+    document.getElementById(selected_character_id).style.display = "flex";
 }
