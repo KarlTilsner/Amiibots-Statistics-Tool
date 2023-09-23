@@ -1,4 +1,13 @@
 # Change Log:
+## v1.2.6
+- Updated amiibo matchup data
+- Overhauled amiibots rating history to be much more accurate
+    - Now shows any decreases over time for the top amiibo instead of only counting rating increases
+    - Shows the most dominant trainers for each character and how long they were on top for
+    - X-axis resolution increased from 1 week at a time to 1 day (~7x more datapoints)
+    - Only allows amiibo with a sigma of 2.5 or lower to count towards the rating history
+    - Rating history theoretically loads faster
+
 ## v1.2.5
 - Added search history
     - 10 amiibo can be seen in the search history
@@ -128,3 +137,25 @@
 - ID's and ruleset are shown in search fields
 - Character matchup chart scales with number of characters displayed
 - Character matchup chart displays win %
+
+
+
+## Upcoming Ideas
+- DISPLAY AMIIBO AS INACTIVE IF LEADERBOARD RANK IS 0
+- Fix error on micro leaderboard with less than 5 amiibo on the character rank
+- Add other player stats to leaderboard page
+
+- Add data about trainer:
+    - total wins
+    - total losses
+    - total matches
+    - win rate
+    - what amiibo they have
+- Add matchup data for a trainer:
+    - trainer v trainer
+    - trainer v character
+    - trainer v amiibo
+
+- add more filters to matchups to get highest performing amiibo instead
+
+- gather statistics on the most successful amiibo

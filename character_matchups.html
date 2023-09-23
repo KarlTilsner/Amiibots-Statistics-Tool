@@ -68,7 +68,7 @@
                     </select>
 
                     <div class="container">
-                        <div class="list_item" id="list_item_searchable">
+                        <div class="list_item" id="list_item_searchable" onclick="listDominantPlayers()">
                             <img id="list_img" src="images/Blank Icon.png" class="list_image">
 
                             <div class="list_stats_container">
@@ -96,24 +96,27 @@
                                     <h2>Total Matches</h2>   
                                     <h1 id="list_total_matches">----</h1>
                                 </div>
+
+                                <div class="list_stats mobile_remove">
+                                    <h2 id="list_longest_streak_trainer">Trainer Streak</h2>
+                                    <h1 id="list_longest_streak">xxxx Days</h1>
+                                </div>
                             </div>
 
                         </div>
                     </div>
 
+                </div>
+            </div>
 
 
-                    <!-- <div class="container list_item_short" id="list_item_searchable">
-                        <img id='list_img' src="images/Blank Icon.png" class="list_image">
-                        <p class="list_stats">
-                            <i id="list_rating">Rating:</i></br>
-                            <i id="list_win_rate">Win Rate:</i></br>
-                            <i id="list_wins">Wins:</i></br>
-                            <i id="list_losses">Losses:</i></br>
-                            <i id="list_total_matches">Total Matches:</i></br>
-                            </br>
-                        </p>
-                    </div> -->
+
+            <div class="block" id="dominantPlayerDropdown" style="display: none;">
+                <div class="container">
+                    <h1 style="margin-left: 1rem; margin-right: 1rem; border-bottom: 1px solid rgba(200, 200, 200, 0.2);">Dominant Players</h1>
+                    <div class="even_padding">
+                        <div class="flex_list_container" id="dominantPlayerDropdownContent"></div>
+                    </div>
                 </div>
             </div>
        
@@ -190,7 +193,7 @@
                         },
                         title: {
                             display: true,
-                            text: 'Week',
+                            text: 'Day',
                         },
                     },
                     y: {

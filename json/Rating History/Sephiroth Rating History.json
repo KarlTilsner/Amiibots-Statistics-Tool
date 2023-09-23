@@ -1,0 +1,2238 @@
+{
+  "name": "Sephiroth",
+  "id": "788beb66-f7b8-4370-bb75-67afabf4c509",
+  "rating_history": [
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 36.17821936147289,
+      "rating_sigma": 1.9382013038977493,
+      "current_week": 857
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.90651893207941,
+      "rating_sigma": 1.7732500854885125,
+      "current_week": 858
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 36.066295538214625,
+      "rating_sigma": 1.709704404823932,
+      "current_week": 859
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.75513692989794,
+      "rating_sigma": 1.556829186563576,
+      "current_week": 860
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.8487642160227,
+      "rating_sigma": 1.5024784667004287,
+      "current_week": 861
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.8487642160227,
+      "rating_sigma": 1.5024784667004287,
+      "current_week": 862
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.8487642160227,
+      "rating_sigma": 1.5024784667004287,
+      "current_week": 863
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.8487642160227,
+      "rating_sigma": 1.5024784667004287,
+      "current_week": 864
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.8487642160227,
+      "rating_sigma": 1.5024784667004287,
+      "current_week": 865
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.8487642160227,
+      "rating_sigma": 1.5024784667004287,
+      "current_week": 866
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.8487642160227,
+      "rating_sigma": 1.5024784667004287,
+      "current_week": 867
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.68637492075737,
+      "rating_sigma": 1.4786095352683455,
+      "current_week": 868
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.526346728581586,
+      "rating_sigma": 1.4561461998335345,
+      "current_week": 869
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.526346728581586,
+      "rating_sigma": 1.4561461998335345,
+      "current_week": 870
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.33011535656948,
+      "rating_sigma": 1.432618073385014,
+      "current_week": 871
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.33011535656948,
+      "rating_sigma": 1.432618073385014,
+      "current_week": 872
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.33011535656948,
+      "rating_sigma": 1.432618073385014,
+      "current_week": 873
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.33011535656948,
+      "rating_sigma": 1.432618073385014,
+      "current_week": 874
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.33011535656948,
+      "rating_sigma": 1.432618073385014,
+      "current_week": 875
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.149467854674086,
+      "rating_sigma": 1.4121518184684332,
+      "current_week": 876
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.149467854674086,
+      "rating_sigma": 1.4121518184684332,
+      "current_week": 877
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.541677655566225,
+      "rating_sigma": 1.389156983543668,
+      "current_week": 878
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.35378137393242,
+      "rating_sigma": 1.3696977121298772,
+      "current_week": 879
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.35378137393242,
+      "rating_sigma": 1.3696977121298772,
+      "current_week": 880
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.35378137393242,
+      "rating_sigma": 1.3696977121298772,
+      "current_week": 881
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.35378137393242,
+      "rating_sigma": 1.3696977121298772,
+      "current_week": 882
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.35378137393242,
+      "rating_sigma": 1.3696977121298772,
+      "current_week": 883
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.35378137393242,
+      "rating_sigma": 1.3696977121298772,
+      "current_week": 884
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.35378137393242,
+      "rating_sigma": 1.3696977121298772,
+      "current_week": 885
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.35378137393242,
+      "rating_sigma": 1.3696977121298772,
+      "current_week": 886
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.35378137393242,
+      "rating_sigma": 1.3696977121298772,
+      "current_week": 887
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.35378137393242,
+      "rating_sigma": 1.3696977121298772,
+      "current_week": 888
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.199877246179376,
+      "rating_sigma": 1.3516360585611689,
+      "current_week": 889
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.199877246179376,
+      "rating_sigma": 1.3516360585611689,
+      "current_week": 890
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.199877246179376,
+      "rating_sigma": 1.3516360585611689,
+      "current_week": 891
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.199877246179376,
+      "rating_sigma": 1.3516360585611689,
+      "current_week": 892
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.199877246179376,
+      "rating_sigma": 1.3516360585611689,
+      "current_week": 893
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.199877246179376,
+      "rating_sigma": 1.3516360585611689,
+      "current_week": 894
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.199877246179376,
+      "rating_sigma": 1.3516360585611689,
+      "current_week": 895
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.04687657953992,
+      "rating_sigma": 1.3344498752190104,
+      "current_week": 896
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.11264103264479,
+      "rating_sigma": 1.306644432236089,
+      "current_week": 897
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.973904838189135,
+      "rating_sigma": 1.2917426701532677,
+      "current_week": 898
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.112007998354635,
+      "rating_sigma": 1.2836002925563466,
+      "current_week": 899
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.884210184021086,
+      "rating_sigma": 1.2582312936915492,
+      "current_week": 900
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.63578985898159,
+      "rating_sigma": 1.240949859939475,
+      "current_week": 901
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.78309357232551,
+      "rating_sigma": 1.2321793889954664,
+      "current_week": 902
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.51309241993431,
+      "rating_sigma": 1.1906173963538689,
+      "current_week": 903
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.51309241993431,
+      "rating_sigma": 1.1906173963538689,
+      "current_week": 904
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.71535336211389,
+      "rating_sigma": 1.1795427205155649,
+      "current_week": 905
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.71535336211389,
+      "rating_sigma": 1.1795427205155649,
+      "current_week": 906
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.71535336211389,
+      "rating_sigma": 1.1795427205155649,
+      "current_week": 907
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.71535336211389,
+      "rating_sigma": 1.1795427205155649,
+      "current_week": 908
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.91780734867459,
+      "rating_sigma": 1.1691077786701192,
+      "current_week": 909
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.789597312012056,
+      "rating_sigma": 1.1591904517054998,
+      "current_week": 910
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.65573404662261,
+      "rating_sigma": 1.1489580700040485,
+      "current_week": 911
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.65573404662261,
+      "rating_sigma": 1.1489580700040485,
+      "current_week": 912
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.65573404662261,
+      "rating_sigma": 1.1489580700040485,
+      "current_week": 913
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.85758665641027,
+      "rating_sigma": 1.1387580920956846,
+      "current_week": 914
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.85758665641027,
+      "rating_sigma": 1.1387580920956846,
+      "current_week": 915
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.85758665641027,
+      "rating_sigma": 1.1387580920956846,
+      "current_week": 916
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.71410060652827,
+      "rating_sigma": 1.129359857484281,
+      "current_week": 917
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.71410060652827,
+      "rating_sigma": 1.129359857484281,
+      "current_week": 918
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.71410060652827,
+      "rating_sigma": 1.129359857484281,
+      "current_week": 919
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.71410060652827,
+      "rating_sigma": 1.129359857484281,
+      "current_week": 920
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.71410060652827,
+      "rating_sigma": 1.129359857484281,
+      "current_week": 921
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.71410060652827,
+      "rating_sigma": 1.129359857484281,
+      "current_week": 922
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.909793515466795,
+      "rating_sigma": 1.120288936709614,
+      "current_week": 923
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.909793515466795,
+      "rating_sigma": 1.120288936709614,
+      "current_week": 924
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.82582608303788,
+      "rating_sigma": 1.1135344156633156,
+      "current_week": 925
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.82582608303788,
+      "rating_sigma": 1.1135344156633156,
+      "current_week": 926
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.82582608303788,
+      "rating_sigma": 1.1135344156633156,
+      "current_week": 927
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.82582608303788,
+      "rating_sigma": 1.1135344156633156,
+      "current_week": 928
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.82582608303788,
+      "rating_sigma": 1.1135344156633156,
+      "current_week": 929
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.82582608303788,
+      "rating_sigma": 1.1135344156633156,
+      "current_week": 930
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.82582608303788,
+      "rating_sigma": 1.1135344156633156,
+      "current_week": 931
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.82582608303788,
+      "rating_sigma": 1.1135344156633156,
+      "current_week": 932
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.82582608303788,
+      "rating_sigma": 1.1135344156633156,
+      "current_week": 933
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.747139233993124,
+      "rating_sigma": 1.1072068229049754,
+      "current_week": 934
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.747139233993124,
+      "rating_sigma": 1.1072068229049754,
+      "current_week": 935
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.747139233993124,
+      "rating_sigma": 1.1072068229049754,
+      "current_week": 936
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.747139233993124,
+      "rating_sigma": 1.1072068229049754,
+      "current_week": 937
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.92011579837848,
+      "rating_sigma": 1.0996775655724231,
+      "current_week": 938
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.92011579837848,
+      "rating_sigma": 1.0996775655724231,
+      "current_week": 939
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.92011579837848,
+      "rating_sigma": 1.0996775655724231,
+      "current_week": 940
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.78542153148908,
+      "rating_sigma": 1.0923646613754767,
+      "current_week": 941
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.78542153148908,
+      "rating_sigma": 1.0923646613754767,
+      "current_week": 942
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.71418160107938,
+      "rating_sigma": 1.086958393059255,
+      "current_week": 943
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.51129447393451,
+      "rating_sigma": 1.0734409431490386,
+      "current_week": 944
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.51129447393451,
+      "rating_sigma": 1.0734409431490386,
+      "current_week": 945
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.39222072717092,
+      "rating_sigma": 1.0665705305929054,
+      "current_week": 946
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.39222072717092,
+      "rating_sigma": 1.0665705305929054,
+      "current_week": 947
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.6209020182124,
+      "rating_sigma": 1.0451987839161694,
+      "current_week": 948
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.6209020182124,
+      "rating_sigma": 1.0451987839161694,
+      "current_week": 949
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.6209020182124,
+      "rating_sigma": 1.0451987839161694,
+      "current_week": 950
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.720894944694216,
+      "rating_sigma": 1.0530375361605058,
+      "current_week": 951
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.720894944694216,
+      "rating_sigma": 1.0530375361605058,
+      "current_week": 952
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.720894944694216,
+      "rating_sigma": 1.0530375361605058,
+      "current_week": 953
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.720894944694216,
+      "rating_sigma": 1.0530375361605058,
+      "current_week": 954
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.880286728120055,
+      "rating_sigma": 1.046833979819613,
+      "current_week": 955
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.880286728120055,
+      "rating_sigma": 1.046833979819613,
+      "current_week": 956
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.880286728120055,
+      "rating_sigma": 1.046833979819613,
+      "current_week": 957
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.880286728120055,
+      "rating_sigma": 1.046833979819613,
+      "current_week": 958
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.05496461916282,
+      "rating_sigma": 1.0398804987681254,
+      "current_week": 959
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 35.05496461916282,
+      "rating_sigma": 1.0398804987681254,
+      "current_week": 960
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.92278819590758,
+      "rating_sigma": 1.0345535458697064,
+      "current_week": 961
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.92278819590758,
+      "rating_sigma": 1.0345535458697064,
+      "current_week": 962
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.92278819590758,
+      "rating_sigma": 1.0345535458697064,
+      "current_week": 963
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.92278819590758,
+      "rating_sigma": 1.0345535458697064,
+      "current_week": 964
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.92278819590758,
+      "rating_sigma": 1.0345535458697064,
+      "current_week": 965
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.92278819590758,
+      "rating_sigma": 1.0345535458697064,
+      "current_week": 966
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.92278819590758,
+      "rating_sigma": 1.0345535458697064,
+      "current_week": 967
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.92278819590758,
+      "rating_sigma": 1.0345535458697064,
+      "current_week": 968
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.92278819590758,
+      "rating_sigma": 1.0345535458697064,
+      "current_week": 969
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.92278819590758,
+      "rating_sigma": 1.0345535458697064,
+      "current_week": 970
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.802462579572314,
+      "rating_sigma": 1.0282538603012656,
+      "current_week": 971
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.802462579572314,
+      "rating_sigma": 1.0282538603012656,
+      "current_week": 972
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.802462579572314,
+      "rating_sigma": 1.0282538603012656,
+      "current_week": 973
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.802462579572314,
+      "rating_sigma": 1.0282538603012656,
+      "current_week": 974
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.802462579572314,
+      "rating_sigma": 1.0282538603012656,
+      "current_week": 975
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.802462579572314,
+      "rating_sigma": 1.0282538603012656,
+      "current_week": 976
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.802462579572314,
+      "rating_sigma": 1.0282538603012656,
+      "current_week": 977
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.802462579572314,
+      "rating_sigma": 1.0282538603012656,
+      "current_week": 978
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.802462579572314,
+      "rating_sigma": 1.0282538603012656,
+      "current_week": 979
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.802462579572314,
+      "rating_sigma": 1.0282538603012656,
+      "current_week": 980
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.802462579572314,
+      "rating_sigma": 1.0282538603012656,
+      "current_week": 981
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.68258880813961,
+      "rating_sigma": 1.0234613497792713,
+      "current_week": 982
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.68258880813961,
+      "rating_sigma": 1.0234613497792713,
+      "current_week": 983
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.68258880813961,
+      "rating_sigma": 1.0234613497792713,
+      "current_week": 984
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.68258880813961,
+      "rating_sigma": 1.0234613497792713,
+      "current_week": 985
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.56312302238149,
+      "rating_sigma": 1.0182884349321113,
+      "current_week": 986
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.56312302238149,
+      "rating_sigma": 1.0182884349321113,
+      "current_week": 987
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.56312302238149,
+      "rating_sigma": 1.0182884349321113,
+      "current_week": 988
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.669444694603605,
+      "rating_sigma": 1.0057081477204264,
+      "current_week": 989
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.669444694603605,
+      "rating_sigma": 1.0057081477204264,
+      "current_week": 990
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.60667140290742,
+      "rating_sigma": 1.0025221778686653,
+      "current_week": 991
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.60667140290742,
+      "rating_sigma": 1.0025221778686653,
+      "current_week": 992
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.60667140290742,
+      "rating_sigma": 1.0025221778686653,
+      "current_week": 993
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.60667140290742,
+      "rating_sigma": 1.0025221778686653,
+      "current_week": 994
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.60667140290742,
+      "rating_sigma": 1.0025221778686653,
+      "current_week": 995
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.60667140290742,
+      "rating_sigma": 1.0025221778686653,
+      "current_week": 996
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.60667140290742,
+      "rating_sigma": 1.0025221778686653,
+      "current_week": 997
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.60667140290742,
+      "rating_sigma": 1.0025221778686653,
+      "current_week": 998
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.60667140290742,
+      "rating_sigma": 1.0025221778686653,
+      "current_week": 999
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.51764017998629,
+      "rating_sigma": 0.9998671462922123,
+      "current_week": 1000
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.51764017998629,
+      "rating_sigma": 0.9998671462922123,
+      "current_week": 1001
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.51764017998629,
+      "rating_sigma": 0.9998671462922123,
+      "current_week": 1002
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.43151123653373,
+      "rating_sigma": 0.9956009758037477,
+      "current_week": 1003
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.630741434742816,
+      "rating_sigma": 0.9897178625292699,
+      "current_week": 1004
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.55473645777399,
+      "rating_sigma": 0.9861217344616096,
+      "current_week": 1005
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1006
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1007
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1008
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1009
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1010
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1011
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1012
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1013
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1014
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1015
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1016
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1017
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1018
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1019
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1020
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1021
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1022
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1023
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1024
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1025
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1026
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1027
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1028
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1029
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1030
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1031
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1032
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1033
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1034
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1035
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1036
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1037
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1038
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1039
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1040
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1041
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1042
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1043
+    },
+    {
+      "trainer_name": "luckman21",
+      "trainer_id": "d7f44591-9713-4c95-b840-3607f6a73d24",
+      "amiibo_name": "SEPHORA",
+      "unique_amiibo_id": "13bda8b6-9565-4fd9-bc52-398d0d7579e8",
+      "rating": 34.47795816542355,
+      "rating_sigma": 0.9825707716455983,
+      "current_week": 1044
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1045
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1046
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1047
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1048
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1049
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "8ae03272-bf3c-41b7-b46a-3a0e775ca5c9",
+      "rating": 34.65747136851351,
+      "rating_sigma": 1.5381838805591044,
+      "current_week": 1050
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "8ae03272-bf3c-41b7-b46a-3a0e775ca5c9",
+      "rating": 34.65747136851351,
+      "rating_sigma": 1.5381838805591044,
+      "current_week": 1051
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "8ae03272-bf3c-41b7-b46a-3a0e775ca5c9",
+      "rating": 34.44609674583256,
+      "rating_sigma": 1.509836659390426,
+      "current_week": 1052
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "8ae03272-bf3c-41b7-b46a-3a0e775ca5c9",
+      "rating": 34.44609674583256,
+      "rating_sigma": 1.509836659390426,
+      "current_week": 1053
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "8ae03272-bf3c-41b7-b46a-3a0e775ca5c9",
+      "rating": 34.44609674583256,
+      "rating_sigma": 1.509836659390426,
+      "current_week": 1054
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "8ae03272-bf3c-41b7-b46a-3a0e775ca5c9",
+      "rating": 34.44609674583256,
+      "rating_sigma": 1.509836659390426,
+      "current_week": 1055
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "8ae03272-bf3c-41b7-b46a-3a0e775ca5c9",
+      "rating": 34.44609674583256,
+      "rating_sigma": 1.509836659390426,
+      "current_week": 1056
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "8ae03272-bf3c-41b7-b46a-3a0e775ca5c9",
+      "rating": 34.44609674583256,
+      "rating_sigma": 1.509836659390426,
+      "current_week": 1057
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "8ae03272-bf3c-41b7-b46a-3a0e775ca5c9",
+      "rating": 34.44609674583256,
+      "rating_sigma": 1.509836659390426,
+      "current_week": 1058
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "8ae03272-bf3c-41b7-b46a-3a0e775ca5c9",
+      "rating": 34.44609674583256,
+      "rating_sigma": 1.509836659390426,
+      "current_week": 1059
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1060
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1061
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1062
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1063
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1064
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1065
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1066
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1067
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1068
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1069
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1070
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1071
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1072
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1073
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1074
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1075
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1076
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1077
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1078
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1079
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1080
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1081
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1082
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1083
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1084
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1085
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1086
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1087
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1088
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1089
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1090
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1091
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1092
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1093
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1094
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1095
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1096
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1097
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1098
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1099
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1100
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1101
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1102
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1103
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Soul Edge",
+      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
+      "rating": 34.421267117410736,
+      "rating_sigma": 1.0107991542887977,
+      "current_week": 1104
+    }
+  ]
+}

@@ -1,0 +1,2247 @@
+{
+  "name": "Kazuya",
+  "id": "da8fefbf-43a2-47f5-a5bf-d7dadb4fabdc",
+  "rating_history": [
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Rain",
+      "unique_amiibo_id": "33068b57-1ae7-43fb-ba25-38cf16bb97e8",
+      "rating": 33.977161595273266,
+      "rating_sigma": 2.327618998832099,
+      "current_week": 856
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Rain",
+      "unique_amiibo_id": "33068b57-1ae7-43fb-ba25-38cf16bb97e8",
+      "rating": 33.937313530643266,
+      "rating_sigma": 2.1521102184486955,
+      "current_week": 857
+    },
+    {
+      "trainer_name": "FrostByte245",
+      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
+      "amiibo_name": "Rain",
+      "unique_amiibo_id": "33068b57-1ae7-43fb-ba25-38cf16bb97e8",
+      "rating": 34.54147371845871,
+      "rating_sigma": 1.7850342268220825,
+      "current_week": 858
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Miyagi-Do",
+      "unique_amiibo_id": "51a6b70e-6761-4434-b5eb-d3026b33aee5",
+      "rating": 35.5154939362053,
+      "rating_sigma": 1.6484825111511663,
+      "current_week": 859
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Miyagi-Do",
+      "unique_amiibo_id": "51a6b70e-6761-4434-b5eb-d3026b33aee5",
+      "rating": 37.068635834628196,
+      "rating_sigma": 1.2953961369838107,
+      "current_week": 860
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Miyagi-Do",
+      "unique_amiibo_id": "51a6b70e-6761-4434-b5eb-d3026b33aee5",
+      "rating": 37.068635834628196,
+      "rating_sigma": 1.2953961369838107,
+      "current_week": 861
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Miyagi-Do",
+      "unique_amiibo_id": "51a6b70e-6761-4434-b5eb-d3026b33aee5",
+      "rating": 37.068635834628196,
+      "rating_sigma": 1.2953961369838107,
+      "current_week": 862
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Miyagi-Do",
+      "unique_amiibo_id": "51a6b70e-6761-4434-b5eb-d3026b33aee5",
+      "rating": 37.068635834628196,
+      "rating_sigma": 1.2953961369838107,
+      "current_week": 863
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Miyagi-Do",
+      "unique_amiibo_id": "51a6b70e-6761-4434-b5eb-d3026b33aee5",
+      "rating": 37.068635834628196,
+      "rating_sigma": 1.2953961369838107,
+      "current_week": 864
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Miyagi-Do",
+      "unique_amiibo_id": "51a6b70e-6761-4434-b5eb-d3026b33aee5",
+      "rating": 37.068635834628196,
+      "rating_sigma": 1.2953961369838107,
+      "current_week": 865
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 37.440678608297354,
+      "rating_sigma": 1.240027232276599,
+      "current_week": 866
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 37.582923858752544,
+      "rating_sigma": 1.1985333153106401,
+      "current_week": 867
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 38.37413983386563,
+      "rating_sigma": 1.0516497398682225,
+      "current_week": 868
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 38.73894263561818,
+      "rating_sigma": 1.0360081062621045,
+      "current_week": 869
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 38.91290900067393,
+      "rating_sigma": 0.9661326268278952,
+      "current_week": 870
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 39.054656545897444,
+      "rating_sigma": 0.9615968182133009,
+      "current_week": 871
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 38.92216235293027,
+      "rating_sigma": 0.9567426137329034,
+      "current_week": 872
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 38.85224133575407,
+      "rating_sigma": 0.9540819698321419,
+      "current_week": 873
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 38.85224133575407,
+      "rating_sigma": 0.9540819698321419,
+      "current_week": 874
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 38.96978270675667,
+      "rating_sigma": 0.9436419760862781,
+      "current_week": 875
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 38.96978270675667,
+      "rating_sigma": 0.9436419760862781,
+      "current_week": 876
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 38.86629347555648,
+      "rating_sigma": 0.9399454531416371,
+      "current_week": 877
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 38.86629347555648,
+      "rating_sigma": 0.9399454531416371,
+      "current_week": 878
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 38.86629347555648,
+      "rating_sigma": 0.9399454531416371,
+      "current_week": 879
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 38.98794914099663,
+      "rating_sigma": 0.9365261499485142,
+      "current_week": 880
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 38.98794914099663,
+      "rating_sigma": 0.9365261499485142,
+      "current_week": 881
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 38.87109905077676,
+      "rating_sigma": 0.9326841847730545,
+      "current_week": 882
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 38.87109905077676,
+      "rating_sigma": 0.9326841847730545,
+      "current_week": 883
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 38.87109905077676,
+      "rating_sigma": 0.9326841847730545,
+      "current_week": 884
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 38.87109905077676,
+      "rating_sigma": 0.9326841847730545,
+      "current_week": 885
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 38.87109905077676,
+      "rating_sigma": 0.9326841847730545,
+      "current_week": 886
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 38.87109905077676,
+      "rating_sigma": 0.9326841847730545,
+      "current_week": 887
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 38.87109905077676,
+      "rating_sigma": 0.9326841847730545,
+      "current_week": 888
+    },
+    {
+      "trainer_name": "traumatizedbaconbits",
+      "trainer_id": "416215c7-5547-4adb-a772-9aec5f98ba73",
+      "amiibo_name": "Obelisk",
+      "unique_amiibo_id": "f8ff11cf-5e28-4d3f-8d07-b1056e7b62f6",
+      "rating": 38.957212039843554,
+      "rating_sigma": 0.92282629316562,
+      "current_week": 889
+    },
+    {
+      "trainer_name": "traumatizedbaconbits",
+      "trainer_id": "416215c7-5547-4adb-a772-9aec5f98ba73",
+      "amiibo_name": "Obelisk",
+      "unique_amiibo_id": "f8ff11cf-5e28-4d3f-8d07-b1056e7b62f6",
+      "rating": 38.957212039843554,
+      "rating_sigma": 0.92282629316562,
+      "current_week": 890
+    },
+    {
+      "trainer_name": "traumatizedbaconbits",
+      "trainer_id": "416215c7-5547-4adb-a772-9aec5f98ba73",
+      "amiibo_name": "Obelisk",
+      "unique_amiibo_id": "f8ff11cf-5e28-4d3f-8d07-b1056e7b62f6",
+      "rating": 38.957212039843554,
+      "rating_sigma": 0.92282629316562,
+      "current_week": 891
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 38.98338646063963,
+      "rating_sigma": 0.9296632415587133,
+      "current_week": 892
+    },
+    {
+      "trainer_name": "traumatizedbaconbits",
+      "trainer_id": "416215c7-5547-4adb-a772-9aec5f98ba73",
+      "amiibo_name": "Obelisk",
+      "unique_amiibo_id": "f8ff11cf-5e28-4d3f-8d07-b1056e7b62f6",
+      "rating": 39.03423117739195,
+      "rating_sigma": 0.9210242708242338,
+      "current_week": 893
+    },
+    {
+      "trainer_name": "traumatizedbaconbits",
+      "trainer_id": "416215c7-5547-4adb-a772-9aec5f98ba73",
+      "amiibo_name": "Obelisk",
+      "unique_amiibo_id": "f8ff11cf-5e28-4d3f-8d07-b1056e7b62f6",
+      "rating": 39.03423117739195,
+      "rating_sigma": 0.9210242708242338,
+      "current_week": 894
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 39.09203421006315,
+      "rating_sigma": 0.9267502814991583,
+      "current_week": 895
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 39.09203421006315,
+      "rating_sigma": 0.9267502814991583,
+      "current_week": 896
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 39.09203421006315,
+      "rating_sigma": 0.9267502814991583,
+      "current_week": 897
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 39.09203421006315,
+      "rating_sigma": 0.9267502814991583,
+      "current_week": 898
+    },
+    {
+      "trainer_name": "traumatizedbaconbits",
+      "trainer_id": "416215c7-5547-4adb-a772-9aec5f98ba73",
+      "amiibo_name": "Obelisk",
+      "unique_amiibo_id": "f8ff11cf-5e28-4d3f-8d07-b1056e7b62f6",
+      "rating": 39.07664416096017,
+      "rating_sigma": 0.9031851426283031,
+      "current_week": 899
+    },
+    {
+      "trainer_name": "traumatizedbaconbits",
+      "trainer_id": "416215c7-5547-4adb-a772-9aec5f98ba73",
+      "amiibo_name": "Obelisk",
+      "unique_amiibo_id": "f8ff11cf-5e28-4d3f-8d07-b1056e7b62f6",
+      "rating": 39.08205662758598,
+      "rating_sigma": 0.8968322244814089,
+      "current_week": 900
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "5c7a6f83-a271-4ce1-b557-15e6453731dd",
+      "rating": 39.036558181629694,
+      "rating_sigma": 0.8299497893450254,
+      "current_week": 901
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "5c7a6f83-a271-4ce1-b557-15e6453731dd",
+      "rating": 39.09849110286759,
+      "rating_sigma": 0.8300689136088599,
+      "current_week": 902
+    },
+    {
+      "trainer_name": "forenmagra",
+      "trainer_id": "6f081b04-5bb5-4923-9ac5-a80ebaec843f",
+      "amiibo_name": "↓toGeorgia",
+      "unique_amiibo_id": "b813e9ba-889f-40dd-8252-75bdec06877a",
+      "rating": 39.0972678531248,
+      "rating_sigma": 0.9199121519652034,
+      "current_week": 903
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "5c7a6f83-a271-4ce1-b557-15e6453731dd",
+      "rating": 39.25853904409889,
+      "rating_sigma": 0.8183017290881461,
+      "current_week": 904
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "5c7a6f83-a271-4ce1-b557-15e6453731dd",
+      "rating": 39.250827873754396,
+      "rating_sigma": 0.8169950431631843,
+      "current_week": 905
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "5c7a6f83-a271-4ce1-b557-15e6453731dd",
+      "rating": 39.250827873754396,
+      "rating_sigma": 0.8169950431631843,
+      "current_week": 906
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "5c7a6f83-a271-4ce1-b557-15e6453731dd",
+      "rating": 39.250827873754396,
+      "rating_sigma": 0.8169950431631843,
+      "current_week": 907
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "5c7a6f83-a271-4ce1-b557-15e6453731dd",
+      "rating": 39.250827873754396,
+      "rating_sigma": 0.8169950431631843,
+      "current_week": 908
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "5c7a6f83-a271-4ce1-b557-15e6453731dd",
+      "rating": 39.250827873754396,
+      "rating_sigma": 0.8169950431631843,
+      "current_week": 909
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "5c7a6f83-a271-4ce1-b557-15e6453731dd",
+      "rating": 39.250827873754396,
+      "rating_sigma": 0.8169950431631843,
+      "current_week": 910
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.26498608398743,
+      "rating_sigma": 0.8320486805231037,
+      "current_week": 911
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.26498608398743,
+      "rating_sigma": 0.8320486805231037,
+      "current_week": 912
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.26498608398743,
+      "rating_sigma": 0.8320486805231037,
+      "current_week": 913
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.26498608398743,
+      "rating_sigma": 0.8320486805231037,
+      "current_week": 914
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.26498608398743,
+      "rating_sigma": 0.8320486805231037,
+      "current_week": 915
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.26498608398743,
+      "rating_sigma": 0.8320486805231037,
+      "current_week": 916
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.26498608398743,
+      "rating_sigma": 0.8320486805231037,
+      "current_week": 917
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.26498608398743,
+      "rating_sigma": 0.8320486805231037,
+      "current_week": 918
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.26498608398743,
+      "rating_sigma": 0.8320486805231037,
+      "current_week": 919
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.26498608398743,
+      "rating_sigma": 0.8320486805231037,
+      "current_week": 920
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.26498608398743,
+      "rating_sigma": 0.8320486805231037,
+      "current_week": 921
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.35109244834716,
+      "rating_sigma": 0.8318225248511543,
+      "current_week": 922
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.35109244834716,
+      "rating_sigma": 0.8318225248511543,
+      "current_week": 923
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.35109244834716,
+      "rating_sigma": 0.8318225248511543,
+      "current_week": 924
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.35109244834716,
+      "rating_sigma": 0.8318225248511543,
+      "current_week": 925
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.35109244834716,
+      "rating_sigma": 0.8318225248511543,
+      "current_week": 926
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.50187036617987,
+      "rating_sigma": 0.8309754017511327,
+      "current_week": 927
+    },
+    {
+      "trainer_name": "random_fire",
+      "trainer_id": "1c1dbcb7-19b0-4ad2-9afb-143abfb19fec",
+      "amiibo_name": "Apophis",
+      "unique_amiibo_id": "ff362a97-ccd8-4dbb-95ca-a44df4d1b5ec",
+      "rating": 39.532726910834015,
+      "rating_sigma": 0.873169895523593,
+      "current_week": 928
+    },
+    {
+      "trainer_name": "random_fire",
+      "trainer_id": "1c1dbcb7-19b0-4ad2-9afb-143abfb19fec",
+      "amiibo_name": "Apophis",
+      "unique_amiibo_id": "ff362a97-ccd8-4dbb-95ca-a44df4d1b5ec",
+      "rating": 39.532726910834015,
+      "rating_sigma": 0.873169895523593,
+      "current_week": 929
+    },
+    {
+      "trainer_name": "random_fire",
+      "trainer_id": "1c1dbcb7-19b0-4ad2-9afb-143abfb19fec",
+      "amiibo_name": "Apophis",
+      "unique_amiibo_id": "ff362a97-ccd8-4dbb-95ca-a44df4d1b5ec",
+      "rating": 39.532726910834015,
+      "rating_sigma": 0.873169895523593,
+      "current_week": 930
+    },
+    {
+      "trainer_name": "random_fire",
+      "trainer_id": "1c1dbcb7-19b0-4ad2-9afb-143abfb19fec",
+      "amiibo_name": "Apophis",
+      "unique_amiibo_id": "ff362a97-ccd8-4dbb-95ca-a44df4d1b5ec",
+      "rating": 39.418569874954656,
+      "rating_sigma": 0.8708154618657667,
+      "current_week": 931
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.40612231698378,
+      "rating_sigma": 0.8298396055527004,
+      "current_week": 932
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.40612231698378,
+      "rating_sigma": 0.8298396055527004,
+      "current_week": 933
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.40612231698378,
+      "rating_sigma": 0.8298396055527004,
+      "current_week": 934
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.40612231698378,
+      "rating_sigma": 0.8298396055527004,
+      "current_week": 935
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.40612231698378,
+      "rating_sigma": 0.8298396055527004,
+      "current_week": 936
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.40612231698378,
+      "rating_sigma": 0.8298396055527004,
+      "current_week": 937
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.40612231698378,
+      "rating_sigma": 0.8298396055527004,
+      "current_week": 938
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.40612231698378,
+      "rating_sigma": 0.8298396055527004,
+      "current_week": 939
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.40612231698378,
+      "rating_sigma": 0.8298396055527004,
+      "current_week": 940
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "5c7a6f83-a271-4ce1-b557-15e6453731dd",
+      "rating": 39.41033634238178,
+      "rating_sigma": 0.8090043711716425,
+      "current_week": 941
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.649689084987195,
+      "rating_sigma": 0.8306237451990895,
+      "current_week": 942
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.649689084987195,
+      "rating_sigma": 0.8306237451990895,
+      "current_week": 943
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 944
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 945
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 946
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 947
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 948
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 949
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 950
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 951
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 952
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 953
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 954
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 955
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 956
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 957
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 958
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 959
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 960
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 961
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 962
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 963
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 964
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 965
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 966
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 967
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 968
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 969
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 970
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 971
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 972
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 973
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 974
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 975
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 976
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 977
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 978
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 979
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 980
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 981
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 982
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 983
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 984
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 985
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 986
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 987
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 988
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 989
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 990
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 991
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 992
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 993
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 994
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 995
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 996
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 997
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 998
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 999
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1000
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1001
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1002
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1003
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1004
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1005
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1006
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1007
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1008
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1009
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1010
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1011
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1012
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1013
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1014
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1015
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1016
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1017
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1018
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1019
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1020
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1021
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1022
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1023
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1024
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1025
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1026
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1027
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1028
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1029
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1030
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1031
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1032
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1033
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1034
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1035
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1036
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1037
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1038
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1039
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1040
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1041
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1042
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1043
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1044
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1045
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1046
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1047
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1048
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1049
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1050
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1051
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1052
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1053
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1054
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1055
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1056
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1057
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1058
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1059
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1060
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1061
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1062
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1063
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1064
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1065
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1066
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1067
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1068
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1069
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1070
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1071
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1072
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1073
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1074
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1075
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1076
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1077
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1078
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1079
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1080
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1081
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1082
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1083
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1084
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1085
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1086
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1087
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1088
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1089
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1090
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1091
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1092
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1093
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1094
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1095
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1096
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1097
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1098
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1099
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1100
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1101
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1102
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1103
+    },
+    {
+      "trainer_name": "Azend_1",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Scar",
+      "unique_amiibo_id": "b23f475b-720d-41cf-a151-c25ca6f8d803",
+      "rating": 39.91195598049285,
+      "rating_sigma": 0.829464445002817,
+      "current_week": 1104
+    }
+  ]
+}

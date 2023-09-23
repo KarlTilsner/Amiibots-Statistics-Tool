@@ -177,20 +177,95 @@ async function characterMatchup(selectedOption) {
         highestRatedHistory = [];
 
         // Push specified amiibo data into array for rating history chart
-        const rating_history_query = await fetch('./json/AmiibotsRatingHistory.json');
+        const rating_history_query = await fetch(`./json/Rating History/${specifiedCharacter_name} Rating History.json`);
         const rating_history_data = await rating_history_query.json();
         console.log("🚀 ~ createHighestRatingHistoryChart ~ rating_history_data:", rating_history_data);
 
-        rating_history_data.map(function(index) {
-            if (index.id == specifiedCharacter) {
-                // Get highest rating
-                document.getElementById('list_rating').innerText = index.rating_history[index.rating_history.length - 1].rating.toFixed(2);
-
-                index.rating_history.forEach(element => {
-                    highestRatedHistory.push(element);
-                });
+        // get highest rating
+        let highest_rating = 0;
+        rating_history_data.rating_history.map(index => {
+            if (index.rating > highest_rating) {
+                highest_rating = index.rating;
+                document.getElementById('list_rating').innerText = highest_rating.toFixed(3);
             }
+            highestRatedHistory.push(index);
         });
+
+        // get most dominant player for the character
+        function topPlayers() {    
+            const trainerIdCounts = rating_history_data.rating_history.reduce((counts, item) => {
+                const trainerId = item.trainer_id;
+                const trainerName = item.trainer_name;
+            
+                if (counts[trainerId]) {
+                if (trainerName !== counts[trainerId].trainerName) {
+                    counts[trainerId].trainer_name = trainerName; // Update trainerName
+                }
+                counts[trainerId].days++;
+                } else {
+                counts[trainerId] = { trainer_name: trainerName, days: 1 };
+                }
+            
+                return counts;
+            }, {});
+
+            const sortedResults = Object.values(trainerIdCounts);
+            sortedResults.sort((a, b) => b.days - a.days);
+            console.log("Tally of trainer_ids:", sortedResults);
+
+            document.getElementById('list_longest_streak_trainer').innerText = sortedResults[0].trainer_name;
+            document.getElementById('list_longest_streak').innerText = `~${sortedResults[0].days} Days`;
+
+
+            let content = document.getElementById('dominantPlayerDropdownContent');
+            content.innerHTML = `<div class="flex_list_container" id="dominantPlayerDropdownContent"></div>`;
+            
+            sortedResults.map(index => {
+                content.innerHTML += (
+                    `<div class="list_item" id="list_item_searchable">
+                        <div class="list_stats_container">
+                            <div class="list_stats">
+                                <h1>${index.trainer_name}</h1>
+                            </div>
+        
+                            <div class="list_stats">
+                                <h2>Percentage of history</h2>
+                                <h1>~${((index.days / highestRatedHistory.length) * 100).toFixed(2)}%</h1>
+                            </div>
+        
+                            <div class="list_stats">
+                                <h2>Time as highest trainer</h2>
+                                <h1>~${index.days} Days</h1>
+                            </div>
+                        </div>
+        
+                    </div>`
+                );
+            });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+        topPlayers();
 
         // collect every unique trainer id
         let uniqueTrainers = [];
@@ -201,7 +276,7 @@ async function characterMatchup(selectedOption) {
         }
 
         // split trainers into their own array
-        let trainerGraphRatingData = [];
+        const trainerGraphRatingData = [];
         for (let i = 0; i < uniqueTrainers.length; i++) {
             let temp = [];
             for (let x = 0; x < highestRatedHistory.length; x++) {
@@ -217,7 +292,7 @@ async function characterMatchup(selectedOption) {
         }
 
         // get the latest username for each unique trainer
-        let latestTrainerNames = [];
+        const latestTrainerNames = [];
         for (let i = 0; i < uniqueTrainers.length; i++) {
             let latestName = 0;
             for (let x = 0; x < highestRatedHistory.length; x++) {
@@ -264,8 +339,8 @@ async function characterMatchup(selectedOption) {
                 borderColor: randomBorderColour,
                 fill: true,
                 borderWidth: 1,
-                pointRadius: 3,
-                pointHoverRadius: 5,
+                pointRadius: 1,
+                pointHoverRadius: 1,
             };
           
             datasets.push(newDataset);
@@ -425,4 +500,17 @@ function highlightSortButton(button_id) {
 
     document.getElementById(`${button_id}`).setAttribute("style", `background-color: rgba(220, 220, 220 , 0.3)`);
     window.localStorage.setItem('SortType', `${button_id}`);
+}
+
+
+
+
+// Open or close the dropdowwn with the other dominant players
+function listDominantPlayers() {
+    var element = document.getElementById("dominantPlayerDropdown");
+    if (element.style.display === "none") {
+        element.style.display = "block"; // or "inline" or any other display property you want
+    } else {
+        element.style.display = "none";
+    }
 }

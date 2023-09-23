@@ -1,0 +1,4569 @@
+{
+  "name": "Min Min",
+  "id": "e8962383-ad1a-49ea-ab7a-2c2bf6aabfc1",
+  "rating_history": [
+    {
+      "trainer_name": "Oliirik",
+      "trainer_id": "ed07ff6b-770b-43cf-8149-1a8ed56826cd",
+      "amiibo_name": "Mia",
+      "unique_amiibo_id": "fb6cf007-1b4f-4ceb-a1a9-5e8ed90e6b65",
+      "rating": 20.594435592508518,
+      "rating_sigma": 2.4523781161613374,
+      "current_week": 598
+    },
+    {
+      "trainer_name": "gotelin_",
+      "trainer_id": "0b8c365c-f938-47cd-a44f-acad601daf15",
+      "amiibo_name": "Arhelia",
+      "unique_amiibo_id": "9933b655-3a7e-4552-af38-3e53f30ca9d9",
+      "rating": 30.527492347699177,
+      "rating_sigma": 2.463647251973196,
+      "current_week": 599
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "HongKong97",
+      "unique_amiibo_id": "dde2ba3d-9540-4231-a8f3-776939055bd3",
+      "rating": 32.1019005015698,
+      "rating_sigma": 2.223850814512461,
+      "current_week": 600
+    },
+    {
+      "trainer_name": "gotelin_",
+      "trainer_id": "0b8c365c-f938-47cd-a44f-acad601daf15",
+      "amiibo_name": "Arhelia",
+      "unique_amiibo_id": "9933b655-3a7e-4552-af38-3e53f30ca9d9",
+      "rating": 33.43126306647484,
+      "rating_sigma": 1.8414056234795124,
+      "current_week": 601
+    },
+    {
+      "trainer_name": "gotelin_",
+      "trainer_id": "0b8c365c-f938-47cd-a44f-acad601daf15",
+      "amiibo_name": "Arhelia",
+      "unique_amiibo_id": "a3733748-a68a-4717-977c-fd4aa10c48cf",
+      "rating": 34.84409199320332,
+      "rating_sigma": 2.31762278695865,
+      "current_week": 602
+    },
+    {
+      "trainer_name": "gotelin_",
+      "trainer_id": "0b8c365c-f938-47cd-a44f-acad601daf15",
+      "amiibo_name": "Arhelia",
+      "unique_amiibo_id": "a3733748-a68a-4717-977c-fd4aa10c48cf",
+      "rating": 34.84409199320332,
+      "rating_sigma": 2.31762278695865,
+      "current_week": 603
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 36.654399936960914,
+      "rating_sigma": 2.0318457376491463,
+      "current_week": 604
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.442296573429424,
+      "rating_sigma": 1.8632397249078214,
+      "current_week": 605
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.721769999669235,
+      "rating_sigma": 1.5914284292906908,
+      "current_week": 606
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 607
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 608
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 609
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 610
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 611
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 612
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 613
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 614
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 615
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 616
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 617
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 618
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 619
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 620
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 621
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 622
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 623
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 624
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 625
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 626
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 627
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 628
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 629
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 630
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 631
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 632
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 633
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 634
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 635
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 636
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 637
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 638
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 639
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 640
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 641
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 642
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 643
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 644
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 645
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 646
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 647
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 648
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 649
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 650
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 651
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 652
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 653
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 654
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 655
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 656
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 657
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 658
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 659
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 660
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 661
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 662
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 663
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 664
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 665
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 666
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 667
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 668
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 669
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 670
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 671
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 672
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 673
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 674
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 675
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 676
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 677
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 678
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 679
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 680
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 681
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 682
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 683
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 684
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 685
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 686
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 687
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 688
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 689
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.21940429034827,
+      "rating_sigma": 1.5471839971748107,
+      "current_week": 690
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.991048827420926,
+      "rating_sigma": 1.52103947099294,
+      "current_week": 691
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.991048827420926,
+      "rating_sigma": 1.52103947099294,
+      "current_week": 692
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.991048827420926,
+      "rating_sigma": 1.52103947099294,
+      "current_week": 693
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.991048827420926,
+      "rating_sigma": 1.52103947099294,
+      "current_week": 694
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.991048827420926,
+      "rating_sigma": 1.52103947099294,
+      "current_week": 695
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.991048827420926,
+      "rating_sigma": 1.52103947099294,
+      "current_week": 696
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.991048827420926,
+      "rating_sigma": 1.52103947099294,
+      "current_week": 697
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.991048827420926,
+      "rating_sigma": 1.52103947099294,
+      "current_week": 698
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.991048827420926,
+      "rating_sigma": 1.52103947099294,
+      "current_week": 699
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.991048827420926,
+      "rating_sigma": 1.52103947099294,
+      "current_week": 700
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.991048827420926,
+      "rating_sigma": 1.52103947099294,
+      "current_week": 701
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.991048827420926,
+      "rating_sigma": 1.52103947099294,
+      "current_week": 702
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.991048827420926,
+      "rating_sigma": 1.52103947099294,
+      "current_week": 703
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.991048827420926,
+      "rating_sigma": 1.52103947099294,
+      "current_week": 704
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.991048827420926,
+      "rating_sigma": 1.52103947099294,
+      "current_week": 705
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.991048827420926,
+      "rating_sigma": 1.52103947099294,
+      "current_week": 706
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.991048827420926,
+      "rating_sigma": 1.52103947099294,
+      "current_week": 707
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.991048827420926,
+      "rating_sigma": 1.52103947099294,
+      "current_week": 708
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.991048827420926,
+      "rating_sigma": 1.52103947099294,
+      "current_week": 709
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.81684815006443,
+      "rating_sigma": 1.4965349924411544,
+      "current_week": 710
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.81684815006443,
+      "rating_sigma": 1.4965349924411544,
+      "current_week": 711
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.81684815006443,
+      "rating_sigma": 1.4965349924411544,
+      "current_week": 712
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.81684815006443,
+      "rating_sigma": 1.4965349924411544,
+      "current_week": 713
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.81684815006443,
+      "rating_sigma": 1.4965349924411544,
+      "current_week": 714
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.81684815006443,
+      "rating_sigma": 1.4965349924411544,
+      "current_week": 715
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.81684815006443,
+      "rating_sigma": 1.4965349924411544,
+      "current_week": 716
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.81684815006443,
+      "rating_sigma": 1.4965349924411544,
+      "current_week": 717
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.81684815006443,
+      "rating_sigma": 1.4965349924411544,
+      "current_week": 718
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.81684815006443,
+      "rating_sigma": 1.4965349924411544,
+      "current_week": 719
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.81684815006443,
+      "rating_sigma": 1.4965349924411544,
+      "current_week": 720
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.81684815006443,
+      "rating_sigma": 1.4965349924411544,
+      "current_week": 721
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.81684815006443,
+      "rating_sigma": 1.4965349924411544,
+      "current_week": 722
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.678993718168265,
+      "rating_sigma": 1.4750417617199156,
+      "current_week": 723
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.678993718168265,
+      "rating_sigma": 1.4750417617199156,
+      "current_week": 724
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.678993718168265,
+      "rating_sigma": 1.4750417617199156,
+      "current_week": 725
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.678993718168265,
+      "rating_sigma": 1.4750417617199156,
+      "current_week": 726
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.678993718168265,
+      "rating_sigma": 1.4750417617199156,
+      "current_week": 727
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.678993718168265,
+      "rating_sigma": 1.4750417617199156,
+      "current_week": 728
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.678993718168265,
+      "rating_sigma": 1.4750417617199156,
+      "current_week": 729
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.52739973343719,
+      "rating_sigma": 1.4530411495677182,
+      "current_week": 730
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.52739973343719,
+      "rating_sigma": 1.4530411495677182,
+      "current_week": 731
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.52739973343719,
+      "rating_sigma": 1.4530411495677182,
+      "current_week": 732
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.52739973343719,
+      "rating_sigma": 1.4530411495677182,
+      "current_week": 733
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.52739973343719,
+      "rating_sigma": 1.4530411495677182,
+      "current_week": 734
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.38419957356308,
+      "rating_sigma": 1.4324529835965913,
+      "current_week": 735
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.38419957356308,
+      "rating_sigma": 1.4324529835965913,
+      "current_week": 736
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.38419957356308,
+      "rating_sigma": 1.4324529835965913,
+      "current_week": 737
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.38419957356308,
+      "rating_sigma": 1.4324529835965913,
+      "current_week": 738
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.38419957356308,
+      "rating_sigma": 1.4324529835965913,
+      "current_week": 739
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.38419957356308,
+      "rating_sigma": 1.4324529835965913,
+      "current_week": 740
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.38419957356308,
+      "rating_sigma": 1.4324529835965913,
+      "current_week": 741
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.38419957356308,
+      "rating_sigma": 1.4324529835965913,
+      "current_week": 742
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.38419957356308,
+      "rating_sigma": 1.4324529835965913,
+      "current_week": 743
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.38419957356308,
+      "rating_sigma": 1.4324529835965913,
+      "current_week": 744
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.38419957356308,
+      "rating_sigma": 1.4324529835965913,
+      "current_week": 745
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.38419957356308,
+      "rating_sigma": 1.4324529835965913,
+      "current_week": 746
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.20543380342896,
+      "rating_sigma": 1.4110839427753148,
+      "current_week": 747
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.20543380342896,
+      "rating_sigma": 1.4110839427753148,
+      "current_week": 748
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.20543380342896,
+      "rating_sigma": 1.4110839427753148,
+      "current_week": 749
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.20543380342896,
+      "rating_sigma": 1.4110839427753148,
+      "current_week": 750
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.08397390360727,
+      "rating_sigma": 1.3935390225610038,
+      "current_week": 751
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.08397390360727,
+      "rating_sigma": 1.3935390225610038,
+      "current_week": 752
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.08397390360727,
+      "rating_sigma": 1.3935390225610038,
+      "current_week": 753
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.08397390360727,
+      "rating_sigma": 1.3935390225610038,
+      "current_week": 754
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.08397390360727,
+      "rating_sigma": 1.3935390225610038,
+      "current_week": 755
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.08397390360727,
+      "rating_sigma": 1.3935390225610038,
+      "current_week": 756
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.08397390360727,
+      "rating_sigma": 1.3935390225610038,
+      "current_week": 757
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 36.88656192193337,
+      "rating_sigma": 1.3724679627963299,
+      "current_week": 758
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 36.88656192193337,
+      "rating_sigma": 1.3724679627963299,
+      "current_week": 759
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 36.88656192193337,
+      "rating_sigma": 1.3724679627963299,
+      "current_week": 760
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 36.88656192193337,
+      "rating_sigma": 1.3724679627963299,
+      "current_week": 761
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 36.88656192193337,
+      "rating_sigma": 1.3724679627963299,
+      "current_week": 762
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 36.88656192193337,
+      "rating_sigma": 1.3724679627963299,
+      "current_week": 763
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 36.88656192193337,
+      "rating_sigma": 1.3724679627963299,
+      "current_week": 764
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 36.88656192193337,
+      "rating_sigma": 1.3724679627963299,
+      "current_week": 765
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 36.88656192193337,
+      "rating_sigma": 1.3724679627963299,
+      "current_week": 766
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 36.88656192193337,
+      "rating_sigma": 1.3724679627963299,
+      "current_week": 767
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 36.88656192193337,
+      "rating_sigma": 1.3724679627963299,
+      "current_week": 768
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.12308703100646,
+      "rating_sigma": 1.3588628916826713,
+      "current_week": 769
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.73559661061301,
+      "rating_sigma": 1.2843378503774838,
+      "current_week": 770
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.9137514261351,
+      "rating_sigma": 1.2442339471811632,
+      "current_week": 771
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.9137514261351,
+      "rating_sigma": 1.2442339471811632,
+      "current_week": 772
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.9137514261351,
+      "rating_sigma": 1.2442339471811632,
+      "current_week": 773
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.78127611796776,
+      "rating_sigma": 1.2325613732161926,
+      "current_week": 774
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.23616627451947,
+      "rating_sigma": 1.2093043373648746,
+      "current_week": 775
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.349169944410015,
+      "rating_sigma": 1.184379030692783,
+      "current_week": 776
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.349169944410015,
+      "rating_sigma": 1.184379030692783,
+      "current_week": 777
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.16296859952667,
+      "rating_sigma": 1.171610643973722,
+      "current_week": 778
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.16296859952667,
+      "rating_sigma": 1.171610643973722,
+      "current_week": 779
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.93583059594781,
+      "rating_sigma": 1.1583449221870745,
+      "current_week": 780
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.874216869898454,
+      "rating_sigma": 1.145081037603477,
+      "current_week": 781
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.874216869898454,
+      "rating_sigma": 1.145081037603477,
+      "current_week": 782
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.874216869898454,
+      "rating_sigma": 1.145081037603477,
+      "current_week": 783
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.96702803828189,
+      "rating_sigma": 1.1415328167479333,
+      "current_week": 784
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.06706633347277,
+      "rating_sigma": 1.1356346488702747,
+      "current_week": 785
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.917589667815044,
+      "rating_sigma": 1.1263349194092782,
+      "current_week": 786
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.18203369505662,
+      "rating_sigma": 1.1121785598282568,
+      "current_week": 787
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.18203369505662,
+      "rating_sigma": 1.1121785598282568,
+      "current_week": 788
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.434987466635356,
+      "rating_sigma": 1.1000184129661363,
+      "current_week": 789
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.5035646540633,
+      "rating_sigma": 1.0820537199965956,
+      "current_week": 790
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.8397312006464,
+      "rating_sigma": 1.0671245507958154,
+      "current_week": 791
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.8397312006464,
+      "rating_sigma": 1.0671245507958154,
+      "current_week": 792
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.71755605430444,
+      "rating_sigma": 1.059866004406157,
+      "current_week": 793
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.71755605430444,
+      "rating_sigma": 1.059866004406157,
+      "current_week": 794
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.634748987450536,
+      "rating_sigma": 1.047064235577362,
+      "current_week": 795
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.67144620797877,
+      "rating_sigma": 1.0348676673180661,
+      "current_week": 796
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.46298203723812,
+      "rating_sigma": 1.023421041006289,
+      "current_week": 797
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.46298203723812,
+      "rating_sigma": 1.023421041006289,
+      "current_week": 798
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.256755169781655,
+      "rating_sigma": 1.0154691039680608,
+      "current_week": 799
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.256755169781655,
+      "rating_sigma": 1.0154691039680608,
+      "current_week": 800
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.256755169781655,
+      "rating_sigma": 1.0154691039680608,
+      "current_week": 801
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.34331508527611,
+      "rating_sigma": 1.0123633030064882,
+      "current_week": 802
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.34331508527611,
+      "rating_sigma": 1.0123633030064882,
+      "current_week": 803
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.34331508527611,
+      "rating_sigma": 1.0123633030064882,
+      "current_week": 804
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.44678284869873,
+      "rating_sigma": 1.0090989288522252,
+      "current_week": 805
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.561394258040195,
+      "rating_sigma": 1.005085112812876,
+      "current_week": 806
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.52554853153134,
+      "rating_sigma": 0.9916630614936841,
+      "current_week": 807
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.690566855117,
+      "rating_sigma": 0.9860415382257119,
+      "current_week": 808
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.52792534904703,
+      "rating_sigma": 0.9798498265530934,
+      "current_week": 809
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.50214291393355,
+      "rating_sigma": 0.9727385388326999,
+      "current_week": 810
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.50214291393355,
+      "rating_sigma": 0.9727385388326999,
+      "current_week": 811
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.407566147558676,
+      "rating_sigma": 0.9687113972988086,
+      "current_week": 812
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.29739521340919,
+      "rating_sigma": 0.9642460152983535,
+      "current_week": 813
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.19107645274697,
+      "rating_sigma": 0.9600025287137771,
+      "current_week": 814
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.19107645274697,
+      "rating_sigma": 0.9600025287137771,
+      "current_week": 815
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.0708625262598,
+      "rating_sigma": 0.9559421829383818,
+      "current_week": 816
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.95321246809124,
+      "rating_sigma": 0.952130632758502,
+      "current_week": 817
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.95321246809124,
+      "rating_sigma": 0.952130632758502,
+      "current_week": 818
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.021056736546285,
+      "rating_sigma": 0.9510081352463013,
+      "current_week": 819
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.021056736546285,
+      "rating_sigma": 0.9510081352463013,
+      "current_week": 820
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.89624228442507,
+      "rating_sigma": 0.9471299558039521,
+      "current_week": 821
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.87669968299503,
+      "rating_sigma": 0.942046276230433,
+      "current_week": 822
+    },
+    {
+      "trainer_name": "MiDe1",
+      "trainer_id": "8bd5645e-4290-498b-9776-71751a6c2242",
+      "amiibo_name": "Demon□",
+      "unique_amiibo_id": "a3a354d3-c358-42a6-9644-de63d1218356",
+      "rating": 38.02673739954513,
+      "rating_sigma": 1.6228725757862268,
+      "current_week": 823
+    },
+    {
+      "trainer_name": "MiDe1",
+      "trainer_id": "8bd5645e-4290-498b-9776-71751a6c2242",
+      "amiibo_name": "Demon□",
+      "unique_amiibo_id": "a3a354d3-c358-42a6-9644-de63d1218356",
+      "rating": 38.02673739954513,
+      "rating_sigma": 1.6228725757862268,
+      "current_week": 824
+    },
+    {
+      "trainer_name": "MiDe1",
+      "trainer_id": "8bd5645e-4290-498b-9776-71751a6c2242",
+      "amiibo_name": "Demon□",
+      "unique_amiibo_id": "a3a354d3-c358-42a6-9644-de63d1218356",
+      "rating": 38.02673739954513,
+      "rating_sigma": 1.6228725757862268,
+      "current_week": 825
+    },
+    {
+      "trainer_name": "MiDe1",
+      "trainer_id": "8bd5645e-4290-498b-9776-71751a6c2242",
+      "amiibo_name": "Demon□",
+      "unique_amiibo_id": "a3a354d3-c358-42a6-9644-de63d1218356",
+      "rating": 38.48884104520497,
+      "rating_sigma": 1.5881211999476201,
+      "current_week": 826
+    },
+    {
+      "trainer_name": "MiDe1",
+      "trainer_id": "8bd5645e-4290-498b-9776-71751a6c2242",
+      "amiibo_name": "Demon□",
+      "unique_amiibo_id": "a3a354d3-c358-42a6-9644-de63d1218356",
+      "rating": 38.18679929199942,
+      "rating_sigma": 1.5540099220917347,
+      "current_week": 827
+    },
+    {
+      "trainer_name": "MiDe1",
+      "trainer_id": "8bd5645e-4290-498b-9776-71751a6c2242",
+      "amiibo_name": "Demon□",
+      "unique_amiibo_id": "a3a354d3-c358-42a6-9644-de63d1218356",
+      "rating": 37.658726605494586,
+      "rating_sigma": 1.4658193627623792,
+      "current_week": 828
+    },
+    {
+      "trainer_name": "MiDe1",
+      "trainer_id": "8bd5645e-4290-498b-9776-71751a6c2242",
+      "amiibo_name": "Demon□",
+      "unique_amiibo_id": "a3a354d3-c358-42a6-9644-de63d1218356",
+      "rating": 37.658726605494586,
+      "rating_sigma": 1.4658193627623792,
+      "current_week": 829
+    },
+    {
+      "trainer_name": "MiDe1",
+      "trainer_id": "8bd5645e-4290-498b-9776-71751a6c2242",
+      "amiibo_name": "Demon□",
+      "unique_amiibo_id": "a3a354d3-c358-42a6-9644-de63d1218356",
+      "rating": 37.658726605494586,
+      "rating_sigma": 1.4658193627623792,
+      "current_week": 830
+    },
+    {
+      "trainer_name": "MiDe1",
+      "trainer_id": "8bd5645e-4290-498b-9776-71751a6c2242",
+      "amiibo_name": "Demon□",
+      "unique_amiibo_id": "a3a354d3-c358-42a6-9644-de63d1218356",
+      "rating": 37.658726605494586,
+      "rating_sigma": 1.4658193627623792,
+      "current_week": 831
+    },
+    {
+      "trainer_name": "MiDe1",
+      "trainer_id": "8bd5645e-4290-498b-9776-71751a6c2242",
+      "amiibo_name": "Demon□",
+      "unique_amiibo_id": "a3a354d3-c358-42a6-9644-de63d1218356",
+      "rating": 37.658726605494586,
+      "rating_sigma": 1.4658193627623792,
+      "current_week": 832
+    },
+    {
+      "trainer_name": "MiDe1",
+      "trainer_id": "8bd5645e-4290-498b-9776-71751a6c2242",
+      "amiibo_name": "Demon□",
+      "unique_amiibo_id": "a3a354d3-c358-42a6-9644-de63d1218356",
+      "rating": 37.658726605494586,
+      "rating_sigma": 1.4658193627623792,
+      "current_week": 833
+    },
+    {
+      "trainer_name": "MiDe1",
+      "trainer_id": "8bd5645e-4290-498b-9776-71751a6c2242",
+      "amiibo_name": "Demon□",
+      "unique_amiibo_id": "a3a354d3-c358-42a6-9644-de63d1218356",
+      "rating": 37.658726605494586,
+      "rating_sigma": 1.4658193627623792,
+      "current_week": 834
+    },
+    {
+      "trainer_name": "MiDe1",
+      "trainer_id": "8bd5645e-4290-498b-9776-71751a6c2242",
+      "amiibo_name": "Demon□",
+      "unique_amiibo_id": "a3a354d3-c358-42a6-9644-de63d1218356",
+      "rating": 37.658726605494586,
+      "rating_sigma": 1.4658193627623792,
+      "current_week": 835
+    },
+    {
+      "trainer_name": "MiDe1",
+      "trainer_id": "8bd5645e-4290-498b-9776-71751a6c2242",
+      "amiibo_name": "Demon□",
+      "unique_amiibo_id": "a3a354d3-c358-42a6-9644-de63d1218356",
+      "rating": 37.658726605494586,
+      "rating_sigma": 1.4658193627623792,
+      "current_week": 836
+    },
+    {
+      "trainer_name": "MiDe1",
+      "trainer_id": "8bd5645e-4290-498b-9776-71751a6c2242",
+      "amiibo_name": "Demon□",
+      "unique_amiibo_id": "a3a354d3-c358-42a6-9644-de63d1218356",
+      "rating": 37.658726605494586,
+      "rating_sigma": 1.4658193627623792,
+      "current_week": 837
+    },
+    {
+      "trainer_name": "MiDe1",
+      "trainer_id": "8bd5645e-4290-498b-9776-71751a6c2242",
+      "amiibo_name": "Demon□",
+      "unique_amiibo_id": "a3a354d3-c358-42a6-9644-de63d1218356",
+      "rating": 37.658726605494586,
+      "rating_sigma": 1.4658193627623792,
+      "current_week": 838
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.801211061737064,
+      "rating_sigma": 0.9008143873576238,
+      "current_week": 839
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.801211061737064,
+      "rating_sigma": 0.9008143873576238,
+      "current_week": 840
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.92717015769553,
+      "rating_sigma": 0.8986152603473497,
+      "current_week": 841
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.92717015769553,
+      "rating_sigma": 0.8986152603473497,
+      "current_week": 842
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.92717015769553,
+      "rating_sigma": 0.8986152603473497,
+      "current_week": 843
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.84777472210642,
+      "rating_sigma": 0.8969013618438906,
+      "current_week": 844
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.84777472210642,
+      "rating_sigma": 0.8969013618438906,
+      "current_week": 845
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.84777472210642,
+      "rating_sigma": 0.8969013618438906,
+      "current_week": 846
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.84777472210642,
+      "rating_sigma": 0.8969013618438906,
+      "current_week": 847
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.84777472210642,
+      "rating_sigma": 0.8969013618438906,
+      "current_week": 848
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.84777472210642,
+      "rating_sigma": 0.8969013618438906,
+      "current_week": 849
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.84777472210642,
+      "rating_sigma": 0.8969013618438906,
+      "current_week": 850
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.90521711613636,
+      "rating_sigma": 0.8962209279146569,
+      "current_week": 851
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.90521711613636,
+      "rating_sigma": 0.8962209279146569,
+      "current_week": 852
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.90521711613636,
+      "rating_sigma": 0.8962209279146569,
+      "current_week": 853
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.777767476106575,
+      "rating_sigma": 0.8929869649732006,
+      "current_week": 854
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.777767476106575,
+      "rating_sigma": 0.8929869649732006,
+      "current_week": 855
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.84535529876828,
+      "rating_sigma": 0.8918923643274694,
+      "current_week": 856
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.84535529876828,
+      "rating_sigma": 0.8918923643274694,
+      "current_week": 857
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.787796116982314,
+      "rating_sigma": 0.8885300935277682,
+      "current_week": 858
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.85718474587262,
+      "rating_sigma": 0.8875801293059058,
+      "current_week": 859
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.063521782739464,
+      "rating_sigma": 0.8841206810331401,
+      "current_week": 860
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.95344516705732,
+      "rating_sigma": 0.8816006371331636,
+      "current_week": 861
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.832431613013874,
+      "rating_sigma": 0.8800236055662621,
+      "current_week": 862
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.832431613013874,
+      "rating_sigma": 0.8800236055662621,
+      "current_week": 863
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.832431613013874,
+      "rating_sigma": 0.8800236055662621,
+      "current_week": 864
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.97496274299661,
+      "rating_sigma": 0.8792846828117803,
+      "current_week": 865
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.97496274299661,
+      "rating_sigma": 0.8792846828117803,
+      "current_week": 866
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.886124309604845,
+      "rating_sigma": 0.8779614216240453,
+      "current_week": 867
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.04767413492259,
+      "rating_sigma": 0.8761461149062738,
+      "current_week": 868
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.04767413492259,
+      "rating_sigma": 0.8761461149062738,
+      "current_week": 869
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.04767413492259,
+      "rating_sigma": 0.8761461149062738,
+      "current_week": 870
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.09721610628277,
+      "rating_sigma": 0.8760594575340095,
+      "current_week": 871
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.09721610628277,
+      "rating_sigma": 0.8760594575340095,
+      "current_week": 872
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.09721610628277,
+      "rating_sigma": 0.8760594575340095,
+      "current_week": 873
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.09721610628277,
+      "rating_sigma": 0.8760594575340095,
+      "current_week": 874
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.09721610628277,
+      "rating_sigma": 0.8760594575340095,
+      "current_week": 875
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.95436555338189,
+      "rating_sigma": 0.8730510598457584,
+      "current_week": 876
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.95436555338189,
+      "rating_sigma": 0.8730510598457584,
+      "current_week": 877
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.85821097530359,
+      "rating_sigma": 0.8691457315488247,
+      "current_week": 878
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.928379792928034,
+      "rating_sigma": 0.8693027529076214,
+      "current_week": 879
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.8979168735503,
+      "rating_sigma": 0.867624364623812,
+      "current_week": 880
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.81203138694072,
+      "rating_sigma": 0.8661134686171632,
+      "current_week": 881
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.874107427060984,
+      "rating_sigma": 0.8655696615760845,
+      "current_week": 882
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.83249877929693,
+      "rating_sigma": 0.8631147515336709,
+      "current_week": 883
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.9324837835841,
+      "rating_sigma": 0.8619851215407949,
+      "current_week": 884
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.9324837835841,
+      "rating_sigma": 0.8619851215407949,
+      "current_week": 885
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.0479570164606,
+      "rating_sigma": 0.8603089374147135,
+      "current_week": 886
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.0479570164606,
+      "rating_sigma": 0.8603089374147135,
+      "current_week": 887
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.21266102006046,
+      "rating_sigma": 0.8581289527205547,
+      "current_week": 888
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.196706095819636,
+      "rating_sigma": 0.8558594801413858,
+      "current_week": 889
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.196706095819636,
+      "rating_sigma": 0.8558594801413858,
+      "current_week": 890
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.196706095819636,
+      "rating_sigma": 0.8558594801413858,
+      "current_week": 891
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.196706095819636,
+      "rating_sigma": 0.8558594801413858,
+      "current_week": 892
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.05284281182641,
+      "rating_sigma": 0.8532713222531221,
+      "current_week": 893
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.80436255371913,
+      "rating_sigma": 0.8493876443321902,
+      "current_week": 894
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.62874894693127,
+      "rating_sigma": 0.8469142201015827,
+      "current_week": 895
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.62874894693127,
+      "rating_sigma": 0.8469142201015827,
+      "current_week": 896
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.62874894693127,
+      "rating_sigma": 0.8469142201015827,
+      "current_week": 897
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.732050978636515,
+      "rating_sigma": 0.8455262423954074,
+      "current_week": 898
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.732050978636515,
+      "rating_sigma": 0.8455262423954074,
+      "current_week": 899
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.732050978636515,
+      "rating_sigma": 0.8455262423954074,
+      "current_week": 900
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.732050978636515,
+      "rating_sigma": 0.8455262423954074,
+      "current_week": 901
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.83138587788085,
+      "rating_sigma": 1.230899702337569,
+      "current_week": 902
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 37.8548522757292,
+      "rating_sigma": 0.843041612550771,
+      "current_week": 903
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 37.83138587788085,
+      "rating_sigma": 1.230899702337569,
+      "current_week": 904
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Yakisobruh",
+      "unique_amiibo_id": "3da7591b-e54f-4feb-b20f-6fd04c45e3d7",
+      "rating": 38.06817253349888,
+      "rating_sigma": 1.2176246077411623,
+      "current_week": 905
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.127764685678514,
+      "rating_sigma": 0.8361886057428253,
+      "current_week": 906
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.127764685678514,
+      "rating_sigma": 0.8361886057428253,
+      "current_week": 907
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.25667372201734,
+      "rating_sigma": 0.8359166917713959,
+      "current_week": 908
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.15199631738277,
+      "rating_sigma": 0.8346569529117964,
+      "current_week": 909
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.15199631738277,
+      "rating_sigma": 0.8346569529117964,
+      "current_week": 910
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.15199631738277,
+      "rating_sigma": 0.8346569529117964,
+      "current_week": 911
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.15199631738277,
+      "rating_sigma": 0.8346569529117964,
+      "current_week": 912
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.15199631738277,
+      "rating_sigma": 0.8346569529117964,
+      "current_week": 913
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.29171126883554,
+      "rating_sigma": 0.8340199079418456,
+      "current_week": 914
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.29171126883554,
+      "rating_sigma": 0.8340199079418456,
+      "current_week": 915
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.29171126883554,
+      "rating_sigma": 0.8340199079418456,
+      "current_week": 916
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.29171126883554,
+      "rating_sigma": 0.8340199079418456,
+      "current_week": 917
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.29171126883554,
+      "rating_sigma": 0.8340199079418456,
+      "current_week": 918
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.36420121105242,
+      "rating_sigma": 0.8336156227275475,
+      "current_week": 919
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.36420121105242,
+      "rating_sigma": 0.8336156227275475,
+      "current_week": 920
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.47853197127889,
+      "rating_sigma": 0.8329583751494659,
+      "current_week": 921
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.627844146373015,
+      "rating_sigma": 0.8321489023000513,
+      "current_week": 922
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.627844146373015,
+      "rating_sigma": 0.8321489023000513,
+      "current_week": 923
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.638989925523354,
+      "rating_sigma": 0.831468699690971,
+      "current_week": 924
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.738654362172554,
+      "rating_sigma": 0.8304064349866374,
+      "current_week": 925
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.656350392163546,
+      "rating_sigma": 0.8296486384827348,
+      "current_week": 926
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.656350392163546,
+      "rating_sigma": 0.8296486384827348,
+      "current_week": 927
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.656350392163546,
+      "rating_sigma": 0.8296486384827348,
+      "current_week": 928
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.72518362929037,
+      "rating_sigma": 0.8293990532928203,
+      "current_week": 929
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.72518362929037,
+      "rating_sigma": 0.8293990532928203,
+      "current_week": 930
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.79600451627053,
+      "rating_sigma": 0.8291230599346935,
+      "current_week": 931
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.79600451627053,
+      "rating_sigma": 0.8291230599346935,
+      "current_week": 932
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.79600451627053,
+      "rating_sigma": 0.8291230599346935,
+      "current_week": 933
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.79600451627053,
+      "rating_sigma": 0.8291230599346935,
+      "current_week": 934
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.79600451627053,
+      "rating_sigma": 0.8291230599346935,
+      "current_week": 935
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.83945911665957,
+      "rating_sigma": 0.8297438856861525,
+      "current_week": 936
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.74253105629812,
+      "rating_sigma": 0.8287458574634197,
+      "current_week": 937
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.74253105629812,
+      "rating_sigma": 0.8287458574634197,
+      "current_week": 938
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.657668588795694,
+      "rating_sigma": 0.8284228963990601,
+      "current_week": 939
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.72349074455643,
+      "rating_sigma": 0.8284555337900711,
+      "current_week": 940
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.67749073029147,
+      "rating_sigma": 0.8267592620759159,
+      "current_week": 941
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.67749073029147,
+      "rating_sigma": 0.8267592620759159,
+      "current_week": 942
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.68034428506677,
+      "rating_sigma": 0.824090683318845,
+      "current_week": 943
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.60160659422408,
+      "rating_sigma": 0.8235397688237669,
+      "current_week": 944
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.65502737827355,
+      "rating_sigma": 0.8238592859913538,
+      "current_week": 945
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.70492028485423,
+      "rating_sigma": 0.8243105581712727,
+      "current_week": 946
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.57886508733971,
+      "rating_sigma": 0.8231054373275671,
+      "current_week": 947
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.400572825847384,
+      "rating_sigma": 0.8215231777928285,
+      "current_week": 948
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.476563115636054,
+      "rating_sigma": 0.8215631771195401,
+      "current_week": 949
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.476563115636054,
+      "rating_sigma": 0.8215631771195401,
+      "current_week": 950
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 951
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 952
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 953
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 954
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 955
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 956
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 957
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 958
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 959
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 960
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 961
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 962
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 963
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 964
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 965
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 966
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 967
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 968
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 969
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 970
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 971
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 972
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 973
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 974
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 975
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 976
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 977
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 978
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 979
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 980
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 981
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 982
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 983
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 984
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 985
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 986
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 987
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 988
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 989
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 990
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 991
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 992
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 993
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 994
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 995
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 996
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 997
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 998
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 999
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 1000
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 1001
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 1002
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 1003
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.404708253541415,
+      "rating_sigma": 0.8221303377801892,
+      "current_week": 1004
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.32845280630633,
+      "rating_sigma": 0.8219428179186348,
+      "current_week": 1005
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.32845280630633,
+      "rating_sigma": 0.8219428179186348,
+      "current_week": 1006
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.32845280630633,
+      "rating_sigma": 0.8219428179186348,
+      "current_week": 1007
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1008
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1009
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1010
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1011
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1012
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1013
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1014
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1015
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1016
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1017
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1018
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1019
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1020
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1021
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1022
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1023
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1024
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1025
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1026
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1027
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1028
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1029
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1030
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1031
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1032
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1033
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1034
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1035
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1036
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1037
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1038
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1039
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1040
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1041
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1042
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1043
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1044
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1045
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1046
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1047
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1048
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1049
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1050
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1051
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1052
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1053
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1054
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1055
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1056
+    },
+    {
+      "trainer_name": "6b_Baby",
+      "trainer_id": "ef09c7bb-1209-4ef1-ba32-becaa71e01e5",
+      "amiibo_name": "Ram Watt",
+      "unique_amiibo_id": "25067a40-37a1-4d66-9a5e-37debec8e8a2",
+      "rating": 38.24499950516264,
+      "rating_sigma": 0.8218276404030412,
+      "current_week": 1057
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.39696585123232,
+      "rating_sigma": 1.3038657873149637,
+      "current_week": 1058
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.39696585123232,
+      "rating_sigma": 1.3038657873149637,
+      "current_week": 1059
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.39696585123232,
+      "rating_sigma": 1.3038657873149637,
+      "current_week": 1060
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.39696585123232,
+      "rating_sigma": 1.3038657873149637,
+      "current_week": 1061
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.39696585123232,
+      "rating_sigma": 1.3038657873149637,
+      "current_week": 1062
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.39696585123232,
+      "rating_sigma": 1.3038657873149637,
+      "current_week": 1063
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.39696585123232,
+      "rating_sigma": 1.3038657873149637,
+      "current_week": 1064
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.39696585123232,
+      "rating_sigma": 1.3038657873149637,
+      "current_week": 1065
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.39696585123232,
+      "rating_sigma": 1.3038657873149637,
+      "current_week": 1066
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.39696585123232,
+      "rating_sigma": 1.3038657873149637,
+      "current_week": 1067
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.39696585123232,
+      "rating_sigma": 1.3038657873149637,
+      "current_week": 1068
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.39696585123232,
+      "rating_sigma": 1.3038657873149637,
+      "current_week": 1069
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.654390804644216,
+      "rating_sigma": 1.289895244846184,
+      "current_week": 1070
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.654390804644216,
+      "rating_sigma": 1.289895244846184,
+      "current_week": 1071
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.654390804644216,
+      "rating_sigma": 1.289895244846184,
+      "current_week": 1072
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.654390804644216,
+      "rating_sigma": 1.289895244846184,
+      "current_week": 1073
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.654390804644216,
+      "rating_sigma": 1.289895244846184,
+      "current_week": 1074
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.654390804644216,
+      "rating_sigma": 1.289895244846184,
+      "current_week": 1075
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.654390804644216,
+      "rating_sigma": 1.289895244846184,
+      "current_week": 1076
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.654390804644216,
+      "rating_sigma": 1.289895244846184,
+      "current_week": 1077
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.654390804644216,
+      "rating_sigma": 1.289895244846184,
+      "current_week": 1078
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.654390804644216,
+      "rating_sigma": 1.289895244846184,
+      "current_week": 1079
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.654390804644216,
+      "rating_sigma": 1.289895244846184,
+      "current_week": 1080
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.654390804644216,
+      "rating_sigma": 1.289895244846184,
+      "current_week": 1081
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.654390804644216,
+      "rating_sigma": 1.289895244846184,
+      "current_week": 1082
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.443825461661184,
+      "rating_sigma": 1.2724371319263996,
+      "current_week": 1083
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.27525537388664,
+      "rating_sigma": 1.257965450616595,
+      "current_week": 1084
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.27525537388664,
+      "rating_sigma": 1.257965450616595,
+      "current_week": 1085
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.503245787530055,
+      "rating_sigma": 1.244189572469265,
+      "current_week": 1086
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.68861558457886,
+      "rating_sigma": 1.234431199846383,
+      "current_week": 1087
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.68861558457886,
+      "rating_sigma": 1.234431199846383,
+      "current_week": 1088
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.68861558457886,
+      "rating_sigma": 1.234431199846383,
+      "current_week": 1089
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.68861558457886,
+      "rating_sigma": 1.234431199846383,
+      "current_week": 1090
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.68861558457886,
+      "rating_sigma": 1.234431199846383,
+      "current_week": 1091
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.68861558457886,
+      "rating_sigma": 1.234431199846383,
+      "current_week": 1092
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.68861558457886,
+      "rating_sigma": 1.234431199846383,
+      "current_week": 1093
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.499565247880994,
+      "rating_sigma": 1.220119291340885,
+      "current_week": 1094
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.499565247880994,
+      "rating_sigma": 1.220119291340885,
+      "current_week": 1095
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.499565247880994,
+      "rating_sigma": 1.220119291340885,
+      "current_week": 1096
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.499565247880994,
+      "rating_sigma": 1.220119291340885,
+      "current_week": 1097
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.68875063344838,
+      "rating_sigma": 1.2092186096539563,
+      "current_week": 1098
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.52610565677501,
+      "rating_sigma": 1.1974785304737294,
+      "current_week": 1099
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.52610565677501,
+      "rating_sigma": 1.1974785304737294,
+      "current_week": 1100
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.52610565677501,
+      "rating_sigma": 1.1974785304737294,
+      "current_week": 1101
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.52610565677501,
+      "rating_sigma": 1.1974785304737294,
+      "current_week": 1102
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.52610565677501,
+      "rating_sigma": 1.1974785304737294,
+      "current_week": 1103
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Hugs",
+      "unique_amiibo_id": "24ac778c-5fd2-4d0f-94b1-a0a70f168bcc",
+      "rating": 38.52610565677501,
+      "rating_sigma": 1.1974785304737294,
+      "current_week": 1104
+    }
+  ]
+}

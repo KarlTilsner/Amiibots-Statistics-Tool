@@ -1,0 +1,3390 @@
+{
+  "name": "Steve",
+  "id": "facf1100-a53c-4f9c-bdf3-8612b0df2330",
+  "rating_history": [
+    {
+      "trainer_name": "rapjm14",
+      "trainer_id": "de23bee4-13d7-4f73-b9bd-e817323439aa",
+      "amiibo_name": "Minecraft",
+      "unique_amiibo_id": "9eeb67f6-0747-48a8-92c9-5c79402d24d1",
+      "rating": 28.096457662718144,
+      "rating_sigma": 2.0365360488146718,
+      "current_week": 729
+    },
+    {
+      "trainer_name": "rapjm14",
+      "trainer_id": "de23bee4-13d7-4f73-b9bd-e817323439aa",
+      "amiibo_name": "Minecraft",
+      "unique_amiibo_id": "9eeb67f6-0747-48a8-92c9-5c79402d24d1",
+      "rating": 28.606993342204117,
+      "rating_sigma": 1.5517223413244077,
+      "current_week": 730
+    },
+    {
+      "trainer_name": "Azend__",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Herobrine",
+      "unique_amiibo_id": "45a76dde-f016-44e8-a6f8-433108cc96ea",
+      "rating": 30.09402636980546,
+      "rating_sigma": 1.308706127290121,
+      "current_week": 731
+    },
+    {
+      "trainer_name": "Azend__",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Herobrine",
+      "unique_amiibo_id": "45a76dde-f016-44e8-a6f8-433108cc96ea",
+      "rating": 30.672399948865344,
+      "rating_sigma": 1.2763342867179108,
+      "current_week": 732
+    },
+    {
+      "trainer_name": "hundredhandslap",
+      "trainer_id": "fb0fb98f-dad9-41a4-8d2d-21478398929c",
+      "amiibo_name": "Scotland",
+      "unique_amiibo_id": "096e36ce-3797-4c9a-804b-69a2b01b4cc7",
+      "rating": 30.307924855192375,
+      "rating_sigma": 1.6446929563080126,
+      "current_week": 733
+    },
+    {
+      "trainer_name": "Azend__",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Herobrine",
+      "unique_amiibo_id": "45a76dde-f016-44e8-a6f8-433108cc96ea",
+      "rating": 30.982675507235637,
+      "rating_sigma": 1.1088333733044078,
+      "current_week": 734
+    },
+    {
+      "trainer_name": "Azend__",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Herobrine",
+      "unique_amiibo_id": "45a76dde-f016-44e8-a6f8-433108cc96ea",
+      "rating": 30.982675507235637,
+      "rating_sigma": 1.1088333733044078,
+      "current_week": 735
+    },
+    {
+      "trainer_name": "Azend__",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Herobrine",
+      "unique_amiibo_id": "45a76dde-f016-44e8-a6f8-433108cc96ea",
+      "rating": 30.982675507235637,
+      "rating_sigma": 1.1088333733044078,
+      "current_week": 736
+    },
+    {
+      "trainer_name": "Azend__",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Herobrine",
+      "unique_amiibo_id": "45a76dde-f016-44e8-a6f8-433108cc96ea",
+      "rating": 30.982675507235637,
+      "rating_sigma": 1.1088333733044078,
+      "current_week": 737
+    },
+    {
+      "trainer_name": "Azend__",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Herobrine",
+      "unique_amiibo_id": "45a76dde-f016-44e8-a6f8-433108cc96ea",
+      "rating": 31.530209624378937,
+      "rating_sigma": 1.071655275526338,
+      "current_week": 738
+    },
+    {
+      "trainer_name": "Azend__",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Herobrine",
+      "unique_amiibo_id": "45a76dde-f016-44e8-a6f8-433108cc96ea",
+      "rating": 31.977368221903106,
+      "rating_sigma": 1.0407150605788593,
+      "current_week": 739
+    },
+    {
+      "trainer_name": "Azend__",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Herobrine",
+      "unique_amiibo_id": "45a76dde-f016-44e8-a6f8-433108cc96ea",
+      "rating": 31.977368221903106,
+      "rating_sigma": 1.0407150605788593,
+      "current_week": 740
+    },
+    {
+      "trainer_name": "Azend__",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Herobrine",
+      "unique_amiibo_id": "45a76dde-f016-44e8-a6f8-433108cc96ea",
+      "rating": 31.977368221903106,
+      "rating_sigma": 1.0407150605788593,
+      "current_week": 741
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.556880514891965,
+      "rating_sigma": 2.055463853353829,
+      "current_week": 742
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.20359314331931,
+      "rating_sigma": 1.862410783930686,
+      "current_week": 743
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.045151023074666,
+      "rating_sigma": 1.661152070778785,
+      "current_week": 744
+    },
+    {
+      "trainer_name": "Azend__",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "Herobrine",
+      "unique_amiibo_id": "45a76dde-f016-44e8-a6f8-433108cc96ea",
+      "rating": 32.12589804041144,
+      "rating_sigma": 1.0345472827733435,
+      "current_week": 745
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.78255750637929,
+      "rating_sigma": 1.5134877319126698,
+      "current_week": 746
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.78255750637929,
+      "rating_sigma": 1.5134877319126698,
+      "current_week": 747
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.56614498776294,
+      "rating_sigma": 1.4860578413339534,
+      "current_week": 748
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.56614498776294,
+      "rating_sigma": 1.4860578413339534,
+      "current_week": 749
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.56614498776294,
+      "rating_sigma": 1.4860578413339534,
+      "current_week": 750
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.56614498776294,
+      "rating_sigma": 1.4860578413339534,
+      "current_week": 751
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.56614498776294,
+      "rating_sigma": 1.4860578413339534,
+      "current_week": 752
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.56614498776294,
+      "rating_sigma": 1.4860578413339534,
+      "current_week": 753
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.56614498776294,
+      "rating_sigma": 1.4860578413339534,
+      "current_week": 754
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.56614498776294,
+      "rating_sigma": 1.4860578413339534,
+      "current_week": 755
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.56614498776294,
+      "rating_sigma": 1.4860578413339534,
+      "current_week": 756
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.56614498776294,
+      "rating_sigma": 1.4860578413339534,
+      "current_week": 757
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.56614498776294,
+      "rating_sigma": 1.4860578413339534,
+      "current_week": 758
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.56614498776294,
+      "rating_sigma": 1.4860578413339534,
+      "current_week": 759
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.56614498776294,
+      "rating_sigma": 1.4860578413339534,
+      "current_week": 760
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.91776722858262,
+      "rating_sigma": 1.4607509158295486,
+      "current_week": 761
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.91776722858262,
+      "rating_sigma": 1.4607509158295486,
+      "current_week": 762
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.91776722858262,
+      "rating_sigma": 1.4607509158295486,
+      "current_week": 763
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.91776722858262,
+      "rating_sigma": 1.4607509158295486,
+      "current_week": 764
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 32.91776722858262,
+      "rating_sigma": 1.4607509158295486,
+      "current_week": 765
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 766
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 767
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 768
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 769
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 770
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 771
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 772
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 773
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 774
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 775
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 776
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 777
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 778
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 779
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 780
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 781
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 782
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 783
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 784
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 785
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 786
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 787
+    },
+    {
+      "trainer_name": "AmiibotsCurseDistributor_",
+      "trainer_id": "5cd165e0-7360-44da-a691-36afbd644d8d",
+      "amiibo_name": "shitass",
+      "unique_amiibo_id": "dd408a9b-95da-4a10-9c6b-aab40ea9f3d8",
+      "rating": 33.26153792593337,
+      "rating_sigma": 2.4153894114282175,
+      "current_week": 788
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.44277462668121,
+      "rating_sigma": 1.3230293403068059,
+      "current_week": 789
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.44277462668121,
+      "rating_sigma": 1.3230293403068059,
+      "current_week": 790
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.70784795420343,
+      "rating_sigma": 1.3072282114735643,
+      "current_week": 791
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.547401593426464,
+      "rating_sigma": 1.292280797356473,
+      "current_week": 792
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.547401593426464,
+      "rating_sigma": 1.292280797356473,
+      "current_week": 793
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.547401593426464,
+      "rating_sigma": 1.292280797356473,
+      "current_week": 794
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.547401593426464,
+      "rating_sigma": 1.292280797356473,
+      "current_week": 795
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.547401593426464,
+      "rating_sigma": 1.292280797356473,
+      "current_week": 796
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.80276237325119,
+      "rating_sigma": 1.2766589082249473,
+      "current_week": 797
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.80276237325119,
+      "rating_sigma": 1.2766589082249473,
+      "current_week": 798
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.80276237325119,
+      "rating_sigma": 1.2766589082249473,
+      "current_week": 799
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.80276237325119,
+      "rating_sigma": 1.2766589082249473,
+      "current_week": 800
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.80276237325119,
+      "rating_sigma": 1.2766589082249473,
+      "current_week": 801
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.62152514007557,
+      "rating_sigma": 1.2616077314694996,
+      "current_week": 802
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.62152514007557,
+      "rating_sigma": 1.2616077314694996,
+      "current_week": 803
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.62152514007557,
+      "rating_sigma": 1.2616077314694996,
+      "current_week": 804
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.62152514007557,
+      "rating_sigma": 1.2616077314694996,
+      "current_week": 805
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.62152514007557,
+      "rating_sigma": 1.2616077314694996,
+      "current_week": 806
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.62152514007557,
+      "rating_sigma": 1.2616077314694996,
+      "current_week": 807
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.62152514007557,
+      "rating_sigma": 1.2616077314694996,
+      "current_week": 808
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.46525531244754,
+      "rating_sigma": 1.252829863544698,
+      "current_week": 809
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.46525531244754,
+      "rating_sigma": 1.252829863544698,
+      "current_week": 810
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.46525531244754,
+      "rating_sigma": 1.252829863544698,
+      "current_week": 811
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.46525531244754,
+      "rating_sigma": 1.252829863544698,
+      "current_week": 812
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.46525531244754,
+      "rating_sigma": 1.252829863544698,
+      "current_week": 813
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.46525531244754,
+      "rating_sigma": 1.252829863544698,
+      "current_week": 814
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.46525531244754,
+      "rating_sigma": 1.252829863544698,
+      "current_week": 815
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.46525531244754,
+      "rating_sigma": 1.252829863544698,
+      "current_week": 816
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.46525531244754,
+      "rating_sigma": 1.252829863544698,
+      "current_week": 817
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 818
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 819
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 820
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 821
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 822
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 823
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 824
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 825
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 826
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 827
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 828
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 829
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 830
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 831
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 832
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 833
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 834
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 835
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 836
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 837
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 838
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 839
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 840
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 841
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 842
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 843
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 844
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 845
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 846
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 847
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 848
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 849
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 850
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 851
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.30717615550366,
+      "rating_sigma": 1.2410739783022706,
+      "current_week": 852
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.54794612024804,
+      "rating_sigma": 1.2275179540784034,
+      "current_week": 853
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.54794612024804,
+      "rating_sigma": 1.2275179540784034,
+      "current_week": 854
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.54794612024804,
+      "rating_sigma": 1.2275179540784034,
+      "current_week": 855
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.54794612024804,
+      "rating_sigma": 1.2275179540784034,
+      "current_week": 856
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.54794612024804,
+      "rating_sigma": 1.2275179540784034,
+      "current_week": 857
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.76816612205522,
+      "rating_sigma": 1.214810390007447,
+      "current_week": 858
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.76816612205522,
+      "rating_sigma": 1.214810390007447,
+      "current_week": 859
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.76816612205522,
+      "rating_sigma": 1.214810390007447,
+      "current_week": 860
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.76816612205522,
+      "rating_sigma": 1.214810390007447,
+      "current_week": 861
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.76816612205522,
+      "rating_sigma": 1.214810390007447,
+      "current_week": 862
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.76816612205522,
+      "rating_sigma": 1.214810390007447,
+      "current_week": 863
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.76816612205522,
+      "rating_sigma": 1.214810390007447,
+      "current_week": 864
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.76816612205522,
+      "rating_sigma": 1.214810390007447,
+      "current_week": 865
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.76816612205522,
+      "rating_sigma": 1.214810390007447,
+      "current_week": 866
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.76816612205522,
+      "rating_sigma": 1.214810390007447,
+      "current_week": 867
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.76816612205522,
+      "rating_sigma": 1.214810390007447,
+      "current_week": 868
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.76816612205522,
+      "rating_sigma": 1.214810390007447,
+      "current_week": 869
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.60546648468679,
+      "rating_sigma": 1.202207079298472,
+      "current_week": 870
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.60546648468679,
+      "rating_sigma": 1.202207079298472,
+      "current_week": 871
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.60546648468679,
+      "rating_sigma": 1.202207079298472,
+      "current_week": 872
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.60546648468679,
+      "rating_sigma": 1.202207079298472,
+      "current_week": 873
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.60546648468679,
+      "rating_sigma": 1.202207079298472,
+      "current_week": 874
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.60546648468679,
+      "rating_sigma": 1.202207079298472,
+      "current_week": 875
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.60546648468679,
+      "rating_sigma": 1.202207079298472,
+      "current_week": 876
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.60546648468679,
+      "rating_sigma": 1.202207079298472,
+      "current_week": 877
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.60546648468679,
+      "rating_sigma": 1.202207079298472,
+      "current_week": 878
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.60546648468679,
+      "rating_sigma": 1.202207079298472,
+      "current_week": 879
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.60546648468679,
+      "rating_sigma": 1.202207079298472,
+      "current_week": 880
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.60546648468679,
+      "rating_sigma": 1.202207079298472,
+      "current_week": 881
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.60546648468679,
+      "rating_sigma": 1.202207079298472,
+      "current_week": 882
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.60546648468679,
+      "rating_sigma": 1.202207079298472,
+      "current_week": 883
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 884
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 885
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 886
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 887
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 888
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 889
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 890
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 891
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 892
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 893
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 894
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 895
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 896
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 897
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 898
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 899
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 900
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 901
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 902
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 903
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 904
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 905
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 906
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 907
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 908
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 909
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 910
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 911
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 912
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 913
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 914
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 915
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 916
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 917
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 918
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 919
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 920
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 921
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 922
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 923
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 924
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 925
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 926
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.45219836924309,
+      "rating_sigma": 1.1902106995127835,
+      "current_week": 927
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.65839717462027,
+      "rating_sigma": 1.1809991521494687,
+      "current_week": 928
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.65839717462027,
+      "rating_sigma": 1.1809991521494687,
+      "current_week": 929
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.65839717462027,
+      "rating_sigma": 1.1809991521494687,
+      "current_week": 930
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.88463633731774,
+      "rating_sigma": 1.169296852867204,
+      "current_week": 931
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.88463633731774,
+      "rating_sigma": 1.169296852867204,
+      "current_week": 932
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.88463633731774,
+      "rating_sigma": 1.169296852867204,
+      "current_week": 933
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.88463633731774,
+      "rating_sigma": 1.169296852867204,
+      "current_week": 934
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.88463633731774,
+      "rating_sigma": 1.169296852867204,
+      "current_week": 935
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.88463633731774,
+      "rating_sigma": 1.169296852867204,
+      "current_week": 936
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.88463633731774,
+      "rating_sigma": 1.169296852867204,
+      "current_week": 937
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.75137722207733,
+      "rating_sigma": 1.1607917104052008,
+      "current_week": 938
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.75137722207733,
+      "rating_sigma": 1.1607917104052008,
+      "current_week": 939
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.75137722207733,
+      "rating_sigma": 1.1607917104052008,
+      "current_week": 940
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.75137722207733,
+      "rating_sigma": 1.1607917104052008,
+      "current_week": 941
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.75137722207733,
+      "rating_sigma": 1.1607917104052008,
+      "current_week": 942
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.75137722207733,
+      "rating_sigma": 1.1607917104052008,
+      "current_week": 943
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.75137722207733,
+      "rating_sigma": 1.1607917104052008,
+      "current_week": 944
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.75137722207733,
+      "rating_sigma": 1.1607917104052008,
+      "current_week": 945
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.75137722207733,
+      "rating_sigma": 1.1607917104052008,
+      "current_week": 946
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.75137722207733,
+      "rating_sigma": 1.1607917104052008,
+      "current_week": 947
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.75137722207733,
+      "rating_sigma": 1.1607917104052008,
+      "current_week": 948
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.75137722207733,
+      "rating_sigma": 1.1607917104052008,
+      "current_week": 949
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.75137722207733,
+      "rating_sigma": 1.1607917104052008,
+      "current_week": 950
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.75137722207733,
+      "rating_sigma": 1.1607917104052008,
+      "current_week": 951
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.75137722207733,
+      "rating_sigma": 1.1607917104052008,
+      "current_week": 952
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.75137722207733,
+      "rating_sigma": 1.1607917104052008,
+      "current_week": 953
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.75137722207733,
+      "rating_sigma": 1.1607917104052008,
+      "current_week": 954
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.75137722207733,
+      "rating_sigma": 1.1607917104052008,
+      "current_week": 955
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 956
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 957
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 958
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 959
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 960
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 961
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 962
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 963
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 964
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 965
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 966
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 967
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 968
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 969
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 970
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 971
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 972
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 973
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 974
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 975
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 976
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 977
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 978
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 979
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 980
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 981
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 982
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 983
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 984
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 985
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 986
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 987
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 988
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 989
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 990
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 991
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 992
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 993
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 994
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 995
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 996
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.619165816509856,
+      "rating_sigma": 1.1540480514295246,
+      "current_week": 997
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.48046504320415,
+      "rating_sigma": 1.143789806270829,
+      "current_week": 998
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.48046504320415,
+      "rating_sigma": 1.143789806270829,
+      "current_week": 999
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.48046504320415,
+      "rating_sigma": 1.143789806270829,
+      "current_week": 1000
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.48046504320415,
+      "rating_sigma": 1.143789806270829,
+      "current_week": 1001
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.48046504320415,
+      "rating_sigma": 1.143789806270829,
+      "current_week": 1002
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.48046504320415,
+      "rating_sigma": 1.143789806270829,
+      "current_week": 1003
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.48046504320415,
+      "rating_sigma": 1.143789806270829,
+      "current_week": 1004
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.48046504320415,
+      "rating_sigma": 1.143789806270829,
+      "current_week": 1005
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.48046504320415,
+      "rating_sigma": 1.143789806270829,
+      "current_week": 1006
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.48046504320415,
+      "rating_sigma": 1.143789806270829,
+      "current_week": 1007
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.48046504320415,
+      "rating_sigma": 1.143789806270829,
+      "current_week": 1008
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.48046504320415,
+      "rating_sigma": 1.143789806270829,
+      "current_week": 1009
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.48046504320415,
+      "rating_sigma": 1.143789806270829,
+      "current_week": 1010
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.879092230657896,
+      "rating_sigma": 1.124978085875284,
+      "current_week": 1011
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.879092230657896,
+      "rating_sigma": 1.124978085875284,
+      "current_week": 1012
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.879092230657896,
+      "rating_sigma": 1.124978085875284,
+      "current_week": 1013
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.081328902261454,
+      "rating_sigma": 1.1153605383308898,
+      "current_week": 1014
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.11111534543097,
+      "rating_sigma": 1.09804603426937,
+      "current_week": 1015
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.11111534543097,
+      "rating_sigma": 1.09804603426937,
+      "current_week": 1016
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.11111534543097,
+      "rating_sigma": 1.09804603426937,
+      "current_week": 1017
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.11111534543097,
+      "rating_sigma": 1.09804603426937,
+      "current_week": 1018
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.11111534543097,
+      "rating_sigma": 1.09804603426937,
+      "current_week": 1019
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.11111534543097,
+      "rating_sigma": 1.09804603426937,
+      "current_week": 1020
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.11111534543097,
+      "rating_sigma": 1.09804603426937,
+      "current_week": 1021
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.11111534543097,
+      "rating_sigma": 1.09804603426937,
+      "current_week": 1022
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.11111534543097,
+      "rating_sigma": 1.09804603426937,
+      "current_week": 1023
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.97503218040828,
+      "rating_sigma": 1.0914501979884932,
+      "current_week": 1024
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.97503218040828,
+      "rating_sigma": 1.0914501979884932,
+      "current_week": 1025
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.97503218040828,
+      "rating_sigma": 1.0914501979884932,
+      "current_week": 1026
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.97503218040828,
+      "rating_sigma": 1.0914501979884932,
+      "current_week": 1027
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.97503218040828,
+      "rating_sigma": 1.0914501979884932,
+      "current_week": 1028
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.97503218040828,
+      "rating_sigma": 1.0914501979884932,
+      "current_week": 1029
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1030
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1031
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1032
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1033
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1034
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1035
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1036
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1037
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1038
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1039
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1040
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1041
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1042
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1043
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1044
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1045
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1046
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1047
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1048
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1049
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1050
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1051
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.844830836708,
+      "rating_sigma": 1.084550329130794,
+      "current_week": 1052
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1053
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1054
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1055
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1056
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1057
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1058
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1059
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1060
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1061
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1062
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1063
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1064
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1065
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1066
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1067
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1068
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1069
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1070
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1071
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1072
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1073
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.732474497232076,
+      "rating_sigma": 1.0790473364657147,
+      "current_week": 1074
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.89702941148868,
+      "rating_sigma": 1.0726843076737718,
+      "current_week": 1075
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.05821139050738,
+      "rating_sigma": 1.0673159424851448,
+      "current_week": 1076
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.05821139050738,
+      "rating_sigma": 1.0673159424851448,
+      "current_week": 1077
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.05821139050738,
+      "rating_sigma": 1.0673159424851448,
+      "current_week": 1078
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.05821139050738,
+      "rating_sigma": 1.0673159424851448,
+      "current_week": 1079
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.05821139050738,
+      "rating_sigma": 1.0673159424851448,
+      "current_week": 1080
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.05821139050738,
+      "rating_sigma": 1.0673159424851448,
+      "current_week": 1081
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.05821139050738,
+      "rating_sigma": 1.0673159424851448,
+      "current_week": 1082
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.05821139050738,
+      "rating_sigma": 1.0673159424851448,
+      "current_week": 1083
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.05821139050738,
+      "rating_sigma": 1.0673159424851448,
+      "current_week": 1084
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.05821139050738,
+      "rating_sigma": 1.0673159424851448,
+      "current_week": 1085
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.05821139050738,
+      "rating_sigma": 1.0673159424851448,
+      "current_week": 1086
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.05821139050738,
+      "rating_sigma": 1.0673159424851448,
+      "current_week": 1087
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.05821139050738,
+      "rating_sigma": 1.0673159424851448,
+      "current_week": 1088
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.05821139050738,
+      "rating_sigma": 1.0673159424851448,
+      "current_week": 1089
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.05821139050738,
+      "rating_sigma": 1.0673159424851448,
+      "current_week": 1090
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.05821139050738,
+      "rating_sigma": 1.0673159424851448,
+      "current_week": 1091
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.05821139050738,
+      "rating_sigma": 1.0673159424851448,
+      "current_week": 1092
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.05821139050738,
+      "rating_sigma": 1.0673159424851448,
+      "current_week": 1093
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.05821139050738,
+      "rating_sigma": 1.0673159424851448,
+      "current_week": 1094
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 34.05821139050738,
+      "rating_sigma": 1.0673159424851448,
+      "current_week": 1095
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.944374186612826,
+      "rating_sigma": 1.0609585644829007,
+      "current_week": 1096
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.944374186612826,
+      "rating_sigma": 1.0609585644829007,
+      "current_week": 1097
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.944374186612826,
+      "rating_sigma": 1.0609585644829007,
+      "current_week": 1098
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "Bill Ding",
+      "unique_amiibo_id": "926532db-f312-4834-89af-ca24cf0fad94",
+      "rating": 33.944374186612826,
+      "rating_sigma": 1.0609585644829007,
+      "current_week": 1099
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Stouffer's",
+      "unique_amiibo_id": "30fe0592-c0b3-42c1-a34e-28c4c55261ff",
+      "rating": 34.360270442707346,
+      "rating_sigma": 1.247722269485082,
+      "current_week": 1100
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Stouffer's",
+      "unique_amiibo_id": "30fe0592-c0b3-42c1-a34e-28c4c55261ff",
+      "rating": 34.360270442707346,
+      "rating_sigma": 1.247722269485082,
+      "current_week": 1101
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Stouffer's",
+      "unique_amiibo_id": "30fe0592-c0b3-42c1-a34e-28c4c55261ff",
+      "rating": 34.360270442707346,
+      "rating_sigma": 1.247722269485082,
+      "current_week": 1102
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Stouffer's",
+      "unique_amiibo_id": "30fe0592-c0b3-42c1-a34e-28c4c55261ff",
+      "rating": 34.360270442707346,
+      "rating_sigma": 1.247722269485082,
+      "current_week": 1103
+    },
+    {
+      "trainer_name": "jozz024",
+      "trainer_id": "0369ba61-e623-47e6-b13d-a13d6dcb8dd9",
+      "amiibo_name": "Stouffer's",
+      "unique_amiibo_id": "30fe0592-c0b3-42c1-a34e-28c4c55261ff",
+      "rating": 34.360270442707346,
+      "rating_sigma": 1.247722269485082,
+      "current_week": 1104
+    }
+  ]
+}

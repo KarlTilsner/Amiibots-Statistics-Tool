@@ -1,0 +1,546 @@
+{
+  "name": "Pyra & Mythra",
+  "id": "295e8672-a7d0-40a1-861f-35097bf0f08b",
+  "rating_history": [
+    {
+      "trainer_name": "rapjm14",
+      "trainer_id": "de23bee4-13d7-4f73-b9bd-e817323439aa",
+      "amiibo_name": "上六",
+      "unique_amiibo_id": "4542eb8a-d156-4e85-bb62-f911f3c38d41",
+      "rating": 27.28156104344593,
+      "rating_sigma": 2.3743591020457506,
+      "current_week": 1045
+    },
+    {
+      "trainer_name": "rapjm14",
+      "trainer_id": "de23bee4-13d7-4f73-b9bd-e817323439aa",
+      "amiibo_name": "上六",
+      "unique_amiibo_id": "4542eb8a-d156-4e85-bb62-f911f3c38d41",
+      "rating": 32.34762496178498,
+      "rating_sigma": 1.8729206114940926,
+      "current_week": 1046
+    },
+    {
+      "trainer_name": "rapjm14",
+      "trainer_id": "de23bee4-13d7-4f73-b9bd-e817323439aa",
+      "amiibo_name": "上六",
+      "unique_amiibo_id": "4542eb8a-d156-4e85-bb62-f911f3c38d41",
+      "rating": 33.623020087075645,
+      "rating_sigma": 1.7538232249365904,
+      "current_week": 1047
+    },
+    {
+      "trainer_name": "rapjm14",
+      "trainer_id": "de23bee4-13d7-4f73-b9bd-e817323439aa",
+      "amiibo_name": "上六",
+      "unique_amiibo_id": "4542eb8a-d156-4e85-bb62-f911f3c38d41",
+      "rating": 33.976892637485705,
+      "rating_sigma": 1.7240412872521116,
+      "current_week": 1048
+    },
+    {
+      "trainer_name": "rapjm14",
+      "trainer_id": "de23bee4-13d7-4f73-b9bd-e817323439aa",
+      "amiibo_name": "上六",
+      "unique_amiibo_id": "4542eb8a-d156-4e85-bb62-f911f3c38d41",
+      "rating": 32.715715936016245,
+      "rating_sigma": 1.538423883911276,
+      "current_week": 1049
+    },
+    {
+      "trainer_name": "rapjm14",
+      "trainer_id": "de23bee4-13d7-4f73-b9bd-e817323439aa",
+      "amiibo_name": "上六",
+      "unique_amiibo_id": "4542eb8a-d156-4e85-bb62-f911f3c38d41",
+      "rating": 32.52913589315561,
+      "rating_sigma": 1.4272258669899895,
+      "current_week": 1050
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1051
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1052
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1053
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1054
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1055
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1056
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1057
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1058
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1059
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1060
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1061
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1062
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1063
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1064
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1065
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1066
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1067
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1068
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1069
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1070
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1071
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1072
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.54531535172448,
+      "rating_sigma": 1.2506743934416409,
+      "current_week": 1073
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.75603493767518,
+      "rating_sigma": 1.2378629508327013,
+      "current_week": 1074
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.75603493767518,
+      "rating_sigma": 1.2378629508327013,
+      "current_week": 1075
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.75603493767518,
+      "rating_sigma": 1.2378629508327013,
+      "current_week": 1076
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.75603493767518,
+      "rating_sigma": 1.2378629508327013,
+      "current_week": 1077
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.75603493767518,
+      "rating_sigma": 1.2378629508327013,
+      "current_week": 1078
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.75603493767518,
+      "rating_sigma": 1.2378629508327013,
+      "current_week": 1079
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.75603493767518,
+      "rating_sigma": 1.2378629508327013,
+      "current_week": 1080
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.75603493767518,
+      "rating_sigma": 1.2378629508327013,
+      "current_week": 1081
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.75603493767518,
+      "rating_sigma": 1.2378629508327013,
+      "current_week": 1082
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.75603493767518,
+      "rating_sigma": 1.2378629508327013,
+      "current_week": 1083
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.75603493767518,
+      "rating_sigma": 1.2378629508327013,
+      "current_week": 1084
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.75603493767518,
+      "rating_sigma": 1.2378629508327013,
+      "current_week": 1085
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.75603493767518,
+      "rating_sigma": 1.2378629508327013,
+      "current_week": 1086
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.75603493767518,
+      "rating_sigma": 1.2378629508327013,
+      "current_week": 1087
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.75603493767518,
+      "rating_sigma": 1.2378629508327013,
+      "current_week": 1088
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.75603493767518,
+      "rating_sigma": 1.2378629508327013,
+      "current_week": 1089
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.75603493767518,
+      "rating_sigma": 1.2378629508327013,
+      "current_week": 1090
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.75603493767518,
+      "rating_sigma": 1.2378629508327013,
+      "current_week": 1091
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.75603493767518,
+      "rating_sigma": 1.2378629508327013,
+      "current_week": 1092
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.612365809068535,
+      "rating_sigma": 1.2267755830772966,
+      "current_week": 1093
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.612365809068535,
+      "rating_sigma": 1.2267755830772966,
+      "current_week": 1094
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.612365809068535,
+      "rating_sigma": 1.2267755830772966,
+      "current_week": 1095
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.612365809068535,
+      "rating_sigma": 1.2267755830772966,
+      "current_week": 1096
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.612365809068535,
+      "rating_sigma": 1.2267755830772966,
+      "current_week": 1097
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.612365809068535,
+      "rating_sigma": 1.2267755830772966,
+      "current_week": 1098
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.612365809068535,
+      "rating_sigma": 1.2267755830772966,
+      "current_week": 1099
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.612365809068535,
+      "rating_sigma": 1.2267755830772966,
+      "current_week": 1100
+    },
+    {
+      "trainer_name": "fammydamammy",
+      "trainer_id": "3356a8c1-d363-4d61-bcae-046cffd1b341",
+      "amiibo_name": "LesbianMom",
+      "unique_amiibo_id": "1cbe815b-9dbb-4847-838d-90b264a1139a",
+      "rating": 32.612365809068535,
+      "rating_sigma": 1.2267755830772966,
+      "current_week": 1101
+    },
+    {
+      "trainer_name": "rekkan0ken",
+      "trainer_id": "d35230d4-8eb6-493d-a93b-b41cd9c93003",
+      "amiibo_name": "bread",
+      "unique_amiibo_id": "67319707-e710-4d52-895e-c0941c53b2fa",
+      "rating": 32.66851794633182,
+      "rating_sigma": 1.2229544911997354,
+      "current_week": 1102
+    },
+    {
+      "trainer_name": "rapjm14",
+      "trainer_id": "de23bee4-13d7-4f73-b9bd-e817323439aa",
+      "amiibo_name": "上六",
+      "unique_amiibo_id": "4542eb8a-d156-4e85-bb62-f911f3c38d41",
+      "rating": 33.00735175645,
+      "rating_sigma": 1.3944920284115894,
+      "current_week": 1103
+    },
+    {
+      "trainer_name": "rapjm14",
+      "trainer_id": "de23bee4-13d7-4f73-b9bd-e817323439aa",
+      "amiibo_name": "上六",
+      "unique_amiibo_id": "4542eb8a-d156-4e85-bb62-f911f3c38d41",
+      "rating": 32.967285887762735,
+      "rating_sigma": 1.3534665071353487,
+      "current_week": 1104
+    }
+  ]
+}
