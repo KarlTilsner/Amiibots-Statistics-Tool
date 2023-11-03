@@ -1,4 +1,8 @@
 # Change Log:
+## v1.2.6.1
+- Added the name of the tool to the title of each page
+- Updated matchup data
+
 ## v1.2.6
 - Updated amiibo matchup data
 - Overhauled amiibots rating history to be much more accurate
@@ -29,7 +33,7 @@
 - Fixed minor bug
 
 ## v1.2.3.1
-- Updated matchup data
+- Updated amiibo matchup data
 
 ## v1.2.3
 - Overhauled how data is processed in the matchup tool

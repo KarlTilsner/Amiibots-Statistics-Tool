@@ -9934,9 +9934,396 @@
       "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
       "amiibo_name": "Momochi",
       "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
-      "rating": 28.28090508334146,
-      "rating_sigma": 0.9654206582044318,
+      "rating": 28.192371440307003,
+      "rating_sigma": 0.9617765207058596,
       "current_week": 1104
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.259341964106838,
+      "rating_sigma": 0.957079156479977,
+      "current_week": 1105
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.09109425080292,
+      "rating_sigma": 0.9517552837679429,
+      "current_week": 1106
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.27575671492819,
+      "rating_sigma": 0.947700842873492,
+      "current_week": 1107
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.245017519343044,
+      "rating_sigma": 0.9431094781114454,
+      "current_week": 1108
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.01052194719391,
+      "rating_sigma": 0.9387674093555016,
+      "current_week": 1109
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.09854030780837,
+      "rating_sigma": 0.9387918738655509,
+      "current_week": 1110
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.09854030780837,
+      "rating_sigma": 0.9387918738655509,
+      "current_week": 1111
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.09854030780837,
+      "rating_sigma": 0.9387918738655509,
+      "current_week": 1112
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.01140174002464,
+      "rating_sigma": 0.9359849107794528,
+      "current_week": 1113
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.01140174002464,
+      "rating_sigma": 0.9359849107794528,
+      "current_week": 1114
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 27.888920791290637,
+      "rating_sigma": 0.9335884541315697,
+      "current_week": 1115
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 27.854955620362816,
+      "rating_sigma": 0.9282299719572051,
+      "current_week": 1116
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 27.941963648578536,
+      "rating_sigma": 0.9260543170621693,
+      "current_week": 1117
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.04510555708073,
+      "rating_sigma": 0.925600605958321,
+      "current_week": 1118
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.153627297189853,
+      "rating_sigma": 0.9168210043117553,
+      "current_week": 1119
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.024367715060166,
+      "rating_sigma": 0.9150554369548983,
+      "current_week": 1120
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.024367715060166,
+      "rating_sigma": 0.9150554369548983,
+      "current_week": 1121
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 27.97048785433682,
+      "rating_sigma": 0.9140508323034189,
+      "current_week": 1122
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 27.97048785433682,
+      "rating_sigma": 0.9140508323034189,
+      "current_week": 1123
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 27.858290365198105,
+      "rating_sigma": 0.9107906343746621,
+      "current_week": 1124
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 27.7618382559266,
+      "rating_sigma": 0.9082876158256471,
+      "current_week": 1125
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 27.7618382559266,
+      "rating_sigma": 0.9082876158256471,
+      "current_week": 1126
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 27.88508842526028,
+      "rating_sigma": 0.9078033674406524,
+      "current_week": 1127
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.00674032160977,
+      "rating_sigma": 0.9048666215840957,
+      "current_week": 1128
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 27.98798486470971,
+      "rating_sigma": 0.8978823757496537,
+      "current_week": 1129
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 27.906809298668776,
+      "rating_sigma": 0.896435520191716,
+      "current_week": 1130
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 27.906809298668776,
+      "rating_sigma": 0.896435520191716,
+      "current_week": 1131
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 27.906809298668776,
+      "rating_sigma": 0.896435520191716,
+      "current_week": 1132
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 27.906809298668776,
+      "rating_sigma": 0.896435520191716,
+      "current_week": 1133
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 27.830388622961344,
+      "rating_sigma": 0.8951614353388583,
+      "current_week": 1134
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.010191293701762,
+      "rating_sigma": 0.8914661878248962,
+      "current_week": 1135
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.010191293701762,
+      "rating_sigma": 0.8914661878248962,
+      "current_week": 1136
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.010191293701762,
+      "rating_sigma": 0.8914661878248962,
+      "current_week": 1137
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.081347019122255,
+      "rating_sigma": 0.8907165942450769,
+      "current_week": 1138
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.239176651400477,
+      "rating_sigma": 0.8882599106866885,
+      "current_week": 1139
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.17941251922275,
+      "rating_sigma": 0.8875503819595095,
+      "current_week": 1140
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.17941251922275,
+      "rating_sigma": 0.8875503819595095,
+      "current_week": 1141
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.255954118322663,
+      "rating_sigma": 0.8882934309181871,
+      "current_week": 1142
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.255954118322663,
+      "rating_sigma": 0.8882934309181871,
+      "current_week": 1143
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.192965096164894,
+      "rating_sigma": 0.8880681166492261,
+      "current_week": 1144
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 28.01903795336099,
+      "rating_sigma": 0.8853892042557483,
+      "current_week": 1145
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 27.96365407943588,
+      "rating_sigma": 0.8853793643261972,
+      "current_week": 1146
+    },
+    {
+      "trainer_name": "BCRiparo",
+      "trainer_id": "b64b2c5c-83b6-42ad-8f0c-9e786d45a56b",
+      "amiibo_name": "Momochi",
+      "unique_amiibo_id": "f0babc09-b07a-4c63-a479-ab8fb2cacb04",
+      "rating": 27.849396189082448,
+      "rating_sigma": 0.8839626434796871,
+      "current_week": 1147
     }
   ]
 }

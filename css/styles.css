@@ -92,12 +92,20 @@ div.header {
 .title {
     font-size: 48px;
     display:inline;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 32px;
+    display:inline;
+    margin: 0;
 }
 
 .version {
     font-style: italic;
     margin: var(--small-spaces);
     display:inline;
+    margin-top: auto;
 }
 
 .stats {
