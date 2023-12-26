@@ -10324,6 +10324,483 @@
       "rating": 33.33416719405868,
       "rating_sigma": 1.6837856517786964,
       "current_week": 1147
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Trixie",
+      "unique_amiibo_id": "0cec514a-a191-44d6-b694-437827ac4aa7",
+      "rating": 33.33416719405868,
+      "rating_sigma": 1.6837856517786964,
+      "current_week": 1148
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Trixie",
+      "unique_amiibo_id": "0cec514a-a191-44d6-b694-437827ac4aa7",
+      "rating": 32.88871027353169,
+      "rating_sigma": 1.6391211555341252,
+      "current_week": 1149
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Trixie",
+      "unique_amiibo_id": "0cec514a-a191-44d6-b694-437827ac4aa7",
+      "rating": 32.88871027353169,
+      "rating_sigma": 1.6391211555341252,
+      "current_week": 1150
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Trixie",
+      "unique_amiibo_id": "0cec514a-a191-44d6-b694-437827ac4aa7",
+      "rating": 33.186069557308734,
+      "rating_sigma": 1.6117014640164664,
+      "current_week": 1151
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Trixie",
+      "unique_amiibo_id": "0cec514a-a191-44d6-b694-437827ac4aa7",
+      "rating": 33.186069557308734,
+      "rating_sigma": 1.6117014640164664,
+      "current_week": 1152
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Trixie",
+      "unique_amiibo_id": "0cec514a-a191-44d6-b694-437827ac4aa7",
+      "rating": 33.30531778418498,
+      "rating_sigma": 1.5472112248322263,
+      "current_week": 1153
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Trixie",
+      "unique_amiibo_id": "0cec514a-a191-44d6-b694-437827ac4aa7",
+      "rating": 32.90705252735291,
+      "rating_sigma": 1.5119099863520074,
+      "current_week": 1154
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Trixie",
+      "unique_amiibo_id": "0cec514a-a191-44d6-b694-437827ac4aa7",
+      "rating": 32.90705252735291,
+      "rating_sigma": 1.5119099863520074,
+      "current_week": 1155
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Trixie",
+      "unique_amiibo_id": "0cec514a-a191-44d6-b694-437827ac4aa7",
+      "rating": 32.90705252735291,
+      "rating_sigma": 1.5119099863520074,
+      "current_week": 1156
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Trixie",
+      "unique_amiibo_id": "0cec514a-a191-44d6-b694-437827ac4aa7",
+      "rating": 32.90705252735291,
+      "rating_sigma": 1.5119099863520074,
+      "current_week": 1157
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 32.527104751237424,
+      "rating_sigma": 0.8590500982943828,
+      "current_week": 1158
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 32.527104751237424,
+      "rating_sigma": 0.8590500982943828,
+      "current_week": 1159
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 32.567845913887666,
+      "rating_sigma": 0.8576870187313766,
+      "current_week": 1160
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Trixie",
+      "unique_amiibo_id": "0cec514a-a191-44d6-b694-437827ac4aa7",
+      "rating": 32.76909922877228,
+      "rating_sigma": 1.458395155320388,
+      "current_week": 1161
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 32.7087359418415,
+      "rating_sigma": 0.8557636630765828,
+      "current_week": 1162
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 32.7087359418415,
+      "rating_sigma": 0.8557636630765828,
+      "current_week": 1163
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Pogo Dogo!",
+      "unique_amiibo_id": "3422a74a-b53e-4e84-b0b5-25e867788c02",
+      "rating": 33.07326260985586,
+      "rating_sigma": 1.8611060955753838,
+      "current_week": 1164
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 32.71718231597559,
+      "rating_sigma": 0.8533441131539985,
+      "current_week": 1165
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 32.8620633566104,
+      "rating_sigma": 0.8510574256214789,
+      "current_week": 1166
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 32.8620633566104,
+      "rating_sigma": 0.8510574256214789,
+      "current_week": 1167
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 33.01306282578028,
+      "rating_sigma": 0.8487080511814332,
+      "current_week": 1168
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 32.95027785734676,
+      "rating_sigma": 0.8494210718222021,
+      "current_week": 1169
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 32.94572092248801,
+      "rating_sigma": 0.845841861978302,
+      "current_week": 1170
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 32.85006674063857,
+      "rating_sigma": 0.8444524075729649,
+      "current_week": 1171
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 32.85006674063857,
+      "rating_sigma": 0.8444524075729649,
+      "current_week": 1172
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 32.85006674063857,
+      "rating_sigma": 0.8444524075729649,
+      "current_week": 1173
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 32.98983517562892,
+      "rating_sigma": 0.8424447941547568,
+      "current_week": 1174
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 33.094864706096054,
+      "rating_sigma": 0.841066092329645,
+      "current_week": 1175
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 33.032610494710944,
+      "rating_sigma": 0.8412452750761019,
+      "current_week": 1176
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 33.032610494710944,
+      "rating_sigma": 0.8412452750761019,
+      "current_week": 1177
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 33.14534838532593,
+      "rating_sigma": 0.8397541538719553,
+      "current_week": 1178
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 33.21830962525283,
+      "rating_sigma": 0.8364393106996912,
+      "current_week": 1179
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 33.21830962525283,
+      "rating_sigma": 0.8364393106996912,
+      "current_week": 1180
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 33.21830962525283,
+      "rating_sigma": 0.8364393106996912,
+      "current_week": 1181
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 33.21830962525283,
+      "rating_sigma": 0.8364393106996912,
+      "current_week": 1182
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 33.21830962525283,
+      "rating_sigma": 0.8364393106996912,
+      "current_week": 1183
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 33.097786351524796,
+      "rating_sigma": 0.8346775992335882,
+      "current_week": 1184
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 33.097786351524796,
+      "rating_sigma": 0.8346775992335882,
+      "current_week": 1185
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 33.190715443449704,
+      "rating_sigma": 0.8337195017810732,
+      "current_week": 1186
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 33.14261883971227,
+      "rating_sigma": 0.8343650134370069,
+      "current_week": 1187
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 33.14261883971227,
+      "rating_sigma": 0.8343650134370069,
+      "current_week": 1188
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 33.04373289345493,
+      "rating_sigma": 0.8331084306582509,
+      "current_week": 1189
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 33.04373289345493,
+      "rating_sigma": 0.8331084306582509,
+      "current_week": 1190
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 32.953189478811304,
+      "rating_sigma": 0.8320556441315861,
+      "current_week": 1191
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 32.953189478811304,
+      "rating_sigma": 0.8320556441315861,
+      "current_week": 1192
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 32.953189478811304,
+      "rating_sigma": 0.8320556441315861,
+      "current_week": 1193
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 32.953189478811304,
+      "rating_sigma": 0.8320556441315861,
+      "current_week": 1194
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 32.953189478811304,
+      "rating_sigma": 0.8320556441315861,
+      "current_week": 1195
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 32.88041391929858,
+      "rating_sigma": 0.8322832920302904,
+      "current_week": 1196
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 33.00435341523667,
+      "rating_sigma": 0.8309935084582183,
+      "current_week": 1197
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 33.00435341523667,
+      "rating_sigma": 0.8309935084582183,
+      "current_week": 1198
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 33.00435341523667,
+      "rating_sigma": 0.8309935084582183,
+      "current_week": 1199
+    },
+    {
+      "trainer_name": "zornchist",
+      "trainer_id": "12089c7d-a8c3-435e-bcb1-c9e632a15e4b",
+      "amiibo_name": "The Hound",
+      "unique_amiibo_id": "becc5884-6f83-4bc4-a86a-b795a85de134",
+      "rating": 33.00435341523667,
+      "rating_sigma": 0.8309935084582183,
+      "current_week": 1200
     }
   ]
 }

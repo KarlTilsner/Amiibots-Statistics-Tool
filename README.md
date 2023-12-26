@@ -1,4 +1,7 @@
 # Change Log:
+## v1.2.6.2
+- Updated matchup data
+
 ## v1.2.6.1
 - Added the name of the tool to the title of each page
 - Updated matchup data
@@ -163,3 +166,5 @@
 - add more filters to matchups to get highest performing amiibo instead
 
 - gather statistics on the most successful amiibo
+
+- Cache data
