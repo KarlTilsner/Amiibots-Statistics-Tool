@@ -1,4 +1,7 @@
 # Change Log:
+## v1.2.7
+- Amiibo search can now sort by tierlist
+
 ## v1.2.6.2
 - Updated matchup data
 
@@ -168,3 +171,5 @@
 - gather statistics on the most successful amiibo
 
 - Cache data
+
+- Add loading animation

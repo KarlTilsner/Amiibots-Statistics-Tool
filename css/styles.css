@@ -422,6 +422,19 @@ img {
     cursor: pointer;
 }
 
+.tier_dropdownMenu {
+    color: white;
+    background-color: var(--main-background-colour);
+    padding: 0 0.5rem;
+    border: var(--theme-border);
+    border-color: var(--theme-border-colour);
+    border-radius: var(--border-radius);
+}
+
+.tier_dropdownMenu:hover {
+    cursor: pointer;
+}
+
 .flex_space_around {
     display: flex;
     justify-content: space-around;

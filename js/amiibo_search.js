@@ -1,4 +1,4 @@
-//                                                              STARTER FUNCTION
+// STARTER FUNCTION
 //--------------------------------------------------------------------------------------------------------------------------------------------------------- 
 window.onload = function() {
     // Set rulesets
@@ -26,7 +26,7 @@ function updateStatsSearch(new_id) {
 
 
 
-//                                                              HIGHLIGHT NAME SEARCH TOOL RULESET BUTTONS
+// HIGHLIGHT NAME SEARCH TOOL RULESET BUTTONS
 //--------------------------------------------------------------------------------------------------------------------------------------------------------- 
 function nameSearchToolHighlight(start, button_id) {
     if (start == 'start') {
@@ -81,7 +81,47 @@ async function get_all_characters() {
 
 
 
-//                                                              NAME SEARCH TOOL
+// Queries all character names and IDs and pushed them into arrays
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+const tierlist = {};
+async function getTiers() {
+    // Getting ruleset
+    let ruleset_input = window.localStorage.getItem("Name Search Tool Ruleset");
+    let ruleset_select = window.localStorage.getItem(ruleset_input);
+    let ruleset = `&ruleset_id=${ruleset_select}`;
+
+    const url = `https://www.amiibots.com/api/tier_list/first_dataset_of_given_month?${ruleset}`;
+    const query = await fetch(url);
+    const response = await query.json();
+
+    console.log(response.data.tiers);
+
+    response.data.tiers.map(index => {
+        tierlist[index.name] = [];
+
+        index.character_placements.map(placement => {
+            tierlist[index.name].push({name: placement.playable_character.character_name, id:placement.playable_character.id});
+        });
+
+        // Add tiers to dropdown
+        const dropdown = document.getElementById("selectTierDropdown");
+        const newOption = document.createElement("option");
+        newOption.className = 'dropdownMenuOption';
+        newOption.value = `${index.name}`;
+        const optionTextNode = document.createTextNode(`Tier: ${index.name} (${tierlist[index.name].length})`);
+        newOption.appendChild(optionTextNode);
+        dropdown.appendChild(newOption);
+    });
+
+    console.log(tierlist);
+}
+getTiers();
+
+
+
+
+
+// NAME SEARCH TOOL
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
 const all_amiibo_data = [];
 
@@ -93,7 +133,6 @@ async function nameSearchTool() {
 
     match_count = `&per_page=${await get_number_of_amiibo()}`;
 
-
     // Call this function to find the exact amount of amiibo to search for
     async function get_number_of_amiibo() {
         const number_of_amiibo_query = await fetch(`https://www.amiibots.com/api/amiibo?per_page=1${name_search_ruleset_id}`);
@@ -102,13 +141,7 @@ async function nameSearchTool() {
         return number_of_amiibo_response.total;
     }
 
-
-
     all_characters = await get_all_characters();
-
-
-    
-
 
     // Get data from api to be displayed    
     const url = 'https://www.amiibots.com/api/amiibo?' + match_count + name_search_ruleset_id;
@@ -149,8 +182,6 @@ async function nameSearchTool() {
             }
         }
     }
-
-
     
     nameSearchBar();
 }
@@ -161,7 +192,19 @@ async function nameSearchTool() {
 
 //                                                              NAME SEARCH TOOL SEARCH BAR FUNCTION
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
-function nameSearchBar() {
+function nameSearchBar(selectedOption) {
+
+
+    let selectedTier;
+
+    try {
+        selectedTier = selectedOption.options[selectedOption.selectedIndex].value;
+    } catch (error) {
+        selectedTier = "All";
+    }
+
+    console.log(selectedTier);
+    
     // Get keyboard input
     let input = document.getElementById('search_amiibo_name');
     let filter = input.value.toUpperCase();
@@ -173,9 +216,85 @@ function nameSearchBar() {
     let amiibo_count = 0;
     let status = 'no status';
     let characterIcon = 'no icon';
-    all_amiibo_data.map(
-        function(index) {
 
+
+    if (selectedTier != "All") {
+        all_amiibo_data.map(index => {
+
+            tierlist[selectedTier].map(character => {
+                if (index.character_id == character.id) {
+
+                    if (((index.amiibo_name).toUpperCase().indexOf(filter) > -1) && ((index.trainer_name).toUpperCase().indexOf(username_filter) > -1)) {
+                        amiibo_count++;
+                        status = 'reset';
+                        characterIcon = 'reset';
+        
+                        if (index.match_selection_status == 'ACTIVE') {status = 'ACTIVE';}
+                        if (index.match_selection_status == 'STANDBY') {status = 'STANDBY';}
+                        if (index.match_selection_status == 'INACTIVE') {status = 'INACTIVE';}
+        
+                        // Match current character with icon
+                        for (let i = 0; i < all_characters.length; i++) {
+                            if (all_characters[i].id == index.character_id) {
+                                characterIcon = (`${all_characters[i].name}.png`)
+                            }
+                        }
+        
+                        // Put image onto the listed item when amiibots is fixed
+                        list += (
+                        `<div class="list_item ${status}" id="list_item_searchable" onclick="updateStatsSearch('${index.amiibo_id}'), addAmiiboToSearchHistory('${index.trainer_name}', '${index.amiibo_name}', '${index.amiibo_id}', '${index.character_id}', '${window.localStorage.getItem(window.localStorage.getItem("Name Search Tool Ruleset"))}', '${new Date()}')">
+        
+                            <img src="./images/${characterIcon}" class="list_image">
+        
+                            <div class="list_stats_grid_container">
+                                <div class="list_stats amiibo_trainer_name_title">
+                                    <h2>${index.trainer_name}</h2>
+                                    <h1>${index.amiibo_name}</h1>
+                                </div>
+                            </div>
+        
+                            <div class="list_stats_container">
+                                <div class="list_stats">
+                                    <h2>Rating:</h2>
+                                    <h1>${index.rating.toFixed(2)}</h1>
+                                </div>
+        
+                                <div class="list_stats">
+                                    <h2>Matches:</h2>
+                                    <h1>${index.matches}</h1>
+                                </div>
+        
+                                <div class="list_stats">
+                                    <h2>Rank (Overall):</h2>
+                                    <h1>${index.overall_rank}</h1>
+                                </div>
+        
+                                <div class="list_stats">
+                                    <h2>Rank (Character):</h2>
+                                    <h1>${index.character_rank}</h1>
+                                </div>
+        
+                                <div class="list_stats mobile_remove">
+                                    <h2>Status:</h2>   
+                                    <h1>${index.match_selection_status}</h1>
+                                </div>
+        
+                            </div>
+        
+                        </div>`
+                        );
+                    }
+
+                    list += "</div>";
+                    content.innerHTML = list;
+            
+                    document.getElementById('amiibo_count').innerText = (`Amiibo found: ${amiibo_count}`);
+                }
+            });
+        });
+
+    } else {
+        all_amiibo_data.map(index => {
             if (((index.amiibo_name).toUpperCase().indexOf(filter) > -1) && ((index.trainer_name).toUpperCase().indexOf(username_filter) > -1)) {
                 amiibo_count++;
                 status = 'reset';
@@ -192,7 +311,6 @@ function nameSearchBar() {
                     }
                 }
 
-                
                 // Put image onto the listed item when amiibots is fixed
                 list += (
                 `<div class="list_item ${status}" id="list_item_searchable" onclick="updateStatsSearch('${index.amiibo_id}'), addAmiiboToSearchHistory('${index.trainer_name}', '${index.amiibo_name}', '${index.amiibo_id}', '${index.character_id}', '${window.localStorage.getItem(window.localStorage.getItem("Name Search Tool Ruleset"))}', '${new Date()}')">
@@ -237,10 +355,11 @@ function nameSearchBar() {
                 </div>`
                 );
             }
-        }
-    );
-    list += "</div>";
-    content.innerHTML = list;
+        });
+        list += "</div>";
+        content.innerHTML = list;
 
-    document.getElementById('amiibo_count').innerText = (`Amiibo found: ${amiibo_count}`);
+        document.getElementById('amiibo_count').innerText = (`Amiibo found: ${amiibo_count}`);
+    }
+
 }

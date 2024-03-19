@@ -10,13 +10,6 @@ window.onload = function() {
 
 
 
-// Update this to the latest date for amiibots match data stored in "./json"
-const latestFile = "2023-04-16";
-
-
-
-
-
 // GLOBAL PARAMETERS
 //---------------------------------------------------------------------------------------------------------------------------------------------------------  
 let specifiedCharacter_name = '???';
