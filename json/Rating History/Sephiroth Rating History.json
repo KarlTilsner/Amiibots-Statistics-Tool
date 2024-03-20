@@ -3090,13 +3090,778 @@
       "current_week": 1199
     },
     {
-      "trainer_name": "FrostByte245",
-      "trainer_id": "4d22dabf-1f24-4dc1-b7ac-9868a5dbbcb0",
-      "amiibo_name": "Soul Edge",
-      "unique_amiibo_id": "2496e485-fe75-486e-9fa2-27574e649872",
-      "rating": 34.421267117410736,
-      "rating_sigma": 1.0107991542887977,
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 34.501224815568484,
+      "rating_sigma": 0.8238022069951526,
       "current_week": 1200
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 34.430555528271384,
+      "rating_sigma": 0.823515946262808,
+      "current_week": 1201
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 34.54423308995622,
+      "rating_sigma": 0.8191928366600592,
+      "current_week": 1202
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 34.689191476641376,
+      "rating_sigma": 0.8171991040536005,
+      "current_week": 1203
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.53749833640699,
+      "rating_sigma": 0.9953929856472209,
+      "current_week": 1204
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.44197949797466,
+      "rating_sigma": 0.9908422954785688,
+      "current_week": 1205
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.476756067098705,
+      "rating_sigma": 0.9696160539802279,
+      "current_week": 1206
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.476756067098705,
+      "rating_sigma": 0.9696160539802279,
+      "current_week": 1207
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.50762488245597,
+      "rating_sigma": 0.9612317683995028,
+      "current_week": 1208
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.50762488245597,
+      "rating_sigma": 0.9612317683995028,
+      "current_week": 1209
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.50762488245597,
+      "rating_sigma": 0.9612317683995028,
+      "current_week": 1210
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.50762488245597,
+      "rating_sigma": 0.9612317683995028,
+      "current_week": 1211
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.50762488245597,
+      "rating_sigma": 0.9612317683995028,
+      "current_week": 1212
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.50762488245597,
+      "rating_sigma": 0.9612317683995028,
+      "current_week": 1213
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.50762488245597,
+      "rating_sigma": 0.9612317683995028,
+      "current_week": 1214
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.50762488245597,
+      "rating_sigma": 0.9612317683995028,
+      "current_week": 1215
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.64227153182722,
+      "rating_sigma": 0.9580653395104981,
+      "current_week": 1216
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.7718294499054,
+      "rating_sigma": 0.9544217369819716,
+      "current_week": 1217
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.7718294499054,
+      "rating_sigma": 0.9544217369819716,
+      "current_week": 1218
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.7718294499054,
+      "rating_sigma": 0.9544217369819716,
+      "current_week": 1219
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.7718294499054,
+      "rating_sigma": 0.9544217369819716,
+      "current_week": 1220
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.7718294499054,
+      "rating_sigma": 0.9544217369819716,
+      "current_week": 1221
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.7718294499054,
+      "rating_sigma": 0.9544217369819716,
+      "current_week": 1222
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.7718294499054,
+      "rating_sigma": 0.9544217369819716,
+      "current_week": 1223
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.7718294499054,
+      "rating_sigma": 0.9544217369819716,
+      "current_week": 1224
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.67247716283363,
+      "rating_sigma": 0.9507252021708047,
+      "current_week": 1225
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.67247716283363,
+      "rating_sigma": 0.9507252021708047,
+      "current_week": 1226
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.67247716283363,
+      "rating_sigma": 0.9507252021708047,
+      "current_week": 1227
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 34.73965524352875,
+      "rating_sigma": 0.8038959494108007,
+      "current_week": 1228
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.67247716283363,
+      "rating_sigma": 0.9507252021708047,
+      "current_week": 1229
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.67247716283363,
+      "rating_sigma": 0.9507252021708047,
+      "current_week": 1230
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.67247716283363,
+      "rating_sigma": 0.9507252021708047,
+      "current_week": 1231
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Reborn",
+      "unique_amiibo_id": "655f2358-ec07-48bb-875d-147c88db4c4a",
+      "rating": 34.67247716283363,
+      "rating_sigma": 0.9507252021708047,
+      "current_week": 1232
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 34.928657240650224,
+      "rating_sigma": 0.8001056166475737,
+      "current_week": 1233
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.10606105896577,
+      "rating_sigma": 0.7996649729025451,
+      "current_week": 1234
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.09491550191926,
+      "rating_sigma": 0.7994376378499014,
+      "current_week": 1235
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.18871614130668,
+      "rating_sigma": 0.7990297393715335,
+      "current_week": 1236
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.2707595793878,
+      "rating_sigma": 0.7988767462188474,
+      "current_week": 1237
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.193056182228446,
+      "rating_sigma": 0.7988226434961537,
+      "current_week": 1238
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.28816796664128,
+      "rating_sigma": 0.7984277388412789,
+      "current_week": 1239
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.3969071753072,
+      "rating_sigma": 0.7975225326373487,
+      "current_week": 1240
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.3969071753072,
+      "rating_sigma": 0.7975225326373487,
+      "current_week": 1241
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.3058339668634,
+      "rating_sigma": 0.7971638562781309,
+      "current_week": 1242
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.3058339668634,
+      "rating_sigma": 0.7971638562781309,
+      "current_week": 1243
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.39410240466128,
+      "rating_sigma": 0.7990162490825383,
+      "current_week": 1244
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.39410240466128,
+      "rating_sigma": 0.7990162490825383,
+      "current_week": 1245
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.4022097350535,
+      "rating_sigma": 0.7984267307493309,
+      "current_week": 1246
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.32136333659277,
+      "rating_sigma": 0.7983337125742391,
+      "current_week": 1247
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.21963465462976,
+      "rating_sigma": 0.7977419993395555,
+      "current_week": 1248
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.293805788443045,
+      "rating_sigma": 0.797821436490831,
+      "current_week": 1249
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.38609720879021,
+      "rating_sigma": 0.7975275501709485,
+      "current_week": 1250
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.41415369818927,
+      "rating_sigma": 0.7988231736030736,
+      "current_week": 1251
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.32456824902934,
+      "rating_sigma": 0.7984556020196055,
+      "current_week": 1252
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.32456824902934,
+      "rating_sigma": 0.7984556020196055,
+      "current_week": 1253
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.4138300005046,
+      "rating_sigma": 0.7981629617885603,
+      "current_week": 1254
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.5873568511346,
+      "rating_sigma": 0.7977248718446811,
+      "current_week": 1255
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.5045706488102,
+      "rating_sigma": 0.7977988759246332,
+      "current_week": 1256
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.416983924360814,
+      "rating_sigma": 0.7983752985409079,
+      "current_week": 1257
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.526890690208575,
+      "rating_sigma": 0.7976927029387809,
+      "current_week": 1258
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.601701975706135,
+      "rating_sigma": 0.7979494530678222,
+      "current_week": 1259
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.68068178774859,
+      "rating_sigma": 0.7978886886320415,
+      "current_week": 1260
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.63680266012162,
+      "rating_sigma": 0.7976792938200887,
+      "current_week": 1261
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.672563741188554,
+      "rating_sigma": 0.7993774011138307,
+      "current_week": 1262
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.672563741188554,
+      "rating_sigma": 0.7993774011138307,
+      "current_week": 1263
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.76616316697601,
+      "rating_sigma": 0.7989675177501042,
+      "current_week": 1264
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.76616316697601,
+      "rating_sigma": 0.7989675177501042,
+      "current_week": 1265
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.70723428658766,
+      "rating_sigma": 0.7995600202955243,
+      "current_week": 1266
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.69898149302023,
+      "rating_sigma": 0.8015862362039532,
+      "current_week": 1267
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.59257951651347,
+      "rating_sigma": 0.8008198338479108,
+      "current_week": 1268
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.59257951651347,
+      "rating_sigma": 0.8008198338479108,
+      "current_week": 1269
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.67462728355271,
+      "rating_sigma": 0.802906229300075,
+      "current_week": 1270
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.64567473200848,
+      "rating_sigma": 0.8031302764531192,
+      "current_week": 1271
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.823289216128366,
+      "rating_sigma": 0.8025008812119061,
+      "current_week": 1272
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.823289216128366,
+      "rating_sigma": 0.8025008812119061,
+      "current_week": 1273
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.823289216128366,
+      "rating_sigma": 0.8025008812119061,
+      "current_week": 1274
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.823289216128366,
+      "rating_sigma": 0.8025008812119061,
+      "current_week": 1275
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.823289216128366,
+      "rating_sigma": 0.8025008812119061,
+      "current_week": 1276
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.823289216128366,
+      "rating_sigma": 0.8025008812119061,
+      "current_week": 1277
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.823289216128366,
+      "rating_sigma": 0.8025008812119061,
+      "current_week": 1278
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 35.887662521641246,
+      "rating_sigma": 0.8027421132671884,
+      "current_week": 1279
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 36.005193121019666,
+      "rating_sigma": 0.8018425226060614,
+      "current_week": 1280
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 36.13091159301024,
+      "rating_sigma": 0.8025798589616846,
+      "current_week": 1281
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 36.13091159301024,
+      "rating_sigma": 0.8025798589616846,
+      "current_week": 1282
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 36.13091159301024,
+      "rating_sigma": 0.8025798589616846,
+      "current_week": 1283
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 36.04775477919664,
+      "rating_sigma": 0.8023063224971582,
+      "current_week": 1284
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Metatron",
+      "unique_amiibo_id": "f9c17083-9ea7-4a60-b670-417e2f5cee2e",
+      "rating": 36.04775477919664,
+      "rating_sigma": 0.8023063224971582,
+      "current_week": 1285
     }
   ]
 }

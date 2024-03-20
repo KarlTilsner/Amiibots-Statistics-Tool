@@ -10798,9 +10798,774 @@
       "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
       "amiibo_name": "Jackal",
       "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
-      "rating": 32.56969381181402,
-      "rating_sigma": 0.8698569963134991,
+      "rating": 32.45293581474657,
+      "rating_sigma": 0.8675934364095051,
       "current_week": 1200
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.44420864324458,
+      "rating_sigma": 0.8639270108995981,
+      "current_week": 1201
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.576948858461265,
+      "rating_sigma": 0.8615997989167058,
+      "current_week": 1202
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.54553258526835,
+      "rating_sigma": 0.8562539206557022,
+      "current_week": 1203
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.64819805740361,
+      "rating_sigma": 0.8546839316217386,
+      "current_week": 1204
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.55443040863774,
+      "rating_sigma": 0.8531411364798722,
+      "current_week": 1205
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.472142218374245,
+      "rating_sigma": 0.8519766466893722,
+      "current_week": 1206
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.472142218374245,
+      "rating_sigma": 0.8519766466893722,
+      "current_week": 1207
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.472142218374245,
+      "rating_sigma": 0.8519766466893722,
+      "current_week": 1208
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.472142218374245,
+      "rating_sigma": 0.8519766466893722,
+      "current_week": 1209
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.37280266137256,
+      "rating_sigma": 0.8504954480252017,
+      "current_week": 1210
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.70250459568782,
+      "rating_sigma": 0.8436918078138129,
+      "current_week": 1211
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.5949807352181,
+      "rating_sigma": 0.8420434622646826,
+      "current_week": 1212
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.66816813445149,
+      "rating_sigma": 0.8415068117278309,
+      "current_week": 1213
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.66816813445149,
+      "rating_sigma": 0.8415068117278309,
+      "current_week": 1214
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.57300988065928,
+      "rating_sigma": 0.8402087395889971,
+      "current_week": 1215
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.57300988065928,
+      "rating_sigma": 0.8402087395889971,
+      "current_week": 1216
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.57300988065928,
+      "rating_sigma": 0.8402087395889971,
+      "current_week": 1217
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.66442396103833,
+      "rating_sigma": 0.8393575060923385,
+      "current_week": 1218
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.66442396103833,
+      "rating_sigma": 0.8393575060923385,
+      "current_week": 1219
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.66442396103833,
+      "rating_sigma": 0.8393575060923385,
+      "current_week": 1220
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.57328514577196,
+      "rating_sigma": 0.8381727261627652,
+      "current_week": 1221
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.48740134666768,
+      "rating_sigma": 0.8372198627007956,
+      "current_week": 1222
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.57000908898044,
+      "rating_sigma": 0.8368494978813243,
+      "current_week": 1223
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.47576441495297,
+      "rating_sigma": 0.8356377504316479,
+      "current_week": 1224
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.32766393691162,
+      "rating_sigma": 0.8328087394906616,
+      "current_week": 1225
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.35516573597046,
+      "rating_sigma": 0.830588838093487,
+      "current_week": 1226
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.45504215606832,
+      "rating_sigma": 0.8295384549203482,
+      "current_week": 1227
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.45504215606832,
+      "rating_sigma": 0.8295384549203482,
+      "current_week": 1228
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.45504215606832,
+      "rating_sigma": 0.8295384549203482,
+      "current_week": 1229
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.45504215606832,
+      "rating_sigma": 0.8295384549203482,
+      "current_week": 1230
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.45504215606832,
+      "rating_sigma": 0.8295384549203482,
+      "current_week": 1231
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.45504215606832,
+      "rating_sigma": 0.8295384549203482,
+      "current_week": 1232
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.45504215606832,
+      "rating_sigma": 0.8295384549203482,
+      "current_week": 1233
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.45504215606832,
+      "rating_sigma": 0.8295384549203482,
+      "current_week": 1234
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.326651212364666,
+      "rating_sigma": 0.8278871531010223,
+      "current_week": 1235
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.2567189744813,
+      "rating_sigma": 0.8276208183858184,
+      "current_week": 1236
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.165026275097716,
+      "rating_sigma": 0.8268191541171022,
+      "current_week": 1237
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.062593788271,
+      "rating_sigma": 0.825612912846091,
+      "current_week": 1238
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.162518905802486,
+      "rating_sigma": 0.8246240920427695,
+      "current_week": 1239
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.06579072807731,
+      "rating_sigma": 0.8235955511106824,
+      "current_week": 1240
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.15381239315808,
+      "rating_sigma": 0.8232181436811538,
+      "current_week": 1241
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.05982148595081,
+      "rating_sigma": 0.8222807790017859,
+      "current_week": 1242
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 31.96227718129093,
+      "rating_sigma": 0.8212781303215496,
+      "current_week": 1243
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 31.96227718129093,
+      "rating_sigma": 0.8212781303215496,
+      "current_week": 1244
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 31.96227718129093,
+      "rating_sigma": 0.8212781303215496,
+      "current_week": 1245
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 31.96227718129093,
+      "rating_sigma": 0.8212781303215496,
+      "current_week": 1246
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 31.96227718129093,
+      "rating_sigma": 0.8212781303215496,
+      "current_week": 1247
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 31.83978821346194,
+      "rating_sigma": 0.8200699301115254,
+      "current_week": 1248
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 31.83978821346194,
+      "rating_sigma": 0.8200699301115254,
+      "current_week": 1249
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 31.83978821346194,
+      "rating_sigma": 0.8200699301115254,
+      "current_week": 1250
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 31.83978821346194,
+      "rating_sigma": 0.8200699301115254,
+      "current_week": 1251
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 31.83978821346194,
+      "rating_sigma": 0.8200699301115254,
+      "current_week": 1252
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 32.00870202585498,
+      "rating_sigma": 0.8194685479431534,
+      "current_week": 1253
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 31.920246073293967,
+      "rating_sigma": 0.8192197117579363,
+      "current_week": 1254
+    },
+    {
+      "trainer_name": "pinheadpatrick017",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.891119420885786,
+      "rating_sigma": 0.8189227602259208,
+      "current_week": 1255
+    },
+    {
+      "trainer_name": "pinheadpatrick017",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.79524679332673,
+      "rating_sigma": 0.8180196141254716,
+      "current_week": 1256
+    },
+    {
+      "trainer_name": "pinheadpatrick017",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "f443ba0c-06ad-4168-8784-7b3c91f9f731",
+      "rating": 31.81868043375067,
+      "rating_sigma": 1.463824971420109,
+      "current_week": 1257
+    },
+    {
+      "trainer_name": "pinheadpatrick017",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.79524679332673,
+      "rating_sigma": 0.8180196141254716,
+      "current_week": 1258
+    },
+    {
+      "trainer_name": "pinheadpatrick017",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.79524679332673,
+      "rating_sigma": 0.8180196141254716,
+      "current_week": 1259
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 31.81745401743233,
+      "rating_sigma": 0.8163971098913919,
+      "current_week": 1260
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 31.81745401743233,
+      "rating_sigma": 0.8163971098913919,
+      "current_week": 1261
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 31.81745401743233,
+      "rating_sigma": 0.8163971098913919,
+      "current_week": 1262
+    },
+    {
+      "trainer_name": "1RubyG59",
+      "trainer_id": "0c727e8c-96ac-48e4-8547-7f00c0eba250",
+      "amiibo_name": "Jackal",
+      "unique_amiibo_id": "df5ce75d-ceb5-407b-83fa-6951499132ad",
+      "rating": 31.81745401743233,
+      "rating_sigma": 0.8163971098913919,
+      "current_week": 1263
+    },
+    {
+      "trainer_name": "pinheadpatrick017",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.874631575178537,
+      "rating_sigma": 0.8179086157645318,
+      "current_week": 1264
+    },
+    {
+      "trainer_name": "pinheadpatrick017",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.874631575178537,
+      "rating_sigma": 0.8179086157645318,
+      "current_week": 1265
+    },
+    {
+      "trainer_name": "pinheadpatrick017",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.874631575178537,
+      "rating_sigma": 0.8179086157645318,
+      "current_week": 1266
+    },
+    {
+      "trainer_name": "pinheadpatrick017",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.874631575178537,
+      "rating_sigma": 0.8179086157645318,
+      "current_week": 1267
+    },
+    {
+      "trainer_name": "pinheadpatrick017",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.874631575178537,
+      "rating_sigma": 0.8179086157645318,
+      "current_week": 1268
+    },
+    {
+      "trainer_name": "pinheadpatrick017",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.874631575178537,
+      "rating_sigma": 0.8179086157645318,
+      "current_week": 1269
+    },
+    {
+      "trainer_name": "pinheadpatrick017",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.874631575178537,
+      "rating_sigma": 0.8179086157645318,
+      "current_week": 1270
+    },
+    {
+      "trainer_name": "pinheadpatrick017",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.874631575178537,
+      "rating_sigma": 0.8179086157645318,
+      "current_week": 1271
+    },
+    {
+      "trainer_name": "pinheadpatrick017",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.874631575178537,
+      "rating_sigma": 0.8179086157645318,
+      "current_week": 1272
+    },
+    {
+      "trainer_name": "pinheadpatrick017",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.874631575178537,
+      "rating_sigma": 0.8179086157645318,
+      "current_week": 1273
+    },
+    {
+      "trainer_name": "pinheadpatrick017",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.874631575178537,
+      "rating_sigma": 0.8179086157645318,
+      "current_week": 1274
+    },
+    {
+      "trainer_name": "pinheadpatrick017",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.874631575178537,
+      "rating_sigma": 0.8179086157645318,
+      "current_week": 1275
+    },
+    {
+      "trainer_name": "kbee997",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.94936386172251,
+      "rating_sigma": 0.8176397395962924,
+      "current_week": 1276
+    },
+    {
+      "trainer_name": "kbee997",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.94936386172251,
+      "rating_sigma": 0.8176397395962924,
+      "current_week": 1277
+    },
+    {
+      "trainer_name": "kbee997",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.863607374167145,
+      "rating_sigma": 0.817638012533368,
+      "current_week": 1278
+    },
+    {
+      "trainer_name": "kbee997",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.948887025233343,
+      "rating_sigma": 0.8171062047998622,
+      "current_week": 1279
+    },
+    {
+      "trainer_name": "kbee997",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.948887025233343,
+      "rating_sigma": 0.8171062047998622,
+      "current_week": 1280
+    },
+    {
+      "trainer_name": "kbee997",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.948887025233343,
+      "rating_sigma": 0.8171062047998622,
+      "current_week": 1281
+    },
+    {
+      "trainer_name": "kbee997",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.948887025233343,
+      "rating_sigma": 0.8171062047998622,
+      "current_week": 1282
+    },
+    {
+      "trainer_name": "kbee997",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 32.00983376195504,
+      "rating_sigma": 0.8173960017661038,
+      "current_week": 1283
+    },
+    {
+      "trainer_name": "kbee997",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 32.00983376195504,
+      "rating_sigma": 0.8173960017661038,
+      "current_week": 1284
+    },
+    {
+      "trainer_name": "kbee997",
+      "trainer_id": "2b17d8d4-70f5-49d7-846e-2ee5c4369d12",
+      "amiibo_name": "Red Marth",
+      "unique_amiibo_id": "0b99c483-e5cf-4ea3-aeb9-624975d739f7",
+      "rating": 31.893441476734758,
+      "rating_sigma": 0.8161910503716326,
+      "current_week": 1285
     }
   ]
 }

@@ -10798,9 +10798,774 @@
       "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
       "amiibo_name": "Forge",
       "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
-      "rating": 32.12454682685768,
-      "rating_sigma": 1.2761367351963309,
+      "rating": 32.299444932276785,
+      "rating_sigma": 1.264154289179855,
       "current_week": 1200
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.513334257820205,
+      "rating_sigma": 1.2516765513325703,
+      "current_week": 1201
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.513334257820205,
+      "rating_sigma": 1.2516765513325703,
+      "current_week": 1202
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.513334257820205,
+      "rating_sigma": 1.2516765513325703,
+      "current_week": 1203
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.37655596648711,
+      "rating_sigma": 1.2386352538857535,
+      "current_week": 1204
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.280927504462454,
+      "rating_sigma": 1.202611045018045,
+      "current_week": 1205
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.280927504462454,
+      "rating_sigma": 1.202611045018045,
+      "current_week": 1206
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.280927504462454,
+      "rating_sigma": 1.202611045018045,
+      "current_week": 1207
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.280927504462454,
+      "rating_sigma": 1.202611045018045,
+      "current_week": 1208
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.280927504462454,
+      "rating_sigma": 1.202611045018045,
+      "current_week": 1209
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.280927504462454,
+      "rating_sigma": 1.202611045018045,
+      "current_week": 1210
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.280927504462454,
+      "rating_sigma": 1.202611045018045,
+      "current_week": 1211
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.163629459583746,
+      "rating_sigma": 1.1921862846629725,
+      "current_week": 1212
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.426637552284085,
+      "rating_sigma": 1.179401167928594,
+      "current_week": 1213
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.32094829211755,
+      "rating_sigma": 1.1699239002484734,
+      "current_week": 1214
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.18028976478579,
+      "rating_sigma": 1.1591551790564698,
+      "current_week": 1215
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.18028976478579,
+      "rating_sigma": 1.1591551790564698,
+      "current_week": 1216
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.40738119126371,
+      "rating_sigma": 1.148557989000705,
+      "current_week": 1217
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.30659651884295,
+      "rating_sigma": 1.1402315686793525,
+      "current_week": 1218
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.42816800393365,
+      "rating_sigma": 1.1253263384808108,
+      "current_week": 1219
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.65216430531883,
+      "rating_sigma": 1.1153110387262715,
+      "current_week": 1220
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.52648027600102,
+      "rating_sigma": 1.1078633310406407,
+      "current_week": 1221
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.52648027600102,
+      "rating_sigma": 1.1078633310406407,
+      "current_week": 1222
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.52648027600102,
+      "rating_sigma": 1.1078633310406407,
+      "current_week": 1223
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.52648027600102,
+      "rating_sigma": 1.1078633310406407,
+      "current_week": 1224
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.69346669531666,
+      "rating_sigma": 1.0997673044427836,
+      "current_week": 1225
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.855887365219,
+      "rating_sigma": 1.0919325460899216,
+      "current_week": 1226
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 33.0572436627388,
+      "rating_sigma": 1.0831229493292927,
+      "current_week": 1227
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 33.0572436627388,
+      "rating_sigma": 1.0831229493292927,
+      "current_week": 1228
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 33.23882803259485,
+      "rating_sigma": 1.0751656590132892,
+      "current_week": 1229
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 33.23882803259485,
+      "rating_sigma": 1.0751656590132892,
+      "current_week": 1230
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 33.23882803259485,
+      "rating_sigma": 1.0751656590132892,
+      "current_week": 1231
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 33.23882803259485,
+      "rating_sigma": 1.0751656590132892,
+      "current_week": 1232
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 33.13827541443959,
+      "rating_sigma": 1.0703865404215789,
+      "current_week": 1233
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.89415583427005,
+      "rating_sigma": 1.0562385244901076,
+      "current_week": 1234
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.89415583427005,
+      "rating_sigma": 1.0562385244901076,
+      "current_week": 1235
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.89415583427005,
+      "rating_sigma": 1.0562385244901076,
+      "current_week": 1236
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.89415583427005,
+      "rating_sigma": 1.0562385244901076,
+      "current_week": 1237
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.89415583427005,
+      "rating_sigma": 1.0562385244901076,
+      "current_week": 1238
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.92802259977409,
+      "rating_sigma": 1.044307771119883,
+      "current_week": 1239
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.87773324619411,
+      "rating_sigma": 1.024816574836832,
+      "current_week": 1240
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.87773324619411,
+      "rating_sigma": 1.024816574836832,
+      "current_week": 1241
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.80904019641245,
+      "rating_sigma": 1.0212257476349875,
+      "current_week": 1242
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.69828894278619,
+      "rating_sigma": 1.015928855712693,
+      "current_week": 1243
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.5843306638231,
+      "rating_sigma": 1.0115041143268835,
+      "current_week": 1244
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.454390354118985,
+      "rating_sigma": 1.005418326150985,
+      "current_week": 1245
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.388805319344655,
+      "rating_sigma": 1.0020768943858265,
+      "current_week": 1246
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.283839619383805,
+      "rating_sigma": 0.9971118655092441,
+      "current_week": 1247
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.376362418490345,
+      "rating_sigma": 0.9814126221724996,
+      "current_week": 1248
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.29826649951224,
+      "rating_sigma": 0.9781926294035753,
+      "current_week": 1249
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.41278546727677,
+      "rating_sigma": 0.9750601894723584,
+      "current_week": 1250
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.41278546727677,
+      "rating_sigma": 0.9750601894723584,
+      "current_week": 1251
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.539060443686466,
+      "rating_sigma": 0.9707654733433901,
+      "current_week": 1252
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.539060443686466,
+      "rating_sigma": 0.9707654733433901,
+      "current_week": 1253
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.42730051686168,
+      "rating_sigma": 0.9663445960377649,
+      "current_week": 1254
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.42730051686168,
+      "rating_sigma": 0.9663445960377649,
+      "current_week": 1255
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.632890248475476,
+      "rating_sigma": 0.9606131476335159,
+      "current_week": 1256
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.532360159492626,
+      "rating_sigma": 0.9566955549853116,
+      "current_week": 1257
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.76892102123105,
+      "rating_sigma": 0.9455032486972998,
+      "current_week": 1258
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.562057097697505,
+      "rating_sigma": 0.9390227727385011,
+      "current_week": 1259
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.463671085974774,
+      "rating_sigma": 0.9356169179380256,
+      "current_week": 1260
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.611836856357996,
+      "rating_sigma": 0.9319973636342815,
+      "current_week": 1261
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.552219926014736,
+      "rating_sigma": 0.9303431800349579,
+      "current_week": 1262
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.552219926014736,
+      "rating_sigma": 0.9303431800349579,
+      "current_week": 1263
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.552219926014736,
+      "rating_sigma": 0.9303431800349579,
+      "current_week": 1264
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.552219926014736,
+      "rating_sigma": 0.9303431800349579,
+      "current_week": 1265
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.47537818256934,
+      "rating_sigma": 0.9288582960284407,
+      "current_week": 1266
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.47537818256934,
+      "rating_sigma": 0.9288582960284407,
+      "current_week": 1267
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.66515497765601,
+      "rating_sigma": 0.9242564094230596,
+      "current_week": 1268
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.76897518943522,
+      "rating_sigma": 0.9224055434405628,
+      "current_week": 1269
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.76897518943522,
+      "rating_sigma": 0.9224055434405628,
+      "current_week": 1270
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.76897518943522,
+      "rating_sigma": 0.9224055434405628,
+      "current_week": 1271
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.69532191668826,
+      "rating_sigma": 0.9219430954891983,
+      "current_week": 1272
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.588204406439054,
+      "rating_sigma": 0.9186137502846994,
+      "current_week": 1273
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.588204406439054,
+      "rating_sigma": 0.9186137502846994,
+      "current_week": 1274
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.588204406439054,
+      "rating_sigma": 0.9186137502846994,
+      "current_week": 1275
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.588204406439054,
+      "rating_sigma": 0.9186137502846994,
+      "current_week": 1276
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.588204406439054,
+      "rating_sigma": 0.9186137502846994,
+      "current_week": 1277
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.588204406439054,
+      "rating_sigma": 0.9186137502846994,
+      "current_week": 1278
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.588204406439054,
+      "rating_sigma": 0.9186137502846994,
+      "current_week": 1279
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.588204406439054,
+      "rating_sigma": 0.9186137502846994,
+      "current_week": 1280
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.588204406439054,
+      "rating_sigma": 0.9186137502846994,
+      "current_week": 1281
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.588204406439054,
+      "rating_sigma": 0.9186137502846994,
+      "current_week": 1282
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.588204406439054,
+      "rating_sigma": 0.9186137502846994,
+      "current_week": 1283
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.588204406439054,
+      "rating_sigma": 0.9186137502846994,
+      "current_week": 1284
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Forge",
+      "unique_amiibo_id": "271549ac-8005-40a3-8814-01cf5c033259",
+      "rating": 32.588204406439054,
+      "rating_sigma": 0.9186137502846994,
+      "current_week": 1285
     }
   ]
 }

@@ -10801,6 +10801,771 @@
       "rating": 36.122149130140066,
       "rating_sigma": 1.478773275739327,
       "current_week": 1200
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Gorrie Yen",
+      "unique_amiibo_id": "7ee26d53-fd04-4fd5-ba9f-9d6d1375d511",
+      "rating": 36.12306580554069,
+      "rating_sigma": 0.8310125875261147,
+      "current_week": 1201
+    },
+    {
+      "trainer_name": "i_guano",
+      "trainer_id": "4c7c96ac-4f8c-4380-bdac-fd90877c66d8",
+      "amiibo_name": "general h",
+      "unique_amiibo_id": "47280602-4cad-47ee-9779-b14d4fbb3fc2",
+      "rating": 36.122149130140066,
+      "rating_sigma": 1.478773275739327,
+      "current_week": 1202
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Gorrie Yen",
+      "unique_amiibo_id": "7ee26d53-fd04-4fd5-ba9f-9d6d1375d511",
+      "rating": 36.14737741599711,
+      "rating_sigma": 0.8294707573181341,
+      "current_week": 1203
+    },
+    {
+      "trainer_name": "i_guano",
+      "trainer_id": "4c7c96ac-4f8c-4380-bdac-fd90877c66d8",
+      "amiibo_name": "general h",
+      "unique_amiibo_id": "47280602-4cad-47ee-9779-b14d4fbb3fc2",
+      "rating": 36.122149130140066,
+      "rating_sigma": 1.478773275739327,
+      "current_week": 1204
+    },
+    {
+      "trainer_name": "improv_195",
+      "trainer_id": "f558b8d3-c283-4651-b7a0-b6d5a77c2ebb",
+      "amiibo_name": "Gorrie Yen",
+      "unique_amiibo_id": "7ee26d53-fd04-4fd5-ba9f-9d6d1375d511",
+      "rating": 36.13868142779463,
+      "rating_sigma": 0.8268810285585716,
+      "current_week": 1205
+    },
+    {
+      "trainer_name": "i_guano",
+      "trainer_id": "4c7c96ac-4f8c-4380-bdac-fd90877c66d8",
+      "amiibo_name": "general h",
+      "unique_amiibo_id": "47280602-4cad-47ee-9779-b14d4fbb3fc2",
+      "rating": 36.122149130140066,
+      "rating_sigma": 1.478773275739327,
+      "current_week": 1206
+    },
+    {
+      "trainer_name": "i_guano",
+      "trainer_id": "4c7c96ac-4f8c-4380-bdac-fd90877c66d8",
+      "amiibo_name": "general h",
+      "unique_amiibo_id": "47280602-4cad-47ee-9779-b14d4fbb3fc2",
+      "rating": 36.122149130140066,
+      "rating_sigma": 1.478773275739327,
+      "current_week": 1207
+    },
+    {
+      "trainer_name": "i_guano",
+      "trainer_id": "4c7c96ac-4f8c-4380-bdac-fd90877c66d8",
+      "amiibo_name": "general h",
+      "unique_amiibo_id": "47280602-4cad-47ee-9779-b14d4fbb3fc2",
+      "rating": 36.122149130140066,
+      "rating_sigma": 1.478773275739327,
+      "current_week": 1208
+    },
+    {
+      "trainer_name": "i_guano",
+      "trainer_id": "4c7c96ac-4f8c-4380-bdac-fd90877c66d8",
+      "amiibo_name": "general h",
+      "unique_amiibo_id": "47280602-4cad-47ee-9779-b14d4fbb3fc2",
+      "rating": 36.122149130140066,
+      "rating_sigma": 1.478773275739327,
+      "current_week": 1209
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 36.12603408623907,
+      "rating_sigma": 1.3159199395218648,
+      "current_week": 1210
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 36.12603408623907,
+      "rating_sigma": 1.3159199395218648,
+      "current_week": 1211
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 36.26994620678887,
+      "rating_sigma": 1.3048221475573516,
+      "current_week": 1212
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 36.92180604761883,
+      "rating_sigma": 1.2398265664379953,
+      "current_week": 1213
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.28672195537702,
+      "rating_sigma": 1.2170416417516796,
+      "current_week": 1214
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.372756156765796,
+      "rating_sigma": 1.1711566063351695,
+      "current_week": 1215
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.227877139239865,
+      "rating_sigma": 1.1442202038460936,
+      "current_week": 1216
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.387025505262685,
+      "rating_sigma": 1.1363726026957235,
+      "current_week": 1217
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.42414853482578,
+      "rating_sigma": 1.1192380576203604,
+      "current_week": 1218
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.1737211905794,
+      "rating_sigma": 1.0872525004132607,
+      "current_week": 1219
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.04375407903397,
+      "rating_sigma": 1.0792531939392545,
+      "current_week": 1220
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 36.998848113757035,
+      "rating_sigma": 1.0654807645880549,
+      "current_week": 1221
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 36.789500204381355,
+      "rating_sigma": 1.0560893775374158,
+      "current_week": 1222
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.21847888485111,
+      "rating_sigma": 1.0383260348218488,
+      "current_week": 1223
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.21847888485111,
+      "rating_sigma": 1.0383260348218488,
+      "current_week": 1224
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.85842375299837,
+      "rating_sigma": 1.0138045408182657,
+      "current_week": 1225
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.94762631147867,
+      "rating_sigma": 0.9985631694684279,
+      "current_week": 1226
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 38.028920603051645,
+      "rating_sigma": 0.9844794243480303,
+      "current_week": 1227
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.674538375161575,
+      "rating_sigma": 0.9642895382296102,
+      "current_week": 1228
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.79399158882665,
+      "rating_sigma": 0.9603965066287331,
+      "current_week": 1229
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.617121560488535,
+      "rating_sigma": 0.9411083968896832,
+      "current_week": 1230
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.72030859385879,
+      "rating_sigma": 0.9311830404154668,
+      "current_week": 1231
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.50080788274666,
+      "rating_sigma": 0.9066513316249156,
+      "current_week": 1232
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.40989642303489,
+      "rating_sigma": 0.9041948252698602,
+      "current_week": 1233
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.33389347570394,
+      "rating_sigma": 0.8965638931800085,
+      "current_week": 1234
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.48614440607818,
+      "rating_sigma": 0.8939299099499027,
+      "current_week": 1235
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.375368729341155,
+      "rating_sigma": 0.8852520047948605,
+      "current_week": 1236
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.351937106670775,
+      "rating_sigma": 0.8689786985016467,
+      "current_week": 1237
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.44974281446059,
+      "rating_sigma": 0.8673299728515399,
+      "current_week": 1238
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.34788792708865,
+      "rating_sigma": 0.8466602766219269,
+      "current_week": 1239
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.41197227722023,
+      "rating_sigma": 0.84629748431429,
+      "current_week": 1240
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.82871651782504,
+      "rating_sigma": 0.8390177400144451,
+      "current_week": 1241
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.90523707131935,
+      "rating_sigma": 0.835574157245512,
+      "current_week": 1242
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.91468129730481,
+      "rating_sigma": 0.8346829951822916,
+      "current_week": 1243
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.90156097341279,
+      "rating_sigma": 0.8290324826727073,
+      "current_week": 1244
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.757728930944154,
+      "rating_sigma": 0.8269062776310714,
+      "current_week": 1245
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.25639994741656,
+      "rating_sigma": 0.8206061604415267,
+      "current_week": 1246
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.24053928148375,
+      "rating_sigma": 0.8208414171379809,
+      "current_week": 1247
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.24053928148375,
+      "rating_sigma": 0.8208414171379809,
+      "current_week": 1248
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.33817418279025,
+      "rating_sigma": 0.8193509479295628,
+      "current_week": 1249
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.381609534085726,
+      "rating_sigma": 0.8200737395277327,
+      "current_week": 1250
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.57770468071395,
+      "rating_sigma": 0.8177123456896066,
+      "current_week": 1251
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 38.144244307549364,
+      "rating_sigma": 0.8142628486042774,
+      "current_week": 1252
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 38.149943118959584,
+      "rating_sigma": 0.812305911102128,
+      "current_week": 1253
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 38.149943118959584,
+      "rating_sigma": 0.812305911102128,
+      "current_week": 1254
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 38.149943118959584,
+      "rating_sigma": 0.812305911102128,
+      "current_week": 1255
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 38.087343655752385,
+      "rating_sigma": 0.8125707750349969,
+      "current_week": 1256
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 38.06783557486315,
+      "rating_sigma": 0.8124019862899824,
+      "current_week": 1257
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 38.125149360744004,
+      "rating_sigma": 0.8094724927858652,
+      "current_week": 1258
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 38.133006979584856,
+      "rating_sigma": 0.8103825135437095,
+      "current_week": 1259
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 38.10099997850486,
+      "rating_sigma": 0.8102705047496327,
+      "current_week": 1260
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 38.21230947271385,
+      "rating_sigma": 0.8103888779790275,
+      "current_week": 1261
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 38.15246603349085,
+      "rating_sigma": 0.8083425163563616,
+      "current_week": 1262
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 38.09955969900391,
+      "rating_sigma": 0.8065822722077122,
+      "current_week": 1263
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 38.00946349675352,
+      "rating_sigma": 0.805422404459445,
+      "current_week": 1264
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.69175282121499,
+      "rating_sigma": 0.8034445102867168,
+      "current_week": 1265
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.67073158650569,
+      "rating_sigma": 0.8053026118353604,
+      "current_week": 1266
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.828839493221984,
+      "rating_sigma": 0.8071305689046016,
+      "current_week": 1267
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.703187291342665,
+      "rating_sigma": 0.8060060499414425,
+      "current_week": 1268
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.822229431434074,
+      "rating_sigma": 0.8049544511905552,
+      "current_week": 1269
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.82977036555922,
+      "rating_sigma": 0.8048935874111537,
+      "current_week": 1270
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.74080526427773,
+      "rating_sigma": 0.8044501501143504,
+      "current_week": 1271
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.58544363715312,
+      "rating_sigma": 0.8047800243589976,
+      "current_week": 1272
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.58544363715312,
+      "rating_sigma": 0.8047800243589976,
+      "current_week": 1273
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.67533832454263,
+      "rating_sigma": 0.8050279843203476,
+      "current_week": 1274
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.67533832454263,
+      "rating_sigma": 0.8050279843203476,
+      "current_week": 1275
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.67533832454263,
+      "rating_sigma": 0.8050279843203476,
+      "current_week": 1276
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.752223805067786,
+      "rating_sigma": 0.8049998066895858,
+      "current_week": 1277
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.691361459109125,
+      "rating_sigma": 0.8056744188018753,
+      "current_week": 1278
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.636042354150284,
+      "rating_sigma": 0.8064161970953181,
+      "current_week": 1279
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.5769178651743,
+      "rating_sigma": 0.8069042885502844,
+      "current_week": 1280
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.5769178651743,
+      "rating_sigma": 0.8069042885502844,
+      "current_week": 1281
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.5769178651743,
+      "rating_sigma": 0.8069042885502844,
+      "current_week": 1282
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.5769178651743,
+      "rating_sigma": 0.8069042885502844,
+      "current_week": 1283
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.680243907566506,
+      "rating_sigma": 0.8070205861899814,
+      "current_week": 1284
+    },
+    {
+      "trainer_name": "joah_22",
+      "trainer_id": "450132c7-0d61-4fae-893b-cb656d3dea88",
+      "amiibo_name": "Daft Punk",
+      "unique_amiibo_id": "d8ad9b12-66e7-4a4e-8b68-df2b346cda9d",
+      "rating": 37.680243907566506,
+      "rating_sigma": 0.8070205861899814,
+      "current_week": 1285
     }
   ]
 }
