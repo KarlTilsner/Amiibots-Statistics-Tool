@@ -485,7 +485,7 @@ async function amiiboStats() {
                 let frequency = 0;
                 const temp = [];
                 opponent_frequency_data.map(opponent => {
-                    if (character.id == opponent.playable_character_id) {
+                    if (character.id == opponent.playable_character_id && amiibo_id != opponent.id) {
                         frequency++;
                         temp.push(opponent);
                     }
@@ -500,6 +500,7 @@ async function amiiboStats() {
                 }
                 opponent_frequency.push(opponent);
             });
+            document.getElementById('surrounding_amiibo_title').innerText = `Surrounding Amiibo: ${opponent_frequency_data.length - 1}`;
 
             // Sort arrays
             opponent_frequency.sort((a, b) => b.frequency - a.frequency);
@@ -513,8 +514,10 @@ async function amiiboStats() {
                     content.innerHTML += (
                         `<div class="tier_list_item" onclick="displaySurroundingOpponents('${opponent.id}')">
                             <img src="images/${opponent.name}.png" class="tier_list_image">
-                            <div class="tier_list_text_box">
+
+                            <div class="surrounding_amiibo_text_box">
                                 <p class="tier_list_text">${opponent.frequency}</p>
+                                <p class="tier_list_text">${(opponent.frequency / (opponent_frequency_data.length - 1) * 100).toFixed(2)}%</p>
                             </div>
                         </div>`
                     );

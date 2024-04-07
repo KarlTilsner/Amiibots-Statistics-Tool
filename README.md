@@ -1,4 +1,7 @@
 # Change Log:
+## v1.2.7.1
+- Surrounding amiibo now displays the count of amiibo and now an encounter % for each character
+
 ## v1.2.7
 - Amiibo search can now sort by tierlist
 
@@ -152,7 +155,9 @@
 
 ## Upcoming Ideas
 - DISPLAY AMIIBO AS INACTIVE IF LEADERBOARD RANK IS 0
+
 - Fix error on micro leaderboard with less than 5 amiibo on the character rank
+
 - Add other player stats to leaderboard page
 
 - Add data about trainer:
@@ -166,7 +171,9 @@
     - trainer v character
     - trainer v amiibo
 
-- add more filters to matchups to get highest performing amiibo instead
+- Compare two amiibo against eachother
+
+- Add more filters to matchups to get highest performing amiibo instead
 
 - gather statistics on the most successful amiibo
 
