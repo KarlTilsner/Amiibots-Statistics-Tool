@@ -476,6 +476,7 @@ async function amiiboStats() {
 
         function prinOpponentFrequency() {
             const opponent_frequency_data = amiibo_rank_data.data.opponent_frequency;
+            opponent_frequency_data.sort((a, b) => b.rating_mu - a.rating_mu);
             console.log("🚀 ~ prinOpponentFrequency ~ opponent_frequency_data:", opponent_frequency_data);
 
             const opponent_frequency = [];
