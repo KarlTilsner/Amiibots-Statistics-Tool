@@ -546,8 +546,8 @@ async function amiiboStats() {
     
                                 <div class="list_stats_container">
                                     <div class="list_stats">
-                                        <h2>Rating:</h2>
-                                        <h1>${index.rating.toFixed(2)}</h1>
+                                        <h2>Rating_mu:</h2>
+                                        <h1>${index.rating_mu.toFixed(2)}</h1>
                                     </div>
     
                                     <div class="list_stats">

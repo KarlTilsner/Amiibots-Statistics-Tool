@@ -1,4 +1,7 @@
 # Change Log:
+## v1.2.7.2
+- Surrounding amiibo now display rating_mu instaed of rating
+
 ## v1.2.7.1
 - Surrounding amiibo now displays the count of amiibo and now an encounter % for each character
 
