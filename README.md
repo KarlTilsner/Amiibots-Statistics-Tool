@@ -1,4 +1,7 @@
 # Change Log:
+## v1.2.7.3
+- Updated matchup data
+
 ## v1.2.7.2
 - Surrounding amiibo now display rating_mu instaed of rating
 

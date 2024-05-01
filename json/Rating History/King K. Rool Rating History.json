@@ -11563,9 +11563,360 @@
       "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
       "amiibo_name": "Judgement",
       "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
-      "rating": 41.0513816651911,
-      "rating_sigma": 0.9923896328332198,
+      "rating": 41.18603375584248,
+      "rating_sigma": 0.9875589196173176,
       "current_week": 1285
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.067682568976714,
+      "rating_sigma": 0.9828837870764336,
+      "current_week": 1286
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.067682568976714,
+      "rating_sigma": 0.9828837870764336,
+      "current_week": 1287
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.067682568976714,
+      "rating_sigma": 0.9828837870764336,
+      "current_week": 1288
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Tyrant",
+      "unique_amiibo_id": "a1d308c9-48ea-44c1-99be-85aed17a89c1",
+      "rating": 41.10313715097605,
+      "rating_sigma": 0.9648570186677942,
+      "current_week": 1289
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.067682568976714,
+      "rating_sigma": 0.9828837870764336,
+      "current_week": 1290
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Tyrant",
+      "unique_amiibo_id": "a1d308c9-48ea-44c1-99be-85aed17a89c1",
+      "rating": 41.005659619439506,
+      "rating_sigma": 0.9619868253100121,
+      "current_week": 1291
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Tyrant",
+      "unique_amiibo_id": "a1d308c9-48ea-44c1-99be-85aed17a89c1",
+      "rating": 41.1335046743371,
+      "rating_sigma": 0.9580136242650923,
+      "current_week": 1292
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Tyrant",
+      "unique_amiibo_id": "a1d308c9-48ea-44c1-99be-85aed17a89c1",
+      "rating": 41.1335046743371,
+      "rating_sigma": 0.9580136242650923,
+      "current_week": 1293
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Tyrant",
+      "unique_amiibo_id": "a1d308c9-48ea-44c1-99be-85aed17a89c1",
+      "rating": 41.1335046743371,
+      "rating_sigma": 0.9580136242650923,
+      "current_week": 1294
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Tyrant",
+      "unique_amiibo_id": "a1d308c9-48ea-44c1-99be-85aed17a89c1",
+      "rating": 41.1335046743371,
+      "rating_sigma": 0.9580136242650923,
+      "current_week": 1295
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Tyrant",
+      "unique_amiibo_id": "a1d308c9-48ea-44c1-99be-85aed17a89c1",
+      "rating": 40.99213623697007,
+      "rating_sigma": 0.953256831833925,
+      "current_week": 1296
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Tyrant",
+      "unique_amiibo_id": "a1d308c9-48ea-44c1-99be-85aed17a89c1",
+      "rating": 41.09750493580522,
+      "rating_sigma": 0.9501381752278485,
+      "current_week": 1297
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Tyrant",
+      "unique_amiibo_id": "a1d308c9-48ea-44c1-99be-85aed17a89c1",
+      "rating": 40.98607138532055,
+      "rating_sigma": 0.9460728552066641,
+      "current_week": 1298
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Tyrant",
+      "unique_amiibo_id": "a1d308c9-48ea-44c1-99be-85aed17a89c1",
+      "rating": 40.98607138532055,
+      "rating_sigma": 0.9460728552066641,
+      "current_week": 1299
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 40.86025651657065,
+      "rating_sigma": 0.9585824371794887,
+      "current_week": 1300
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 40.99725595339057,
+      "rating_sigma": 0.9543239633914876,
+      "current_week": 1301
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.13186409931429,
+      "rating_sigma": 0.9502069256044781,
+      "current_week": 1302
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.13186409931429,
+      "rating_sigma": 0.9502069256044781,
+      "current_week": 1303
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.13186409931429,
+      "rating_sigma": 0.9502069256044781,
+      "current_week": 1304
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.13186409931429,
+      "rating_sigma": 0.9502069256044781,
+      "current_week": 1305
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.13186409931429,
+      "rating_sigma": 0.9502069256044781,
+      "current_week": 1306
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.13186409931429,
+      "rating_sigma": 0.9502069256044781,
+      "current_week": 1307
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.13186409931429,
+      "rating_sigma": 0.9502069256044781,
+      "current_week": 1308
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.13186409931429,
+      "rating_sigma": 0.9502069256044781,
+      "current_week": 1309
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.13186409931429,
+      "rating_sigma": 0.9502069256044781,
+      "current_week": 1310
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Tyrant",
+      "unique_amiibo_id": "a1d308c9-48ea-44c1-99be-85aed17a89c1",
+      "rating": 41.202367552005335,
+      "rating_sigma": 0.9289068033497269,
+      "current_week": 1311
+    },
+    {
+      "trainer_name": "Salty_Smash_NB",
+      "trainer_id": "36eb0a93-8620-44e0-8795-beb1c3061ca9",
+      "amiibo_name": "Tyrant",
+      "unique_amiibo_id": "a1d308c9-48ea-44c1-99be-85aed17a89c1",
+      "rating": 41.202367552005335,
+      "rating_sigma": 0.9289068033497269,
+      "current_week": 1312
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.25613863219581,
+      "rating_sigma": 0.9464472023944489,
+      "current_week": 1313
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.39385586236986,
+      "rating_sigma": 0.9424036266830941,
+      "current_week": 1314
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.39385586236986,
+      "rating_sigma": 0.9424036266830941,
+      "current_week": 1315
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.39385586236986,
+      "rating_sigma": 0.9424036266830941,
+      "current_week": 1316
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.39385586236986,
+      "rating_sigma": 0.9424036266830941,
+      "current_week": 1317
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.523089489094204,
+      "rating_sigma": 0.9386443610656839,
+      "current_week": 1318
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.523089489094204,
+      "rating_sigma": 0.9386443610656839,
+      "current_week": 1319
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.523089489094204,
+      "rating_sigma": 0.9386443610656839,
+      "current_week": 1320
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.523089489094204,
+      "rating_sigma": 0.9386443610656839,
+      "current_week": 1321
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.523089489094204,
+      "rating_sigma": 0.9386443610656839,
+      "current_week": 1322
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.523089489094204,
+      "rating_sigma": 0.9386443610656839,
+      "current_week": 1323
+    },
+    {
+      "trainer_name": "carbon_show",
+      "trainer_id": "181065d9-39d8-44b1-8e13-4f0d0e1b9345",
+      "amiibo_name": "Judgement",
+      "unique_amiibo_id": "592d3980-775c-4c01-ad5a-ae007be37386",
+      "rating": 41.66107955320631,
+      "rating_sigma": 0.9347441423071222,
+      "current_week": 1324
     }
   ]
 }
