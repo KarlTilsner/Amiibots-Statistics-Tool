@@ -229,6 +229,14 @@ div.header {
     overflow: hidden;
 }
 
+.list_stats_vs {
+    width: var(--content-width);
+    margin: auto;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 .highlight_amiibo {
     background-color: var(--theme-highlight-colour);
 }
@@ -238,6 +246,13 @@ div.header {
     padding: 0;
     white-space: nowrap;
     overflow: hidden;
+}
+
+.trainer_list_item {
+    width: var(--content-width);
+    height: 6rem;
+    font-size: 11px;
+    display: flex;
 }
 
 
@@ -379,6 +394,10 @@ div.header {
     height: 550px;
 }
 
+.all_amiibo_runs {
+    height: calc(100vh - 11rem);
+}
+
 input {
     width: 100%;
 
@@ -453,10 +472,45 @@ img {
     cursor: pointer;
 }
 
+.ruleset_dropdownMenu {
+    color: white;
+    background-color: var(--main-background-colour);
+    padding: 0 0.5rem;
+    border: var(--theme-border);
+    border-color: var(--theme-border-colour);
+    border-radius: var(--border-radius);
+}
+
+.ruleset_dropdownMenu:hover {
+    cursor: pointer;
+}
+
 .flex_space_around {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.general_stats_container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.general_stats_flex_vertical {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: auto;
+}
+
+.general_stats_flex_horizontal {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .rangeSlider {

@@ -9,10 +9,10 @@
 
         <link rel="stylesheet" href="css/styles.css">
         
-        <script src="js/trainer_stats.js"></script>
-        <script src="js/versionNumber.js"></script>
-        <script src="js/navBarElement.js"></script>
-        <script src="js/search_history.js"></script>
+        <script defer src="js/trainer_stats.js"></script>
+        <script defer src="js/versionNumber.js"></script>
+        <script defer src="js/navBarElement.js"></script>
+        <script defer src="js/search_history.js"></script>
 
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" 
@@ -61,49 +61,143 @@
             <div class="block flex_container">
                 <div class="container search_bar">
                     <form>
-                        <input type="text" id="amiibo_id" name="amiibo_id" placeholder="Enter Your Amiibo ID Here" required>
+                        <input type="text" id="trainer_id" name="trainer_id" placeholder="Enter Your Trainer ID Here" required>
                         
                         <div class="search_buttons">
-                            <input type="submit" value="Generate Graph" class="generate_graph main_search" id="button" onclick="searchMemory();" required></form>
+                            <input type="button" value="Get Trainer Stats" class="generate_graph main_search" id="button" onclick="updateTrainerID();" required></form>
                         </div>
                     </form>
+                </div>
+
+                <select class="ruleset_dropdownMenu" id="selectTierDropdown">
+                    <option class="dropdownMenuOption" value="44748ebb-e2f3-4157-90ec-029e26087ad0">Ruleset: Vanilla</option>
+                    <option class="dropdownMenuOption" value="328d8932-456f-4219-9fa4-c4bafdb55776">Ruleset: Big 5 Ban</option>
+                    <option class="dropdownMenuOption" value="af1df0cd-3251-4b44-ba04-d48de5b73f8b">Ruleset: Anything Goes</option>
+                </select>
+            </div>
+
+
+
+            <div class="block" id="remove_child_if_no_matches">
+                <div class="container">
+                    <h1 class="stats" id="rating_history_chart_title" style="text-align: center;">General Statistics</h1>
+
+                    <div class="general_stats_container">
+
+                        <div class="general_stats_flex_horizontal">
+                            <h2 class="stats" id="trainer_first_match">First Match:</h2>
+                            <h2 class="stats" id="trainer_last_match">Last Match:</h2>
+                            <h2 class="stats" id="trainer_matches">Matches:</h2>
+                            <h2 class="stats" id="trainer_winrate">Win Rate:</h2>
+                        </div>
+
+                        
+                        <div class="general_stats_flex_horizontal">
+                            <h2 class="stats" id="trainer_average_rating_all">Average Rating (All):</h2>
+                            <h2 class="stats" id="trainer_average_rating_active_standby">Average Rating (Active/Standby):</h2>
+                        </div>
+
+
+                        <div class="general_stats_flex_horizontal">
+                            <div class="general_stats_flex_vertical">
+                                <h2 class="stats">Longest Winstreak:</h2>
+                                <div id="trainer_longest_winstreak"></div>
+                            </div>
+
+                            <div class="general_stats_flex_vertical">
+                                <h2 class="stats">Longest Losestreak:</h2>
+                                <div id="trainer_longest_losestreak"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="general_stats_flex_horizontal">
+                            <div class="general_stats_flex_vertical">
+                                <h2 class="stats">Favourite Characters:</h2>
+                                <div style="margin: 1rem;" id="trainer_favourite_characters"></div>
+                            </div>
+
+                            <div class="general_stats_flex_vertical">
+                                <h2 class="stats">Most Faced Opponents:</h2>
+                                <div class="stats" id="trainer_most_faced_opponents"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
 
 
 
+            <div class="block">
+                <div  class="flex_container">
+                    <div class="container quick_statistics">
+                        <h1 class="stats" style="text-align: center;">Leaderboard Position</h1>
+                            <div class="padding_container">
+                                <div class="flex_list_container" id="trainer_rank_stats"><h2 class="stats" style="text-align: center; width: 100%;">None</h2></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
 
 
 
+            <div class="block" id="remove_child_if_no_matches">
+                <div class="container">
+                    <h1 class="stats" id="rating_history_chart_title" style="text-align: center;">All Amiibo Runs</h1>
 
-
+                    <div class="all_amiibo_runs" id="rating_history">
+                        <canvas id="rating_history_chart_canvas"></canvas>
+                    </div>
+                </div>
+            </div>
 
 
 
             <div class="block" id="remove_child_if_no_matches">
                 <div class="container amiibo_lost_to">
-                    <h1 class="stats" id="matchup_chart_title" style="text-align: center;">Matchup Chart of:</h1>
+                    <h1 class="stats" id="trainer_matchups_chart_title" style="text-align: center;">TrainerName vs Trainers Matchup</h1>
 
-                    <div class="search_buttons">
-                        <input type="button"    value="Sort by Tierlist"                id="sort_by_tierlist"       onclick="   sortMatchupChartData('tierlist'); 
-                                                                                                                                highlightSortButton('sort_by_tierlist')" required></form>
-
-                        <input type="button"    value="Sort by Win Rate"                id="sort_by_win_rate"       onclick="   sortMatchupChartData('winRate'); 
-                                                                                                                                highlightSortButton('sort_by_win_rate')" required></form>
-
-                        <input type="button"    value="Sort by Number of Encounters"    id="sort_by_encounters"     onclick="   sortMatchupChartData('numberOfEncounters'); 
-                                                                                                                                highlightSortButton('sort_by_encounters')" required></form>
-                    </div>
-
-                    <div id="matchups">
-                        <canvas id="matchups_chart_canvas"></canvas>
+                    <div id="trainer_matchups">
+                        <canvas id="trainer_matchups_chart_canvas"></canvas>
                     </div>
                 </div>
             </div>
 
 
 
+            <div class="block" id="remove_child_if_no_matches">
+                <div class="container amiibo_lost_to">
+                    <h1 class="stats" id="character_matchups_chart_title" style="text-align: center;">TrainerName vs Characters Matchup</h1>
 
+                    <div id="character_matchups">
+                        <canvas id="character_matchups_chart_canvas"></canvas>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="block" id="remove_child_if_no_matches">
+                <div class="container amiibo_lost_to">
+                    <h1 class="stats" id="amiibo_matchups_chart_title" style="text-align: center;">TrainerName vs Amiibo Matchup</h1>
+
+                    <div id="amiibo_matchups">
+                        <canvas id="amiibo_matchups_chart_canvas"></canvas>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="block">
+                <div class="container">
+                    <h1 class="stats">All Amiibo</h1>
+                    <h2 class="stats" id="trainer_amiibo_count">Valid Amiibo: 0</h2>
+                    <div id="trainer_amiibo_list"></div>
+                </div>
+            </div>
 
 
 
@@ -120,50 +214,5 @@
 
         </main>
 
-
-
-
-
-    <script>
-//                                                              GRAPH AMIIBO LOST TO
-//---------------------------------------------------------------------------------------------------------------------------------------------------------
-    async function characterMatchupChart(datasets) {
-    let character_matchup_chart_location = document.getElementById('matchups_chart_canvas');  
-        
-        let character_matchup_chart = new Chart(character_matchup_chart_location, {
-            type: 'bar',
-            data: {
-                labels: matchups_winrate,
-                datasets: datasets
-            },
-            options: {
-                indexAxis: 'y',
-                responsive: true,
-                maintainAspectRatio: false,
-                                        scales: {
-                    x: {
-                        stacked: true,
-                        title: {
-                            display: true,
-                            text: 'Times Defeated'
-                        },
-                    },
-                    y: {
-                        stacked: true,
-                    },
-                }
-            },
-            plugins: [
-                ChartDataLabels
-            ], 
-            labels: {
-                fontColor: 'rgba(170, 200, 100, 1)',
-            }
-        });
-    } 
-
-//                                                              END OF SCRIPT
-//---------------------------------------------------------------------------------------------------------------------------------------------------------
-        </script>
     </body>
 </html>

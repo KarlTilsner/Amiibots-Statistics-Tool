@@ -1,4 +1,44 @@
 # Change Log:
+## v1.3.0
+- Added trainer stats page
+    - General statistics:
+        - First match
+        - Last match
+        - Total matches
+        - Trainer win rate
+        - Trainer average ratings
+        - Longest winstreak
+        - Longest losestreak
+        - Favourite characters
+        - Most faced opponent trainers
+    - Current leaderboard position
+    - All amiibo runs:
+        - Graph of every rating history of all amiibo
+        - Darker colour indicates newer amiibo
+        - Lighter colour indicates older amiibo
+    - Top 50 trainer vs trainer matchups
+    - Trainer vs character matchups
+    - Top 50 trainer vs amiibo matchups
+    - Display of all amiibo trainer has:
+        - Character icon
+        - Amiibo name
+        - Win rate
+        - Wins
+        - Losses
+        - Amiibo character rank
+        - Match selection status
+    - Full match history for selected ruleset:
+        - Highlighted green for a win
+        - Highlighted red for a loss
+        - Amiibo name
+        - Opponent amiibo name
+        - Trainer name
+        - Opponent trainer name
+        - Amiibo rating
+        - Opponent amiibo rating
+- Trainer stats can be accessed through the side menu or by clicking on a trainer in the trainer leaderboard
+- Updated chart axis titles
+
 ## v1.2.7.3
 - Updated matchup data
 
@@ -163,19 +203,6 @@
 - DISPLAY AMIIBO AS INACTIVE IF LEADERBOARD RANK IS 0
 
 - Fix error on micro leaderboard with less than 5 amiibo on the character rank
-
-- Add other player stats to leaderboard page
-
-- Add data about trainer:
-    - total wins
-    - total losses
-    - total matches
-    - win rate
-    - what amiibo they have
-- Add matchup data for a trainer:
-    - trainer v trainer
-    - trainer v character
-    - trainer v amiibo
 
 - Compare two amiibo against eachother
 

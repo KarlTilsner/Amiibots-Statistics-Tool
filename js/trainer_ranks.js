@@ -1,11 +1,11 @@
 // STARTER FUNCTION
 //--------------------------------------------------------------------------------------------------------------------------------------------------------- 
-window.onload = function() {
+window.onload = function () {
     // Set rulesets
     window.localStorage.setItem('vanilla', '44748ebb-e2f3-4157-90ec-029e26087ad0');
     window.localStorage.setItem('b5b', '328d8932-456f-4219-9fa4-c4bafdb55776');
     window.localStorage.setItem('ag', 'af1df0cd-3251-4b44-ba04-d48de5b73f8b');
-    
+
     buttonHighlight('start');
     main();
 };
@@ -19,9 +19,9 @@ window.onload = function() {
 function buttonHighlight(start, button_id) {
     if (start == 'start') {
         try {
-        // Highlight ruleset buttons
-        let highlightRulesetButton = window.localStorage.getItem('Rank Tool Ruleset');
-        document.getElementById(`ruleset_${highlightRulesetButton}`).setAttribute("style", `background-color: rgba(220, 220, 220, 0.3)`);
+            // Highlight ruleset buttons
+            let highlightRulesetButton = window.localStorage.getItem('Rank Tool Ruleset');
+            document.getElementById(`ruleset_${highlightRulesetButton}`).setAttribute("style", `background-color: rgba(220, 220, 220, 0.3)`);
         } catch (err) {
             window.localStorage.setItem('Rank Tool Ruleset', 'vanilla');
             let highlightRulesetButton = window.localStorage.getItem('Rank Tool Ruleset');
@@ -31,10 +31,10 @@ function buttonHighlight(start, button_id) {
     }
 
     if (start != 'start') {
-        try {    
+        try {
             let highlightRulesetButton = window.localStorage.getItem('Rank Tool Ruleset');
             document.getElementById(`ruleset_${highlightRulesetButton}`).removeAttribute("style", `background-color: rgba(220, 220, 220, 0.3)`);
-    
+
             document.getElementById(`ruleset_${button_id}`).setAttribute("style", `background-color: rgba(220, 220, 220 , 0.3)`);
             window.localStorage.setItem('Rank Tool Ruleset', `${button_id}`);
             console.log('Ruleset is: ' + button_id);
@@ -78,7 +78,7 @@ async function main() {
         const query = await fetch(url);
         const response = await query.json();
         const data = response.data.map(index => index);
-        
+
         console.log("Got all character names and ids");
         return data;
     }
@@ -89,13 +89,13 @@ async function main() {
         async function rank_tool_leaderboard_count() {
             // Check how many amiibo to search for on the leaderboard for vanilla
             let queryURL = `https://www.amiibots.com/api/amiibo?per_page=1&matchmaking_status=ACTIVE,STANDBY&ruleset_id=${ruleset_id}`;
-        
+
             const query = await fetch(queryURL);
             const response = await query.json();
             const per_page = response.total;
             return per_page;
         }
-        
+
         const per_page = await rank_tool_leaderboard_count();
 
         const url = `https://www.amiibots.com/api/amiibo?per_page=${per_page}&matchmaking_status=ACTIVE,STANDBY&ruleset_id=${ruleset_id}`;
@@ -110,7 +110,7 @@ async function main() {
         //         data.push(index);
         //     }
         // });
-        
+
         console.log("Got all amiibo");
         return data;
     }
@@ -162,7 +162,7 @@ async function main() {
         });
 
         // Sort arrays
-        trainer_amiibo.sort(function(a, b) {
+        trainer_amiibo.sort(function (a, b) {
             return ((a.character_rank < b.character_rank) ? -1 : ((a.character_rank == b.character_rank)) ? 0 : 1);
         });
 
@@ -200,7 +200,7 @@ async function main() {
             } else {
                 trainer_score += 1;
             }
-            
+
         });
 
         trainer.trainer_score = trainer_score;
@@ -223,7 +223,7 @@ async function main() {
         }
     });
 
-    // console.log("🚀 ~ main ~ all_trainer_data:", all_trainer_data);
+    console.log("🚀 ~ main ~ all_trainer_data:", all_trainer_data);
 
     await printCharacterLeaderboard();
 }
@@ -270,13 +270,13 @@ async function printCharacterLeaderboard() {
             all_trainer_data[i].amiibo.map(amiibo => {
                 if (amiibo.highest == true) {
                     uniqueAmiibo++;
-                } 
+                }
             });
 
             list += (
-            `<div class="INACTIVE" style="width: 100%;">
+                `<div class="INACTIVE" style="width: 100%;">
                 <div class="list_item" id="list_item_searchable">
-                    <div class="list_stats_container">
+                    <div class="list_stats_container" onclick="updateTrainerStatsTrainerID('${all_trainer_data[i].id}');">
                         <div class="list_stats">
                             <h1>${all_trainer_data[i].rank}. ${all_trainer_data[i].name}</h1>
                         </div>
@@ -301,7 +301,7 @@ async function printCharacterLeaderboard() {
             );
         }
     }
-    
+
     list += "</div>";
     content.innerHTML = list;
 }
@@ -314,4 +314,19 @@ async function printCharacterLeaderboard() {
 //--------------------------------------------------------------------------------------------------------------------------------------------------------- 
 async function clickListItem(id, ruleset_id) {
     window.open(`https://www.amiibots.com/leaderboard?characterId=${id}&rulesetId=${ruleset_id}`);
-};
+}
+
+
+
+
+
+// UPDATE TRAINER ID IN TRAINER STATS
+//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
+async function updateTrainerStatsTrainerID(trainerID) {
+    async function setStorage() {
+        localStorage.setItem('trainer_stats_trainer_id', trainerID);
+    }
+    await setStorage();
+
+    window.location.href = "../trainer_stats.html";
+}
