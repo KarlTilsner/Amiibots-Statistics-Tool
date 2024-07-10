@@ -6,6 +6,7 @@
     - Alerts with errors if conditions are not met
 - Added a trainer_id search inside the loading status tab
     - Select the ruleset and then click any trainer to see their stats
+- Fixed ruleset selection in trainer stats
 
 ## v1.3.0
 - Added trainer stats page
