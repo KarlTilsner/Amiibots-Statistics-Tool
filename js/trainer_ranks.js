@@ -71,6 +71,7 @@ async function main() {
     // Getting ruleset
     let ruleset_input = window.localStorage.getItem("Rank Tool Ruleset");
     ruleset_id = window.localStorage.getItem(ruleset_input);
+    console.log('Ruleset: ', ruleset_id);
 
     // get all character names and ids
     async function get_all_characters() {
@@ -325,6 +326,7 @@ async function clickListItem(id, ruleset_id) {
 async function updateTrainerStatsTrainerID(trainerID) {
     async function setStorage() {
         localStorage.setItem('trainer_stats_trainer_id', trainerID);
+        localStorage.setItem('trainer_stats_ruleset_id', ruleset_id);
     }
     await setStorage();
 

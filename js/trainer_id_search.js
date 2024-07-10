@@ -1,4 +1,5 @@
 let unique_trainers = [];
+let ruleset_id = '';
 
 
 
@@ -7,8 +8,8 @@ let unique_trainers = [];
 // GET ALL TRAINERS AND THEIR AMIIBO AND GIVE THEM A SCORE BASED ON AMIIBO RANKS
 //--------------------------------------------------------------------------------------------------------------------------------------------------------- 
 async function main() {
-    const ruleset_id = document.getElementById("selectTierDropdown").value;
-    console.log(ruleset_id);
+    ruleset_id = document.getElementById("selectTierDropdown").value;
+    console.log('Ruleset: ', ruleset_id);
 
     // get all amiibo
     async function get_all_amiibo() {
@@ -77,6 +78,7 @@ async function printCharacterLeaderboard() {
 async function updateTrainerStatsTrainerID(trainerID) {
     async function setStorage() {
         localStorage.setItem('trainer_stats_trainer_id', trainerID);
+        localStorage.setItem('trainer_stats_ruleset_id', ruleset_id);
     }
     await setStorage();
 
