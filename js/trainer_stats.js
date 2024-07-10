@@ -1,14 +1,43 @@
 async function updateTrainerID() {
     const trainerID = document.getElementById('trainer_id').value;
-    localStorage.setItem('trainer_stats_trainer_id', trainerID);
-    location.reload();
+    const ruleset_id = document.getElementById("selectTierDropdown").value;
+
+    function isValidUUID(uuid) {
+        const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+        return uuidRegex.test(uuid);
+    }
+
+    if (trainerID != '' && trainerID != null && isValidUUID(trainerID) == true || trainerID == 'None') {
+        localStorage.setItem('trainer_stats_trainer_id', trainerID);
+        localStorage.setItem('trainer_stats_ruleset_id', ruleset_id)
+        location.reload();
+    } else {
+        alert("trainer_id can not be blank and must be a valid uuid string");
+    }
 }
 
 
 
+const ruleset_names = {
+    '44748ebb-e2f3-4157-90ec-029e26087ad0': 'Vanilla',
+    '328d8932-456f-4219-9fa4-c4bafdb55776': 'Big 5 Ban',
+    'af1df0cd-3251-4b44-ba04-d48de5b73f8b': 'Anything Goes'
+};
+
+
+
 async function trainerStats() {
-    let selectElement = document.getElementById("selectTierDropdown");
-    let ruleset_id = selectElement.value;
+    // Get ruleset_id to search for
+    async function getRulesetID() {
+        if (localStorage.getItem('trainer_stats_ruleset_id') != null) {
+            return localStorage.getItem('trainer_stats_ruleset_id');
+        }
+
+        alert("No 'ruleset_id'. Please enter a ruleset_id");
+    }
+    const ruleset_id = await getRulesetID();
+    document.getElementById('status_ruleset_id').innerText = ruleset_names[ruleset_id];
+    console.log('Ruleset: ', ruleset_id);
 
     // Get trainer_id to search for
     async function getTrainerID() {
@@ -18,13 +47,14 @@ async function trainerStats() {
 
         alert("No 'trainer_id'. Please enter a trainer_id");
     }
-
     const trainerID = await getTrainerID();
-    console.log(trainerID);
+    document.getElementById('status_trainer_id').innerText = trainerID;
+    console.log('Trainer: ', trainerID);
 
     // spin up new workers
     const worker_trainer_matches = new Worker('./js/worker_trainer_stats_trainer_matches.js');
     worker_trainer_matches.postMessage(`https://www.amiibots.com/api/singles_matches?per_page=${Number.MAX_SAFE_INTEGER}&created_at_start=2018-11-10T00%3A00%3A00Z&ruleset_id=${ruleset_id}&user_id=${trainerID}`);
+    document.getElementById('status_trainer_data').innerText = 'Searching';
 
     let all_characters = [];
 
@@ -33,10 +63,6 @@ async function trainerStats() {
     const primary_border_colour = 'rgba(255, 99, 132, 1)';        // red
     const secondary_background_colour = 'rgba(170, 200, 100, 0.2)';     // green
     const secondary_border_colour = 'rgba(170, 200, 100, 1)';       // green
-    const tertiary_background_colour = 'rgba(0, 170, 240, 0.2)'        // blue
-    const tertiary_border_colour = 'rgba(0, 170, 240, 1)'          // blue
-    const quaternary_background_colour = 'rgba(255, 170, 0, 0.2)'        // orange
-    const quaternary_border_colour = 'rgba(255, 170, 0, 1)'          // orange
 
 
 
@@ -63,6 +89,7 @@ async function trainerStats() {
         // get all amiibo
         async function get_all_amiibo() {
             console.log("Getting all amiibo");
+            document.getElementById('status_all_amiibo').innerText = 'Searching';
             const url = `https://www.amiibots.com/api/amiibo?per_page=${Number.MAX_SAFE_INTEGER}&ruleset_id=${ruleset_id}`;
             const query = await fetch(url);
             const response = await query.json();
@@ -93,6 +120,14 @@ async function trainerStats() {
         console.log("All Amiibo: ", all_amiibo);
         const trainer_amiibo = all_amiibo_raw.trainer;
         console.log("Trainer Amiibo: ", trainer_amiibo);
+
+        if (trainer_amiibo.length == 0) {
+            console.log(`Trainer '${trainerID}' has no valid Amiibo in '${ruleset_names[ruleset_id]}'`);
+            document.getElementById('status_all_amiibo').innerText = `Failed: Trainer '${trainerID}' has no valid Amiibo in '${ruleset_names[ruleset_id]}'`;
+            alert(`Trainer '${trainerID}' has no valid Amiibo in '${ruleset_names[ruleset_id]}'`);
+
+            return false;
+        } else document.getElementById('status_all_amiibo').innerText = 'Loading';
 
         // rank each amiibo
         for (let i = 0; i < all_characters.length; i++) {
@@ -277,6 +312,8 @@ async function trainerStats() {
 
             list += "</div>";
             content.innerHTML = list;
+            document.getElementById('status_all_amiibo').innerText = 'Done';
+            removeStatusTab();
         }
 
         await printCharacterLeaderboard();
@@ -425,7 +462,15 @@ async function trainerStats() {
     worker_trainer_matches.onmessage = function (responseMessage) {
         const all_matches_data = responseMessage.data;
 
+        document.getElementById('status_trainer_data').innerText = 'Processing';
+
         console.log("Worker message recieved", all_matches_data);
+
+        if (all_matches_data.length == 0) {
+            console.log(`Trainer '${trainerID}' has no data in '${ruleset_names[ruleset_id]}'`);
+            document.getElementById('status_trainer_data').innerText = `Failed: Trainer '${trainerID} ' has no data in '${ruleset_names[ruleset_id]}'`;
+            alert(`Trainer '${trainerID}' has no data in '${ruleset_names[ruleset_id]}'`);
+        }
 
         // Get trainer name
         function getTrainerName() {
@@ -1512,6 +1557,8 @@ async function trainerStats() {
         }
         matchHistory();
 
+        document.getElementById('status_trainer_data').innerText = 'Done';
+        removeStatusTab();
     }
 
     await trainerRankStats();
@@ -1529,3 +1576,18 @@ trainerStats();
 async function clickListItem(id, ruleset_id) {
     window.open(`https://www.amiibots.com/leaderboard?characterId=${id}&rulesetId=${ruleset_id}`);
 };
+
+
+
+
+
+// LOADING STATUS REMOVER
+//--------------------------------------------------------------------------------------------------------------------------------------------------------- 
+function removeStatusTab() {
+    const amiiboLoading = document.getElementById('status_all_amiibo').innerText
+    const trainerLoading = document.getElementById('status_trainer_data').innerText
+
+    if (amiiboLoading == 'Done' && trainerLoading == 'Done') {
+        document.getElementById('loading_status').remove();
+    }
+}

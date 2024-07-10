@@ -527,26 +527,28 @@ img {
 
 .rangeSlider:hover {
     opacity: 1;
-  }
+}
 
-  .rangeSlider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 25px;
-    height: 25px;
-    background: #04AA6D;
+.rangeSlider::-webkit-slider-thumb {
+-webkit-appearance: none;
+appearance: none;
+width: 25px;
+height: 25px;
+background: #04AA6D;
+cursor: pointer;
+}
+
+.rangeSlider::-moz-range-thumb {
+width: 25px;
+height: 25px;
+background: #04AA6D;
+cursor: pointer;
+}
+
+.highlight_hover:hover {
+    background-color: var(--theme-highlight-colour);
     cursor: pointer;
-  }
-
-  .rangeSlider::-moz-range-thumb {
-    width: 25px;
-    height: 25px;
-    background: #04AA6D;
-    cursor: pointer;
-  }
-
-
-
+}
 
 
 

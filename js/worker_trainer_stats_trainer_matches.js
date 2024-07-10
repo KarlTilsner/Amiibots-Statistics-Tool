@@ -1,4 +1,4 @@
-self.onmessage = async function(message) {
+self.onmessage = async function (message) {
 
     // Get all of a trainers matches
     async function getTrainerMatches() {

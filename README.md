@@ -1,4 +1,12 @@
 # Change Log:
+## v1.3.1
+- Added a loading status tab in trainer stats
+    - Displays the trainer_id, and ruleset_id
+    - Displays the status of each endpoint
+    - Alerts with errors if conditions are not met
+- Added a trainer_id search inside the loading status tab
+    - Select the ruleset and then click any trainer to see their stats
+
 ## v1.3.0
 - Added trainer stats page
     - General statistics:
