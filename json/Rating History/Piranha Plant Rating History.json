@@ -5,7 +5,7 @@
     {
       "trainer_name": "Kangoni",
       "trainer_id": "da4634c2-2088-4d73-8dd4-f4ee8d8b8f08",
-      "amiibo_name": "Jägerblume",
+      "amiibo_name": "J\u00e4gerblume",
       "unique_amiibo_id": "86e11b29-a889-4dc7-ab30-6ae517a0bd7d",
       "rating": 20.77179235017347,
       "rating_sigma": 2.3495002281852746,
@@ -2687,7 +2687,7 @@
     {
       "trainer_name": "traumatizedbaconbits",
       "trainer_id": "416215c7-5547-4adb-a772-9aec5f98ba73",
-      "amiibo_name": "Φ⊂υ§",
+      "amiibo_name": "\u03a6\u2282\u03c5\u00a7",
       "unique_amiibo_id": "58938a41-e558-44aa-8bcc-3ff35046099a",
       "rating": 29.476087200001366,
       "rating_sigma": 1.5050534956107995,
@@ -15028,9 +15028,2043 @@
       "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
       "amiibo_name": "Dionaea",
       "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
-      "rating": 36.58852762549613,
-      "rating_sigma": 0.8141436252852664,
+      "rating": 36.51983361310542,
+      "rating_sigma": 0.8142861887989543,
       "current_week": 1674
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.42957128799791,
+      "rating_sigma": 0.8136959081655448,
+      "current_week": 1675
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.37775244710385,
+      "rating_sigma": 0.8143153740969138,
+      "current_week": 1676
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.37775244710385,
+      "rating_sigma": 0.8143153740969138,
+      "current_week": 1677
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.37775244710385,
+      "rating_sigma": 0.8143153740969138,
+      "current_week": 1678
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.37775244710385,
+      "rating_sigma": 0.8143153740969138,
+      "current_week": 1679
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.29684306795361,
+      "rating_sigma": 0.8146863331808722,
+      "current_week": 1680
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.21018165474688,
+      "rating_sigma": 0.8140953747011709,
+      "current_week": 1681
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.21018165474688,
+      "rating_sigma": 0.8140953747011709,
+      "current_week": 1682
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.21018165474688,
+      "rating_sigma": 0.8140953747011709,
+      "current_week": 1683
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.21018165474688,
+      "rating_sigma": 0.8140953747011709,
+      "current_week": 1684
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.21018165474688,
+      "rating_sigma": 0.8140953747011709,
+      "current_week": 1685
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.13254227490707,
+      "rating_sigma": 0.8137973982642804,
+      "current_week": 1686
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.13254227490707,
+      "rating_sigma": 0.8137973982642804,
+      "current_week": 1687
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.13254227490707,
+      "rating_sigma": 0.8137973982642804,
+      "current_week": 1688
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.05781261677496,
+      "rating_sigma": 0.8135476935074673,
+      "current_week": 1689
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.05781261677496,
+      "rating_sigma": 0.8135476935074673,
+      "current_week": 1690
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.11881485797562,
+      "rating_sigma": 0.8137297921992073,
+      "current_week": 1691
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 35.990949276791056,
+      "rating_sigma": 0.8123657890838744,
+      "current_week": 1692
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 35.94432353587278,
+      "rating_sigma": 0.8134662484268219,
+      "current_week": 1693
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 35.85172986300053,
+      "rating_sigma": 0.8143291167831384,
+      "current_week": 1694
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 35.85172986300053,
+      "rating_sigma": 0.8143291167831384,
+      "current_week": 1695
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 35.85172986300053,
+      "rating_sigma": 0.8143291167831384,
+      "current_week": 1696
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 35.85172986300053,
+      "rating_sigma": 0.8143291167831384,
+      "current_week": 1697
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 35.85172986300053,
+      "rating_sigma": 0.8143291167831384,
+      "current_week": 1698
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 35.85172986300053,
+      "rating_sigma": 0.8143291167831384,
+      "current_week": 1699
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 35.85172986300053,
+      "rating_sigma": 0.8143291167831384,
+      "current_week": 1700
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 35.85172986300053,
+      "rating_sigma": 0.8143291167831384,
+      "current_week": 1701
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 35.85172986300053,
+      "rating_sigma": 0.8143291167831384,
+      "current_week": 1702
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 35.85172986300053,
+      "rating_sigma": 0.8143291167831384,
+      "current_week": 1703
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 35.85172986300053,
+      "rating_sigma": 0.8143291167831384,
+      "current_week": 1704
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 35.85172986300053,
+      "rating_sigma": 0.8143291167831384,
+      "current_week": 1705
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 35.902309063717624,
+      "rating_sigma": 0.8113469453985349,
+      "current_week": 1706
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 35.902309063717624,
+      "rating_sigma": 0.8113469453985349,
+      "current_week": 1707
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 35.902309063717624,
+      "rating_sigma": 0.8113469453985349,
+      "current_week": 1708
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.00325483043034,
+      "rating_sigma": 0.8107371183310462,
+      "current_week": 1709
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.10170125118306,
+      "rating_sigma": 0.8101686117753384,
+      "current_week": 1710
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.10170125118306,
+      "rating_sigma": 0.8101686117753384,
+      "current_week": 1711
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.10170125118306,
+      "rating_sigma": 0.8101686117753384,
+      "current_week": 1712
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.10170125118306,
+      "rating_sigma": 0.8101686117753384,
+      "current_week": 1713
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.10170125118306,
+      "rating_sigma": 0.8101686117753384,
+      "current_week": 1714
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.10170125118306,
+      "rating_sigma": 0.8101686117753384,
+      "current_week": 1715
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.10170125118306,
+      "rating_sigma": 0.8101686117753384,
+      "current_week": 1716
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.10170125118306,
+      "rating_sigma": 0.8101686117753384,
+      "current_week": 1717
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.10170125118306,
+      "rating_sigma": 0.8101686117753384,
+      "current_week": 1718
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.01468700004652,
+      "rating_sigma": 0.8096469546870018,
+      "current_week": 1719
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.01468700004652,
+      "rating_sigma": 0.8096469546870018,
+      "current_week": 1720
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.01468700004652,
+      "rating_sigma": 0.8096469546870018,
+      "current_week": 1721
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.01468700004652,
+      "rating_sigma": 0.8096469546870018,
+      "current_week": 1722
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 35.945992896800206,
+      "rating_sigma": 0.8096785298875845,
+      "current_week": 1723
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.01388503261293,
+      "rating_sigma": 0.8097291871405782,
+      "current_week": 1724
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.01388503261293,
+      "rating_sigma": 0.8097291871405782,
+      "current_week": 1725
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.01388503261293,
+      "rating_sigma": 0.8097291871405782,
+      "current_week": 1726
+    },
+    {
+      "trainer_name": "5chl4uch",
+      "trainer_id": "64dcc1aa-182c-41a1-b9a4-98ea5dcffefb",
+      "amiibo_name": "Dionaea",
+      "unique_amiibo_id": "0855fca7-d07c-45df-b838-530deae10baa",
+      "rating": 36.01388503261293,
+      "rating_sigma": 0.8097291871405782,
+      "current_week": 1727
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 35.98090860696218,
+      "rating_sigma": 0.8156384565064586,
+      "current_week": 1728
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 35.98090860696218,
+      "rating_sigma": 0.8156384565064586,
+      "current_week": 1729
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 35.98090860696218,
+      "rating_sigma": 0.8156384565064586,
+      "current_week": 1730
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.09726355808803,
+      "rating_sigma": 0.8145343507102701,
+      "current_week": 1731
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.01069791023839,
+      "rating_sigma": 0.8139776352210287,
+      "current_week": 1732
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.01069791023839,
+      "rating_sigma": 0.8139776352210287,
+      "current_week": 1733
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.01069791023839,
+      "rating_sigma": 0.8139776352210287,
+      "current_week": 1734
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.01069791023839,
+      "rating_sigma": 0.8139776352210287,
+      "current_week": 1735
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.01069791023839,
+      "rating_sigma": 0.8139776352210287,
+      "current_week": 1736
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.07470806872796,
+      "rating_sigma": 0.8141743518732899,
+      "current_week": 1737
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.01387409928527,
+      "rating_sigma": 0.8144975108224903,
+      "current_week": 1738
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.01387409928527,
+      "rating_sigma": 0.8144975108224903,
+      "current_week": 1739
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.081161659809254,
+      "rating_sigma": 0.8145158323105042,
+      "current_week": 1740
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.081161659809254,
+      "rating_sigma": 0.8145158323105042,
+      "current_week": 1741
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.081161659809254,
+      "rating_sigma": 0.8145158323105042,
+      "current_week": 1742
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.081161659809254,
+      "rating_sigma": 0.8145158323105042,
+      "current_week": 1743
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.081161659809254,
+      "rating_sigma": 0.8145158323105042,
+      "current_week": 1744
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 35.9686940820171,
+      "rating_sigma": 0.8135299179079805,
+      "current_week": 1745
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 35.86718126086535,
+      "rating_sigma": 0.8127307307594609,
+      "current_week": 1746
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 35.85172986300053,
+      "rating_sigma": 0.8143291167831384,
+      "current_week": 1747
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 35.85172986300053,
+      "rating_sigma": 0.8143291167831384,
+      "current_week": 1748
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 35.85172986300053,
+      "rating_sigma": 0.8143291167831384,
+      "current_week": 1749
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 35.8711231622131,
+      "rating_sigma": 0.8150032301540547,
+      "current_week": 1750
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 35.85172986300053,
+      "rating_sigma": 0.8143291167831384,
+      "current_week": 1751
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 35.85172986300053,
+      "rating_sigma": 0.8143291167831384,
+      "current_week": 1752
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 35.85172986300053,
+      "rating_sigma": 0.8143291167831384,
+      "current_week": 1753
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 35.85172986300053,
+      "rating_sigma": 0.8143291167831384,
+      "current_week": 1754
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 35.85172986300053,
+      "rating_sigma": 0.8143291167831384,
+      "current_week": 1755
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 35.85172986300053,
+      "rating_sigma": 0.8143291167831384,
+      "current_week": 1756
+    },
+    {
+      "trainer_name": "rapjm14",
+      "trainer_id": "de23bee4-13d7-4f73-b9bd-e817323439aa",
+      "amiibo_name": "b0ng",
+      "unique_amiibo_id": "1a7933e7-6981-4b5e-9d54-03927694c6c3",
+      "rating": 35.77575882811735,
+      "rating_sigma": 1.4627930948668266,
+      "current_week": 1757
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 35.8472277950667,
+      "rating_sigma": 0.813069894939887,
+      "current_week": 1758
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 35.940884387778084,
+      "rating_sigma": 0.8124233633227481,
+      "current_week": 1759
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 35.957306516905334,
+      "rating_sigma": 0.8111002059194482,
+      "current_week": 1760
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 35.957306516905334,
+      "rating_sigma": 0.8111002059194482,
+      "current_week": 1761
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.03249049189161,
+      "rating_sigma": 0.8117009503527873,
+      "current_week": 1762
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.03249049189161,
+      "rating_sigma": 0.8117009503527873,
+      "current_week": 1763
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.18911268911583,
+      "rating_sigma": 0.810099907088668,
+      "current_week": 1764
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.09408192131072,
+      "rating_sigma": 0.8095798679917843,
+      "current_week": 1765
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.09408192131072,
+      "rating_sigma": 0.8095798679917843,
+      "current_week": 1766
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.09408192131072,
+      "rating_sigma": 0.8095798679917843,
+      "current_week": 1767
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.09408192131072,
+      "rating_sigma": 0.8095798679917843,
+      "current_week": 1768
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.09408192131072,
+      "rating_sigma": 0.8095798679917843,
+      "current_week": 1769
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.09408192131072,
+      "rating_sigma": 0.8095798679917843,
+      "current_week": 1770
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.09408192131072,
+      "rating_sigma": 0.8095798679917843,
+      "current_week": 1771
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.09408192131072,
+      "rating_sigma": 0.8095798679917843,
+      "current_week": 1772
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.09408192131072,
+      "rating_sigma": 0.8095798679917843,
+      "current_week": 1773
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.170455932328714,
+      "rating_sigma": 0.8093954025228617,
+      "current_week": 1774
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.170455932328714,
+      "rating_sigma": 0.8093954025228617,
+      "current_week": 1775
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.170455932328714,
+      "rating_sigma": 0.8093954025228617,
+      "current_week": 1776
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.170455932328714,
+      "rating_sigma": 0.8093954025228617,
+      "current_week": 1777
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.170455932328714,
+      "rating_sigma": 0.8093954025228617,
+      "current_week": 1778
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.170455932328714,
+      "rating_sigma": 0.8093954025228617,
+      "current_week": 1779
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.170455932328714,
+      "rating_sigma": 0.8093954025228617,
+      "current_week": 1780
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.170455932328714,
+      "rating_sigma": 0.8093954025228617,
+      "current_week": 1781
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.170455932328714,
+      "rating_sigma": 0.8093954025228617,
+      "current_week": 1782
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.170455932328714,
+      "rating_sigma": 0.8093954025228617,
+      "current_week": 1783
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.26654390764861,
+      "rating_sigma": 0.8087617004606608,
+      "current_week": 1784
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.179557274231904,
+      "rating_sigma": 0.8082850722005119,
+      "current_week": 1785
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.179557274231904,
+      "rating_sigma": 0.8082850722005119,
+      "current_week": 1786
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.179557274231904,
+      "rating_sigma": 0.8082850722005119,
+      "current_week": 1787
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.10368141289629,
+      "rating_sigma": 0.8081027113870489,
+      "current_week": 1788
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.10368141289629,
+      "rating_sigma": 0.8081027113870489,
+      "current_week": 1789
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.15855109470302,
+      "rating_sigma": 0.8087147236549577,
+      "current_week": 1790
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.093625226829595,
+      "rating_sigma": 0.8088855123637004,
+      "current_week": 1791
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.15782114169647,
+      "rating_sigma": 0.8090578792216805,
+      "current_week": 1792
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.15782114169647,
+      "rating_sigma": 0.8090578792216805,
+      "current_week": 1793
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.15782114169647,
+      "rating_sigma": 0.8090578792216805,
+      "current_week": 1794
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.25181236772433,
+      "rating_sigma": 0.8084741335673687,
+      "current_week": 1795
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.25181236772433,
+      "rating_sigma": 0.8084741335673687,
+      "current_week": 1796
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.25181236772433,
+      "rating_sigma": 0.8084741335673687,
+      "current_week": 1797
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.34398483024007,
+      "rating_sigma": 0.8082021981553255,
+      "current_week": 1798
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.34398483024007,
+      "rating_sigma": 0.8082021981553255,
+      "current_week": 1799
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.34398483024007,
+      "rating_sigma": 0.8082021981553255,
+      "current_week": 1800
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.34398483024007,
+      "rating_sigma": 0.8082021981553255,
+      "current_week": 1801
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.287391303177344,
+      "rating_sigma": 0.8086935587724,
+      "current_week": 1802
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.346947891721804,
+      "rating_sigma": 0.809057616520039,
+      "current_week": 1803
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.23427068825973,
+      "rating_sigma": 0.8081357089993841,
+      "current_week": 1804
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.23427068825973,
+      "rating_sigma": 0.8081357089993841,
+      "current_week": 1805
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.23427068825973,
+      "rating_sigma": 0.8081357089993841,
+      "current_week": 1806
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.17801151835176,
+      "rating_sigma": 0.8086385934804478,
+      "current_week": 1807
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.12339596696754,
+      "rating_sigma": 0.8092006320200857,
+      "current_week": 1808
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.12339596696754,
+      "rating_sigma": 0.8092006320200857,
+      "current_week": 1809
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.12339596696754,
+      "rating_sigma": 0.8092006320200857,
+      "current_week": 1810
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.04841394350336,
+      "rating_sigma": 0.8093681467292992,
+      "current_week": 1811
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 36.09553882369627,
+      "rating_sigma": 0.8142367620053268,
+      "current_week": 1812
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 36.09553882369627,
+      "rating_sigma": 0.8142367620053268,
+      "current_week": 1813
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 36.09553882369627,
+      "rating_sigma": 0.8142367620053268,
+      "current_week": 1814
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.10836481131387,
+      "rating_sigma": 0.8085758509128156,
+      "current_week": 1815
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.0470123354049,
+      "rating_sigma": 0.8088737725930402,
+      "current_week": 1816
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.0470123354049,
+      "rating_sigma": 0.8088737725930402,
+      "current_week": 1817
+    },
+    {
+      "trainer_name": "bubs_yt",
+      "trainer_id": "e76937f1-9ccd-4a5c-8744-65f792776a1b",
+      "amiibo_name": "Plurpla",
+      "unique_amiibo_id": "7573c241-1d80-409f-b975-2a67a2f05b02",
+      "rating": 36.01005701003644,
+      "rating_sigma": 0.8137239619877343,
+      "current_week": 1818
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.0484759689349,
+      "rating_sigma": 0.8068232806403106,
+      "current_week": 1819
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.0484759689349,
+      "rating_sigma": 0.8068232806403106,
+      "current_week": 1820
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.0484759689349,
+      "rating_sigma": 0.8068232806403106,
+      "current_week": 1821
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.0484759689349,
+      "rating_sigma": 0.8068232806403106,
+      "current_week": 1822
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.156433207192094,
+      "rating_sigma": 0.8060084469758623,
+      "current_week": 1823
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.156433207192094,
+      "rating_sigma": 0.8060084469758623,
+      "current_week": 1824
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.156433207192094,
+      "rating_sigma": 0.8060084469758623,
+      "current_week": 1825
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.156433207192094,
+      "rating_sigma": 0.8060084469758623,
+      "current_week": 1826
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.156433207192094,
+      "rating_sigma": 0.8060084469758623,
+      "current_week": 1827
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.156433207192094,
+      "rating_sigma": 0.8060084469758623,
+      "current_week": 1828
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.156433207192094,
+      "rating_sigma": 0.8060084469758623,
+      "current_week": 1829
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.156433207192094,
+      "rating_sigma": 0.8060084469758623,
+      "current_week": 1830
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.156433207192094,
+      "rating_sigma": 0.8060084469758623,
+      "current_week": 1831
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.156433207192094,
+      "rating_sigma": 0.8060084469758623,
+      "current_week": 1832
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.06118353696436,
+      "rating_sigma": 0.8057072895673066,
+      "current_week": 1833
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.06118353696436,
+      "rating_sigma": 0.8057072895673066,
+      "current_week": 1834
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.06118353696436,
+      "rating_sigma": 0.8057072895673066,
+      "current_week": 1835
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.06118353696436,
+      "rating_sigma": 0.8057072895673066,
+      "current_week": 1836
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.06118353696436,
+      "rating_sigma": 0.8057072895673066,
+      "current_week": 1837
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.13368029883033,
+      "rating_sigma": 0.806193928329474,
+      "current_week": 1838
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.13368029883033,
+      "rating_sigma": 0.806193928329474,
+      "current_week": 1839
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.13368029883033,
+      "rating_sigma": 0.806193928329474,
+      "current_week": 1840
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.13368029883033,
+      "rating_sigma": 0.806193928329474,
+      "current_week": 1841
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.13368029883033,
+      "rating_sigma": 0.806193928329474,
+      "current_week": 1842
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.206809974281526,
+      "rating_sigma": 0.8062343173317537,
+      "current_week": 1843
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.206809974281526,
+      "rating_sigma": 0.8062343173317537,
+      "current_week": 1844
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.206809974281526,
+      "rating_sigma": 0.8062343173317537,
+      "current_week": 1845
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.206809974281526,
+      "rating_sigma": 0.8062343173317537,
+      "current_week": 1846
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.206809974281526,
+      "rating_sigma": 0.8062343173317537,
+      "current_week": 1847
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.206809974281526,
+      "rating_sigma": 0.8062343173317537,
+      "current_week": 1848
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.172839255692,
+      "rating_sigma": 0.8064582404935043,
+      "current_week": 1849
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.091907652784414,
+      "rating_sigma": 0.8061670543661854,
+      "current_week": 1850
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.021718315418305,
+      "rating_sigma": 0.8061925303902011,
+      "current_week": 1851
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.021718315418305,
+      "rating_sigma": 0.8061925303902011,
+      "current_week": 1852
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.083077529949286,
+      "rating_sigma": 0.8067896330865059,
+      "current_week": 1853
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.08164521326402,
+      "rating_sigma": 0.8070858113375265,
+      "current_week": 1854
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.08164521326402,
+      "rating_sigma": 0.8070858113375265,
+      "current_week": 1855
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.17249150500435,
+      "rating_sigma": 0.806606660543316,
+      "current_week": 1856
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.17249150500435,
+      "rating_sigma": 0.806606660543316,
+      "current_week": 1857
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.17249150500435,
+      "rating_sigma": 0.806606660543316,
+      "current_week": 1858
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.17249150500435,
+      "rating_sigma": 0.806606660543316,
+      "current_week": 1859
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.17249150500435,
+      "rating_sigma": 0.806606660543316,
+      "current_week": 1860
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.25065933744273,
+      "rating_sigma": 0.8064365223721855,
+      "current_week": 1861
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.25065933744273,
+      "rating_sigma": 0.8064365223721855,
+      "current_week": 1862
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.25065933744273,
+      "rating_sigma": 0.8064365223721855,
+      "current_week": 1863
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.25065933744273,
+      "rating_sigma": 0.8064365223721855,
+      "current_week": 1864
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.25065933744273,
+      "rating_sigma": 0.8064365223721855,
+      "current_week": 1865
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.25065933744273,
+      "rating_sigma": 0.8064365223721855,
+      "current_week": 1866
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.25065933744273,
+      "rating_sigma": 0.8064365223721855,
+      "current_week": 1867
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.25065933744273,
+      "rating_sigma": 0.8064365223721855,
+      "current_week": 1868
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.25065933744273,
+      "rating_sigma": 0.8064365223721855,
+      "current_week": 1869
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.25065933744273,
+      "rating_sigma": 0.8064365223721855,
+      "current_week": 1870
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.25065933744273,
+      "rating_sigma": 0.8064365223721855,
+      "current_week": 1871
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.25065933744273,
+      "rating_sigma": 0.8064365223721855,
+      "current_week": 1872
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.25065933744273,
+      "rating_sigma": 0.8064365223721855,
+      "current_week": 1873
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.25065933744273,
+      "rating_sigma": 0.8064365223721855,
+      "current_week": 1874
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.25065933744273,
+      "rating_sigma": 0.8064365223721855,
+      "current_week": 1875
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.25065933744273,
+      "rating_sigma": 0.8064365223721855,
+      "current_week": 1876
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.25065933744273,
+      "rating_sigma": 0.8064365223721855,
+      "current_week": 1877
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.25065933744273,
+      "rating_sigma": 0.8064365223721855,
+      "current_week": 1878
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.3138106267941,
+      "rating_sigma": 0.806821276760404,
+      "current_week": 1879
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.3138106267941,
+      "rating_sigma": 0.806821276760404,
+      "current_week": 1880
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.3138106267941,
+      "rating_sigma": 0.806821276760404,
+      "current_week": 1881
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.3138106267941,
+      "rating_sigma": 0.806821276760404,
+      "current_week": 1882
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.3138106267941,
+      "rating_sigma": 0.806821276760404,
+      "current_week": 1883
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.3138106267941,
+      "rating_sigma": 0.806821276760404,
+      "current_week": 1884
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.3138106267941,
+      "rating_sigma": 0.806821276760404,
+      "current_week": 1885
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.3138106267941,
+      "rating_sigma": 0.806821276760404,
+      "current_week": 1886
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.3138106267941,
+      "rating_sigma": 0.806821276760404,
+      "current_week": 1887
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.22620248269496,
+      "rating_sigma": 0.8079251010611368,
+      "current_week": 1888
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.33008081585838,
+      "rating_sigma": 0.8071663924684485,
+      "current_week": 1889
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.33008081585838,
+      "rating_sigma": 0.8071663924684485,
+      "current_week": 1890
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.33008081585838,
+      "rating_sigma": 0.8071663924684485,
+      "current_week": 1891
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.33008081585838,
+      "rating_sigma": 0.8071663924684485,
+      "current_week": 1892
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.33008081585838,
+      "rating_sigma": 0.8071663924684485,
+      "current_week": 1893
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.33008081585838,
+      "rating_sigma": 0.8071663924684485,
+      "current_week": 1894
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.33008081585838,
+      "rating_sigma": 0.8071663924684485,
+      "current_week": 1895
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.33008081585838,
+      "rating_sigma": 0.8071663924684485,
+      "current_week": 1896
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.33008081585838,
+      "rating_sigma": 0.8071663924684485,
+      "current_week": 1897
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.28242857636754,
+      "rating_sigma": 0.8081392294246583,
+      "current_week": 1898
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.28242857636754,
+      "rating_sigma": 0.8081392294246583,
+      "current_week": 1899
+    },
+    {
+      "trainer_name": "rougew2",
+      "trainer_id": "1c7b0134-2f85-4e7a-a4e0-f93145be0cf8",
+      "amiibo_name": "Tsuta",
+      "unique_amiibo_id": "dd5be53b-6fcd-484a-8407-3f9d5d38b70b",
+      "rating": 36.28242857636754,
+      "rating_sigma": 0.8081392294246583,
+      "current_week": 1900
     }
   ]
 }
