@@ -1,3 +1,5 @@
+This version is no longer supported, check out Amiibots Statistics Tool V2
+
 # Change Log:
 ## v1.3.1
 - Added a loading status tab in trainer stats
